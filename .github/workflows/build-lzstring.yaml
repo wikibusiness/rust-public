@@ -16,6 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Rust target
+        run: rustup target add ${{ matrix.target }}
+
       - name: Build wheels
         run: |
           pip install maturin
@@ -34,6 +37,9 @@ jobs:
         python-version: [3.11, 3.12, 3.13]
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install Rust target
+        run: rustup target add ${{ matrix.target }}
 
       - name: Build arm64 wheels
         run: |
@@ -72,35 +78,8 @@ jobs:
           name: osx-${{ matrix.python-version }}-wheel
           path: lzstring/target/wheels/
 
-  windows-wheels:
-    runs-on: windows-latest
-    strategy:
-      matrix:
-        python-version: [3.11, 3.12, 3.13]
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: nightly
-          default: true
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Build wheels
-        run: |
-          pip install maturin
-          cd lzstring && maturin build --release
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: windows-${{ matrix.python-version }}-wheel
-          path: lzstring/target/wheels/
-
   push:
-    needs: [linux-wheels, linux-arm64-wheel, osx-wheels, windows-wheels]
+    needs: [linux-wheels, linux-arm64-wheel, osx-wheels]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
