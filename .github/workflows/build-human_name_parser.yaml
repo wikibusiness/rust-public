@@ -24,7 +24,7 @@ jobs:
         id: check
         run: |
           VERSION=${{ steps.get-version.outputs.version }}
-          PACKAGE_NAME=human_name_parser-optimized  # use the name as it appears on PyPI
+          PACKAGE_NAME=human-name-parser  # use the name as it appears on PyPI
 
           echo "Checking if $PACKAGE_NAME==$VERSION is already on PyPI..."
           if curl --silent --fail "https://pypi.org/pypi/$PACKAGE_NAME/$VERSION/json"; then
