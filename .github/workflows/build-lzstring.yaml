@@ -8,7 +8,7 @@ on:
 
 jobs:
   linux-wheels:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         target: [x86_64-unknown-linux-gnu, i686-unknown-linux-gnu]
@@ -22,7 +22,7 @@ jobs:
       - name: Build wheels
         run: |
           pip install maturin
-          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux 2014
+          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
@@ -30,7 +30,7 @@ jobs:
           path: lzstring/target/wheels/
 
   linux-arm64-wheel:
-    runs-on: ubuntu-24.04-arm
+    runs-on: ubuntu-22.04-arm
     strategy:
       matrix:
         target: [aarch64-unknown-linux-gnu]
@@ -44,7 +44,7 @@ jobs:
       - name: Build arm64 wheels
         run: |
           pip install maturin
-          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target aarch64-unknown-linux-gnu --manylinux 2014
+          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target aarch64-unknown-linux-gnu --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
