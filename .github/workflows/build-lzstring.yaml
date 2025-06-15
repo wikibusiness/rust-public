@@ -2,6 +2,9 @@ name: publish-pypi-lzstring
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 # Centralize the Python version list
 x-python-versions: &python_versions [3.11, 3.12, 3.13, 3.14]
