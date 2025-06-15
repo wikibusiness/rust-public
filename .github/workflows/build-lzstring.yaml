@@ -16,19 +16,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: PyO3/maturin-action@v1
-        with:
-          working-directory: lzstring
-          maturin-version: latest
-          command: build
-          args: --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }}
-      # - name: Install Rust target
-      #   run: rustup target add ${{ matrix.target }}
+      # - uses: PyO3/maturin-action@v1
+      #   with:
+      #     working-directory: lzstring
+      #     maturin-version: latest
+      #     command: build
+      #     args: --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }}
+      - name: Install Rust target
+        run: rustup target add ${{ matrix.target }}
 
-      # - name: Build wheels
-      #   run: |
-      #     pip install maturin
-      #     cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux manylinux_2_28
+      - name: Build wheels
+        run: |
+          pip install maturin
+          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
@@ -43,26 +43,26 @@ jobs:
         python-version: [3.11, 3.12, 3.13]
     steps:
       - uses: actions/checkout@v4
-      - name: Build in manylinux container
-        run: |
-          PYTHON_VER_SHORT=$(echo "${{ matrix.python-version }}" | tr -d .)  # e.g. "3.11" → "311"
-
-          docker run --rm -v "$PWD:/io" quay.io/pypa/manylinux_2_24_aarch64 bash -c "
-            /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/pip install maturin &&
-            cd /io/lzstring &&
-            /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/maturin build \
-              --release \
-              --target aarch64-unknown-linux-gnu \
-              --manylinux 2_24 \
-              -i python${{ matrix.python-version }}
-          "
-      # - name: Install Rust target
-      #   run: rustup target add ${{ matrix.target }}
-
-      # - name: Build arm64 wheels
+      # - name: Build in manylinux container
       #   run: |
-      #     pip install maturin
-      #     cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target aarch64-unknown-linux-gnu --manylinux manylinux_2_28
+      #     PYTHON_VER_SHORT=$(echo "${{ matrix.python-version }}" | tr -d .)  # e.g. "3.11" → "311"
+
+      #     docker run --rm -v "$PWD:/io" quay.io/pypa/manylinux_2_24_aarch64 bash -c "
+      #       /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/pip install maturin &&
+      #       cd /io/lzstring &&
+      #       /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/maturin build \
+      #         --release \
+      #         --target aarch64-unknown-linux-gnu \
+      #         --manylinux 2_24 \
+      #         -i python${{ matrix.python-version }}
+      #     "
+      - name: Install Rust target
+        run: rustup target add ${{ matrix.target }}
+
+      - name: Build arm64 wheels
+        run: |
+          pip install maturin
+          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target aarch64-unknown-linux-gnu --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
