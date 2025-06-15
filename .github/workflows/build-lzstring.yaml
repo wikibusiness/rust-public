@@ -1,11 +1,10 @@
-name: publish-pypi
+name: publish-pypi-lzstring
 
-# on:
-#   push:
-#     branches: [main]
-# manually triggered workflow
 on:
   workflow_dispatch:
+
+# Centralize the Python version list
+x-python-versions: &python_versions [3.11, 3.12, 3.13, 3.14]
 
 env:
   PYTHON_VERSIONS: "3.11 3.12 3.13 3.14"
@@ -48,7 +47,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        python-version: [3.8, 3.9, "3.10", "3.11", "3.12", "3.13"]
+        python-version: *python_versions
     steps:
       - uses: actions/checkout@v3
 
@@ -73,6 +72,9 @@ jobs:
 
   windows-wheels:
     runs-on: windows-latest
+    strategy:
+      matrix:
+        python-version: *python_versions
     steps:
       - uses: actions/checkout@v3
 
@@ -82,6 +84,8 @@ jobs:
           default: true
 
       - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
 
       - name: Build wheels
         run: |
@@ -90,7 +94,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: windows-wheels
+          name: windows-${{ matrix.python-version }}-wheel
           path: target/wheels/
 
   push:
