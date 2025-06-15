@@ -21,12 +21,12 @@ jobs:
       - name: Build wheels
         run: |
           pip install maturin
-          maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target ${{ matrix.target }} --manylinux auto
+          cd lzstring && maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target ${{ matrix.target }} --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
           name: linux-wheels-${{ matrix.target }}
-          path: target/wheels/
+          path: lzstring/target/wheels/
 
   linux-arm64-wheel:
     runs-on: ubuntu-24.04-arm
@@ -36,12 +36,12 @@ jobs:
       - name: Build arm64 wheels
         run: |
           pip install maturin
-          maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target aarch64 --manylinux auto
+          cd lzstring && maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target aarch64 --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
           name: linux-wheels-aarch64
-          path: target/wheels/
+          path: lzstring/target/wheels/
 
   osx-wheels:
     runs-on: macos-latest
@@ -63,12 +63,12 @@ jobs:
       - name: Build wheels
         run: |
           pip install maturin
-          maturin build --release
+          cd lzstring && maturin build --release
 
       - uses: actions/upload-artifact@v4
         with:
           name: osx-${{ matrix.python-version }}-wheel
-          path: target/wheels/
+          path: lzstring/target/wheels/
 
   windows-wheels:
     runs-on: windows-latest
@@ -90,12 +90,12 @@ jobs:
       - name: Build wheels
         run: |
           pip install maturin
-          maturin build --release
+          cd lzstring && maturin build --release
 
       - uses: actions/upload-artifact@v4
         with:
           name: windows-${{ matrix.python-version }}-wheel
-          path: target/wheels/
+          path: lzstring/target/wheels/
 
   push:
     needs: [linux-wheels, linux-arm64-wheel, osx-wheels, windows-wheels]
