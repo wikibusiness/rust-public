@@ -14,14 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        target: [x86_64]
+        target: [x86_64-unknown-linux-gnu, i686-unknown-linux-gnu]
+        python-version: [3.11, 3.12, 3.13, 3.14]
     steps:
       - uses: actions/checkout@v4
 
       - name: Build wheels
         run: |
           pip install maturin
-          cd lzstring && maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target ${{ matrix.target }} --manylinux manylinux_2_28
+          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
@@ -30,13 +31,17 @@ jobs:
 
   linux-arm64-wheel:
     runs-on: ubuntu-24.04-arm
+    strategy:
+      matrix:
+        target: [aarch64-unknown-linux-gnu]
+        python-version: [3.11, 3.12, 3.13, 3.14]
     steps:
       - uses: actions/checkout@v4
 
       - name: Build arm64 wheels
         run: |
           pip install maturin
-          cd lzstring && maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target aarch64 --manylinux manylinux_2_28
+          cd lzstring && maturin build --release --sdist -i ${{ matrix.python-version }} --target aarch64-unknown-linux-gnu --manylinux manylinux_2_28
 
       - uses: actions/upload-artifact@v4
         with:
