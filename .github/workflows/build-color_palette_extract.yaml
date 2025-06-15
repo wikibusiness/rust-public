@@ -1,0 +1,121 @@
+# name: publish-pypi-color_palette_extract
+
+# on:
+#   workflow_dispatch:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   linux-wheels:
+#     runs-on: ubuntu-22.04
+#     strategy:
+#       matrix:
+#         target:
+#           - x86_64-unknown-linux-gnu
+#           # - i686-unknown-linux-gnu
+#         python-version: [3.11, 3.12, 3.13]
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       # - uses: PyO3/maturin-action@v1
+#       #   with:
+#       #     working-directory: color_palette_extract
+#       #     maturin-version: latest
+#       #     command: build
+#       #     args: --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }}
+#       - name: Install Rust target
+#         run: rustup target add ${{ matrix.target }}
+
+#       - name: Build wheels
+#         run: |
+#           pip install maturin
+#           cd color_palette_extract && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux manylinux_2_34
+
+#       - uses: actions/upload-artifact@v4
+#         with:
+#           name: linux-wheels-${{ matrix.target }}-${{ matrix.python-version }}
+#           path: color_palette_extract/target/wheels/
+
+#   linux-arm64-wheel:
+#     runs-on: ubuntu-22.04-arm
+#     strategy:
+#       matrix:
+#         target: [aarch64-unknown-linux-gnu]
+#         python-version: [3.11, 3.12, 3.13]
+#     steps:
+#       - uses: actions/checkout@v4
+#       # - name: Build in manylinux container
+#       #   run: |
+#       #     PYTHON_VER_SHORT=$(echo "${{ matrix.python-version }}" | tr -d .)  # e.g. "3.11" → "311"
+
+#       #     docker run --rm -v "$PWD:/io" quay.io/pypa/manylinux_2_24_aarch64 bash -c "
+#       #       /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/pip install maturin &&
+#       #       cd /io/color_palette_extract &&
+#       #       /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/maturin build \
+#       #         --release \
+#       #         --target aarch64-unknown-linux-gnu \
+#       #         --manylinux 2_24 \
+#       #         -i python${{ matrix.python-version }}
+#       #     "
+#       - name: Install Rust target
+#         run: rustup target add ${{ matrix.target }}
+
+#       - name: Build arm64 wheels
+#         run: |
+#           pip install maturin
+#           cd color_palette_extract && maturin build --release --sdist -i ${{ matrix.python-version }} --target aarch64-unknown-linux-gnu --manylinux manylinux_2_34
+
+#       - uses: actions/upload-artifact@v4
+#         with:
+#           name: linux-wheels-aarch64-${{ matrix.python-version }}
+#           path: color_palette_extract/target/wheels/
+
+#   osx-wheels:
+#     runs-on: macos-latest
+#     strategy:
+#       matrix:
+#         python-version: [3.11, 3.12, 3.13]
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - uses: actions-rs/toolchain@v1
+#         with:
+#           toolchain: nightly
+#           default: true
+
+#       - uses: actions/setup-python@v4
+#         with:
+#           python-version: ${{ matrix.python-version }}
+
+#       - name: Build wheels
+#         run: |
+#           pip install maturin
+#           cd color_palette_extract && maturin build --release
+
+#       - uses: actions/upload-artifact@v4
+#         with:
+#           name: osx-${{ matrix.python-version }}-wheel
+#           path: color_palette_extract/target/wheels/
+
+#   push:
+#     needs: [linux-wheels, linux-arm64-wheel, osx-wheels]
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: actions/download-artifact@v4
+
+#       - name: Collect wheels
+#         run: |
+#           mkdir wheels
+#           find . -type f -name "*.whl" -exec cp {} wheels/ \;
+
+#       - name: Show collected wheels
+#         run: ls -lh wheels
+
+#       - name: Publish to PyPI
+#         uses: pypa/gh-action-pypi-publish@release/v1
+#         with:
+#           password: ${{ secrets.PYPI_API_TOKEN }}
+#           packages_dir: wheels/
+#           verify_metadata: false

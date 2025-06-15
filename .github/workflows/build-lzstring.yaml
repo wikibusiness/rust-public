@@ -7,7 +7,37 @@ on:
       - main
 
 jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      published: ${{ steps.check.outputs.published }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from Cargo.toml
+        id: get-version
+        run: |
+          VERSION=$(grep -Po '(?<=^version = ")[^"]+' lzstring/Cargo.toml)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Check if version is published on PyPI
+        id: check
+        run: |
+          VERSION=${{ steps.get-version.outputs.version }}
+          PACKAGE_NAME=lzstring-optimized  # use the name as it appears on PyPI
+
+          echo "Checking if $PACKAGE_NAME==$VERSION is already on PyPI..."
+          if curl --silent --fail "https://pypi.org/pypi/$PACKAGE_NAME/$VERSION/json"; then
+            echo "published=true" >> $GITHUB_OUTPUT
+            echo "$PACKAGE_NAME $VERSION is already published."
+          else
+            echo "published=false" >> $GITHUB_OUTPUT
+            echo "$PACKAGE_NAME $VERSION is NOT published."
+          fi
+
   linux-wheels:
+    needs: check-version
+    if: needs.check-version.outputs.published == 'false'
     runs-on: ubuntu-22.04
     strategy:
       matrix:
@@ -18,12 +48,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # - uses: PyO3/maturin-action@v1
-      #   with:
-      #     working-directory: lzstring
-      #     maturin-version: latest
-      #     command: build
-      #     args: --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }}
       - name: Install Rust target
         run: rustup target add ${{ matrix.target }}
 
@@ -38,6 +62,8 @@ jobs:
           path: lzstring/target/wheels/
 
   linux-arm64-wheel:
+    needs: check-version
+    if: needs.check-version.outputs.published == 'false'
     runs-on: ubuntu-22.04-arm
     strategy:
       matrix:
@@ -45,19 +71,6 @@ jobs:
         python-version: [3.11, 3.12, 3.13]
     steps:
       - uses: actions/checkout@v4
-      # - name: Build in manylinux container
-      #   run: |
-      #     PYTHON_VER_SHORT=$(echo "${{ matrix.python-version }}" | tr -d .)  # e.g. "3.11" → "311"
-
-      #     docker run --rm -v "$PWD:/io" quay.io/pypa/manylinux_2_24_aarch64 bash -c "
-      #       /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/pip install maturin &&
-      #       cd /io/lzstring &&
-      #       /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/maturin build \
-      #         --release \
-      #         --target aarch64-unknown-linux-gnu \
-      #         --manylinux 2_24 \
-      #         -i python${{ matrix.python-version }}
-      #     "
       - name: Install Rust target
         run: rustup target add ${{ matrix.target }}
 
@@ -72,6 +85,8 @@ jobs:
           path: lzstring/target/wheels/
 
   osx-wheels:
+    needs: check-version
+    if: needs.check-version.outputs.published == 'false'
     runs-on: macos-latest
     strategy:
       matrix:
@@ -99,7 +114,8 @@ jobs:
           path: lzstring/target/wheels/
 
   push:
-    needs: [linux-wheels, linux-arm64-wheel, osx-wheels]
+    if: needs.check-version.outputs.published == 'false'
+    needs: [check-version, linux-wheels, linux-arm64-wheel, osx-wheels]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

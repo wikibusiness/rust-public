@@ -1,0 +1,15 @@
+[package]
+name = "color_palette_extract"
+version = "0.5.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "color_palette_extract"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.2", features = ["extension-module"] }
+image = "0.25.2"
+dominant_color = "0.4.0"
+colors-transform = "0.2.11"
