@@ -43,16 +43,19 @@ jobs:
         python-version: [3.11, 3.12, 3.13]
     steps:
       - uses: actions/checkout@v4
-
       - name: Build in manylinux container
         run: |
-          docker run --rm -v "$PWD:/io" \
-            quay.io/pypa/manylinux_2_24_aarch64 \
-            bash -c "
-              /opt/python/cp${{ matrix.python-version//./ }}-cp${{ matrix.python-version//./ }}/bin/pip install maturin &&
-              cd /io/lzstring &&
-              /opt/python/cp${{ matrix.python-version//./ }}-cp${{ matrix.python-version//./ }}/bin/maturin build --release --target aarch64-unknown-linux-gnu --manylinux 2_24
-            "
+          PYTHON_VER_SHORT=$(echo "${{ matrix.python-version }}" | tr -d .)  # e.g. "3.11" → "311"
+
+          docker run --rm -v "$PWD:/io" quay.io/pypa/manylinux_2_24_aarch64 bash -c "
+            /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/pip install maturin &&
+            cd /io/lzstring &&
+            /opt/python/cp${PYTHON_VER_SHORT}-cp${PYTHON_VER_SHORT}/bin/maturin build \
+              --release \
+              --target aarch64-unknown-linux-gnu \
+              --manylinux 2_24 \
+              -i python${{ matrix.python-version }}
+          "
       # - name: Install Rust target
       #   run: rustup target add ${{ matrix.target }}
 
