@@ -1,0 +1,6 @@
+
+
+def compress_to_base64(chars: str) -> str: ...
+
+
+def decompress_from_base64(chars: str) -> str: ...

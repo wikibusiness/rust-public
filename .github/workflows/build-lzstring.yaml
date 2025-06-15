@@ -1,0 +1,116 @@
+name: publish-pypi
+
+# on:
+#   push:
+#     branches: [main]
+# manually triggered workflow
+on:
+  workflow_dispatch:
+
+env:
+  PYTHON_VERSIONS: "3.11 3.12 3.13 3.14"
+
+jobs:
+  linux-wheels:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        target: [x86_64, i686]
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build wheels
+        run: |
+          pip install maturin
+          maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target ${{ matrix.target }} --manylinux auto
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-wheels-${{ matrix.target }}
+          path: target/wheels/
+
+  linux-arm64-wheel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build arm64 wheels
+        run: |
+          pip install maturin
+          maturin build --release --sdist -i ${{ env.PYTHON_VERSIONS }} --target aarch64 --manylinux auto
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-wheels-aarch64
+          path: target/wheels/
+
+  osx-wheels:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9, "3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          default: true
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Build wheels
+        run: |
+          pip install maturin
+          maturin build --release
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: osx-${{ matrix.python-version }}-wheel
+          path: target/wheels/
+
+  windows-wheels:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          default: true
+
+      - uses: actions/setup-python@v4
+
+      - name: Build wheels
+        run: |
+          pip install maturin
+          maturin build --release
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows-wheels
+          path: target/wheels/
+
+  push:
+    needs: [linux-wheels, linux-arm64-wheel, osx-wheels, windows-wheels]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v4
+
+      - name: Collect wheels
+        run: |
+          mkdir wheels
+          find . -type f -name "*.whl" -exec cp {} wheels/ \;
+
+      - name: Show collected wheels
+        run: ls -lh wheels
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          packages_dir: wheels/
+          verify_metadata: false
