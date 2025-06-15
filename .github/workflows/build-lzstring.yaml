@@ -16,7 +16,7 @@ jobs:
       matrix:
         target: [x86_64, i686]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Build wheels
         run: |
@@ -31,7 +31,7 @@ jobs:
   linux-arm64-wheel:
     runs-on: ubuntu-24.04-arm
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Build arm64 wheels
         run: |
@@ -49,7 +49,7 @@ jobs:
       matrix:
         python-version: [3.11, 3.12, 3.13, 3.14]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: actions-rs/toolchain@v1
         with:
@@ -76,7 +76,7 @@ jobs:
       matrix:
         python-version: [3.11, 3.12, 3.13, 3.14]
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - uses: actions-rs/toolchain@v1
         with:
@@ -101,7 +101,7 @@ jobs:
     needs: [linux-wheels, linux-arm64-wheel, osx-wheels, windows-wheels]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
 
       - name: Collect wheels
