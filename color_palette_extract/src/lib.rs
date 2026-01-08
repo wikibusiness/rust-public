@@ -64,7 +64,7 @@ fn get_hsl_from_rgb(r: f32, g: f32, b: f32) -> PyResult<Vec<f32>> {
 /// A Python module implemented in Rust.
 #[pymodule]
 fn color_palette_extract(m: &Bound<'_, PyModule>) -> PyResult<()> {
-    m.add("ImageLoadError", m.py().get_type_bound::<ImageLoadError>())?;
+    m.add("ImageLoadError", m.py().get_type::<ImageLoadError>())?;
     m.add_function(wrap_pyfunction!(extract_from_bytes, m)?)?;
     m.add_function(wrap_pyfunction!(get_hex_from_rgb, m)?)?;
     m.add_function(wrap_pyfunction!(get_hsl_from_rgb, m)?)?;
