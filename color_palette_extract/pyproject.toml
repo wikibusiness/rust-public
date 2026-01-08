@@ -4,5 +4,8 @@ build-backend = "maturin"
 
 [project]
 name = "color_palette_extract"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 classifiers = ["Programming Language :: Rust"]
+
+[tool.maturin]
+manylinux = "2_35"
