@@ -54,7 +54,7 @@ jobs:
       - name: Build wheels
         run: |
           pip install maturin
-          cd color_palette_extract && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux manylinux_2_31
+          cd color_palette_extract && maturin build --release --sdist -i ${{ matrix.python-version }} --target ${{ matrix.target }} --manylinux manylinux_2_35
 
       - uses: actions/upload-artifact@v4
         with:
