@@ -2,6 +2,7 @@ mod dom;
 mod patterns;
 
 use std::collections::HashMap;
+use std::collections::HashSet;
 
 use pyo3::prelude::*;
 use pyo3::types::PyDict;
@@ -9,18 +10,32 @@ use regex::{Regex, RegexSet, RegexSetBuilder};
 use serde_json::Value;
 
 /// Compiled matcher for a text-based key (html, script, dom, js).
+///
+/// Patterns are split into chunks of `chunk_size` so each `RegexSet` stays
+/// small enough for the NFA to remain fast. Without chunking a single set of
+/// 2 000+ patterns builds an NFA that is an order of magnitude slower than
+/// RE2's 59-pattern DFA chunks.
 struct TextMatcher {
-    set: RegexSet,
-    /// pattern_index → tech name
-    index_to_name: Vec<String>,
+    sets: Vec<RegexSet>,
+    /// sets[i][j] → tech name
+    chunk_names: Vec<Vec<String>>,
+    total_patterns: usize,
 }
 
 impl TextMatcher {
-    fn matches(&self, text: &[u8]) -> Vec<usize> {
-        let Ok(s) = std::str::from_utf8(text) else {
-            return vec![];
-        };
-        self.set.matches(s).into_iter().collect()
+    fn match_parts(&self, parts: &[Vec<u8>]) -> Vec<String> {
+        let mut seen: HashSet<String> = HashSet::new();
+        for part in parts {
+            let Ok(s) = std::str::from_utf8(part) else {
+                continue;
+            };
+            for (chunk_idx, set) in self.sets.iter().enumerate() {
+                for pat_idx in set.matches(s).into_iter() {
+                    seen.insert(self.chunk_names[chunk_idx][pat_idx].clone());
+                }
+            }
+        }
+        seen.into_iter().collect()
     }
 }
 
@@ -79,13 +94,12 @@ pub struct TechDetector {
 fn build_text_matcher(
     patterns_and_names: Vec<(String, String)>,
     case_insensitive: bool,
+    chunk_size: usize,
     skipped: &mut Vec<String>,
 ) -> TextMatcher {
-    let mut valid_patterns: Vec<String> = Vec::new();
-    let mut index_to_name: Vec<String> = Vec::new();
+    let mut valid: Vec<(String, String)> = Vec::new();
 
     for (pattern, name) in patterns_and_names {
-        // Quick individual compile check to detect bad patterns before adding to the set
         let test = RegexSetBuilder::new([&pattern])
             .case_insensitive(case_insensitive)
             .build();
@@ -93,16 +107,28 @@ fn build_text_matcher(
             skipped.push(format!("{name}: {pattern}"));
             continue;
         }
-        valid_patterns.push(pattern);
-        index_to_name.push(name);
+        valid.push((pattern, name));
     }
 
-    let set = RegexSetBuilder::new(&valid_patterns)
-        .case_insensitive(case_insensitive)
-        .build()
-        .unwrap_or_else(|_| RegexSet::empty());
+    let total_patterns = valid.len();
+    let effective_chunk = chunk_size.max(1);
+    let mut sets: Vec<RegexSet> = Vec::new();
+    let mut chunk_names: Vec<Vec<String>> = Vec::new();
 
-    TextMatcher { set, index_to_name }
+    for chunk in valid.chunks(effective_chunk) {
+        let patterns: Vec<&str> = chunk.iter().map(|(p, _)| p.as_str()).collect();
+        let names: Vec<String> = chunk.iter().map(|(_, n)| n.clone()).collect();
+
+        let set = RegexSetBuilder::new(&patterns)
+            .case_insensitive(case_insensitive)
+            .build()
+            .unwrap_or_else(|_| RegexSet::empty());
+
+        sets.push(set);
+        chunk_names.push(names);
+    }
+
+    TextMatcher { sets, chunk_names, total_patterns }
 }
 
 fn build_dict_matcher(
@@ -250,10 +276,14 @@ fn parse_apps(
 impl TechDetector {
     /// Build from merged app JSON (bytes).
     ///
-    /// Accepts the serialised `web_applications["apps"]` dict — either the full
-    /// `{"apps": {...}, "categories": {...}}` wrapper or the inner `{TechName: {...}}` dict.
+    /// `json_data` — serialised `web_applications["apps"]` dict.
+    /// `chunk_size` — number of patterns per `RegexSet` chunk (default 256).
+    ///   Smaller values reduce per-chunk NFA complexity at the cost of more
+    ///   iterations; larger values amortise iteration overhead. Tune with the
+    ///   benchmark script.
     #[new]
-    pub fn new(json_data: &[u8]) -> PyResult<Self> {
+    #[pyo3(signature = (json_data, chunk_size = 256))]
+    pub fn new(json_data: &[u8], chunk_size: usize) -> PyResult<Self> {
         let root: Value = serde_json::from_slice(json_data)
             .map_err(|e| pyo3::exceptions::PyValueError::new_err(e.to_string()))?;
 
@@ -274,10 +304,10 @@ impl TechDetector {
         let (html_pats, script_pats, dom_pats, js_pats, headers_map, cookies_map, meta_map) =
             parse_apps(apps);
 
-        let html = build_text_matcher(html_pats, true, &mut skipped);
-        let script = build_text_matcher(script_pats, true, &mut skipped);
-        let dom = build_text_matcher(dom_pats, true, &mut skipped);
-        let js = build_text_matcher(js_pats, false, &mut skipped); // case-sensitive
+        let html = build_text_matcher(html_pats, true, chunk_size, &mut skipped);
+        let script = build_text_matcher(script_pats, true, chunk_size, &mut skipped);
+        let dom = build_text_matcher(dom_pats, true, chunk_size, &mut skipped);
+        let js = build_text_matcher(js_pats, false, chunk_size, &mut skipped); // case-sensitive
         let headers = build_dict_matcher(headers_map, &mut skipped);
         let cookies = build_dict_matcher(cookies_map, &mut skipped);
         let meta = build_dict_matcher(meta_map, &mut skipped);
@@ -311,25 +341,7 @@ impl TechDetector {
             }
         };
 
-        let mut seen: Vec<bool> = vec![false; matcher.index_to_name.len()];
-
-        for part in &parts {
-            for idx in matcher.matches(part) {
-                seen[idx] = true;
-            }
-        }
-
-        Ok(seen
-            .into_iter()
-            .enumerate()
-            .filter_map(|(i, matched)| {
-                if matched {
-                    Some(matcher.index_to_name[i].clone())
-                } else {
-                    None
-                }
-            })
-            .collect())
+        Ok(matcher.match_parts(&parts))
     }
 
     /// Match a single dict against a dict-based key.
@@ -363,22 +375,13 @@ impl TechDetector {
     /// Number of compiled patterns per key (for diagnostics / tests).
     pub fn pattern_counts(&self) -> HashMap<String, usize> {
         let mut counts = HashMap::new();
-        counts.insert("html".to_string(), self.html.index_to_name.len());
-        counts.insert("script".to_string(), self.script.index_to_name.len());
-        counts.insert("dom".to_string(), self.dom.index_to_name.len());
-        counts.insert("js".to_string(), self.js.index_to_name.len());
-        counts.insert(
-            "headers".to_string(),
-            self.headers.entries.values().map(|v| v.len()).sum(),
-        );
-        counts.insert(
-            "cookies".to_string(),
-            self.cookies.entries.values().map(|v| v.len()).sum(),
-        );
-        counts.insert(
-            "meta".to_string(),
-            self.meta.entries.values().map(|v| v.len()).sum(),
-        );
+        counts.insert("js".to_string(), self.js.total_patterns);
+        counts.insert("script".to_string(), self.script.total_patterns);
+        counts.insert("headers".to_string(), self.headers.entries.values().map(|v| v.len()).sum());
+        counts.insert("meta".to_string(), self.meta.entries.values().map(|v| v.len()).sum());
+        counts.insert("dom".to_string(), self.dom.total_patterns);
+        counts.insert("cookies".to_string(), self.cookies.entries.values().map(|v| v.len()).sum());
+        counts.insert("html".to_string(), self.html.total_patterns);
         counts
     }
 
@@ -424,7 +427,7 @@ mod tests {
     }"#;
 
     fn detector() -> TechDetector {
-        TechDetector::new(SAMPLE_JSON.as_bytes()).unwrap()
+        TechDetector::new(SAMPLE_JSON.as_bytes(), 256).unwrap()
     }
 
     #[test]
@@ -496,5 +499,14 @@ mod tests {
     fn test_preprocess_strips_caret() {
         let result = patterns::preprocess_list_pattern("^foobar").unwrap();
         assert_eq!(result, "foobar");
+    }
+
+    #[test]
+    fn test_chunk_size_one() {
+        // Each chunk has exactly one pattern — should still work correctly.
+        let d = TechDetector::new(SAMPLE_JSON.as_bytes(), 1).unwrap();
+        let parts = vec![b"<div class='wp-content'>".to_vec()];
+        let names = d.detect_text_key("html", parts).unwrap();
+        assert!(names.contains(&"WordPress".to_string()));
     }
 }
