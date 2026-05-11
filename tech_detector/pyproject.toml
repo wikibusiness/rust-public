@@ -1,0 +1,8 @@
+[build-system]
+requires = ["maturin>=1.8.0"]
+build-backend = "maturin"
+
+[project]
+name = "tech_detector"
+requires-python = ">=3.12"
+classifiers = ["Programming Language :: Rust"]
