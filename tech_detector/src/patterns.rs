@@ -35,7 +35,10 @@ pub fn cut_version(text: &str) -> Option<String> {
 
 /// Replicate Python's `_JS_RE_REPLACEMENTS` substitutions.
 pub fn replace_js_regexp(s: &str) -> String {
-    s.replace("[^]", "(?:.|\n)").replace('/', "\\/")
+    // Note: Python also does .replace('/', "\\/") here, but Rust's `regex` crate
+    // does not accept `\/` as a valid escape — `/` is not a special character and
+    // needs no escaping, so we omit that substitution.
+    s.replace("[^]", "(?:.|\n)")
 }
 
 /// Whether a pattern uses syntax the `regex` crate cannot handle
