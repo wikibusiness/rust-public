@@ -427,6 +427,14 @@ impl TechDetector {
         names.into_iter().collect()
     }
 
+    /// Resolve implies dependencies for an already-detected set of tech names.
+    /// Useful when you need to filter detections before expanding dependencies.
+    pub fn resolve_dependencies(&self, names: Vec<String>) -> Vec<String> {
+        let mut set: HashSet<String> = names.into_iter().collect();
+        self.deps.resolve(&mut set);
+        set.into_iter().collect()
+    }
+
     /// Low-level: match a single text key against a list of byte parts.
     pub fn detect_text_key(&self, key: &str, parts: Vec<Vec<u8>>) -> PyResult<Vec<String>> {
         let matcher = match key {
