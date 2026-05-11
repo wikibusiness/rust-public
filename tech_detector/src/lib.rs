@@ -1,53 +1,100 @@
 mod dom;
 mod patterns;
 
-use std::collections::HashMap;
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 
 use pyo3::prelude::*;
 use pyo3::types::PyDict;
-use regex::{Regex, RegexSet, RegexSetBuilder};
+use rayon::prelude::*;
+use regex::Regex;
+use regex_automata::{
+    hybrid::dfa::{DFA, OverlappingState},
+    util::syntax::Config as SyntaxConfig,
+    Input, MatchKind,
+};
 use serde_json::Value;
 
-/// Compiled matcher for a text-based key (html, script, dom, js).
+// ── Text matching ─────────────────────────────────────────────────────────────
+
+/// One chunk: a lazy DFA covering `chunk_size` patterns.
 ///
-/// Patterns are split into chunks of `chunk_size` so each `RegexSet` stays
-/// small enough for the NFA to remain fast. Without chunking a single set of
-/// 2 000+ patterns builds an NFA that is an order of magnitude slower than
-/// RE2's 59-pattern DFA chunks.
+/// The `DFA` is immutable and `Send + Sync`. Each call to `match_parts` creates
+/// a fresh `Cache` per chunk — cheap to allocate, and it warms up as it scans
+/// parts, so later parts in the same call benefit from accumulated DFA states.
+struct TextChunk {
+    dfa: DFA,
+    names: Vec<String>, // pattern_index → tech name
+}
+
 struct TextMatcher {
-    sets: Vec<RegexSet>,
-    /// sets[i][j] → tech name
-    chunk_names: Vec<Vec<String>>,
+    chunks: Vec<TextChunk>,
     total_patterns: usize,
 }
 
 impl TextMatcher {
+    /// Match all `parts` against all chunks in parallel (one rayon task per chunk).
+    ///
+    /// Parallelising over chunks (not parts) keeps each thread's `Cache` warm
+    /// across all parts, mimicking RE2's per-DFA state caching.
     fn match_parts(&self, parts: &[Vec<u8>]) -> Vec<String> {
-        let mut seen: HashSet<String> = HashSet::new();
-        for part in parts {
-            let Ok(s) = std::str::from_utf8(part) else {
-                continue;
-            };
-            for (chunk_idx, set) in self.sets.iter().enumerate() {
-                for pat_idx in set.matches(s).into_iter() {
-                    seen.insert(self.chunk_names[chunk_idx][pat_idx].clone());
+        let matched: HashSet<String> = self
+            .chunks
+            .par_iter()
+            .flat_map(|chunk| {
+                let mut cache = chunk.dfa.create_cache();
+                let n = chunk.names.len();
+                let mut names: Vec<String> = Vec::new();
+
+                for part in parts {
+                    let Ok(text) = std::str::from_utf8(part) else {
+                        continue;
+                    };
+                    let input = Input::new(text);
+                    let mut state = OverlappingState::start();
+                    let mut seen = vec![false; n];
+
+                    loop {
+                        if chunk
+                            .dfa
+                            .try_search_overlapping_fwd(&mut cache, &input, &mut state)
+                            .is_err()
+                        {
+                            break;
+                        }
+                        match state.get_match() {
+                            None => break,
+                            Some(m) => {
+                                let idx = m.pattern().as_usize();
+                                if idx < n {
+                                    seen[idx] = true;
+                                }
+                            }
+                        }
+                    }
+
+                    for (i, &hit) in seen.iter().enumerate() {
+                        if hit {
+                            names.push(chunk.names[i].clone());
+                        }
+                    }
                 }
-            }
-        }
-        seen.into_iter().collect()
+
+                names
+            })
+            .collect();
+
+        matched.into_iter().collect()
     }
 }
 
-/// One entry in a dict-key matcher: optionally a value regex, always a tech name.
+// ── Dict matching (headers, cookies, meta) ────────────────────────────────────
+
 struct DictEntry {
     value_regex: Option<Regex>,
     name: String,
 }
 
-/// Compiled matcher for a dict-based key (headers, cookies, meta).
 struct DictMatcher {
-    /// lowercase header/cookie/meta key → entries to check
     entries: HashMap<String, Vec<DictEntry>>,
 }
 
@@ -58,13 +105,12 @@ impl DictMatcher {
             let key = raw_key.to_lowercase();
             if let Some(entries) = self.entries.get(&key) {
                 for entry in entries {
-                    match &entry.value_regex {
-                        None => names.push(entry.name.clone()),
-                        Some(re) => {
-                            if re.is_match(value) {
-                                names.push(entry.name.clone());
-                            }
-                        }
+                    let matched = match &entry.value_regex {
+                        None => true,
+                        Some(re) => re.is_match(value),
+                    };
+                    if matched {
+                        names.push(entry.name.clone());
                     }
                 }
             }
@@ -73,10 +119,8 @@ impl DictMatcher {
     }
 }
 
-/// Pre-compiled technology detector.
-///
-/// Build once at process startup via `TechDetector(json_bytes)`.
-/// Thread-safe: all compiled matchers are immutable after construction.
+// ── PyO3 struct ───────────────────────────────────────────────────────────────
+
 #[pyclass]
 pub struct TechDetector {
     html: TextMatcher,
@@ -89,7 +133,7 @@ pub struct TechDetector {
     skipped: Vec<String>,
 }
 
-// ── Builder helpers ──────────────────────────────────────────────────────────
+// ── Builders ──────────────────────────────────────────────────────────────────
 
 fn build_text_matcher(
     patterns_and_names: Vec<(String, String)>,
@@ -97,38 +141,46 @@ fn build_text_matcher(
     chunk_size: usize,
     skipped: &mut Vec<String>,
 ) -> TextMatcher {
-    let mut valid: Vec<(String, String)> = Vec::new();
+    let syntax = SyntaxConfig::new().case_insensitive(case_insensitive);
 
+    // Validate each pattern individually (fast: only NFA construction).
+    let mut valid: Vec<(String, String)> = Vec::new();
     for (pattern, name) in patterns_and_names {
-        let test = RegexSetBuilder::new([&pattern])
-            .case_insensitive(case_insensitive)
-            .build();
-        if test.is_err() {
+        let ok = DFA::builder()
+            .configure(DFA::config().match_kind(MatchKind::All))
+            .syntax(syntax)
+            .build_many(&[pattern.as_str()])
+            .is_ok();
+        if ok {
+            valid.push((pattern, name));
+        } else {
             skipped.push(format!("{name}: {pattern}"));
-            continue;
         }
-        valid.push((pattern, name));
     }
 
     let total_patterns = valid.len();
-    let effective_chunk = chunk_size.max(1);
-    let mut sets: Vec<RegexSet> = Vec::new();
-    let mut chunk_names: Vec<Vec<String>> = Vec::new();
+    let effective = chunk_size.max(1);
+    let mut chunks: Vec<TextChunk> = Vec::new();
 
-    for chunk in valid.chunks(effective_chunk) {
-        let patterns: Vec<&str> = chunk.iter().map(|(p, _)| p.as_str()).collect();
+    for chunk in valid.chunks(effective) {
+        let pats: Vec<&str> = chunk.iter().map(|(p, _)| p.as_str()).collect();
         let names: Vec<String> = chunk.iter().map(|(_, n)| n.clone()).collect();
 
-        let set = RegexSetBuilder::new(&patterns)
-            .case_insensitive(case_insensitive)
-            .build()
-            .unwrap_or_else(|_| RegexSet::empty());
-
-        sets.push(set);
-        chunk_names.push(names);
+        match DFA::builder()
+            .configure(DFA::config().match_kind(MatchKind::All))
+            .syntax(syntax)
+            .build_many(&pats)
+        {
+            Ok(dfa) => chunks.push(TextChunk { dfa, names }),
+            Err(_) => {
+                for (p, n) in chunk {
+                    skipped.push(format!("{n}: {p}"));
+                }
+            }
+        }
     }
 
-    TextMatcher { sets, chunk_names, total_patterns }
+    TextMatcher { chunks, total_patterns }
 }
 
 fn build_dict_matcher(
@@ -173,13 +225,13 @@ fn value_as_strings(v: &Value) -> Vec<String> {
 fn parse_apps(
     apps: &serde_json::Map<String, Value>,
 ) -> (
-    Vec<(String, String)>, // html patterns
-    Vec<(String, String)>, // script patterns
-    Vec<(String, String)>, // dom patterns
-    Vec<(String, String)>, // js patterns
-    HashMap<String, Vec<(Option<String>, String)>>, // headers
-    HashMap<String, Vec<(Option<String>, String)>>, // cookies
-    HashMap<String, Vec<(Option<String>, String)>>, // meta
+    Vec<(String, String)>,
+    Vec<(String, String)>,
+    Vec<(String, String)>,
+    Vec<(String, String)>,
+    HashMap<String, Vec<(Option<String>, String)>>,
+    HashMap<String, Vec<(Option<String>, String)>>,
+    HashMap<String, Vec<(Option<String>, String)>>,
 ) {
     let mut html_pats: Vec<(String, String)> = Vec::new();
     let mut script_pats: Vec<(String, String)> = Vec::new();
@@ -190,11 +242,8 @@ fn parse_apps(
     let mut meta_map: HashMap<String, Vec<(Option<String>, String)>> = HashMap::new();
 
     for (tech_name, tech_data) in apps {
-        let Some(obj) = tech_data.as_object() else {
-            continue;
-        };
+        let Some(obj) = tech_data.as_object() else { continue };
 
-        // ── html ─────────────────────────────────────────────────────────
         if let Some(v) = obj.get("html") {
             for raw in value_as_strings(v) {
                 if let Some(p) = patterns::preprocess_list_pattern(&raw) {
@@ -203,7 +252,6 @@ fn parse_apps(
             }
         }
 
-        // ── script ───────────────────────────────────────────────────────
         if let Some(v) = obj.get("script") {
             for raw in value_as_strings(v) {
                 if let Some(p) = patterns::preprocess_list_pattern(&raw) {
@@ -212,17 +260,14 @@ fn parse_apps(
             }
         }
 
-        // ── dom ──────────────────────────────────────────────────────────
         if let Some(v) = obj.get("dom") {
-            let selectors = dom::dom_to_regex(v);
-            for raw in selectors {
+            for raw in dom::dom_to_regex(v) {
                 if let Some(p) = patterns::preprocess_list_pattern(&raw) {
                     dom_pats.push((p, tech_name.clone()));
                 }
             }
         }
 
-        // ── js ───────────────────────────────────────────────────────────
         if let Some(Value::Object(js_obj)) = obj.get("js") {
             for (var_name, val) in js_obj {
                 let raw_val = val.as_str().unwrap_or("");
@@ -232,7 +277,6 @@ fn parse_apps(
             }
         }
 
-        // ── headers / cookies / meta ──────────────────────────────────────
         for (field, target_map) in [
             ("headers", &mut headers_map),
             ("cookies", &mut cookies_map),
@@ -243,46 +287,29 @@ fn parse_apps(
                     let lower_key = key.to_lowercase();
                     let raw_val = match val {
                         Value::String(s) => s.as_str(),
-                        Value::Array(arr) => {
-                            // take first non-empty string
-                            arr.iter().find_map(|v| v.as_str()).unwrap_or("")
-                        }
+                        Value::Array(arr) => arr.iter().find_map(|v| v.as_str()).unwrap_or(""),
                         _ => "",
                     };
                     let pattern_opt = patterns::preprocess_dict_value(raw_val);
-                    target_map
-                        .entry(lower_key)
-                        .or_default()
-                        .push((pattern_opt, tech_name.clone()));
+                    target_map.entry(lower_key).or_default().push((pattern_opt, tech_name.clone()));
                 }
             }
         }
     }
 
-    (
-        html_pats,
-        script_pats,
-        dom_pats,
-        js_pats,
-        headers_map,
-        cookies_map,
-        meta_map,
-    )
+    (html_pats, script_pats, dom_pats, js_pats, headers_map, cookies_map, meta_map)
 }
 
-// ── PyO3 implementation ──────────────────────────────────────────────────────
+// ── PyO3 methods ──────────────────────────────────────────────────────────────
 
 #[pymethods]
 impl TechDetector {
     /// Build from merged app JSON (bytes).
     ///
-    /// `json_data` — serialised `web_applications["apps"]` dict.
-    /// `chunk_size` — number of patterns per `RegexSet` chunk (default 256).
-    ///   Smaller values reduce per-chunk NFA complexity at the cost of more
-    ///   iterations; larger values amortise iteration overhead. Tune with the
-    ///   benchmark script.
+    /// `chunk_size` — patterns per lazy-DFA chunk (default 64). Tune with the
+    /// benchmark script; optimal depends on core count and pattern complexity.
     #[new]
-    #[pyo3(signature = (json_data, chunk_size = 256))]
+    #[pyo3(signature = (json_data, chunk_size = 64))]
     pub fn new(json_data: &[u8], chunk_size: usize) -> PyResult<Self> {
         let root: Value = serde_json::from_slice(json_data)
             .map_err(|e| pyo3::exceptions::PyValueError::new_err(e.to_string()))?;
@@ -292,101 +319,61 @@ impl TechDetector {
                 .as_object()
                 .ok_or_else(|| pyo3::exceptions::PyValueError::new_err("'apps' is not an object"))?,
             Value::Object(obj) => obj,
-            _ => {
-                return Err(pyo3::exceptions::PyValueError::new_err(
-                    "expected a JSON object",
-                ))
-            }
+            _ => return Err(pyo3::exceptions::PyValueError::new_err("expected a JSON object")),
         };
 
         let mut skipped: Vec<String> = Vec::new();
-
         let (html_pats, script_pats, dom_pats, js_pats, headers_map, cookies_map, meta_map) =
             parse_apps(apps);
 
         let html = build_text_matcher(html_pats, true, chunk_size, &mut skipped);
         let script = build_text_matcher(script_pats, true, chunk_size, &mut skipped);
         let dom = build_text_matcher(dom_pats, true, chunk_size, &mut skipped);
-        let js = build_text_matcher(js_pats, false, chunk_size, &mut skipped); // case-sensitive
+        let js = build_text_matcher(js_pats, false, chunk_size, &mut skipped);
         let headers = build_dict_matcher(headers_map, &mut skipped);
         let cookies = build_dict_matcher(cookies_map, &mut skipped);
         let meta = build_dict_matcher(meta_map, &mut skipped);
 
-        Ok(TechDetector {
-            html,
-            script,
-            dom,
-            js,
-            headers,
-            cookies,
-            meta,
-            skipped,
-        })
+        Ok(TechDetector { html, script, dom, js, headers, cookies, meta, skipped })
     }
 
-    /// Match a list of text blobs against a text-based key.
-    ///
-    /// `key` is one of: "html", "script", "dom", "js"
-    /// Returns deduplicated tech names that matched any of the parts.
     pub fn detect_text_key(&self, key: &str, parts: Vec<Vec<u8>>) -> PyResult<Vec<String>> {
         let matcher = match key {
             "html" => &self.html,
             "script" => &self.script,
             "dom" => &self.dom,
             "js" => &self.js,
-            other => {
-                return Err(pyo3::exceptions::PyValueError::new_err(format!(
-                    "unknown text key: {other}"
-                )))
-            }
+            other => return Err(pyo3::exceptions::PyValueError::new_err(format!("unknown key: {other}"))),
         };
-
         Ok(matcher.match_parts(&parts))
     }
 
-    /// Match a single dict against a dict-based key.
-    ///
-    /// `key` is one of: "headers", "cookies", "meta"
-    /// `data` is a Python dict of str → str.
     pub fn detect_dict_key(&self, key: &str, data: &Bound<'_, PyDict>) -> PyResult<Vec<String>> {
         let matcher = match key {
             "headers" => &self.headers,
             "cookies" => &self.cookies,
             "meta" => &self.meta,
-            other => {
-                return Err(pyo3::exceptions::PyValueError::new_err(format!(
-                    "unknown dict key: {other}"
-                )))
-            }
+            other => return Err(pyo3::exceptions::PyValueError::new_err(format!("unknown key: {other}"))),
         };
-
         let map: HashMap<String, String> = data
             .iter()
-            .filter_map(|(k, v)| {
-                let k = k.extract::<String>().ok()?;
-                let v = v.extract::<String>().ok()?;
-                Some((k, v))
-            })
+            .filter_map(|(k, v)| Some((k.extract::<String>().ok()?, v.extract::<String>().ok()?)))
             .collect();
-
         Ok(matcher.match_dict(&map))
     }
 
-    /// Number of compiled patterns per key (for diagnostics / tests).
     pub fn pattern_counts(&self) -> HashMap<String, usize> {
         let mut counts = HashMap::new();
-        counts.insert("js".to_string(), self.js.total_patterns);
-        counts.insert("script".to_string(), self.script.total_patterns);
-        counts.insert("headers".to_string(), self.headers.entries.values().map(|v| v.len()).sum());
-        counts.insert("meta".to_string(), self.meta.entries.values().map(|v| v.len()).sum());
-        counts.insert("dom".to_string(), self.dom.total_patterns);
-        counts.insert("cookies".to_string(), self.cookies.entries.values().map(|v| v.len()).sum());
-        counts.insert("html".to_string(), self.html.total_patterns);
+        counts.insert("html".into(), self.html.total_patterns);
+        counts.insert("script".into(), self.script.total_patterns);
+        counts.insert("dom".into(), self.dom.total_patterns);
+        counts.insert("js".into(), self.js.total_patterns);
+        counts.insert("headers".into(), self.headers.entries.values().map(|v| v.len()).sum());
+        counts.insert("cookies".into(), self.cookies.entries.values().map(|v| v.len()).sum());
+        counts.insert("meta".into(), self.meta.entries.values().map(|v| v.len()).sum());
         counts
     }
 
-    /// Tech names whose patterns were skipped due to unsupported syntax or
-    /// invalid regex. Useful for startup diagnostics.
     pub fn skipped_patterns(&self) -> Vec<String> {
         self.skipped.clone()
     }
@@ -398,7 +385,7 @@ fn tech_detector(m: &Bound<'_, PyModule>) -> PyResult<()> {
     Ok(())
 }
 
-// ── Tests ────────────────────────────────────────────────────────────────────
+// ── Tests ─────────────────────────────────────────────────────────────────────
 
 #[cfg(test)]
 mod tests {
@@ -407,18 +394,15 @@ mod tests {
     const SAMPLE_JSON: &str = r#"{
         "apps": {
             "React": {
-                "cats": [12],
                 "html": "react",
                 "js": {"React.version": "([0-9.]+)\\;version:\\1"}
             },
             "jQuery": {
-                "cats": [59],
                 "script": "jquery[.\\-]([\\d.]*\\d)[/\\w.]*\\.js\\;version:\\1",
                 "js": {"jQuery.fn.jquery": "([\\d.]+)\\;version:\\1"},
                 "headers": {"x-powered-by": "jquery"}
             },
             "WordPress": {
-                "cats": [1],
                 "html": "wp-content",
                 "meta": {"generator": "WordPress ([\\d.]+)\\;version:\\1"},
                 "cookies": {"wordpress_[a-z0-9_]+": ""}
@@ -427,54 +411,55 @@ mod tests {
     }"#;
 
     fn detector() -> TechDetector {
-        TechDetector::new(SAMPLE_JSON.as_bytes(), 256).unwrap()
+        TechDetector::new(SAMPLE_JSON.as_bytes(), 64).unwrap()
     }
 
     #[test]
     fn test_pattern_counts_nonzero() {
         let d = detector();
-        let counts = d.pattern_counts();
-        assert!(*counts.get("html").unwrap() > 0);
-        assert!(*counts.get("script").unwrap() > 0);
-        assert!(*counts.get("js").unwrap() > 0);
+        let c = d.pattern_counts();
+        assert!(*c.get("html").unwrap() > 0);
+        assert!(*c.get("script").unwrap() > 0);
+        assert!(*c.get("js").unwrap() > 0);
     }
 
     #[test]
     fn test_html_detection() {
         let d = detector();
-        let parts: Vec<Vec<u8>> = vec![b"<div class='wp-content'>hello</div>".to_vec()];
-        let names = d.detect_text_key("html", parts).unwrap();
-        assert!(names.contains(&"WordPress".to_string()), "expected WordPress, got {names:?}");
+        let names = d.detect_text_key("html", vec![b"<div class='wp-content'>".to_vec()]).unwrap();
+        assert!(names.contains(&"WordPress".to_string()), "got {names:?}");
     }
 
     #[test]
     fn test_html_case_insensitive() {
         let d = detector();
-        let parts: Vec<Vec<u8>> = vec![b"React.createElement(App)".to_vec()];
-        let names = d.detect_text_key("html", parts).unwrap();
+        let names = d.detect_text_key("html", vec![b"React.createElement(App)".to_vec()]).unwrap();
         assert!(names.contains(&"React".to_string()));
     }
 
     #[test]
     fn test_script_detection() {
         let d = detector();
-        let parts: Vec<Vec<u8>> = vec![b"<script src='/jquery-3.6.0.min.js'></script>".to_vec()];
-        let names = d.detect_text_key("script", parts).unwrap();
+        let names = d
+            .detect_text_key("script", vec![b"<script src='/jquery-3.6.0.min.js'>".to_vec()])
+            .unwrap();
         assert!(names.contains(&"jQuery".to_string()));
     }
 
     #[test]
     fn test_no_false_positives() {
         let d = detector();
-        let parts: Vec<Vec<u8>> = vec![b"<html><body>nothing special here</body></html>".to_vec()];
-        let names = d.detect_text_key("html", parts).unwrap();
-        assert!(names.is_empty(), "unexpected matches: {names:?}");
+        let names = d
+            .detect_text_key("html", vec![b"<html><body>nothing here</body></html>".to_vec()])
+            .unwrap();
+        assert!(names.is_empty(), "unexpected: {names:?}");
     }
 
     #[test]
-    fn test_skipped_patterns_accessible() {
-        let d = detector();
-        let _ = d.skipped_patterns();
+    fn test_chunk_size_one() {
+        let d = TechDetector::new(SAMPLE_JSON.as_bytes(), 1).unwrap();
+        let names = d.detect_text_key("html", vec![b"wp-content".to_vec()]).unwrap();
+        assert!(names.contains(&"WordPress".to_string()));
     }
 
     #[test]
@@ -497,16 +482,6 @@ mod tests {
 
     #[test]
     fn test_preprocess_strips_caret() {
-        let result = patterns::preprocess_list_pattern("^foobar").unwrap();
-        assert_eq!(result, "foobar");
-    }
-
-    #[test]
-    fn test_chunk_size_one() {
-        // Each chunk has exactly one pattern — should still work correctly.
-        let d = TechDetector::new(SAMPLE_JSON.as_bytes(), 1).unwrap();
-        let parts = vec![b"<div class='wp-content'>".to_vec()];
-        let names = d.detect_text_key("html", parts).unwrap();
-        assert!(names.contains(&"WordPress".to_string()));
+        assert_eq!(patterns::preprocess_list_pattern("^foobar").unwrap(), "foobar");
     }
 }

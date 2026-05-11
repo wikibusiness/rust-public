@@ -1,6 +1,6 @@
 [package]
 name = "tech_detector"
-version = "0.2.0"
+version = "0.3.0"
 edition = "2021"
 
 [lib]
@@ -10,7 +10,11 @@ crate-type = ["cdylib"]
 [dependencies]
 pyo3 = { version = "0.27", features = ["extension-module"] }
 once_cell = "1"
+# regex is still used for DictMatcher (per-key value regex)
 regex = "1"
+# hybrid = lazy DFA, same algorithm as RE2; default features include syntax + unicode
+regex-automata = { version = "0.4", features = ["hybrid"] }
+rayon = "1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 
