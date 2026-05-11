@@ -309,7 +309,7 @@ impl TechDetector {
     /// `chunk_size` — patterns per lazy-DFA chunk (default 64). Tune with the
     /// benchmark script; optimal depends on core count and pattern complexity.
     #[new]
-    #[pyo3(signature = (json_data, chunk_size = 64))]
+    #[pyo3(signature = (json_data, chunk_size = 28))]
     pub fn new(json_data: &[u8], chunk_size: usize) -> PyResult<Self> {
         let root: Value = serde_json::from_slice(json_data)
             .map_err(|e| pyo3::exceptions::PyValueError::new_err(e.to_string()))?;
