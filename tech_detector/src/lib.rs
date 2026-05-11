@@ -16,14 +16,9 @@ use serde_json::Value;
 
 // ── Text matching ─────────────────────────────────────────────────────────────
 
-/// One chunk: a lazy DFA covering `chunk_size` patterns.
-///
-/// The `DFA` is immutable and `Send + Sync`. Each call to `match_parts` creates
-/// a fresh `Cache` per chunk — cheap to allocate, and it warms up as it scans
-/// parts, so later parts in the same call benefit from accumulated DFA states.
 struct TextChunk {
     dfa: DFA,
-    names: Vec<String>, // pattern_index → tech name
+    names: Vec<String>,
 }
 
 struct TextMatcher {
@@ -32,10 +27,6 @@ struct TextMatcher {
 }
 
 impl TextMatcher {
-    /// Match all `parts` against all chunks in parallel (one rayon task per chunk).
-    ///
-    /// Parallelising over chunks (not parts) keeps each thread's `Cache` warm
-    /// across all parts, mimicking RE2's per-DFA state caching.
     fn match_parts(&self, parts: &[Vec<u8>]) -> Vec<String> {
         let matched: HashSet<String> = self
             .chunks
@@ -119,6 +110,27 @@ impl DictMatcher {
     }
 }
 
+// ── Dependency resolution (implies) ──────────────────────────────────────────
+
+struct DependencyResolver {
+    implies: HashMap<String, Vec<String>>,
+}
+
+impl DependencyResolver {
+    fn resolve(&self, names: &mut HashSet<String>) {
+        let mut queue: Vec<String> = names.iter().cloned().collect();
+        while let Some(name) = queue.pop() {
+            if let Some(implied) = self.implies.get(&name) {
+                for imp in implied {
+                    if names.insert(imp.clone()) {
+                        queue.push(imp.clone());
+                    }
+                }
+            }
+        }
+    }
+}
+
 // ── PyO3 struct ───────────────────────────────────────────────────────────────
 
 #[pyclass]
@@ -130,6 +142,7 @@ pub struct TechDetector {
     headers: DictMatcher,
     cookies: DictMatcher,
     meta: DictMatcher,
+    deps: DependencyResolver,
     skipped: Vec<String>,
 }
 
@@ -143,7 +156,6 @@ fn build_text_matcher(
 ) -> TextMatcher {
     let syntax = SyntaxConfig::new().case_insensitive(case_insensitive);
 
-    // Validate each pattern individually (fast: only NFA construction).
     let mut valid: Vec<(String, String)> = Vec::new();
     for (pattern, name) in patterns_and_names {
         let ok = DFA::builder()
@@ -222,17 +234,23 @@ fn value_as_strings(v: &Value) -> Vec<String> {
     }
 }
 
-fn parse_apps(
-    apps: &serde_json::Map<String, Value>,
-) -> (
-    Vec<(String, String)>,
-    Vec<(String, String)>,
-    Vec<(String, String)>,
-    Vec<(String, String)>,
-    HashMap<String, Vec<(Option<String>, String)>>,
-    HashMap<String, Vec<(Option<String>, String)>>,
-    HashMap<String, Vec<(Option<String>, String)>>,
-) {
+/// Strip `\;version:...` suffix from an `implies` entry to get the bare tech name.
+fn implies_name(s: &str) -> &str {
+    s.splitn(2, "\\;").next().unwrap_or(s)
+}
+
+struct ParsedApps {
+    html_pats: Vec<(String, String)>,
+    script_pats: Vec<(String, String)>,
+    dom_pats: Vec<(String, String)>,
+    js_pats: Vec<(String, String)>,
+    headers_map: HashMap<String, Vec<(Option<String>, String)>>,
+    cookies_map: HashMap<String, Vec<(Option<String>, String)>>,
+    meta_map: HashMap<String, Vec<(Option<String>, String)>>,
+    implies_map: HashMap<String, Vec<String>>,
+}
+
+fn parse_apps(apps: &serde_json::Map<String, Value>) -> ParsedApps {
     let mut html_pats: Vec<(String, String)> = Vec::new();
     let mut script_pats: Vec<(String, String)> = Vec::new();
     let mut dom_pats: Vec<(String, String)> = Vec::new();
@@ -240,6 +258,7 @@ fn parse_apps(
     let mut headers_map: HashMap<String, Vec<(Option<String>, String)>> = HashMap::new();
     let mut cookies_map: HashMap<String, Vec<(Option<String>, String)>> = HashMap::new();
     let mut meta_map: HashMap<String, Vec<(Option<String>, String)>> = HashMap::new();
+    let mut implies_map: HashMap<String, Vec<String>> = HashMap::new();
 
     for (tech_name, tech_data) in apps {
         let Some(obj) = tech_data.as_object() else { continue };
@@ -287,27 +306,48 @@ fn parse_apps(
                     let lower_key = key.to_lowercase();
                     let raw_val = match val {
                         Value::String(s) => s.as_str(),
-                        Value::Array(arr) => arr.iter().find_map(|v| v.as_str()).unwrap_or(""),
+                        Value::Array(arr) => {
+                            arr.iter().find_map(|v| v.as_str()).unwrap_or("")
+                        }
                         _ => "",
                     };
                     let pattern_opt = patterns::preprocess_dict_value(raw_val);
-                    target_map.entry(lower_key).or_default().push((pattern_opt, tech_name.clone()));
+                    target_map
+                        .entry(lower_key)
+                        .or_default()
+                        .push((pattern_opt, tech_name.clone()));
                 }
+            }
+        }
+
+        if let Some(v) = obj.get("implies") {
+            let implied: Vec<String> = value_as_strings(v)
+                .into_iter()
+                .map(|s| implies_name(&s).to_string())
+                .filter(|s| !s.is_empty())
+                .collect();
+            if !implied.is_empty() {
+                implies_map.insert(tech_name.clone(), implied);
             }
         }
     }
 
-    (html_pats, script_pats, dom_pats, js_pats, headers_map, cookies_map, meta_map)
+    ParsedApps {
+        html_pats,
+        script_pats,
+        dom_pats,
+        js_pats,
+        headers_map,
+        cookies_map,
+        meta_map,
+        implies_map,
+    }
 }
 
 // ── PyO3 methods ──────────────────────────────────────────────────────────────
 
 #[pymethods]
 impl TechDetector {
-    /// Build from merged app JSON (bytes).
-    ///
-    /// `chunk_size` — patterns per lazy-DFA chunk (default 64). Tune with the
-    /// benchmark script; optimal depends on core count and pattern complexity.
     #[new]
     #[pyo3(signature = (json_data, chunk_size = 28))]
     pub fn new(json_data: &[u8], chunk_size: usize) -> PyResult<Self> {
@@ -323,8 +363,16 @@ impl TechDetector {
         };
 
         let mut skipped: Vec<String> = Vec::new();
-        let (html_pats, script_pats, dom_pats, js_pats, headers_map, cookies_map, meta_map) =
-            parse_apps(apps);
+        let ParsedApps {
+            html_pats,
+            script_pats,
+            dom_pats,
+            js_pats,
+            headers_map,
+            cookies_map,
+            meta_map,
+            implies_map,
+        } = parse_apps(apps);
 
         let html = build_text_matcher(html_pats, true, chunk_size, &mut skipped);
         let script = build_text_matcher(script_pats, true, chunk_size, &mut skipped);
@@ -333,31 +381,85 @@ impl TechDetector {
         let headers = build_dict_matcher(headers_map, &mut skipped);
         let cookies = build_dict_matcher(cookies_map, &mut skipped);
         let meta = build_dict_matcher(meta_map, &mut skipped);
+        let deps = DependencyResolver { implies: implies_map };
 
-        Ok(TechDetector { html, script, dom, js, headers, cookies, meta, skipped })
+        Ok(TechDetector { html, script, dom, js, headers, cookies, meta, deps, skipped })
     }
 
+    /// Full detection: body text + headers/cookies/meta + dependency resolution.
+    ///
+    /// - `html_parts`   — page bodies split on `</div>`, all pages merged
+    /// - `script_parts` — script-tag contents split on blank lines, all pages merged
+    /// - `headers`      — one dict per page
+    /// - `cookies`      — one dict per page
+    /// - `meta_tags`    — flat list of single-key dicts from all pages
+    #[pyo3(signature = (html_parts, script_parts, headers, cookies, meta_tags, include_dependencies=true))]
+    pub fn detect_full(
+        &self,
+        html_parts: Vec<Vec<u8>>,
+        script_parts: Vec<Vec<u8>>,
+        headers: Vec<HashMap<String, String>>,
+        cookies: Vec<HashMap<String, String>>,
+        meta_tags: Vec<HashMap<String, String>>,
+        include_dependencies: bool,
+    ) -> Vec<String> {
+        let mut names: HashSet<String> = HashSet::new();
+
+        names.extend(self.html.match_parts(&html_parts));
+        names.extend(self.dom.match_parts(&html_parts));
+        names.extend(self.script.match_parts(&script_parts));
+        names.extend(self.js.match_parts(&script_parts));
+
+        for h in &headers {
+            names.extend(self.headers.match_dict(h));
+        }
+        for c in &cookies {
+            names.extend(self.cookies.match_dict(c));
+        }
+        for m in &meta_tags {
+            names.extend(self.meta.match_dict(m));
+        }
+
+        if include_dependencies {
+            self.deps.resolve(&mut names);
+        }
+
+        names.into_iter().collect()
+    }
+
+    /// Low-level: match a single text key against a list of byte parts.
     pub fn detect_text_key(&self, key: &str, parts: Vec<Vec<u8>>) -> PyResult<Vec<String>> {
         let matcher = match key {
             "html" => &self.html,
             "script" => &self.script,
             "dom" => &self.dom,
             "js" => &self.js,
-            other => return Err(pyo3::exceptions::PyValueError::new_err(format!("unknown key: {other}"))),
+            other => {
+                return Err(pyo3::exceptions::PyValueError::new_err(format!(
+                    "unknown key: {other}"
+                )))
+            }
         };
         Ok(matcher.match_parts(&parts))
     }
 
+    /// Low-level: match a single dict key against one Python dict.
     pub fn detect_dict_key(&self, key: &str, data: &Bound<'_, PyDict>) -> PyResult<Vec<String>> {
         let matcher = match key {
             "headers" => &self.headers,
             "cookies" => &self.cookies,
             "meta" => &self.meta,
-            other => return Err(pyo3::exceptions::PyValueError::new_err(format!("unknown key: {other}"))),
+            other => {
+                return Err(pyo3::exceptions::PyValueError::new_err(format!(
+                    "unknown key: {other}"
+                )))
+            }
         };
         let map: HashMap<String, String> = data
             .iter()
-            .filter_map(|(k, v)| Some((k.extract::<String>().ok()?, v.extract::<String>().ok()?)))
+            .filter_map(|(k, v)| {
+                Some((k.extract::<String>().ok()?, v.extract::<String>().ok()?))
+            })
             .collect();
         Ok(matcher.match_dict(&map))
     }
@@ -368,9 +470,19 @@ impl TechDetector {
         counts.insert("script".into(), self.script.total_patterns);
         counts.insert("dom".into(), self.dom.total_patterns);
         counts.insert("js".into(), self.js.total_patterns);
-        counts.insert("headers".into(), self.headers.entries.values().map(|v| v.len()).sum());
-        counts.insert("cookies".into(), self.cookies.entries.values().map(|v| v.len()).sum());
-        counts.insert("meta".into(), self.meta.entries.values().map(|v| v.len()).sum());
+        counts.insert(
+            "headers".into(),
+            self.headers.entries.values().map(|v| v.len()).sum(),
+        );
+        counts.insert(
+            "cookies".into(),
+            self.cookies.entries.values().map(|v| v.len()).sum(),
+        );
+        counts.insert(
+            "meta".into(),
+            self.meta.entries.values().map(|v| v.len()).sum(),
+        );
+        counts.insert("implies".into(), self.deps.implies.len());
         counts
     }
 
@@ -395,7 +507,11 @@ mod tests {
         "apps": {
             "React": {
                 "html": "react",
-                "js": {"React.version": "([0-9.]+)\\;version:\\1"}
+                "js": {"React.version": "([0-9.]+)\\;version:\\1"},
+                "implies": "Webpack"
+            },
+            "Webpack": {
+                "script": "webpack"
             },
             "jQuery": {
                 "script": "jquery[.\\-]([\\d.]*\\d)[/\\w.]*\\.js\\;version:\\1",
@@ -426,14 +542,16 @@ mod tests {
     #[test]
     fn test_html_detection() {
         let d = detector();
-        let names = d.detect_text_key("html", vec![b"<div class='wp-content'>".to_vec()]).unwrap();
+        let names =
+            d.detect_text_key("html", vec![b"<div class='wp-content'>".to_vec()]).unwrap();
         assert!(names.contains(&"WordPress".to_string()), "got {names:?}");
     }
 
     #[test]
     fn test_html_case_insensitive() {
         let d = detector();
-        let names = d.detect_text_key("html", vec![b"React.createElement(App)".to_vec()]).unwrap();
+        let names =
+            d.detect_text_key("html", vec![b"React.createElement(App)".to_vec()]).unwrap();
         assert!(names.contains(&"React".to_string()));
     }
 
@@ -460,6 +578,37 @@ mod tests {
         let d = TechDetector::new(SAMPLE_JSON.as_bytes(), 1).unwrap();
         let names = d.detect_text_key("html", vec![b"wp-content".to_vec()]).unwrap();
         assert!(names.contains(&"WordPress".to_string()));
+    }
+
+    #[test]
+    fn test_detect_full_with_dependencies() {
+        let d = detector();
+        // React implies Webpack — detect_full should return both
+        let names = d.detect_full(
+            vec![b"React.createElement(App)".to_vec()],
+            vec![],
+            vec![],
+            vec![],
+            vec![],
+            true,
+        );
+        assert!(names.contains(&"React".to_string()), "expected React, got {names:?}");
+        assert!(names.contains(&"Webpack".to_string()), "expected Webpack (implied), got {names:?}");
+    }
+
+    #[test]
+    fn test_detect_full_no_dependencies() {
+        let d = detector();
+        let names = d.detect_full(
+            vec![b"React.createElement(App)".to_vec()],
+            vec![],
+            vec![],
+            vec![],
+            vec![],
+            false,
+        );
+        assert!(names.contains(&"React".to_string()));
+        assert!(!names.contains(&"Webpack".to_string()), "Webpack should not appear without deps");
     }
 
     #[test]
