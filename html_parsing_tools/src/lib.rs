@@ -311,6 +311,102 @@ fn get_lang(html: String) -> PyResult<String> {
     Ok(get_lang_internal(&document))
 }
 
+/// Markdown for one page, headings and paragraphs in document order.
+///
+/// get_sentences buckets by tag (every h1, then every h2, ...) and sorts
+/// paragraphs by word count -- good for keyword/embedding pipelines, useless
+/// for reconstructing a readable page. This walks h1-h6 and p together in a
+/// single selector query, which kuchiki/selectors resolves as one
+/// document-order traversal, so headings and paragraphs interleave the way
+/// they actually appear on the page (levels are still flattened relative to
+/// each other -- an h3 nested under an h2 nested under an h1 all just come
+/// out as their own "###"/"##"/"#" in sequence, since nothing here tracks
+/// heading nesting, only encounter order).
+#[pyfunction]
+#[pyo3(signature = (html, /, *, stop_word, remove_header, remove_footer))]
+fn get_markdown(
+    html: String,
+    stop_word: &str,
+    remove_header: bool,
+    remove_footer: bool,
+) -> PyResult<String> {
+    let document = kuchiki::parse_html().one(html);
+
+    for tag in REMOVE_TAGS {
+        remove_tag(&document, tag);
+    }
+
+    if remove_header {
+        remove_tag(&document, "header");
+        remove_tag(&document, "nav");
+        remove_tag(&document, ".header");
+        remove_tag(&document, ".header-hero");
+    }
+
+    if remove_footer {
+        remove_tag(&document, "footer");
+        remove_tag(&document, ".footer");
+        remove_tag(&document, ".footer-hero");
+    }
+
+    let stop_word_regex = RegexBuilder::new(stop_word)
+        .case_insensitive(true)
+        .build()
+        .expect("Invalid Regex");
+
+    let mut blocks: Vec<String> = Vec::new();
+    let matches = document
+        .select("h1, h2, h3, h4, h5, h6, p")
+        .expect("Invalid selector");
+
+    for tag_node in matches {
+        let tag_name = tag_node.name.local.to_string();
+        // Same trim get_text_and_remove applies (trailing '.'/',' included) --
+        // get_sentences' own h1-h6/p output goes through the same step.
+        let raw_text = trim_whitespace(get_text_string(tag_node.as_node(), " ").as_str());
+
+        // Same order get_sentences applies it in: the word-count floor is a
+        // noise filter on the *original* text (mirrors its `paragraphs.iter()
+        // .filter(count_words(x) > 2)` before that same text goes through
+        // `apply` -- a stop_word that hollows a paragraph out to 1-2 words
+        // shouldn't save it from the floor it would've failed anyway).
+        if tag_name == "p" && count_words(&raw_text) <= 2 {
+            continue;
+        }
+
+        // Reuses get_sentences' own cleaning (stop-word strip, cookie-banner
+        // filtering) so a heading/paragraph that would've been dropped there
+        // is dropped here too, same rules either way.
+        let Some(text) = apply(vec![raw_text], &stop_word_regex).pop() else {
+            continue;
+        };
+
+        if tag_name == "p" {
+            blocks.push(text);
+        } else {
+            // PICK_TAGS is exactly "h1".. "h6", so this is always 1-6.
+            let level: usize = tag_name[1..].parse().unwrap_or(1);
+            blocks.push(format!("{} {}", "#".repeat(level), text));
+        }
+    }
+
+    Ok(blocks.join("\n\n"))
+}
+
+#[pyfunction]
+#[pyo3(signature = (htmls, /, *, stop_word, remove_header, remove_footer))]
+fn get_markdown_parallel(
+    htmls: Vec<String>,
+    stop_word: &str,
+    remove_header: bool,
+    remove_footer: bool,
+) -> PyResult<Vec<String>> {
+    htmls
+        .into_par_iter()
+        .map(|html| get_markdown(html, stop_word, remove_header, remove_footer))
+        .collect()
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -399,6 +495,79 @@ mod tests {
     }
 
     #[test]
+    fn test_get_markdown() {
+        let result = get_markdown(HTML.to_string(), "_stop_", false, false).unwrap();
+
+        assert_eq!(
+            result,
+            "# H1 header \u{a3}100 \u{fffd} the same H1 on a new line\n\n\
+             p tag\n\n\
+             another p on the same line\n\n\
+             p, next should be span without leading space:\n\n\
+             home a/s Frichsparken S\u{f8}ren Frichs Vej 36 F 8230 \u{c5}byh\u{f8}j \
+             CVR: 13394172 Telefon: 86 15 43 00 Email: homeas@home.dk"
+        );
+
+        // Headings and paragraphs interleave in document order -- the h1
+        // comes before every p, not bucketed separately the way
+        // get_sentences' own h1/p fields are.
+        let heading_pos = result.find("# H1").unwrap();
+        let first_p_pos = result.find("p tag").unwrap();
+        assert!(heading_pos < first_p_pos);
+
+        let empty = get_markdown(
+            "<html><head></head></html>".to_string(),
+            "_stop_",
+            false,
+            false,
+        )
+        .unwrap();
+        assert_eq!(empty, "");
+    }
+
+    #[test]
+    fn test_get_markdown_heading_levels_and_short_paragraphs_are_dropped() {
+        let html = "\
+            <h1>Ocean.io</h1>\
+            <p>Search for companies in plain language and get matched accounts instantly.</p>\
+            <h2>How it works</h2>\
+            <p>Type the domain you want to find the look-alike to and our AI does the rest.</p>\
+            <h3>Too short</h3>\
+            <p>Two words</p>\
+        "
+        .to_string();
+
+        let result = get_markdown(html, "_stop_", false, false).unwrap();
+
+        assert_eq!(
+            result,
+            "# Ocean.io\n\n\
+             Search for companies in plain language and get matched accounts instantly\n\n\
+             ## How it works\n\n\
+             Type the domain you want to find the look-alike to and our AI does the rest\n\n\
+             ### Too short"
+        );
+        // "Two words" is exactly 2 words -- below the paragraph floor, so it's
+        // the heading that survives here, not the paragraph under it.
+        assert!(!result.contains("Two words"));
+    }
+
+    #[test]
+    fn test_get_markdown_parallel() {
+        let result = get_markdown_parallel(
+            vec![HTML.to_string(), HTML.to_string()],
+            "_stop_",
+            false,
+            false,
+        )
+        .unwrap();
+
+        assert_eq!(result.len(), 2);
+        assert_eq!(result[0], result[1]);
+        assert!(result[0].starts_with("# H1"));
+    }
+
+    #[test]
     fn test_get_sentences_parallel() {
         let result = get_sentences_parallel(
             vec![HTML.to_string(), HTML.to_string()],
@@ -464,6 +633,8 @@ fn html_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(tag_attribute, m)?)?;
     m.add_function(wrap_pyfunction!(get_sentences, m)?)?;
     m.add_function(wrap_pyfunction!(get_sentences_parallel, m)?)?;
+    m.add_function(wrap_pyfunction!(get_markdown, m)?)?;
+    m.add_function(wrap_pyfunction!(get_markdown_parallel, m)?)?;
     m.add_function(wrap_pyfunction!(get_href_attributes, m)?)?;
     m.add_function(wrap_pyfunction!(get_alternate_links, m)?)?;
     m.add_function(wrap_pyfunction!(get_lang, m)?)?;
