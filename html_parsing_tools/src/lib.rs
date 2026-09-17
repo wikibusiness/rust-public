@@ -1,12 +1,15 @@
+mod extract_text;
+mod regularize;
 mod text_nodes;
 mod utils;
 
 use kuchiki::{iter::NodeIterator, traits::TendrilSink};
 use linkify::{LinkFinder, LinkKind};
+use pyo3::exceptions::PyValueError;
 use pyo3::prelude::{pyclass, pyfunction, pymodule, wrap_pyfunction, Bound, PyModule, PyModuleMethods, PyResult};
 use rayon::prelude::*;
-use regex::RegexBuilder;
-use std::collections::HashMap;
+use regex::{Regex, RegexBuilder};
+use std::collections::{HashMap, HashSet};
 use text_nodes::*;
 use utils::*;
 
@@ -623,6 +626,60 @@ mod tests {
     }
 }
 
+#[pyfunction(name = "regularize")]
+fn regularize_py(text: String) -> String {
+    regularize::regularize(&text)
+}
+
+/// split_re defaults to the same SENTENCE_SPLIT_RE get_sentences/get_markdown
+/// use internally; pass "title" for company_name.py's TITLE_SPLIT_RE use, or
+/// any other pattern string for a custom split (Rust's regex crate supports
+/// the same \p{...} Unicode-category syntax the Python `regex` module does).
+#[pyfunction(name = "split_sentence")]
+#[pyo3(signature = (sentence, /, *, split_re=None, split_words=None))]
+fn split_sentence_py(sentence: String, split_re: Option<String>, split_words: Option<Vec<String>>) -> PyResult<Vec<String>> {
+    let compiled;
+    let re: &Regex = match split_re.as_deref() {
+        None => &text_nodes::SENTENCE_SPLIT_RE,
+        Some("title") => &text_nodes::TITLE_SPLIT_RE,
+        Some(pattern) => {
+            compiled = RegexBuilder::new(pattern)
+                .build()
+                .map_err(|e| PyValueError::new_err(e.to_string()))?;
+            &compiled
+        }
+    };
+    let words_set: Option<HashSet<&str>> = split_words.as_ref().map(|v| v.iter().map(String::as_str).collect());
+    Ok(text_nodes::split_sentence(&sentence, re, words_set.as_ref()))
+}
+
+/// Rust port of oceanai/utils/text_nodes.py's form_text_nodes -- text_nodes,
+/// grouped and regularized, from a flat sequence of extracted text elements
+/// (e.g. lxml's `element.itertext()`, or this crate's own
+/// get_text_nodes-shaped output).
+#[pyfunction(name = "form_text_nodes")]
+#[pyo3(signature = (text_elements, min_split=None))]
+fn form_text_nodes_py(text_elements: Vec<String>, min_split: Option<i32>) -> Vec<Vec<String>> {
+    text_nodes::form_text_nodes(&text_elements, min_split).unwrap_or_default()
+}
+
+/// Rust port of oceanai/utils/html_nodes.py's extract_text (+ its private
+/// _extract_cleaned_body/_extract_text_elements helpers). Does not cover
+/// extract_meta/extract_title/get_html_nodes/get_display_selectors/
+/// update_pages_text -- verified those have no caller anywhere outside
+/// html_nodes.py itself, so they're dead code in the Python source, not
+/// unported functionality.
+#[pyfunction(name = "extract_text")]
+#[pyo3(signature = (html, /, *, min_split=None))]
+fn extract_text_py(html: String, min_split: Option<i32>) -> HashMap<String, Vec<Vec<String>>> {
+    extract_text::extract_text(html, min_split)
+}
+
+#[pyfunction]
+fn remove_matching_links(html: String, texts: Vec<String>) -> String {
+    extract_text::remove_matching_links(html, texts)
+}
+
 /// A Python module implemented in Rust.
 #[pymodule]
 fn html_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
@@ -639,6 +696,11 @@ fn html_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(get_alternate_links, m)?)?;
     m.add_function(wrap_pyfunction!(get_lang, m)?)?;
     m.add_function(wrap_pyfunction!(get_meta_titles, m)?)?;
+    m.add_function(wrap_pyfunction!(regularize_py, m)?)?;
+    m.add_function(wrap_pyfunction!(split_sentence_py, m)?)?;
+    m.add_function(wrap_pyfunction!(form_text_nodes_py, m)?)?;
+    m.add_function(wrap_pyfunction!(extract_text_py, m)?)?;
+    m.add_function(wrap_pyfunction!(remove_matching_links, m)?)?;
     m.add_class::<GetSentencesResult>()?;
     Ok(())
 }
