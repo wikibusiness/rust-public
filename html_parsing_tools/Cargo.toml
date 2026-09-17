@@ -2,7 +2,7 @@
 
 [package]
 name = "html_parsing_tools"
-version = "0.45.0"
+version = "0.46.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -11,6 +11,8 @@ name = "html_parsing_tools"
 crate-type = ["cdylib"]
 
 [dependencies]
+deunicode = "1.6.2"
+html-escape = "0.2.15"
 kuchiki = "0.8.1"
 lazy_static = "1.5.0"
 linkify = "0.10.0"
@@ -19,6 +21,7 @@ rayon = "1.10.0"
 regex = "1.11.1"
 rust_iso3166 = "0.1.13"
 unicode-general-category = "1.0.0"
+unicode-normalization = "0.1.25"
 
 [features]
 extension-module = ["pyo3/extension-module"]

@@ -4,5 +4,6 @@ build-backend = "maturin"
 
 [project]
 name = "html_parsing_tools"
+dynamic = ["version"]
 requires-python = ">=3.7"
 classifiers = ["Programming Language :: Rust"]

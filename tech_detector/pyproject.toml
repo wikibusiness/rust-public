@@ -4,5 +4,6 @@ build-backend = "maturin"
 
 [project]
 name = "tech_detector"
+dynamic = ["version"]
 requires-python = ">=3.12"
 classifiers = ["Programming Language :: Rust"]

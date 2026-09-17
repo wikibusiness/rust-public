@@ -4,5 +4,6 @@ build-backend = "maturin"
 
 [project]
 name = "human_name_parser"
+dynamic = ["version"]
 requires-python = ">=3.7"
 classifiers = ["Programming Language :: Rust"]

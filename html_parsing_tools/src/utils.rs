@@ -140,10 +140,50 @@ pub fn get_text_string(node: &NodeRef, separator: &str) -> String {
     get_text_nodes(node).join(separator)
 }
 
+/// lxml's Cleaner(remove_tags=...) doesn't just reparent an unwrapped
+/// element's children as separate siblings -- it merges runs of adjacent
+/// text into one string (verified against the real Python output, not
+/// assumed). unwrap_tag alone leaves them as separate sibling text nodes;
+/// call this afterward to match, since form_text_nodes' grouping treats
+/// separate items differently from one merged one, especially at
+/// min_split=0 where nothing downstream re-merges them.
+pub fn merge_adjacent_text_nodes(document: &NodeRef) {
+    for node in document.inclusive_descendants() {
+        let mut child = node.first_child();
+        while let Some(current) = child {
+            let next = current.next_sibling();
+            if let (Some(cur_text), Some(next_node)) = (current.as_text(), next.clone()) {
+                if let Some(next_text) = next_node.as_text() {
+                    let appended = next_text.borrow().clone();
+                    cur_text.borrow_mut().push_str(&appended);
+                    next_node.detach();
+                    child = Some(current);
+                    continue;
+                }
+            }
+            child = next;
+        }
+    }
+}
+
 pub fn remove_tag(document: &NodeRef, tag: &str) {
     let tag_nodes = document.select(tag).unwrap();
     for tag_node in tag_nodes.collect::<Vec<_>>() {
         let as_node = tag_node.as_node();
+        as_node.detach();
+    }
+}
+
+/// Removes an element but keeps its children in its place -- Python's
+/// lxml_html_clean.Cleaner(remove_tags=...), used for formatting tags
+/// (b/strong/em/...) where the wrapper is noise but the text inside isn't.
+pub fn unwrap_tag(document: &NodeRef, tag: &str) {
+    let tag_nodes = document.select(tag).unwrap();
+    for tag_node in tag_nodes.collect::<Vec<_>>() {
+        let as_node = tag_node.as_node();
+        for child in as_node.children().collect::<Vec<_>>() {
+            as_node.insert_before(child);
+        }
         as_node.detach();
     }
 }

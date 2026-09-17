@@ -1,3 +1,4 @@
+use crate::regularize::regularize;
 use lazy_static::lazy_static;
 use regex::{Regex, RegexBuilder};
 use std::collections::HashSet;
@@ -22,6 +23,26 @@ lazy_static! {
 }
 
 lazy_static! {
+    // Verified against the Python source (oceanai/utils/html_nodes.py's
+    // TITLE_SPLIT_RE) byte for byte, including its `p{Pd}\p{Zs}` branch --
+    // that's missing a backslash before the second \p{Pd} and doesn't
+    // actually match a dash, it matches the literal text "p{Pd}" (confirmed:
+    // "About p{Pd} Us" really does split on it). Pre-existing bug in the
+    // Python regex, not reproduced here by accident -- kept as-is for exact
+    // parity with company_name.py's live behavior; flagged, not fixed.
+    // Rust's regex crate is stricter than Python's `regex` module about
+    // unescaped `{`/`}` that don't form a valid quantifier -- Python treats
+    // `p{Pd}` as literal text (verified: it does), Rust's engine errors on
+    // it as a malformed repetition. Escaped here (`p\{Pd\}`) to keep the
+    // exact same literal-text matching behavior, not to "fix" the pattern.
+    pub static ref TITLE_SPLIT_RE: Regex = RegexBuilder::new(
+        r"\||\p{Zs}\p{Pd}|p\{Pd\}\p{Zs}|\p{Zs}>|>\p{Zs}|<\p{Zs}|\p{Zs}<|\p{Zs}/|/\p{Zs}|\p{Zs}\x{bb}|\x{bb}\p{Zs}|\p{Zs}\x{ab}|\x{ab}\p{Zs}|:|\x{2022}|\||\x{2223}|]"
+    )
+    .build()
+    .expect("Invalid Regex");
+}
+
+lazy_static! {
     static ref WORD_WITH_DOT_RE: Regex = RegexBuilder::new(r"^\.([\p{L}\p{N}]*)")
         .case_insensitive(true)
         .build()
@@ -41,12 +62,34 @@ lazy_static! {
 }
 
 lazy_static! {
-    static ref SENTENCE_SPLIT_RE: Regex = RegexBuilder::new(r"\||\p{Zs}\-|\-\p{Zs}")
+    pub static ref SENTENCE_SPLIT_RE: Regex = RegexBuilder::new(r"\||\p{Zs}\-|\-\p{Zs}")
         .build()
         .expect("Invalid Regex");
 }
 
-// called form_text_nodes in Python
+/// Python's `form_text_nodes`: group_text_nodes' grouping/splitting, then
+/// regularize every resulting sentence and drop any node left empty by that
+/// (mirrors _regularize_nodes, which text_nodes.py's own form_text_nodes
+/// always applies -- there's no raw variant to match against).
+pub fn form_text_nodes(sentences: &[String], min_split: Option<i32>) -> Option<Vec<Vec<String>>> {
+    let nodes = group_text_nodes(sentences, min_split)?;
+    let regularized: Vec<Vec<String>> = nodes
+        .into_iter()
+        .map(|node| {
+            node.into_iter()
+                .map(|s| regularize(&s))
+                .filter(|s| !s.is_empty())
+                .collect::<Vec<String>>()
+        })
+        .filter(|node: &Vec<String>| !node.is_empty())
+        .collect();
+    if regularized.is_empty() {
+        None
+    } else {
+        Some(regularized)
+    }
+}
+
 pub fn group_text_nodes(sentences: &[String], min_split: Option<i32>) -> Option<Vec<Vec<String>>> {
     if sentences.is_empty() {
         return None;
@@ -142,7 +185,7 @@ fn select_min_split(sentences: &[String]) -> i32 {
     median
 }
 
-fn split_sentence(
+pub fn split_sentence(
     sentence: &str,
     split_re: &Regex,
     split_words: Option<&HashSet<&str>>,
@@ -367,6 +410,19 @@ mod tests {
     }
 
     #[test]
+    fn test_title_split_re_matches_python_reference_including_the_bug() {
+        // Captured from oceanai.utils.html_nodes.TITLE_SPLIT_RE.
+        assert_eq!(
+            split_sentence("Ocean.io - Find companies-p{Pd} test", &TITLE_SPLIT_RE, None),
+            ["Ocean.io", "Find companies-", "test"],
+        );
+        assert_eq!(
+            split_sentence("Ocean.io | About p{Pd} Us", &TITLE_SPLIT_RE, None),
+            ["Ocean.io", "About", "Us"],
+        );
+    }
+
+    #[test]
     fn test_join_sentences() {
         let sentences = vec!["tel.", ":", "+390441234567"];
         assert_eq!(join_sentences(&sentences), "tel.: +390441234567");
@@ -512,6 +568,41 @@ mod tests {
         assert_eq!(
             regroup_node(&sentences),
             ["Vinissimus le recuerda que no está permitida la venta de bebidas alcohólicas a menores de 18 años y le recomienda consumirlas con moderación, que es como mejor se disfrutan."],
+        );
+    }
+
+    #[test]
+    fn test_form_text_nodes_matches_python_reference() {
+        // Captured from oceanai.utils.text_nodes.form_text_nodes on the same
+        // input, not hand-derived.
+        let nodes = convert_to_string(&[
+            "Ocean.io",
+            " ",
+            "\n",
+            "Search &amp;amp; find",
+            "\n",
+            "companies",
+            "\n",
+            "\n",
+            "Caf\u{e9} &eacute;t\u{e9}",
+            "\n",
+        ]);
+
+        assert_eq!(
+            form_text_nodes(&nodes, None).unwrap(),
+            [
+                vec!["Ocean.io", "Search &amp; find", "companies"],
+                vec!["Caf\u{e9} \u{e9}t\u{e9}"],
+            ],
+        );
+        assert_eq!(
+            form_text_nodes(&nodes, Some(0)).unwrap(),
+            [
+                vec!["Ocean.io"],
+                vec!["Search &amp; find"],
+                vec!["companies"],
+                vec!["Caf\u{e9} \u{e9}t\u{e9}"],
+            ],
         );
     }
 
