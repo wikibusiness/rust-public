@@ -637,7 +637,7 @@ fn regularize_py(text: String) -> String {
 /// the same \p{...} Unicode-category syntax the Python `regex` module does).
 #[pyfunction(name = "split_sentence")]
 #[pyo3(signature = (sentence, /, *, split_re=None, split_words=None))]
-fn split_sentence_py(sentence: String, split_re: Option<String>, split_words: Option<Vec<String>>) -> PyResult<Vec<String>> {
+fn split_sentence_py(sentence: String, split_re: Option<String>, split_words: Option<HashSet<String>>) -> PyResult<Vec<String>> {
     let compiled;
     let re: &Regex = match split_re.as_deref() {
         None => &text_nodes::SENTENCE_SPLIT_RE,
