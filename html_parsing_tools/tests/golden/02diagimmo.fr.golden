@@ -88,25 +88,25 @@ Audit énergétique Neuilly-sur-Seine DPE Pinon Diagnostic immobilier Braine DPE
 <title>DPE Soissons 02200 | 02 DIAG'IMMO</title>
 
 === html_contents ===
-<!DOCTYPE html><html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml"><head>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr"><head>
 	<title>DPE Soissons 02200 | 02 DIAG'IMMO</title>
 	
-	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
-	 <meta content="index, follow" name="robots">	<meta content="02,DIAG'IMMO,met,à,votre,disposition,des,diagnostiqueurs,immobiliers,certifiés,pour,vous,guider,dans,votre,projet" name="keywords">
-	<meta content="02 DIAG'IMMO met à votre disposition des diagnostiqueurs immobiliers certifiés pour vous guider dans votre projet" name="description">
-	    <meta content="J_bsMancpQsTURj0MKWiEeQfIrEbAL9QCBOpDIgL4ZM" name="google-site-verification">
-		<meta content="49.3808, 3.32611" name="ICBM">
-	<meta content="49.3808;3.32611" name="geo.position">
-			<meta content="Soissons" name="geo.placename">
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	 <meta name="robots" content="index, follow">	<meta name="keywords" content="02,DIAG'IMMO,met,à,votre,disposition,des,diagnostiqueurs,immobiliers,certifiés,pour,vous,guider,dans,votre,projet">
+	<meta name="description" content="02 DIAG'IMMO met à votre disposition des diagnostiqueurs immobiliers certifiés pour vous guider dans votre projet">
+	    <meta name="google-site-verification" content="J_bsMancpQsTURj0MKWiEeQfIrEbAL9QCBOpDIgL4ZM">
+		<meta name="ICBM" content="49.3808, 3.32611">
+	<meta name="geo.position" content="49.3808;3.32611">
+			<meta name="geo.placename" content="Soissons">
 	    <link href="https://www.02diagimmo.fr/favicon.png" rel="icon" type="image/x-icon">
-	<meta content="width=device-width" name="viewport"> 
+	<meta name="viewport" content="width=device-width"> 
 	<link href="./css/defaut.css" rel="stylesheet" type="text/css">
-	<link href="./css/jquery.mmenu.all.css" rel="stylesheet" type="text/css">
-	<link href="./css/jquery.mmenu.positioning.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="./css/jquery.mmenu.all.css">
+	<link type="text/css" rel="stylesheet" href="./css/jquery.mmenu.positioning.css">
 
 	<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css">
-	<link href="./css/jquery.mmenu.all.css" rel="stylesheet" type="text/css">
-	<link href="./css/jquery.mmenu.positioning.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="./css/jquery.mmenu.all.css">
+	<link type="text/css" rel="stylesheet" href="./css/jquery.mmenu.positioning.css">
 	</head>
 
 <body>
@@ -117,15 +117,15 @@ Audit énergétique Neuilly-sur-Seine DPE Pinon Diagnostic immobilier Braine DPE
 
 
     <div class="top">
-      <a href="/" id="logo"><img alt="Diagnostic immobilier Soissons" src="images/logo.png"></a>
-      <a class="pos" href="#menu"></a>
+      <a href="/" id="logo"><img src="images/logo.png" alt="Diagnostic immobilier Soissons"></a>
+      <a href="#menu" class="pos"></a>
     </div>
 
     <!-- <div class="avis-opinion-system">
       <iframe src="https://www.opinionsystem.fr/company_rating.php?company_id=20664&professional_activity_id=0&rating_key=10ebf637495e2c4fcd6db202bb741bf5&language=fr-FR&text_color=000000" scrolling="no" frameborder="0" style="border: none; overflow: hidden; height: 22px; min-width:188px;" allowTransparency="true"></iframe>
     </div> -->
 
-    <a href="https://02diagimmo.sogexpert.com" id="client" target="_blank">
+    <a href="https://02diagimmo.sogexpert.com" target="_blank" id="client">
       <p class="t3">Espace client</p>
     </a>
 
@@ -232,40 +232,40 @@ Audit énergétique Neuilly-sur-Seine DPE Pinon Diagnostic immobilier Braine DPE
     </div>
     <div id="express">
 
-      <a class="btndevis" href="/devis-express.php">Vente ou location ?<br><span>Demandez votre devis gratuit</span></a>
+      <a href="/devis-express.php" class="btndevis">Vente ou location ?<br><span>Demandez votre devis gratuit</span></a>
     </div>
 
 
     <!-- MENU -->
 
-    <div class="accordion" id="js_version">
+    <div id="js_version" class="accordion">
       <ol>
         <li data-slide-name="slide1">
-          <p class="a t2"><span><img alt="DPE Soissons" height="44" src="images/vente.png" width="42"> Obligations vente</span></p>
+          <p class="a t2"><span><img src="images/vente.png" width="42" height="44" alt="DPE Soissons"> Obligations vente</span></p>
           <div>
-            <a class="btnslide" href="obligations-vente-proprietaires-i10.html">En savoir plus</a>
-            <img alt="Diagnostic immobilier Pinon" src="images/vente-int.jpg">
+            <a href="obligations-vente-proprietaires-i10.html" class="btnslide">En savoir plus</a>
+            <img src="images/vente-int.jpg" alt="Diagnostic immobilier Pinon">
           </div>
         </li>
         <li data-slide-name="slide2">
-          <p class="b t2"><span><img alt="Diagnostic technique global Soissons" height="44" src="images/location.png" width="42"> Obligations location</span></p>
+          <p class="b t2"><span><img src="images/location.png" width="42" height="44" alt="Diagnostic technique global Soissons"> Obligations location</span></p>
           <div>
-            <a class="btnslide" href="obligations-location-proprietaires-i9.html">En savoir plus</a>
-            <img alt="DPE Laon" src="images/location-int.jpg">
+            <a href="obligations-location-proprietaires-i9.html" class="btnslide">En savoir plus</a>
+            <img src="images/location-int.jpg" alt="DPE Laon">
           </div>
         </li>
         <li data-slide-name="slide3">
-          <p class="c t2"><span><img alt="DPE Compiègne" height="44" src="images/dtg.png" width="42"> DTG</span></p>
+          <p class="c t2"><span><img src="images/dtg.png" width="42" height="44" alt="DPE Compiègne"> DTG</span></p>
           <div>
-            <a class="btnslide" href="diagnostic-technique-global-i14.html">En savoir plus</a>
-            <img alt="Amiante avant travaux Laon" src="images/dtg-ext.jpg">
+            <a href="diagnostic-technique-global-i14.html" class="btnslide">En savoir plus</a>
+            <img src="images/dtg-ext.jpg" alt="Amiante avant travaux Laon">
           </div>
         </li>
         <li data-slide-name="slide4">
-          <p class="d t2"><span><img alt="Diagnostic technique global Compiègne" height="44" src="images/amiante.png" width="42"> amiante avant travaux</span></p>
+          <p class="d t2"><span><img src="images/amiante.png" width="42" height="44" alt="Diagnostic technique global Compiègne"> amiante avant travaux</span></p>
           <div>
-            <a class="btnslide" href="reperage-amiante-avant-travaux-demolition-i19.html">En savoir plus</a>
-            <img alt="Diagnostic immobilier Laon" src="images/travaux.jpg" width="768">
+            <a href="reperage-amiante-avant-travaux-demolition-i19.html" class="btnslide">En savoir plus</a>
+            <img src="images/travaux.jpg" width="768" alt="Diagnostic immobilier Laon">
           </div>
         </li>
 
@@ -278,21 +278,21 @@ Audit énergétique Neuilly-sur-Seine DPE Pinon Diagnostic immobilier Braine DPE
       <p><span>DEMANDE DE DEVIS </span><br>
         Réponse rapide et gratuite</p>
 
-      <form action="devis-express.php" id="devisform2" method="post" name="devisform2">
+      <form id="devisform2" name="devisform2" method="post" action="devis-express.php">
 
-        <input class="formu" name="nom" onclick="this.value=''" type="text" value="Nom">
-
-
-        <input class="formu" name="telephone" onclick="this.value=''" type="text" value="Téléphone">
+        <input class="formu" type="text" name="nom" value="Nom" onclick="this.value=''">
 
 
-        <input class="formu " name="codepostal" onclick="this.value=''" type="text" value="Code postal">
+        <input class="formu" type="text" name="telephone" value="Téléphone" onclick="this.value=''">
+
+
+        <input class="formu " type="text" name="codepostal" value="Code postal" onclick="this.value=''">
 
 
 
 
-        <input class="formu  " name="email" onclick="this.value=''" type="text" value="E-mail">
-        <select class="custom-select" name="typebien">
+        <input class="formu  " type="text" name="email" value="E-mail" onclick="this.value=''">
+        <select name="typebien" class="custom-select">
           <option value="">Type de transaction</option>
           <option value="vente">Vente</option>
           <option value="location">Location</option>
@@ -336,11 +336,11 @@ Audit énergétique Neuilly-sur-Seine DPE Pinon Diagnostic immobilier Braine DPE
     <p class="t2">03 62 27 61 75</p>
   </div>
 
-  <a class="dpe" href="/dpe-mention-tertiaire-i15.html"><img alt="DPE Villers-Cotterêts" height="142" src="images/dpe.png" width="211"></a>
+  <a class="dpe" href="/dpe-mention-tertiaire-i15.html"><img src="images/dpe.png" width="211" height="142" alt="DPE Villers-Cotterêts"></a>
   <div class="certification">
     <p class="t2">ASSURANCE &amp; CERTIFICATION</p>
     Notre travail est assuré et certifié par<br>
-    <img alt="Diagnostic immobilier Chauny" height="76" src="images/certif.jpg" width="238">
+    <img src="images/certif.jpg" width="238" height="76" alt="Diagnostic immobilier Chauny">
   </div>
 </div>
 
@@ -407,12 +407,12 @@ Audit énergétique Neuilly-sur-Seine DPE Pinon Diagnostic immobilier Braine DPE
   <div class="content_footer">
     <div class="firm">
       <div>
-        ©02 DIAG'IMMO | <a class="none" href="https://www.02diagimmo.fr">Diagnostic immobilier Soissons</a>| RCS : 831961677 | <a class="blue" href="/mentions-legales.html">Mentions légales</a> | <a href="images/politique-confidentialite-Immo Services.pdf" target="_blank">Politique de confidentialité</a>
+        ©02 DIAG'IMMO | <a href="https://www.02diagimmo.fr" class="none">Diagnostic immobilier Soissons</a>| RCS : 831961677 | <a class="blue" href="/mentions-legales.html">Mentions légales</a> | <a href="images/politique-confidentialite-Immo Services.pdf" target="_blank">Politique de confidentialité</a>
       </div>
     </div>
     <div class="FR">
-      <a class="arobizing" href="//www.arobiz.com" target="_blank"><img alt="DPE Braine" src="images/arobiz.png" style="margin:-5px 0 0 0;"></a>
-      Création web : <a class="blue" href="//www.arobiz.com" target="_blank">www.arobiz.com</a>
+      <a class="arobizing" href="//www.arobiz.com" target="_blank"><img src="images/arobiz.png" style="margin:-5px 0 0 0;" alt="DPE Braine"></a>
+      Création web : <a href="//www.arobiz.com" target="_blank" class="blue">www.arobiz.com</a>
     </div>
 
 

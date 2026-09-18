@@ -84,7 +84,7 @@ fr
   
 </head>
 <body class="body-coming_soon">
-  <div class="logo-coming_soon"><img alt="logo de 01 pompage" loading="lazy" sizes="200px" src="images/logo-01pompage-white.png" srcset="images/logo-01pompage-white-p-500.png 500w, images/logo-01pompage-white-p-800.png 800w, images/logo-01pompage-white.png 998w" width="200"></div>
+  <div class="logo-coming_soon"><img src="images/logo-01pompage-white.png" loading="lazy" width="200" sizes="200px" srcset="images/logo-01pompage-white-p-500.png 500w, images/logo-01pompage-white-p-800.png 800w, images/logo-01pompage-white.png 998w" alt="logo de 01 pompage"></div>
   <div class="main-container text-white">
     <div class="container-large text-center align-center">
       <h1 class="display-heading">Site web en cours</h1>
@@ -107,9 +107,9 @@ fr
       <div>
         <h3 class="footer-heading">Suivre nos actualités</h3>
         <div>Abonnez-vous à notre page Linkedin pour tout savoir de notre actualité.</div>
-        <a class="underline-link text-white margin-top-15 w-inline-block" href="https://www.linkedin.com/in/julien-poucet-0714a0187/" target="_blank">
+        <a href="https://www.linkedin.com/in/julien-poucet-0714a0187/" target="_blank" class="underline-link text-white margin-top-15 w-inline-block">
           <div class="link-with-arrow">
-            <div>Nous suivre</div><img alt="" class="link-arrow-image" src="images/icon-chevron-right_1.svg">
+            <div>Nous suivre</div><img src="images/icon-chevron-right_1.svg" alt="" class="link-arrow-image">
           </div>
           <div class="underline-container bg-white">
             <div class="underline-line bg-white"></div>

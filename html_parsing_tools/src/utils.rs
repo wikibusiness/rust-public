@@ -1,5 +1,5 @@
-use kuchiki::iter::NodeIterator;
-use kuchiki::NodeRef;
+use kuchikiki::iter::NodeIterator;
+use kuchikiki::NodeRef;
 use lazy_static::lazy_static;
 use regex::Regex;
 use std::collections::{HashMap, HashSet};

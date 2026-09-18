@@ -103,16 +103,16 @@
 
    <meta charset="utf-8">
 
-		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-   <meta content="8fa045d1b9160230" name="yandex-verification">
-	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<meta content="index, follow" name="robots">
-<meta content="Противопожарные двери" name="keywords">
-<meta content="Купить противопожарные двери в Москве и Московской области. В нашем интернет-магазине вы сможете заказать недорого противопожарные двери : отличная цена от производителя, а предлагаемая продукция отличается качеством и надежностью" name="description">
-<link href="/bitrix/cache/css/s1/xml_catalog/kernel_main/kernel_main.css?167837886449398" rel="stylesheet" type="text/css">
-<link href="/bitrix/cache/css/s1/xml_catalog/page_d9b528cbf26119591c00f7ff733c6549/page_d9b528cbf26119591c00f7ff733c6549.css?1678029359614" rel="stylesheet" type="text/css">
-<link href="/bitrix/panel/main/popup.min.css?148250605520476" rel="stylesheet" type="text/css">
-<link data-template-style="true" href="/bitrix/cache/css/s1/xml_catalog/template_79fb3897a5896a9efc2df22b152bc396/template_79fb3897a5896a9efc2df22b152bc396.css?16780290572545" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="yandex-verification" content="8fa045d1b9160230">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<meta name="keywords" content="Противопожарные двери">
+<meta name="description" content="Купить противопожарные двери в Москве и Московской области. В нашем интернет-магазине вы сможете заказать недорого противопожарные двери : отличная цена от производителя, а предлагаемая продукция отличается качеством и надежностью">
+<link href="/bitrix/cache/css/s1/xml_catalog/kernel_main/kernel_main.css?167837886449398" type="text/css" rel="stylesheet">
+<link href="/bitrix/cache/css/s1/xml_catalog/page_d9b528cbf26119591c00f7ff733c6549/page_d9b528cbf26119591c00f7ff733c6549.css?1678029359614" type="text/css" rel="stylesheet">
+<link href="/bitrix/panel/main/popup.min.css?148250605520476" type="text/css" rel="stylesheet">
+<link href="/bitrix/cache/css/s1/xml_catalog/template_79fb3897a5896a9efc2df22b152bc396/template_79fb3897a5896a9efc2df22b152bc396.css?16780290572545" type="text/css" data-template-style="true" rel="stylesheet">
 
 
 
@@ -128,9 +128,9 @@
 
 	<title>Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге | МАГАЗИН 01</title>
 
-    <link href="/bitrix/templates/xml_catalog/css/style.css" rel="stylesheet">
-    <link href="/bitrix/templates/xml_catalog/css/jquery.validate.css" rel="stylesheet">
-    <link href="/bitrix/templates/xml_catalog/css/jquery.fancybox.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bitrix/templates/xml_catalog/css/style.css">
+    <link rel="stylesheet" href="/bitrix/templates/xml_catalog/css/jquery.validate.css">
+    <link rel="stylesheet" href="/bitrix/templates/xml_catalog/css/jquery.fancybox.css">
 
 	<!--[if lt IE 9]>
 	  <script src="js/components/html5shiv.min.js"></script>
@@ -142,8 +142,8 @@
     
     
     
-<meta content="7a5b96f8125c6d41" name="yandex-verification">
-<meta content="NazKJ8Z_TCTZRM3MlX3Vakec6pUHc-ZwedPDYRpjoEI" name="google-site-verification">
+<meta name="yandex-verification" content="7a5b96f8125c6d41">
+<meta name="google-site-verification" content="NazKJ8Z_TCTZRM3MlX3Vakec6pUHc-ZwedPDYRpjoEI">
 </head>
 
 <body>
@@ -164,7 +164,7 @@
 
 
 
-<a class="js-modal_white" href="#order" id="odait" style="display:none">Модальное окно "Заказ товара"</a>
+<a id="odait" style="display:none" href="#order" class="js-modal_white">Модальное окно "Заказ товара"</a>
 <div id="order" style="display: none;">
 
 	<div class="modal modal-animate modal_500 modal-white">
@@ -177,9 +177,9 @@
 				<tbody><tr>
 					<td>
 						<div class="order-item">
-							<figure class="order-item_image"><img alt="" id="od3" src="/bitrix/templates/xml_catalog/images/doors_min.png"></figure><!-- /order-item_image -->
+							<figure class="order-item_image"><img id="od3" src="/bitrix/templates/xml_catalog/images/doors_min.png" alt=""></figure><!-- /order-item_image -->
 							<div class="order-item_desc">
-								<strong class="order-item_title"><a href="#" id="od2">Дверь деревянная шпонированная EI-30 Шпон дуб беленый</a></strong><!-- /order-item_title -->
+								<strong class="order-item_title"><a id="od2" href="#">Дверь деревянная шпонированная EI-30 Шпон дуб беленый</a></strong><!-- /order-item_title -->
 								<p class="order-item_price"><span id="od1">10 500<span><span class="rub">a</span></span></span></p><!-- /order-item_price -->
 							</div><!-- /"order-item_desc -->
 						</div><!-- /order-item -->
@@ -188,7 +188,7 @@
 						<strong class="order-title_sub">Количество:</strong><!-- /order-title_sub -->
 						<ul class="spinner">
 							<li><button class="btn btn-grey btn-spinner">-</button></li>
-							<li><input class="form-text" id="od4" type="text" value="1"></li>
+							<li><input id="od4" type="text" value="1" class="form-text"></li>
 							<li><button class="btn btn-grey btn-spinner">+</button></li>
 						</ul><!-- /spinner -->
 					</td>
@@ -199,29 +199,29 @@
 		<hr>
 
 		<div class="form">
-			<form action="javascript:addOrder();" id="validate_order">
+			<form id="validate_order" action="javascript:addOrder();">
 				<strong class="form-title">Обратная связь</strong><!-- /form-title -->
 				<em class="form-caption">Пожалуйста, заполните форму ниже. Наш сотрудник  свяжется с вами в ближайшее время</em><!-- /form-caption -->
 				<div class="form-row">
 					<label class="form-label">Имя</label><!-- /form-label -->
 					<div class="form-field">
-						<input class="form-text" data-validate="validate(required)" id="ii1" type="text">
+						<input type="text" id="ii1" data-validate="validate(required)" class="form-text">
 					</div><!-- /form-field -->
 				</div><!-- /form-row -->
 				<div class="form-row">
 					<label class="form-label"><small>Телефон<br>или e-mail</small></label><!-- /form-label -->
 					<div class="form-field">
-						<input class="form-text" data-validate="validate(required)" id="ii2" type="text">
+						<input type="text" id="ii2" data-validate="validate(required)" class="form-text">
 					</div><!-- /form-field -->
 				</div><!-- /form-row -->
 				<div class="form-row">
 					<label class="form-label">Комментарий</label><!-- /form-label -->
 					<div class="form-field">
-						<textarea class="form-textarea" cols="30" data-validate="validate(rangelength(10,140))" id="ii3" rows="10"></textarea>
+						<textarea id="ii3" cols="30" rows="10" data-validate="validate(rangelength(10,140))" class="form-textarea"></textarea>
 					</div><!-- /form-field -->
 				</div><!-- /form-row -->
 				<div class="clearfix">
-					<input class="btn btn-grey pull-right" type="submit" value="ОТПРАВИТЬ">
+					<input type="submit" value="ОТПРАВИТЬ" class="btn btn-grey pull-right">
 				</div><!-- /clearfix -->
 			</form>
 			
@@ -262,18 +262,18 @@
 		<button class="modal-close js-modal_close"></button><!-- /modal-close -->
 
 		<div class="call_back">
-			<form action="javascript:phonecall();" id="validate_call_back">
+			<form id="validate_call_back" action="javascript:phonecall();">
 				<strong class="call_back-title">Заказать обратный звонок</strong><!-- /call-bback_title -->
 				<div class="form-field">
-					<input class="call_back-text" data-validate="validate(required)" placeholder="Ваше имя" type="text">
+					<input type="text" placeholder="Ваше имя" data-validate="validate(required)" class="call_back-text">
 				</div><!-- /form-field -->
 				
 				<div class="form-field">
-					<input class="call_back-text" data-validate="validate(required, number)" placeholder="Телефон" type="text">
+					<input type="text" placeholder="Телефон" data-validate="validate(required, number)" class="call_back-text">
 				</div><!-- /form-field -->
 				
 				<div class="text-center">
-					<input class="btn btn-white" type="submit" value="Отправить">
+					<input type="submit" value="Отправить" class="btn btn-white">
 				</div><!-- /text-center -->
 			</form>
 				
@@ -292,13 +292,13 @@
 
 			<div class="clearfix">
 				<div class="logo">
-					<figure class="logo-image"><a href="/"><img alt="01-magazin.ru" src="/bitrix/templates/xml_catalog/images/logo.png"></a></figure><!-- /logo-image -->
+					<figure class="logo-image"><a href="/"><img src="/bitrix/templates/xml_catalog/images/logo.png" alt="01-magazin.ru"></a></figure><!-- /logo-image -->
 					<strong class="logo-text">Противопожарные двери<br>от производителя в Москве</strong><!-- /logo-text -->
 				</div><!-- /logo -->
 				<div class="contacts">
 					<b><span class="icon-phone"></span>+7(926)821 20 07</b>
 					<p><span class="icon-mail"></span>9791020@mail.ru</p>
-					<a class="link-dashed js-modal" href="#call_back" title="Обратный звонок">Обратный звонок</a>
+					<a href="#call_back" title="Обратный звонок" class="link-dashed js-modal">Обратный звонок</a>
 				</div><!-- /contacts -->
 			</div><!-- /clearfix -->
 
@@ -375,36 +375,36 @@
 
 
 																														<li id="bx_3218110189_28">
-														<a href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/" style="z-index: 300;position: relative;text-decoration: none;">
+														<a style="z-index: 300;position: relative;text-decoration: none;" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/">
 															<figure class="slides-image">
-																<img alt="" src="/upload/iblock/0b9/banner2.1.jpg">
+																<img src="/upload/iblock/0b9/banner2.1.jpg" alt="">
 															</figure><!-- /slides-image -->
-															<div class="slides-caption" style="top: -355px;z-index: 100;position: absolute;">
-																	<strong class="slides-title" style="text-decoration: none;margin-top: 150px;">ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60</strong><!-- /slides-title -->
+															<div style="top: -355px;z-index: 100;position: absolute;" class="slides-caption">
+																	<strong style="text-decoration: none;margin-top: 150px;" class="slides-title">ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60</strong><!-- /slides-title -->
 																	<span class="btn btn-blue">Каталог</span>
 															</div><!-- /slides-caption -->
 															
 														</a>
 													</li>
 																														<li id="bx_3218110189_29">
-														<a href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-02-90/" style="z-index: 300;position: relative;text-decoration: none;">
+														<a style="z-index: 300;position: relative;text-decoration: none;" href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-02-90/">
 															<figure class="slides-image">
-																<img alt="" src="/upload/iblock/688/banner3.1.jpg">
+																<img src="/upload/iblock/688/banner3.1.jpg" alt="">
 															</figure><!-- /slides-image -->
-															<div class="slides-caption" style="top: -355px;z-index: 100;position: absolute;">
-																	<strong class="slides-title" style="text-decoration: none;margin-top: 150px;">ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90</strong><!-- /slides-title -->
+															<div style="top: -355px;z-index: 100;position: absolute;" class="slides-caption">
+																	<strong style="text-decoration: none;margin-top: 150px;" class="slides-title">ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90</strong><!-- /slides-title -->
 																	<span class="btn btn-blue">Каталог</span>
 															</div><!-- /slides-caption -->
 															
 														</a>
 													</li>
 																														<li id="bx_3218110189_1">
-														<a href="/catalog/" style="z-index: 300;position: relative;text-decoration: none;">
+														<a style="z-index: 300;position: relative;text-decoration: none;" href="/catalog/">
 															<figure class="slides-image">
-																<img alt="" src="/upload/iblock/1e0/img_banner1.jpg">
+																<img src="/upload/iblock/1e0/img_banner1.jpg" alt="">
 															</figure><!-- /slides-image -->
-															<div class="slides-caption" style="top: -355px;z-index: 100;position: absolute;">
-																	<strong class="slides-title" style="text-decoration: none;margin-top: 150px;">Противопожарные двери<br>Безопасность превыше всего</strong><!-- /slides-title -->
+															<div style="top: -355px;z-index: 100;position: absolute;" class="slides-caption">
+																	<strong style="text-decoration: none;margin-top: 150px;" class="slides-title">Противопожарные двери<br>Безопасность превыше всего</strong><!-- /slides-title -->
 																	<span class="btn btn-blue">Каталог</span>
 															</div><!-- /slides-caption -->
 															
@@ -412,8 +412,8 @@
 													</li>
 								
 				</ul><!-- /slides -->
-				<a class="slides-prev" href="#" id="slides-prev"></a>
-				<a class="slides-next" href="#" id="slides-next"></a>
+				<a href="#" class="slides-prev" id="slides-prev"></a>
+				<a href="#" class="slides-next" id="slides-next"></a>
 			</div><!-- /slides-section -->		 <div class="doors">
 				
 	
@@ -423,7 +423,7 @@
 		
 				
 		
-		<li id="bx_1847241719_1"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-dveri/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_1.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-dveri/">Противопожарные двери</a></strong>
+		<li id="bx_1847241719_1"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-dveri/"><img src="/bitrix/templates/xml_catalog/images/doors_1.png" alt=""></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-dveri/">Противопожарные двери</a></strong>
 		<ul class="doors-item_menu">
 		
 		
@@ -475,7 +475,7 @@
 		
 				
 		
-		<li id="bx_1847241719_2"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-vorota/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_2.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-vorota/">Противопожарные ворота</a></strong>
+		<li id="bx_1847241719_2"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-vorota/"><img src="/bitrix/templates/xml_catalog/images/doors_2.png" alt=""></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-vorota/">Противопожарные ворота</a></strong>
 		<ul class="doors-item_menu">
 		
 		
@@ -509,7 +509,7 @@
 		
 				
 		
-		<li id="bx_1847241719_3"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-lyuki/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_3.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-lyuki/">Противопожарные люки</a></strong>
+		<li id="bx_1847241719_3"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-lyuki/"><img src="/bitrix/templates/xml_catalog/images/doors_3.png" alt=""></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-lyuki/">Противопожарные люки</a></strong>
 		<ul class="doors-item_menu">
 		
 		
@@ -525,7 +525,7 @@
 		
 				
 		
-		<li id="bx_1847241719_4"><div class="doors-item"><figure class="doors-item_image"><a href="/ulichnye-dveri-s-termorazryvom/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_4.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/ulichnye-dveri-s-termorazryvom/">Уличные Термо двери</a></strong>
+		<li id="bx_1847241719_4"><div class="doors-item"><figure class="doors-item_image"><a href="/ulichnye-dveri-s-termorazryvom/"><img src="/bitrix/templates/xml_catalog/images/doors_4.png" alt=""></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/ulichnye-dveri-s-termorazryvom/">Уличные Термо двери</a></strong>
 		<ul class="doors-item_menu">
 		
 		
@@ -541,7 +541,7 @@
 		
 				
 		
-		<li id="bx_1847241719_19"><div class="doors-item"><figure class="doors-item_image"><a href="/furnitura-dlya-protivopozharnykh-dverey/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_5.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title" style="margin-top:-5px;margin-left:-23px"><a href="/furnitura-dlya-protivopozharnykh-dverey/">Фурнитура для<br>противопожарных дверей</a></strong>
+		<li id="bx_1847241719_19"><div class="doors-item"><figure class="doors-item_image"><a href="/furnitura-dlya-protivopozharnykh-dverey/"><img src="/bitrix/templates/xml_catalog/images/doors_5.png" alt=""></a></figure><div class="doors-item_desc"><strong style="margin-top:-5px;margin-left:-23px" class="doors-item_title"><a href="/furnitura-dlya-protivopozharnykh-dverey/">Фурнитура для<br>противопожарных дверей</a></strong>
 		<ul class="doors-item_menu">
 		
 		
@@ -583,9 +583,9 @@
 		
 	
 	<li id="bx_651765591_6">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-30/derevyannaya-protivopozharnaya-dver-ei-30-shpon-dub/">
+			<a href="/protivopozharnye-dveri/ei-30/derevyannaya-protivopozharnaya-dver-ei-30-shpon-dub/" class="products-item">
 																		<span class="icon-popular"></span>
-																											<figure class="products-item_image"><img alt="" src="/upload/iblock/798/pozh_dub.jpg"></figure><!-- /products-item_image -->
+																											<figure class="products-item_image"><img src="/upload/iblock/798/pozh_dub.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Деревянная противопожарная дверь EI-30 Шпон дуб</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">27 500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
@@ -596,9 +596,9 @@
 		
 	
 	<li id="bx_651765591_10">
-			<a class="products-item" href="/protivopozharnye-lyuki/ei-60-/protivopozharnyy-lyuk-lp-60/">
+			<a href="/protivopozharnye-lyuki/ei-60-/protivopozharnyy-lyuk-lp-60/" class="products-item">
 																		<span class="icon-popular"></span>
-																											<figure class="products-item_image"><img alt="" src="/upload/iblock/c6c/pic_small_26.jpg"></figure><!-- /products-item_image -->
+																											<figure class="products-item_image"><img src="/upload/iblock/c6c/pic_small_26.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарный люк ЛП-60</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">8 500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
@@ -609,9 +609,9 @@
 		
 	
 	<li id="bx_651765591_68">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-30/dpg-pod-okrasku-ei30-ei60/">
+			<a href="/protivopozharnye-dveri/ei-30/dpg-pod-okrasku-ei30-ei60/" class="products-item">
 																		<span class="icon-popular"></span>
-																											<figure class="products-item_image"><img alt="" src="/upload/iblock/e7d/protivopozharnye-_-dpg-_-mdf_novyy-razmer.jpg"></figure><!-- /products-item_image -->
+																											<figure class="products-item_image"><img src="/upload/iblock/e7d/protivopozharnye-_-dpg-_-mdf_novyy-razmer.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">18900<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
@@ -622,9 +622,9 @@
 		
 	
 	<li id="bx_651765591_23">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpms-01-60/">
+			<a href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpms-01-60/" class="products-item">
 																		<span class="icon-popular"></span>
-																											<figure class="products-item_image"><img alt="" src="/upload/iblock/542/dpms_01_60.jpg"></figure><!-- /products-item_image -->
+																											<figure class="products-item_image"><img src="/upload/iblock/542/dpms_01_60.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПМС-01 60 размеры: 900х2100</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">22000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
@@ -635,9 +635,9 @@
 		
 	
 	<li id="bx_651765591_17">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-01-90/">
+			<a href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-01-90/" class="products-item">
 																		<span class="icon-popular"></span>
-																											<figure class="products-item_image"><img alt="" src="/upload/iblock/065/010_1.jpg"></figure><!-- /products-item_image -->
+																											<figure class="products-item_image"><img src="/upload/iblock/065/010_1.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПМ-01 90</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">31000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
@@ -666,12 +666,12 @@
 		
 	
 	<li id="bx_1373509569_3">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-30/derevyannye-protivopozharnye-ei-30-shpon-dub-belenyy/">
+			<a href="/protivopozharnye-dveri/ei-30/derevyannye-protivopozharnye-ei-30-shpon-dub-belenyy/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/0ee/product_1.png"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/0ee/product_1.png" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Деревянная противопожарная дверь EI-30 Шпон дуб беленый</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">27 500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">17500<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">17500<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -680,12 +680,12 @@
 		
 	
 	<li id="bx_1373509569_24">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/">
+			<a href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/567/grin_ot50.jpg"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/567/grin_ot50.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПМ-01 60</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">15000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">21000<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -694,12 +694,12 @@
 		
 	
 	<li id="bx_1373509569_31">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-601/">
+			<a href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-601/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/d9e/grin_ot20.jpg"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/d9e/grin_ot20.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПМ-01 60</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">16500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">21000<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -708,12 +708,12 @@
 		
 	
 	<li id="bx_1373509569_34">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharn-/">
+			<a href="/protivopozharnye-dveri/ei-60/protivopozharn-/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/683/grin_ot1.jpg"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/683/grin_ot1.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПМ - EI60 размер 700х2100</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">19500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">21000<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -722,12 +722,12 @@
 		
 	
 	<li id="bx_1373509569_38">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-1000kh2100/">
+			<a href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-1000kh2100/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/cf0/grin_ot1.jpg"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/cf0/grin_ot1.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПМ - EI60 размер 1000х2100</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">19500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">21000<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -736,12 +736,12 @@
 		
 	
 	<li id="bx_1373509569_37">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-900kh2100/">
+			<a href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-900kh2100/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/e90/grin_ot1.jpg"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/e90/grin_ot1.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная дверь ДПМ - EI60 размер 900х2100</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">19500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">21000<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -750,12 +750,12 @@
 		
 	
 	<li id="bx_1373509569_18">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dvupolnaya-dver-dpms-02-90/">
+			<a href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dvupolnaya-dver-dpms-02-90/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/c32/014.jpg"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/c32/014.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная двупольная дверь ДПМС-02 90</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">48700<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">49 900<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">49 900<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -764,12 +764,12 @@
 		
 	
 	<li id="bx_1373509569_21">
-			<a class="products-item" href="/protivopozharnye-dveri/ei-120/protivopozharnaya-odnostvorchataya-dver-dpm-01-120/">
+			<a href="/protivopozharnye-dveri/ei-120/protivopozharnaya-odnostvorchataya-dver-dpm-01-120/" class="products-item">
 																											<span class="icon-action"></span>
-																		<figure class="products-item_image"><img alt="" src="/upload/iblock/056/dpm_ei120.jpg"></figure><!-- /products-item_image -->
+																		<figure class="products-item_image"><img src="/upload/iblock/056/dpm_ei120.jpg" alt=""></figure><!-- /products-item_image -->
 									<h3 class="products-item_title">Противопожарная одностворчатая дверь ДПМ-01 120</h3><!-- /products-item_title -->
 									<b class="products-item_price"><span class="mod1">51000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
-																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">53700<span class="rub">a</span></b><!-- /products-item_price -->
+																		<b style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;" class="products-item_price">53700<span class="rub">a</span></b><!-- /products-item_price -->
 																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
 								</a><!-- /products-item -->
 	</li>
@@ -826,7 +826,7 @@
 	
 	
 	
-	<div class="bl bl-grey bl-similar" id="jumpthere" style="display:none">
+	<div id="jumpthere" style="display:none" class="bl bl-grey bl-similar">
 	</div>
 	
 	<!-- /main -->
@@ -838,21 +838,21 @@
 				<div class="row-col">
 
 					<div class="feedback">
-						<form action="javascript:sendmail();" id="validate">
+						<form id="validate" action="javascript:sendmail();">
 							<strong class="feedback-title">ОБРАТНАЯ СВЯЗЬ</strong><!-- /feedback-title -->
 							<div class="form-field">
-								<input class="custom-text" data-validate="validate(required)" placeholder="Имя" type="text">
+								<input type="text" placeholder="Имя" data-validate="validate(required)" class="custom-text">
 							</div><!-- /form-field -->
 							
 							<div class="form-field">
-								<input class="custom-text" data-validate="validate(email)" placeholder="Электронная почта" type="text">
+								<input type="text" placeholder="Электронная почта" data-validate="validate(email)" class="custom-text">
 							</div><!-- /form-field -->
 							
 							<div class="form-field">
-								<textarea class="custom-textarea" cols="30" data-validate="validate(rangelength(10,140))" placeholder="Сообщение" rows="10"></textarea>
+								<textarea cols="30" rows="10" placeholder="Сообщение" data-validate="validate(rangelength(10,140))" class="custom-textarea"></textarea>
 							</div><!-- /form-field -->
 							
-							<input class="btn btn-md btn-white pull-right" type="submit" value="Отправить">
+							<input type="submit" value="Отправить" class="btn btn-md btn-white pull-right">
 						</form>
 						
 					</div><!-- /feedback -->
@@ -864,7 +864,7 @@
 						<strong class="contacts-info-title">Контактная информация</strong><!-- /contacts-info_title -->
 						<ul class="contacts-info-list">
 							<li><span class="icon-phone_white"></span>+7(926)821 20 07</li>
-							<li><span class="icon-mail_white"></span><u><a href="mailto:9791020@mail.ru" style="color:#c5deed">9791020@mail.ru</a></u></li>
+							<li><span class="icon-mail_white"></span><u><a style="color:#c5deed" href="mailto:9791020@mail.ru">9791020@mail.ru</a></u></li>
 							<li><span class="icon-loc_white"></span>г. Москва Ленинский Р-он.<br>метро: Анино<br>21-Й км. МКАД  ТК "Каширский Двор 3"<br> Павильон П3-С5</li>
 						</ul><!-- /contacts-info_list -->
 					</div><!-- /contacts-info -->
@@ -886,37 +886,37 @@
 
 	     <!-- first level-->
 				<li class="bx_hma_one_lvl current">
-			<a data-description="" href="/">
+			<a href="/" data-description="">
 				Главная			</a>
 		</li>
 	     <!-- first level-->
 				<li class="bx_hma_one_lvl ">
-			<a data-description="" href="/catalog/">
+			<a href="/catalog/" data-description="">
 				Каталог			</a>
 		</li>
 	     <!-- first level-->
 				<li class="bx_hma_one_lvl ">
-			<a data-description="" href="/o-kompanii/">
+			<a href="/o-kompanii/" data-description="">
 				О компании			</a>
 		</li>
 	     <!-- first level-->
 				<li class="bx_hma_one_lvl ">
-			<a data-description="" href="/ustanovka/">
+			<a href="/ustanovka/" data-description="">
 				Установка			</a>
 		</li>
 	     <!-- first level-->
 				<li class="bx_hma_one_lvl ">
-			<a data-description="" href="/galereya/">
+			<a href="/galereya/" data-description="">
 				Галерея			</a>
 		</li>
 	     <!-- first level-->
 				<li class="bx_hma_one_lvl ">
-			<a data-description="" href="/partnyery/">
+			<a href="/partnyery/" data-description="">
 				Партнёры			</a>
 		</li>
 	     <!-- first level-->
 				<li class="bx_hma_one_lvl ">
-			<a data-description="" href="/contacts/">
+			<a href="/contacts/" data-description="">
 				Контакты			</a>
 		</li>
 							</ul><!-- /menu-list -->

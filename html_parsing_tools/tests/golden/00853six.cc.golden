@@ -59,16 +59,16 @@
 
 === html_contents ===
 <!DOCTYPE html><html><head>
-		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-		<meta content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<title></title>
-		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 		<div class="body_view">
 			<div class="header_title clearfix">
-				<a class="logo fl" href="https://www.49six.com/" style="user-select: none" target="view_window">49SIX.COM</a>
+				<a class="logo fl" href="https://www.49six.com/" target="view_window" style="user-select: none">49SIX.COM</a>
 				<div class="title_tips fr">温馨提示：尊敬的用户，如发现备用线路无法正常访问时，请更换其他浏览器（推荐浏览器：搜狗、谷歌、火狐）进行访问！</div>
 			</div>
 			<div class="title_tips_text m_show">请使用下方推荐的搜狗浏览器访问</div>
@@ -107,27 +107,27 @@
 					<div class="left_item used_item m_showUsed">
 						<div class="left_title used_item_title">荐浏览器</div>
 						<div class="left_body clearfix">
-						    <a class="address_item" href="https://www.ub66.com/" target="blank">
+						    <a target="blank" href="https://www.ub66.com/" class="address_item">
 								<img src="img/HY.png">
 								<span>寰宇浏览器</span>
 							</a>
-							<a class="address_item" href="https://www.google.cn/intl/zh-CN/chrome/" target="blank">
+							<a target="blank" href="https://www.google.cn/intl/zh-CN/chrome/" class="address_item">
 								<img src="img/gg.png">
 								<span>谷歌浏览器</span>
 							</a>
-							<a class="address_item" href="https://www.opera.com/zh-cn" target="blank">
+							<a target="blank" href="https://www.opera.com/zh-cn" class="address_item">
 								<img src="img/op.png">
 								<span>op浏览器</span>
 							</a>
-							<a class="address_item" href="http://m.liebao.cn/" target="blank">
+							<a target="blank" href="http://m.liebao.cn/" class="address_item">
 								<img src="img/4.png">
 								<span>猎豹浏览器</span>
 							</a>
-							<a class="address_item" href="https://www.firefox.com.cn/download/" target="blank">
+							<a target="blank" href="https://www.firefox.com.cn/download/" class="address_item">
 								<img src="img/lb.png">
 								<span>火狐浏览器</span>
 							</a>
-							<a class="address_item" href="https://www.myquark.cn/" target="blank">
+							<a target="blank" href="https://www.myquark.cn/" class="address_item">
 								<img src="img/kk.png">
 								<span>夸克浏览器</span>
 							</a>
@@ -137,43 +137,43 @@
 					<div class="left_item used_item m_none">
 						<div class="left_title used_item_title">常用网址</div>
 						<div class="left_body clearfix">
-							<a class="address_item" href="https://www.baidu.com/" target="blank">
+							<a target="blank" href="https://www.baidu.com/" class="address_item">
 								<img src="img/1.png">
 								<span>百度</span>
 							</a>
-							<a class="address_item" href="https://www.qq.com/" target="blank">
+							<a target="blank" href="https://www.qq.com/" class="address_item">
 								<img src="img/2.png">
 								<span>腾讯</span>
 							</a>
-							<a class="address_item" href="http://www.ifeng.com/" target="blank">
+							<a target="blank" href="http://www.ifeng.com/" class="address_item">
 								<img src="img/3.png">
 								<span>凤凰网</span>
 							</a>
-							<a class="address_item" href="https://www.sohu.com/" target="blank">
+							<a target="blank" href="https://www.sohu.com/" class="address_item">
 								<img src="img/4.png">
 								<span>搜狐</span>
 							</a>
-							<a class="address_item" href="https://www.163.com/" target="blank">
+							<a target="blank" href="https://www.163.com/" class="address_item">
 								<img src="img/5.png">
 								<span>网易</span>
 							</a>
-							<a class="address_item" href="https://www.youku.com/" target="blank">
+							<a target="blank" href="https://www.youku.com/" class="address_item">
 								<img src="img/6.png">
 								<span>优酷</span>
 							</a>
-							<a class="address_item" href="https://www.jd.com/" target="blank">
+							<a target="blank" href="https://www.jd.com/" class="address_item">
 								<img src="img/7.png">
 								<span>京东商场</span>
 							</a>
-							<a class="address_item" href="https://www.12306.cn/" target="blank">
+							<a target="blank" href="https://www.12306.cn/" class="address_item">
 								<img src="img/8.png">
 								<span>12306</span>
 							</a>
-							<a class="address_item" href="https://gz.58.com/" target="blank">
+							<a target="blank" href="https://gz.58.com/" class="address_item">
 								<img src="img/9.png">
 								<span>58同城</span>
 							</a>
-							<a class="address_item" href="https://www.ctrip.com/" target="blank">
+							<a target="blank" href="https://www.ctrip.com/" class="address_item">
 								<img src="img/10.png">
 								<span>携程网</span>
 							</a>
@@ -182,43 +182,43 @@
 					<div class="left_item used_item m_none">
 						<div class="left_title used_item_title">常用购物</div>
 						<div class="left_body clearfix">
-							<a class="address_item" href="https://www.taobao.com/" target="blank">
+							<a target="blank" href="https://www.taobao.com/" class="address_item">
 								<img src="img/21.png">
 								<span>淘宝</span>
 							</a>
-							<a class="address_item" href="https://www.jd.com/" target="blank">
+							<a target="blank" href="https://www.jd.com/" class="address_item">
 								<img src="img/22.png">
 								<span>京东商城</span>
 							</a>
-							<a class="address_item" href="https://www.tmall.com/" target="blank">
+							<a target="blank" href="https://www.tmall.com/" class="address_item">
 								<img src="img/23.png">
 								<span>天猫精选</span>
 							</a>
-							<a class="address_item" href="https://www.suning.com/" target="blank">
+							<a target="blank" href="https://www.suning.com/" class="address_item">
 								<img src="img/24.png">
 								<span>苏宁易购</span>
 							</a>
-							<a class="address_item" href="https://www.gome.com.cn/" target="blank">
+							<a target="blank" href="https://www.gome.com.cn/" class="address_item">
 								<img src="img/25.png">
 								<span>国美在线</span>
 							</a>
-							<a class="address_item" href="http://book.dangdang.com/" target="blank">
+							<a target="blank" href="http://book.dangdang.com/" class="address_item">
 								<img src="img/26.png">
 								<span>当当</span>
 							</a>
-							<a class="address_item" href="https://ju.taobao.com/" target="blank">
+							<a target="blank" href="https://ju.taobao.com/" class="address_item">
 								<img src="img/27.png">
 								<span>聚划算</span>
 							</a>
-							<a class="address_item" href="http://www.meilishuo.com/" target="blank">
+							<a target="blank" href="http://www.meilishuo.com/" class="address_item">
 								<img src="img/28.png">
 								<span>美丽说</span>
 							</a>
-							<a class="address_item" href="https://www.mogu.com/" target="blank">
+							<a target="blank" href="https://www.mogu.com/" class="address_item">
 								<img src="img/29.png">
 								<span>蘑菇街</span>
 							</a>
-							<a class="address_item" href="https://www.vip.com/" target="blank">
+							<a target="blank" href="https://www.vip.com/" class="address_item">
 								<img src="img/30.png">
 								<span>唯品会</span>
 							</a>
@@ -229,43 +229,43 @@
 					<div class="right_item used_item m_none">
 						<div class="right_title used_item_title">常用资讯</div>
 						<div class="right_body clearfix">
-							<a class="address_item" href="https://news.sina.com.cn/" target="blank">
+							<a target="blank" href="https://news.sina.com.cn/" class="address_item">
 								<img src="img/31.png">
 								<span>新浪新闻</span>
 							</a>
-							<a class="address_item" href="https://news.ifeng.com/" target="blank">
+							<a target="blank" href="https://news.ifeng.com/" class="address_item">
 								<img src="img/32.png">
 								<span>凤凰资讯</span>
 							</a>
-							<a class="address_item" href="http://www.uzaobao.com/" target="blank">
+							<a target="blank" href="http://www.uzaobao.com/" class="address_item">
 								<img src="img/33.png">
 								<span>联合早报</span>
 							</a>
-							<a class="address_item" href="http://www.people.com.cn/" target="blank">
+							<a target="blank" href="http://www.people.com.cn/" class="address_item">
 								<img src="img/34.png">
 								<span>人民网</span>
 							</a>
-							<a class="address_item" href="https://news.qq.com/" target="blank">
+							<a target="blank" href="https://news.qq.com/" class="address_item">
 								<img src="img/35.png">
 								<span>腾讯新闻</span>
 							</a>
-							<a class="address_item" href="http://news.sohu.com/" target="blank">
+							<a target="blank" href="http://news.sohu.com/" class="address_item">
 								<img src="img/36.png">
 								<span>搜狐新闻</span>
 							</a>
-							<a class="address_item" href="https://www.huanqiu.com/" target="blank">
+							<a target="blank" href="https://www.huanqiu.com/" class="address_item">
 								<img src="img/37.png">
 								<span>环球时报</span>
 							</a>
-							<a class="address_item" href="https://news.163.com/" target="blank">
+							<a target="blank" href="https://news.163.com/" class="address_item">
 								<img src="img/38.png">
 								<span>网易新闻</span>
 							</a>
-							<a class="address_item" href="http://www.xinhuanet.com/" target="blank">
+							<a target="blank" href="http://www.xinhuanet.com/" class="address_item">
 								<img src="img/39.png">
 								<span>新华网</span>
 							</a>
-							<a class="address_item" href="https://news.baidu.com/" target="blank">
+							<a target="blank" href="https://news.baidu.com/" class="address_item">
 								<img src="img/40.png">
 								<span>百度新闻</span>
 							</a>

@@ -101,10 +101,10 @@ Connecting users with quality online resources since 2025
 === html_contents ===
 <!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Premium directory of quality websites and online resources across multiple niches and categories." name="description">
-    <meta content="online resources, quality websites, directory, premium platforms" name="keywords">
-    <meta content="index, follow" name="robots">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium directory of quality websites and online resources across multiple niches and categories.">
+    <meta name="keywords" content="online resources, quality websites, directory, premium platforms">
+    <meta name="robots" content="index, follow">
     
     <title>Premium Web Directory - Quality Online Resources</title>
     
@@ -135,7 +135,7 @@ Connecting users with quality online resources since 2025
                     <li>Regular Updates</li>
                     <li>Premium Quality</li>
                 </ul>
-                <a class="cta-button" href="https://technologyspell.com" rel="dofollow" target="_blank">Visit technologyspell.com</a>
+                <a href="https://technologyspell.com" class="cta-button" rel="dofollow" target="_blank">Visit technologyspell.com</a>
             </article>
     
             <article class="resource-card">
@@ -148,7 +148,7 @@ Connecting users with quality online resources since 2025
                     <li>Regular Updates</li>
                     <li>Premium Quality</li>
                 </ul>
-                <a class="cta-button" href="https://wellhousekeeping.com" rel="dofollow" target="_blank">Visit wellhousekeeping.com</a>
+                <a href="https://wellhousekeeping.com" class="cta-button" rel="dofollow" target="_blank">Visit wellhousekeeping.com</a>
             </article>
     
             <article class="resource-card">
@@ -161,7 +161,7 @@ Connecting users with quality online resources since 2025
                     <li>Regular Updates</li>
                     <li>Premium Quality</li>
                 </ul>
-                <a class="cta-button" href="https://pharmasops.com" rel="dofollow" target="_blank">Visit pharmasops.com</a>
+                <a href="https://pharmasops.com" class="cta-button" rel="dofollow" target="_blank">Visit pharmasops.com</a>
             </article>
     
         </section>

@@ -64,15 +64,15 @@
 === html_contents ===
 <!DOCTYPE html><html><head>
 <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>移动吸风罩-净气型废弃物暂存柜-无锡赛弗安全装备有限公司</title>
-<meta content="无锡赛弗安全装备有限公司(www.02safoo.com)是移动吸风罩,净气型废弃物暂存柜,净气型通风柜厂家,产品有无管道净气型储药柜,智能防爆危化品柜,实验暂养动物柜等,已通过欧盟CE、SGS及国内众多检测机构检测认证" name="Description">
-<meta content="移动吸风罩,净气型废弃物暂存柜" name="Keywords">
-<meta content="codeva-mM4W1D6X7y" name="baidu-site-verification">
-<link href="http://public.mtnets.com/public/css/swiper.min.css" rel="stylesheet" type="text/css">
+<meta name="Description" content="无锡赛弗安全装备有限公司(www.02safoo.com)是移动吸风罩,净气型废弃物暂存柜,净气型通风柜厂家,产品有无管道净气型储药柜,智能防爆危化品柜,实验暂养动物柜等,已通过欧盟CE、SGS及国内众多检测机构检测认证">
+<meta name="Keywords" content="移动吸风罩,净气型废弃物暂存柜">
+<meta name="baidu-site-verification" content="codeva-mM4W1D6X7y">
+<link rel="stylesheet" type="text/css" href="http://public.mtnets.com/public/css/swiper.min.css">
 
 
-<link href="/skins/435575/css/style.css" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="/skins/435575/css/style.css">
 
 
 
@@ -82,7 +82,7 @@
 <!--导航当前状态 JS-->
 
 <!--导航当前状态 JS END-->
-<link href="/skins/435575/favicon.ico" media="screen" rel="shortcut icon" type="image/x-icon">
+<link rel="shortcut icon" type="image/x-icon" href="/skins/435575/favicon.ico" media="screen">
 
 
 
@@ -93,12 +93,12 @@
 <!--top start-->
 <div class="ly_top">
 	<div class="top_main">
-		<div class="ly_logo"><a href="/"><img alt="无锡赛弗安全装备有限公司" src="/skins/435575/images/logo.jpg"></a></div>
+		<div class="ly_logo"><a href="/"><img src="/skins/435575/images/logo.jpg" alt="无锡赛弗安全装备有限公司"></a></div>
         <p class="top_tel">咨询热线：<b>13921516406</b></p>
 		<!--search start-->
 		<div class="ly_search">
-			<form action="/products.html" id="form1" method="post" name="tk">
-			<div class="sc_ipt"><input name="keyword" placeholder="请输入关键词" type="text"></div>
+			<form id="form1" name="tk" method="post" action="/products.html">
+			<div class="sc_ipt"><input type="text" name="keyword" placeholder="请输入关键词"></div>
 			<div class="sc_btn"><input type="submit" value=""></div>
 			</form>
 		</div>
@@ -116,15 +116,15 @@
 	</div>
 	<div class="nav">
 		<ul class="nav_ul clearfix">
-			<li class="nav_item active"><a href="/" id="navId1">首页</a></li>
-			<li class="nav_item"><a href="/aboutus.html" id="navId2" rel="nofollow">关于我们</a></li>
-            <li class="nav_item"><a href="/products.html" id="navId3">产品中心</a></li>
-			<li class="nav_item"><a href="/article.html" id="navId4">技术文章</a></li>
-			<li class="nav_item"><a href="/news.html" id="navId5">新闻资讯</a></li>
-			<li class="nav_item"><a href="/honor.html" id="navId6" rel="nofollow">荣誉资质</a></li>
-			<li class="nav_item"><a href="/successcase.html" id="navId7" rel="nofollow">应用案例</a></li>
-            <li class="nav_item"><a href="/order.html" id="navId8" rel="nofollow">在线留言</a></li>
-			<li class="nav_item"><a href="/contact.html" id="navId9" rel="nofollow">联系我们</a></li>
+			<li class="nav_item active"><a id="navId1" href="/">首页</a></li>
+			<li class="nav_item"><a id="navId2" href="/aboutus.html" rel="nofollow">关于我们</a></li>
+            <li class="nav_item"><a id="navId3" href="/products.html">产品中心</a></li>
+			<li class="nav_item"><a id="navId4" href="/article.html">技术文章</a></li>
+			<li class="nav_item"><a id="navId5" href="/news.html">新闻资讯</a></li>
+			<li class="nav_item"><a id="navId6" href="/honor.html" rel="nofollow">荣誉资质</a></li>
+			<li class="nav_item"><a id="navId7" href="/successcase.html" rel="nofollow">应用案例</a></li>
+            <li class="nav_item"><a id="navId8" href="/order.html" rel="nofollow">在线留言</a></li>
+			<li class="nav_item"><a id="navId9" href="/contact.html" rel="nofollow">联系我们</a></li>
 		</ul>
 	</div>
 	<div class="hcover"></div>
@@ -392,34 +392,34 @@
 			
          	
             <li>
-            	<div class="pro_img"><a href="/Products-38919832.html"><img alt="智能试剂柜SF-X202(A/B/C)" src="http://img43.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb98daccd869b2bf629fa47c5a774f44e33b6eb57dc915d9451_280_280_5.png"></a></div>
+            	<div class="pro_img"><a href="/Products-38919832.html"><img src="http://img43.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb98daccd869b2bf629fa47c5a774f44e33b6eb57dc915d9451_280_280_5.png" alt="智能试剂柜SF-X202(A/B/C)"></a></div>
 <p><a href="/Products-38919832.html">智能试剂柜SF-X202(A/B/C)</a></p>
             </li>
             
             <li>
-            	<div class="pro_img"><a href="/Products-38919575.html"><img alt="⽴式实验柜" src="http://img45.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb9e03f084e1bb4541de6b1af117a0ab2799124160b87de186c_280_280_5.png"></a></div>
+            	<div class="pro_img"><a href="/Products-38919575.html"><img src="http://img45.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb9e03f084e1bb4541de6b1af117a0ab2799124160b87de186c_280_280_5.png" alt="⽴式实验柜"></a></div>
 <p><a href="/Products-38919575.html">⽴式实验柜</a></p>
             </li>
             
             <li>
-            	<div class="pro_img"><a href="/Products-38899858.html"><img alt="净气型储药柜（全钢）" src="http://img54.chem17.com/gxhpic_2d5bbdbafa/5244a846caa253de5211d276626572aec71541b4832d86762dccec2e393e1831793142e889f106e8_280_280_5.jpg"></a></div>
+            	<div class="pro_img"><a href="/Products-38899858.html"><img src="http://img54.chem17.com/gxhpic_2d5bbdbafa/5244a846caa253de5211d276626572aec71541b4832d86762dccec2e393e1831793142e889f106e8_280_280_5.jpg" alt="净气型储药柜（全钢）"></a></div>
 <p><a href="/Products-38899858.html">净气型储药柜（全钢）</a></p>
             </li>
             
         	
          	
             <li>
-            	<div class="pro_img"><a href="/Products-38900176.html"><img alt="GA100-新款净气型通风柜" src="http://img41.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d4729498a8fbc5fb58a914414ee051fd8dc4b9e9224944e420c97b7fe5b411337b23b_280_280_5.png"></a></div>
+            	<div class="pro_img"><a href="/Products-38900176.html"><img src="http://img41.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d4729498a8fbc5fb58a914414ee051fd8dc4b9e9224944e420c97b7fe5b411337b23b_280_280_5.png" alt="GA100-新款净气型通风柜"></a></div>
 <p><a href="/Products-38900176.html">GA100-新款净气型通风柜</a></p>
             </li>
             
             <li>
-            	<div class="pro_img"><a href="/Products-38919921.html"><img alt="智能试剂柜SF-X101(A/B/C)" src="http://img49.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb9cd275df9558d128438fda5872ad65d17b9c4cf81508de135_280_280_5.png"></a></div>
+            	<div class="pro_img"><a href="/Products-38919921.html"><img src="http://img49.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb9cd275df9558d128438fda5872ad65d17b9c4cf81508de135_280_280_5.png" alt="智能试剂柜SF-X101(A/B/C)"></a></div>
 <p><a href="/Products-38919921.html">智能试剂柜SF-X101(A/B/C)</a></p>
             </li>
             
             <li>
-            	<div class="pro_img"><a href="/Products-38919576.html"><img alt="桌面式实验柜" src="http://img45.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb923662c70b0f6e62db91c05c0f407f4638a6096ba7846a01a_280_280_5.png"></a></div>
+            	<div class="pro_img"><a href="/Products-38919576.html"><img src="http://img45.chem17.com/gxhpic_2d5bbdbafa/4d6cc5486a7d47290647411845974eb923662c70b0f6e62db91c05c0f407f4638a6096ba7846a01a_280_280_5.png" alt="桌面式实验柜"></a></div>
 <p><a href="/Products-38919576.html">桌面式实验柜</a></p>
             </li>
             
@@ -582,27 +582,27 @@
 			<p><img src="/skins/435575/images/lc_icon1.png"></p>
 			<span>了解需求现场勘测</span>
 		</li>
-		<li><img class="lcjt" src="/skins/435575/images/lc_jt.png"></li>
+		<li><img src="/skins/435575/images/lc_jt.png" class="lcjt"></li>
 		<li>
 			<p><img src="/skins/435575/images/lc_icon2.png"></p>
 			<span>定制解决方案</span>
 		</li>
-		<li><img class="lcjt" src="/skins/435575/images/lc_jt.png"></li>
+		<li><img src="/skins/435575/images/lc_jt.png" class="lcjt"></li>
 		<li>
 			<p><img src="/skins/435575/images/lc_icon3.png"></p>
 			<span>精心设计制造</span>
 		</li>
-		<li><img class="lcjt" src="/skins/435575/images/lc_jt.png"></li>
+		<li><img src="/skins/435575/images/lc_jt.png" class="lcjt"></li>
 		<li>
 			<p><img src="/skins/435575/images/lc_icon4.png"></p>
 			<span>物流送达</span>
 		</li>
-		<li><img class="lcjt" src="/skins/435575/images/lc_jt.png"></li>
+		<li><img src="/skins/435575/images/lc_jt.png" class="lcjt"></li>
 		<li>
 			<p><img src="/skins/435575/images/lc_icon5.png"></p>
 			<span>安装调试验收</span>
 		</li>
-		<li><img class="lcjt" src="/skins/435575/images/lc_jt.png"></li>
+		<li><img src="/skins/435575/images/lc_jt.png" class="lcjt"></li>
 		<li>
 			<p><img src="/skins/435575/images/lc_icon6.png"></p>
 			<span>维护维修服务</span>
@@ -641,8 +641,8 @@
 		<div class="clear"></div>
 	</div>
 	<div class="ft_copy">
-		<p>© 2026 无锡赛弗安全装备有限公司&nbsp;&nbsp;备案号：<a href="http://beian.miit.gov.cn/" rel="nofollow" target="_blank">苏ICP备2020054270号-1</a></p>
-		<p>技术支持：化工仪器网&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.chem17.com/login" rel="nofollow" target="_blank">管理登陆</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/sitemap.xml" target="_blank">sitemap.xml</a></p>
+		<p>© 2026 无锡赛弗安全装备有限公司&nbsp;&nbsp;备案号：<a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow">苏ICP备2020054270号-1</a></p>
+		<p>技术支持：化工仪器网&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.chem17.com/login" target="_blank" rel="nofollow">管理登陆</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/sitemap.xml" target="_blank">sitemap.xml</a></p>
 	</div>
 </div>
 <!--foot end-->
@@ -650,15 +650,15 @@
 <!--右侧悬浮-->
 <div class="suspension">
 	<div class="suspension-box">
-		<a class="a a-service " href="javascript:;"><i class="i"></i></a>
-		<a class="a a-service-phone " href="javascript:;"><i class="i"></i></a>
-		<a class="a a-qrcode" href="javascript:;"><i class="i"></i></a>
-		<a class="a a-top" href="javascript:;"><i class="i"></i></a>
+		<a href="javascript:;" class="a a-service "><i class="i"></i></a>
+		<a href="javascript:;" class="a a-service-phone "><i class="i"></i></a>
+		<a href="javascript:;" class="a a-qrcode"><i class="i"></i></a>
+		<a href="javascript:;" class="a a-top"><i class="i"></i></a>
 		<div class="d d-service">
 			<i class="arrow"></i>
 			<div class="inner-box">
 				<div class="d-service-item clearfix">
-               <a class="clearfix" href="tencent://Message/?Uin=2505929195&amp;websiteName=www.02safoo.com=&amp;Menu=yes" target="_blank"><span class="circle"><i class="i-qq"></i></span><h3>咨询在线客服</h3></a>
+               <a href="tencent://Message/?Uin=2505929195&amp;websiteName=www.02safoo.com=&amp;Menu=yes" target="_blank" class="clearfix"><span class="circle"><i class="i-qq"></i></span><h3>咨询在线客服</h3></a>
               
 				</div>
 				<div class="clear"></div>
@@ -679,7 +679,7 @@
 		<div class="d d-qrcode">
 			<i class="arrow"></i>
 			<div class="inner-box">
-				<div class="qrcode-img"><img alt="" src="/skins/435575/images/side_ewm.jpg"></div>
+				<div class="qrcode-img"><img src="/skins/435575/images/side_ewm.jpg" alt=""></div>
 				<p>微信服务号</p>
 			</div>
 			<div class="clear"></div>
@@ -688,9 +688,9 @@
 </div>
 
 
-<a class="to_top" href="javascript:goTop();"></a>
+<a href="javascript:goTop();" class="to_top"></a>
 
-<a class="to_tel" href="tel:13921516406"></a><div style="width:300px;margin:0 auto; padding:20px 0;"><a href="https://beian.mps.gov.cn/#/query/webSearch?code=32020502002137" rel="nofollow noreferrer" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;" target="_blank"><img src="http://public.mtnets.com/images/public/ghs.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">苏公网安备 32020502002137号</p></a></div>
+<a href="tel:13921516406" class="to_tel"></a><div style="width:300px;margin:0 auto; padding:20px 0;"><a target="_blank" rel="nofollow noreferrer" href="https://beian.mps.gov.cn/#/query/webSearch?code=32020502002137" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://public.mtnets.com/images/public/ghs.png" style="float:left;"><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">苏公网安备 32020502002137号</p></a></div>
 <img src="http://www.02safoo.com/index_cache.html" style="display: none;">
 </body></html>
 

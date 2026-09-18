@@ -2,7 +2,7 @@
 
 [package]
 name = "html_parsing_tools"
-version = "0.47.0"
+version = "0.48.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -13,7 +13,7 @@ crate-type = ["cdylib"]
 [dependencies]
 deunicode = "1.6.2"
 html-escape = "0.2.15"
-kuchiki = "0.8.1"
+kuchikiki = "0.8.2"
 lazy_static = "1.5.0"
 linkify = "0.10.0"
 pyo3 = "0.27"

@@ -1,6 +1,6 @@
 use crate::text_nodes::form_text_nodes;
 use crate::utils::{get_text_nodes, merge_adjacent_text_nodes, remove_tag, unwrap_tag};
-use kuchiki::{traits::TendrilSink, NodeRef};
+use kuchikiki::{traits::TendrilSink, NodeRef};
 use std::collections::HashMap;
 
 // Ported from oceanai/utils/html_nodes.py's content_cleaner config. Only the
@@ -67,7 +67,7 @@ fn extract_text_elements(document: &NodeRef, tag: &str, min_split: Option<i32>) 
 /// repo) that none of them have any caller outside html_nodes.py itself, so
 /// they're dead code in the Python source too, not just not-yet-ported.
 pub fn extract_text(html: String, min_split: Option<i32>) -> HashMap<String, Vec<Vec<String>>> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     clean_content(&document);
 
     let body = match document.select_first("body") {
@@ -105,7 +105,7 @@ pub fn extract_text(html: String, min_split: Option<i32>) -> HashMap<String, Vec
 /// (don't also try the remaining texts) -- matches the `for ... if
 /// elements_to_remove: remove; break` in Impressum.extract.
 pub fn remove_matching_links(html: String, texts: Vec<String>) -> String {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     let Ok(anchors) = document.select("a") else {
         return document.to_string();
     };

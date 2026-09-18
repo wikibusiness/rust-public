@@ -71,14 +71,14 @@ PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 
 
 === html_contents ===
 <!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta content="ECSHOP v2.7.2" name="Generator">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<meta content="普旭 PUSH! 普旭實業有限公司 PUSH 戶外用品 餐廚用品" name="Keywords">
-<meta content="全場現貨,台灣快速出貨,禮品,團購,客制化.歡迎聯絡我們估價 公司名稱:普旭實業有限公司 統一編號:80617962 聯絡電話:037-370307 郵箱地址: push.bon@msa.hinet.net 地址:苗栗市府東路57號 工作時間:(周一至周五,早9:00~12:00,下午13:30~18:30) 有任何問題可聊聊先詢問唷!" name="Description">
+<meta name="Generator" content="ECSHOP v2.7.2">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="普旭 PUSH! 普旭實業有限公司 PUSH 戶外用品 餐廚用品">
+<meta name="Description" content="全場現貨,台灣快速出貨,禮品,團購,客制化.歡迎聯絡我們估價 公司名稱:普旭實業有限公司 統一編號:80617962 聯絡電話:037-370307 郵箱地址: push.bon@msa.hinet.net 地址:苗栗市府東路57號 工作時間:(周一至周五,早9:00~12:00,下午13:30~18:30) 有任何問題可聊聊先詢問唷!">
 <title>臺灣普旭實業有限公司</title>
-<link href="favicon.ico" rel="shortcut icon">
-<link href="animated_favicon.gif" rel="icon" type="image/gif">
-<link href="feed.php" rel="alternate" title="RSS|臺灣普旭實業有限公司" type="application/rss+xml">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" href="animated_favicon.gif" type="image/gif">
+<link rel="alternate" type="application/rss+xml" title="RSS|臺灣普旭實業有限公司" href="feed.php">
 <link href="themes/mpc/style.css" rel="stylesheet" type="text/css">
 
 <!--[if IE 6]>
@@ -95,7 +95,7 @@ html{background:url(themes/mpc/images/html.jpg) repeat}
 </head>
 <body>
 <div id="header">
-  <div class="logo"><a href="#"><iframe allowtransparency="true" frameborder="0" height="233" marginheight="0" marginwidth="0" scrolling="no" src="themes/mpc/flash.html" width="800"></iframe> </a></div>
+  <div class="logo"><a href="#"><iframe frameborder="0" width="800" height="233" marginheight="0" marginwidth="0" scrolling="no" src="themes/mpc/flash.html" allowtransparency="true"></iframe> </a></div>
   <div class="head-top"> <span style="float:right"><a href="/cn">简体</a> | <a href="/index.php">繁体</a> | <a href="/en">English</a></span>
     <ul class="head-top-menu">
      <div id="append_parent"></div>
@@ -105,24 +105,24 @@ html{background:url(themes/mpc/images/html.jpg) repeat}
       <li class="bg4"><a href="flow.php">購物車: (0)</a></li>
     </ul>
     <div class="search">
-    <form action="search.php" id="advancedSearchForm" method="get" name="advancedSearchForm">
-    <input class="txt" id="keywords" name="keywords" type="text" value="">
-      <input class="btn" name="Submit" type="submit" value="">
+    <form action="search.php" method="get" name="advancedSearchForm" id="advancedSearchForm">
+    <input name="keywords" id="keywords" type="text" class="txt" value="">
+      <input type="submit" name="Submit" value="" class="btn">
       </form>
     </div>
   
   </div>
-  <ul class="first-menu" id="webmenu">
+  <ul id="webmenu" class="first-menu">
     <li style="font-size:14px; font-weight:bold"><a href="index.php">首頁</a></li>
     <li style="font-size:14px; font-weight:bold"><a href="article.php?id=15">關於我們</a>
-      <ul class="second-menu" id="subNews">
+      <ul id="subNews" class="second-menu">
            <li><a href="article.php?id=33" title="> 關於我們">&gt; 關於我們</a></li> 
      <li><a href="article.php?id=20" title="公司簡介">公司簡介</a></li> 
  
       </ul>
     </li>
  <li style="font-size:14px; font-weight:bold"><a href="productlist.php?id=5">産品展示</a>
-   <ul class="second-menu" id="subNews">
+   <ul id="subNews" class="second-menu">
               
          
         
@@ -141,7 +141,7 @@ html{background:url(themes/mpc/images/html.jpg) repeat}
       </li>
       
      <li style="font-size:14px; font-weight:bold"><a href="category.php?id=1">網上商城</a>
-      <ul class="second-menu" id="subNews">
+      <ul id="subNews" class="second-menu">
          
           
          
@@ -255,7 +255,7 @@ html{background:url(themes/mpc/images/html.jpg) repeat}
 <div id="container-box">
   
   
-  <div class="lof-slidecontent" id="lofslidecontent45" style="width:920px; height:350px;">
+  <div id="lofslidecontent45" class="lof-slidecontent" style="width:920px; height:350px;">
     <div class="preload">
       <div></div>
     </div>
@@ -267,51 +267,51 @@ html{background:url(themes/mpc/images/html.jpg) repeat}
     
     
     <div class="lof-navigator-wapper">
-      <div class="lof-next" href="" onclick="return false">Next</div>
+      <div onclick="return false" href="" class="lof-next">Next</div>
       <div class="lof-navigator-outer">
         <ul class="lof-navigator">
                                </ul>
       </div>
-      <div class="lof-previous" href="" onclick="return false">Previous</div>
+      <div onclick="return false" href="" class="lof-previous">Previous</div>
     </div>
     
   </div>
 </div>
 <div class="bk20"></div>
 <div id="content">
-  <div class="title"><a class="more" href="productlist.php?id=5" target="_blank">+more</a>
+  <div class="title"><a href="productlist.php?id=5" target="_blank" class="more">+more</a>
     <h2><b></b>最新上市</h2>
   </div>
   <div class="index-list">
     <ul>
  
       <li>
-        <p class="index-list-pic"><a href="product.php?id=257"><img height="200" src="images/202012/thumb_img/257_thumb_G_1607621758770.jpg" width="260"></a></p>
+        <p class="index-list-pic"><a href="product.php?id=257"><img src="images/202012/thumb_img/257_thumb_G_1607621758770.jpg" width="260" height="200"></a></p>
         <p class="index-list-tit"><a href="product.php?id=257">PUSH!機能面料 衣可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12</a></p>
       </li>
   
       <li>
-        <p class="index-list-pic"><a href="product.php?id=1503"><img height="200" src="images/202207/thumb_img/1503_thumb_G_1658947223416.jpg" width="260"></a></p>
+        <p class="index-list-pic"><a href="product.php?id=1503"><img src="images/202207/thumb_img/1503_thumb_G_1658947223416.jpg" width="260" height="200"></a></p>
         <p class="index-list-tit"><a href="product.php?id=1503">PUSH!機能面料衣 可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12軍綠色</a></p>
       </li>
   
       <li>
-        <p class="index-list-pic"><a href="product.php?id=1869"><img height="200" src="images/202608/thumb_img/1869_thumb_G_1786411679769.jpg" width="260"></a></p>
+        <p class="index-list-pic"><a href="product.php?id=1869"><img src="images/202608/thumb_img/1869_thumb_G_1786411679769.jpg" width="260" height="200"></a></p>
         <p class="index-list-tit"><a href="product.php?id=1869">PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 寶寶 老人專用食物小剪刀 D407</a></p>
       </li>
   
       <li>
-        <p class="index-list-pic"><a href="product.php?id=1868"><img height="200" src="images/202608/thumb_img/1868_thumb_G_1786323765819.jpg" width="260"></a></p>
+        <p class="index-list-pic"><a href="product.php?id=1868"><img src="images/202608/thumb_img/1868_thumb_G_1786323765819.jpg" width="260" height="200"></a></p>
         <p class="index-list-tit"><a href="product.php?id=1868">PUSH!廚房用品多功能可拆卸雞骨剪 加厚剪刀 全鋼強力多用途烤肉家禽剪刀工 D404</a></p>
       </li>
   
       <li>
-        <p class="index-list-pic"><a href="product.php?id=1867"><img height="200" src="images/202607/thumb_img/1867_thumb_G_1785261329084.jpg" width="260"></a></p>
+        <p class="index-list-pic"><a href="product.php?id=1867"><img src="images/202607/thumb_img/1867_thumb_G_1785261329084.jpg" width="260" height="200"></a></p>
         <p class="index-list-tit"><a href="product.php?id=1867">PUSH!廚房用品 廚房擦絲器 七刀切菜器 切條機切丁器多功能刨絲器馬鈴薯切絲器 D405 </a></p>
       </li>
   
       <li>
-        <p class="index-list-pic"><a href="product.php?id=1866"><img height="200" src="images/202607/thumb_img/1866_thumb_G_1785260913875.jpg" width="260"></a></p>
+        <p class="index-list-pic"><a href="product.php?id=1866"><img src="images/202607/thumb_img/1866_thumb_G_1785260913875.jpg" width="260" height="200"></a></p>
         <p class="index-list-tit"><a href="product.php?id=1866">PUSH!廚房用品 廚房擦絲器 六刀切菜器 切條機 多功能刨絲器馬鈴薯絲切絲器 D403</a></p>
       </li>
      
@@ -380,7 +380,7 @@ html{background:url(themes/mpc/images/html.jpg) repeat}
   </div>
   <div class="bk20"></div>
 </div>
-<div id="demo_r"><a href="index.php"><img src="themes/mpc/images/sd1.png" title="返回首頁"></a><a href="skype:pushcoltd2?chat"><img src="themes/mpc/images/foot4.png" title="在線聊天"></a><a href="flow.php"><img src="themes/mpc/images/sd4.png" title="購物車"></a><a href="#"><img src="themes/mpc/images/sd5.png" title="返回頂部"></a></div>
+<div id="demo_r"><a href="index.php"><img title="返回首頁" src="themes/mpc/images/sd1.png"></a><a href="skype:pushcoltd2?chat"><img title="在線聊天" src="themes/mpc/images/foot4.png"></a><a href="flow.php"><img title="購物車" src="themes/mpc/images/sd4.png"></a><a href="#"><img title="返回頂部" src="themes/mpc/images/sd5.png"></a></div>
 
 
 

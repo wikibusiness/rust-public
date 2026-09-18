@@ -106,23 +106,23 @@ Ook uw advertentie zou hier kunnen staan
 <title>010 Rotterdam</title>
 
 === html_contents ===
-<!DOCTYPE html><html lang="nl-nl" xml:lang="nl-nl" xmlns="http://www.w3.org/1999/xhtml"><head>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="nl-nl" lang="nl-nl"><head>
    <base href="https://www.010rotterdam.nl/">
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <meta content="index, follow" name="robots">
-  <meta content="rotterdam, r'dam, rdam, 010, nieuws, cultuur, architectuur, activiteiten, evenementen, wijken, duurzaam, haven" name="keywords">
-  <meta content="Voor het laatste nieuws uit Rotterdam. Rotterdam de stad van architectuur, evenementen, cultuur en bedrijvigheid." name="description">
-  <meta content="Joomla! 1.5 - Open Source Content Management" name="generator">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="rotterdam, r'dam, rdam, 010, nieuws, cultuur, architectuur, activiteiten, evenementen, wijken, duurzaam, haven">
+  <meta name="description" content="Voor het laatste nieuws uit Rotterdam. Rotterdam de stad van architectuur, evenementen, cultuur en bedrijvigheid.">
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management">
   <title>010 Rotterdam</title>
-  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" title="RSS 2.0" type="application/rss+xml">
-  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" title="Atom 1.0" type="application/atom+xml">
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0">
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0">
   <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
   
   
 
- <link href="/templates/system/css/system.css" rel="stylesheet" type="text/css">
- <link href="/templates/system/css/general.css" rel="stylesheet" type="text/css">
- <link href="/templates/010rotterdam/css/template.css" media="screen" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="/templates/system/css/system.css" type="text/css">
+ <link rel="stylesheet" href="/templates/system/css/general.css" type="text/css">
+ <link rel="stylesheet" type="text/css" href="/templates/010rotterdam/css/template.css" media="screen">
  <!--[if IE 6]><link rel="stylesheet" href="/templates/010rotterdam/css/template.ie6.css" type="text/css" media="screen" /><![endif]-->
  <!--[if IE 7]><link rel="stylesheet" href="/templates/010rotterdam/css/template.ie7.css" type="text/css" media="screen" /><![endif]-->
  
@@ -140,7 +140,7 @@ Ook uw advertentie zou hier kunnen staan
 	<div class="l"></div>
 	<div class="r"></div>
 	<div class="art-nav-center">
-<ul class="art-menu"><li class="active item1" id="current"><a class="active" href="https://www.010rotterdam.nl/"><span class="l"> </span><span class="r"> </span><span class="t">Home</span></a></li><li class="item19"><a href="/wonen.html"><span class="l"> </span><span class="r"> </span><span class="t">Wonen</span></a></li><li class="item12"><a href="/werken.html"><span class="l"> </span><span class="r"> </span><span class="t">Werken</span></a></li><li class="item23"><a href="/leven.html"><span class="l"> </span><span class="r"> </span><span class="t">Leven</span></a></li><li class="item13"><a href="/evenementen.html"><span class="l"> </span><span class="r"> </span><span class="t">Evenementen</span></a></li><li class="item14"><a href="/architectuur.html"><span class="l"> </span><span class="r"> </span><span class="t">Architectuur</span></a></li><li class="item16"><a href="/duurzaam.html"><span class="l"> </span><span class="r"> </span><span class="t">Duurzaam</span></a></li><li class="item20"><a href="/wijken.html"><span class="l"> </span><span class="r"> </span><span class="t">Wijken</span></a></li><li class="item17"><a href="/rotterdammers.html"><span class="l"> </span><span class="r"> </span><span class="t">Rotterdammers</span></a></li></ul>	</div>
+<ul class="art-menu"><li id="current" class="active item1"><a href="https://www.010rotterdam.nl/" class="active"><span class="l"> </span><span class="r"> </span><span class="t">Home</span></a></li><li class="item19"><a href="/wonen.html"><span class="l"> </span><span class="r"> </span><span class="t">Wonen</span></a></li><li class="item12"><a href="/werken.html"><span class="l"> </span><span class="r"> </span><span class="t">Werken</span></a></li><li class="item23"><a href="/leven.html"><span class="l"> </span><span class="r"> </span><span class="t">Leven</span></a></li><li class="item13"><a href="/evenementen.html"><span class="l"> </span><span class="r"> </span><span class="t">Evenementen</span></a></li><li class="item14"><a href="/architectuur.html"><span class="l"> </span><span class="r"> </span><span class="t">Architectuur</span></a></li><li class="item16"><a href="/duurzaam.html"><span class="l"> </span><span class="r"> </span><span class="t">Duurzaam</span></a></li><li class="item20"><a href="/wijken.html"><span class="l"> </span><span class="r"> </span><span class="t">Wijken</span></a></li><li class="item17"><a href="/rotterdammers.html"><span class="l"> </span><span class="r"> </span><span class="t">Rotterdammers</span></a></li></ul>	</div>
 </div>
 
 
@@ -154,7 +154,7 @@ Ook uw advertentie zou hier kunnen staan
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/rotterdammers/6-rotterdammers/1036-tijgerslakken-in-rotterdam.html">Tijgerslakken in Rotterdam</a>
+<a href="/rotterdammers/6-rotterdammers/1036-tijgerslakken-in-rotterdam.html" class="PostHeader">Tijgerslakken in Rotterdam</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -162,7 +162,7 @@ vrijdag 07 juni 2024 11:37
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/natuur/IMG_3634.jpg">Een Rotterdammer, je kent hem als de Slakkenman. Maar tijgerslakken?<br>Waar gaat dit over zou je denken.</p>
+<div class="art-article"><p><img src="/images/stories/natuur/IMG_3634.jpg" border="0" align="left">Een Rotterdammer, je kent hem als de Slakkenman. Maar tijgerslakken?<br>Waar gaat dit over zou je denken.</p>
 </div><p>
  <span class="art-button-wrapper">
   <span class="l"> </span>
@@ -188,7 +188,7 @@ vrijdag 07 juni 2024 11:37
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/duurzaam/5-duurzaam/1035-rotterdam-steunt-duurzame-slimme-innovaties.html">Rotterdam steunt duurzame, slimme innovaties</a>
+<a href="/duurzaam/5-duurzaam/1035-rotterdam-steunt-duurzame-slimme-innovaties.html" class="PostHeader">Rotterdam steunt duurzame, slimme innovaties</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -196,7 +196,7 @@ zondag 30 juli 2023 08:51
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/objecten/IMG_0244.jpg">Vier nieuwe innovaties ontvingen vandaag een financiële bijdrage uit het Smart Energy Systems (SES)-programma.
+<div class="art-article"><p><img src="/images/stories/objecten/IMG_0244.jpg" border="0" align="left">Vier nieuwe innovaties ontvingen vandaag een financiële bijdrage uit het Smart Energy Systems (SES)-programma.
 </p></div><p>
  <span class="art-button-wrapper">
   <span class="l"> </span>
@@ -222,7 +222,7 @@ zondag 30 juli 2023 08:51
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/leven/9-leven/1034-rotterdam-blijft-investeren-in-extra-zorg-op-school-5-miljoen-euro-vrijgemaakt-voor-uitbreiding-sch.html">Rotterdam blijft investeren in extra zorg op school: 5 miljoen euro vrijgemaakt voor uitbreiding sch</a>
+<a href="/leven/9-leven/1034-rotterdam-blijft-investeren-in-extra-zorg-op-school-5-miljoen-euro-vrijgemaakt-voor-uitbreiding-sch.html" class="PostHeader">Rotterdam blijft investeren in extra zorg op school: 5 miljoen euro vrijgemaakt voor uitbreiding sch</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -230,7 +230,7 @@ zondag 30 juli 2023 08:49
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/mensen/IMG_5878.jpg">Rotterdam heeft 5 miljoen euro vrijgemaakt voor de uitbreiding van de inzet van schoolzorgteams. Met deze extra middelen kunnen in totaal op 125 scholen schoolzorgteams worden opgezet en de bestaande schoolzorgteams worden gecontinueerd.
+<div class="art-article"><p><img src="/images/stories/mensen/IMG_5878.jpg" border="0" align="left">Rotterdam heeft 5 miljoen euro vrijgemaakt voor de uitbreiding van de inzet van schoolzorgteams. Met deze extra middelen kunnen in totaal op 125 scholen schoolzorgteams worden opgezet en de bestaande schoolzorgteams worden gecontinueerd.
 </p></div><p>
  <span class="art-button-wrapper">
   <span class="l"> </span>
@@ -256,7 +256,7 @@ zondag 30 juli 2023 08:49
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/leven/9-leven/1033-rotterdam-zet-in-op-aanpak-geldzorgen-armoede-en-schulden.html">Rotterdam zet in op aanpak geldzorgen, armoede en schulden</a>
+<a href="/leven/9-leven/1033-rotterdam-zet-in-op-aanpak-geldzorgen-armoede-en-schulden.html" class="PostHeader">Rotterdam zet in op aanpak geldzorgen, armoede en schulden</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -264,7 +264,7 @@ dinsdag 11 juli 2023 16:26
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/objecten/IMG_1853.jpg">De hoge energieprijzen en dure boodschappen hebben het afgelopen jaar veel Rotterdammers, ondernemers en instellingen geraakt. Steeds meer Rotterdammers hebben geldzorgen of problematische schulden.
+<div class="art-article"><p><img src="/images/stories/objecten/IMG_1853.jpg" border="0" align="left">De hoge energieprijzen en dure boodschappen hebben het afgelopen jaar veel Rotterdammers, ondernemers en instellingen geraakt. Steeds meer Rotterdammers hebben geldzorgen of problematische schulden.
 </p></div><p>
  <span class="art-button-wrapper">
   <span class="l"> </span>
@@ -290,7 +290,7 @@ dinsdag 11 juli 2023 16:26
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/duurzaam/5-duurzaam/1030-nieuwe-duurzame-woonwijk-aan-de-maas.html">Nieuwe duurzame woonwijk aan de Maas</a>
+<a href="/duurzaam/5-duurzaam/1030-nieuwe-duurzame-woonwijk-aan-de-maas.html" class="PostHeader">Nieuwe duurzame woonwijk aan de Maas</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -298,7 +298,7 @@ zaterdag 21 januari 2023 16:47
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/objecten/IMG_1469.jpg">De Kaai - Het voormalige terrein van Unilever op de Kop van Feijenoord verandert de komende jaren van bedrijventerrein in een nieuwe en duurzame woonwijk: De Kaai.
+<div class="art-article"><p><img src="/images/stories/objecten/IMG_1469.jpg" border="0" align="left">De Kaai - Het voormalige terrein van Unilever op de Kop van Feijenoord verandert de komende jaren van bedrijventerrein in een nieuwe en duurzame woonwijk: De Kaai.
 </p></div><p>
  <span class="art-button-wrapper">
   <span class="l"> </span>
@@ -324,7 +324,7 @@ zaterdag 21 januari 2023 16:47
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/leven/9-leven/1027-behoud-van-de-tuin-van-de-kok-en-de-tuinman-petitie.html">Behoud van de tuin van de Kok en de Tuinman: petitie!</a>
+<a href="/leven/9-leven/1027-behoud-van-de-tuin-van-de-kok-en-de-tuinman-petitie.html" class="PostHeader">Behoud van de tuin van de Kok en de Tuinman: petitie!</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -332,7 +332,7 @@ donderdag 05 januari 2023 12:17
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/mensen/IMG_1014.jpg">Behoud van de tuin: petitie! Beste lezer, lieve gast, - Afgelopen week hebben wij te horen gekregen dat wij ons terras moeten sluiten bij gebrek aan terras vergunning.</p>
+<div class="art-article"><p><img src="/images/stories/mensen/IMG_1014.jpg" border="0" align="left">Behoud van de tuin: petitie! Beste lezer, lieve gast, - Afgelopen week hebben wij te horen gekregen dat wij ons terras moeten sluiten bij gebrek aan terras vergunning.</p>
 </div><p>
  <span class="art-button-wrapper">
   <span class="l"> </span>
@@ -358,7 +358,7 @@ donderdag 05 januari 2023 12:17
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/evenementen/3-evenementen/1026-racistische-leuzen-op-pyloon-van-de-erasmusbrug-in-rotterdam-geprojecteerd-tijdens-de-jaarwisseling.html">Racistische leuzen op pyloon van de Erasmusbrug in Rotterdam geprojecteerd  tijdens de jaarwisseling</a>
+<a href="/evenementen/3-evenementen/1026-racistische-leuzen-op-pyloon-van-de-erasmusbrug-in-rotterdam-geprojecteerd-tijdens-de-jaarwisseling.html" class="PostHeader">Racistische leuzen op pyloon van de Erasmusbrug in Rotterdam geprojecteerd  tijdens de jaarwisseling</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -366,7 +366,7 @@ maandag 02 januari 2023 15:05
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/rotterdam/IMG_4935.jpg">Het was rond 24.00 uur toen racistische leuzen verschenen op de Erasmusbrug.
+<div class="art-article"><p><img src="/images/stories/rotterdam/IMG_4935.jpg" border="0" align="left">Het was rond 24.00 uur toen racistische leuzen verschenen op de Erasmusbrug.
 </p></div><p>
  <span class="art-button-wrapper">
   <span class="l"> </span>
@@ -392,7 +392,7 @@ maandag 02 januari 2023 15:05
     <div class="art-post-body">
 <div class="art-post-inner">
  <h2 class="art-postheader"> 
-<a class="PostHeader" href="/leven/9-leven/1024-extra-steun-voor-rotterdammers-met-geldzorgen.html">Extra steun voor Rotterdammers met geldzorgen</a>
+<a href="/leven/9-leven/1024-extra-steun-voor-rotterdammers-met-geldzorgen.html" class="PostHeader">Extra steun voor Rotterdammers met geldzorgen</a>
 </h2>
 
 <div class="art-postheadericons art-metadata-icons">
@@ -400,7 +400,7 @@ maandag 02 januari 2023 14:16
 </div>
 <div class="art-postcontent">
     <!-- article-content -->
-<div class="art-article"><p><img align="left" border="0" src="/images/stories/mensen/P1030425.jpg">Hulp bij eerste levensbehoeften, actiever ondersteuning aanbieden en extra inzet om (meer) schulden te voorkomen.</p>
+<div class="art-article"><p><img src="/images/stories/mensen/P1030425.jpg" border="0" align="left">Hulp bij eerste levensbehoeften, actiever ondersteuning aanbieden en extra inzet om (meer) schulden te voorkomen.</p>
 <p>
 </p></div><p>
  <span class="art-button-wrapper">
@@ -488,7 +488,7 @@ maandag 02 januari 2023 14:16
 		    <div class="art-blockcontent-body">
 		<!-- block-content -->
 		
-		<p style="text-align: center;"><a href="http://www.010rotterdam.nl/"><img border="0" src="/images/stories/logo_010_rotterdam.gif"></a></p>
+		<p style="text-align: center;"><a href="http://www.010rotterdam.nl/"><img src="/images/stories/logo_010_rotterdam.gif" border="0"></a></p>
 		<!-- /block-content -->
 		
 				<div class="cleared"></div>
@@ -518,10 +518,10 @@ maandag 02 januari 2023 14:16
 		
 		<form action="index.php" method="post">
 	<div class="searcha">
-		<input alt="Zoeken" class="inputboxa" id="mod_search_searchword" maxlength="40" name="searchword" onblur="if(this.value=='') this.value='zoeken...';" onfocus="if(this.value=='zoeken...') this.value='';" size="40" type="text" value="zoeken..."><input class="buttona" onclick="this.form.searchword.focus();" type="submit" value="Zoeken">	</div>
-	<input name="task" type="hidden" value="search">
-	<input name="option" type="hidden" value="com_search">
-	<input name="Itemid" type="hidden" value="1">
+		<input name="searchword" id="mod_search_searchword" maxlength="40" alt="Zoeken" class="inputboxa" type="text" size="40" value="zoeken..." onblur="if(this.value=='') this.value='zoeken...';" onfocus="if(this.value=='zoeken...') this.value='';"><input type="submit" value="Zoeken" class="buttona" onclick="this.form.searchword.focus();">	</div>
+	<input type="hidden" name="task" value="search">
+	<input type="hidden" name="option" value="com_search">
+	<input type="hidden" name="Itemid" value="1">
 </form>
 		<!-- /block-content -->
 		
@@ -646,7 +646,7 @@ maandag 02 januari 2023 14:16
 		<!-- block-content -->
 		
 		<div align="center">
-	<img alt="P1020004.jpg" height="169" src="/images/willekeurige_afbeelding//P1020004.jpg" width="300"></div>
+	<img src="/images/willekeurige_afbeelding//P1020004.jpg" alt="P1020004.jpg" width="300" height="169"></div>
 		<!-- /block-content -->
 		
 				<div class="cleared"></div>
@@ -680,7 +680,7 @@ maandag 02 januari 2023 14:16
 
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tbody><tr><td align="center">
-<div class="fb-like-box" data-header="true" data-href="http://www.facebook.com/010rotterdam" data-show-faces="true" data-stream="false" data-width="300"></div>
+<div class="fb-like-box" data-href="http://www.facebook.com/010rotterdam" data-width="300" data-show-faces="true" data-stream="false" data-header="true"></div>
 </td></tr>
 </tbody></table>
 		<!-- /block-content -->
@@ -739,14 +739,14 @@ maandag 02 januari 2023 14:16
 		    <div class="art-blockcontent-body">
 		<!-- block-content -->
 		
-		<table border="0" cellpadding="0" style="border-collapse: collapse" width="100%">
+		<table style="border-collapse: collapse" border="0" cellpadding="0" width="100%">
 <tbody>
 <tr>
-<td align="center"><a href="http://www.facebook.com/010rotterdam" target="_blank"><img border="0" height="78" src="/images/facebook.png" width="62"></a></td>
-<td align="center"><a href="http://www.twitter.com/010rotterdam" target="_blank"><img border="0" height="78" src="/images/twitter.png" width="62"></a></td>
-<td align="center"><a href="http://www.youtube.com/user/010RotterdamNL" target="_blank"><img border="0" height="78" src="/images/youtube.png" width="62"></a></td>
-<td align="center"><a href="http://www.flickr.com/photos/010rotterdam" target="_blank"><img border="0" height="78" src="/images/flickr.png" width="62"></a></td>
-<td align="center"><a href="http://feeds.feedburner.com/010rotterdam" target="_blank"><img border="0" height="78" src="/images/rss.png" width="62"></a></td>
+<td align="center"><a href="http://www.facebook.com/010rotterdam" target="_blank"><img src="/images/facebook.png" border="0" width="62" height="78"></a></td>
+<td align="center"><a href="http://www.twitter.com/010rotterdam" target="_blank"><img src="/images/twitter.png" border="0" width="62" height="78"></a></td>
+<td align="center"><a href="http://www.youtube.com/user/010RotterdamNL" target="_blank"><img src="/images/youtube.png" border="0" width="62" height="78"></a></td>
+<td align="center"><a href="http://www.flickr.com/photos/010rotterdam" target="_blank"><img src="/images/flickr.png" border="0" width="62" height="78"></a></td>
+<td align="center"><a href="http://feeds.feedburner.com/010rotterdam" target="_blank"><img src="/images/rss.png" border="0" width="62" height="78"></a></td>
 </tr>
 </tbody>
 </table>
@@ -805,7 +805,7 @@ maandag 02 januari 2023 14:16
 		    <div class="art-blockcontent-body">
 		<!-- block-content -->
 		
-		<iframe frameborder="0" height="250" scrolling="no" src="https://www.google.com/calendar/embed?title=Rotterdam%20Evenementen%20Agenda&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=250&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=redactie%40010rotterdam.nl&amp;color=%232952A3&amp;ctz=Europe%2FAmsterdam" style=" border:solid 1px #777 " width="300"></iframe>
+		<iframe src="https://www.google.com/calendar/embed?title=Rotterdam%20Evenementen%20Agenda&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=250&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=redactie%40010rotterdam.nl&amp;color=%232952A3&amp;ctz=Europe%2FAmsterdam" style=" border:solid 1px #777 " width="300" height="250" frameborder="0" scrolling="no"></iframe>
 		<!-- /block-content -->
 		
 				<div class="cleared"></div>
@@ -829,7 +829,7 @@ maandag 02 januari 2023 14:16
     <div class="art-footer-body">
                  <div class="art-footer-text">
                     <div class="art-nostyle">
-<table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody><tr><td nowrap="nowrap"><a class="mainlevel" href="/010-flits.html">010 Flits</a><span class="mainlevel"> | </span><a class="mainlevel" href="/privacy-policy.html">Privacy policy</a><span class="mainlevel"> | </span><a class="mainlevel" href="/disclaimer.html">Disclaimer</a><span class="mainlevel"> | </span><a class="mainlevel" href="/copyright.html">Copyright</a><span class="mainlevel"> | </span><a class="mainlevel" href="/adverteren.html">Adverteren</a><span class="mainlevel"> | </span><a class="mainlevel" href="/over-ons.html">Over ons</a><span class="mainlevel"> | </span><a class="mainlevel" href="/contact.html">Contact</a><span class="mainlevel"> | </span><a class="mainlevel" href="http://www.010webdesign.nl" target="_blank">© 010webdesign</a></td></tr></tbody></table></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="1"><tbody><tr><td nowrap="nowrap"><a href="/010-flits.html" class="mainlevel">010 Flits</a><span class="mainlevel"> | </span><a href="/privacy-policy.html" class="mainlevel">Privacy policy</a><span class="mainlevel"> | </span><a href="/disclaimer.html" class="mainlevel">Disclaimer</a><span class="mainlevel"> | </span><a href="/copyright.html" class="mainlevel">Copyright</a><span class="mainlevel"> | </span><a href="/adverteren.html" class="mainlevel">Adverteren</a><span class="mainlevel"> | </span><a href="/over-ons.html" class="mainlevel">Over ons</a><span class="mainlevel"> | </span><a href="/contact.html" class="mainlevel">Contact</a><span class="mainlevel"> | </span><a href="http://www.010webdesign.nl" target="_blank" class="mainlevel">© 010webdesign</a></td></tr></tbody></table></div>
                   </div>
 		<div class="cleared"></div>
     </div>

@@ -78,40 +78,40 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
 === html_contents ===
 <!DOCTYPE html><html lang="ja"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   <meta charset="utf-8">
-  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>永松クリニック｜芦屋市の外科・内科｜様々な検査で予防に力を入れています</title>
   
 <!-- All in One SEO Pack 3.1.1 によって Michael Torbert の Semper Fi Web Designob_start_detected [-1,-1] -->
-<meta content="芦屋市（阪急神戸本線「芦屋川駅」）の内科、外科の永松クリニックです。自宅のリビングに居るような落ち着いた雰囲気でリラックスして診察を受けていただけます。消化器科、外科、内科、麻酔科、レントゲン科など様々な症状に対応しております。" name="description">
+<meta name="description" content="芦屋市（阪急神戸本線「芦屋川駅」）の内科、外科の永松クリニックです。自宅のリビングに居るような落ち着いた雰囲気でリラックスして診察を受けていただけます。消化器科、外科、内科、麻酔科、レントゲン科など様々な症状に対応しております。">
 
-<meta content="永松クリニック,芦屋市,内科,外科,在宅診療,プラセンタ" name="keywords">
+<meta name="keywords" content="永松クリニック,芦屋市,内科,外科,在宅診療,プラセンタ">
 
-<link href="https://www.01483.or.jp/" rel="canonical">
-<meta content="永松クリニック｜芦屋市の外科・内科｜様々な検査で予防に力を入れています" property="og:title">
-<meta content="website" property="og:type">
-<meta content="https://www.01483.or.jp/" property="og:url">
-<meta content="https://www.01483.or.jp/wp-content/uploads/logo_ogp.jpg" property="og:image">
-<meta content="永松クリニック" property="og:site_name">
-<meta content="芦屋市（阪急神戸本線「芦屋川駅」）の内科、外科の永松クリニックです。自宅のリビングに居るような落ち着いた雰囲気でリラックスして診察を受けていただけます。消化器科、外科、内科、麻酔科、レントゲン科など様々な症状に対応しております。" property="og:description">
-<meta content="https://www.01483.or.jp/wp-content/uploads/logo_ogp.jpg" property="og:image:secure_url">
-<meta content="summary" name="twitter:card">
-<meta content="永松クリニック｜芦屋市の外科・内科｜様々な検査で予防に力を入れています" name="twitter:title">
-<meta content="芦屋市（阪急神戸本線「芦屋川駅」）の内科、外科の永松クリニックです。自宅のリビングに居るような落ち着いた雰囲気でリラックスして診察を受けていただけます。消化器科、外科、内科、麻酔科、レントゲン科など様々な症状に対応しております。" name="twitter:description">
-<meta content="https://www.01483.or.jp/wp-content/uploads/logo_ogp.jpg" name="twitter:image">
+<link rel="canonical" href="https://www.01483.or.jp/">
+<meta property="og:title" content="永松クリニック｜芦屋市の外科・内科｜様々な検査で予防に力を入れています">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.01483.or.jp/">
+<meta property="og:image" content="https://www.01483.or.jp/wp-content/uploads/logo_ogp.jpg">
+<meta property="og:site_name" content="永松クリニック">
+<meta property="og:description" content="芦屋市（阪急神戸本線「芦屋川駅」）の内科、外科の永松クリニックです。自宅のリビングに居るような落ち着いた雰囲気でリラックスして診察を受けていただけます。消化器科、外科、内科、麻酔科、レントゲン科など様々な症状に対応しております。">
+<meta property="og:image:secure_url" content="https://www.01483.or.jp/wp-content/uploads/logo_ogp.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="永松クリニック｜芦屋市の外科・内科｜様々な検査で予防に力を入れています">
+<meta name="twitter:description" content="芦屋市（阪急神戸本線「芦屋川駅」）の内科、外科の永松クリニックです。自宅のリビングに居るような落ち着いた雰囲気でリラックスして診察を受けていただけます。消化器科、外科、内科、麻酔科、レントゲン科など様々な症状に対応しております。">
+<meta name="twitter:image" content="https://www.01483.or.jp/wp-content/uploads/logo_ogp.jpg">
 <!-- All in One SEO Pack -->
-<link href="https://www.01483.or.jp/wp-includes/css/dist/block-library/style.min.css?ver=5.5.18" id="wp-block-library-css" media="all" rel="stylesheet" type="text/css">
-<link href="https://www.01483.or.jp/wp-content/plugins/biz-calendar/biz-cal.css?ver=2.2.0" id="biz-cal-style-css" media="all" rel="stylesheet" type="text/css">
-<link href="https://www.01483.or.jp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.3" id="contact-form-7-css" media="all" rel="stylesheet" type="text/css">
+<link rel="stylesheet" id="wp-block-library-css" href="https://www.01483.or.jp/wp-includes/css/dist/block-library/style.min.css?ver=5.5.18" type="text/css" media="all">
+<link rel="stylesheet" id="biz-cal-style-css" href="https://www.01483.or.jp/wp-content/plugins/biz-calendar/biz-cal.css?ver=2.2.0" type="text/css" media="all">
+<link rel="stylesheet" id="contact-form-7-css" href="https://www.01483.or.jp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.3" type="text/css" media="all">
 
 
 
-<link href="https://www.01483.or.jp/" rel="shortlink">
+<link rel="shortlink" href="https://www.01483.or.jp/">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese" rel="stylesheet">
   <link href="https://www.01483.or.jp/wp-content/themes/014832019.com_/assets/css/main.css?1785944937" rel="stylesheet">
   
   
-<link href="/wp-content/uploads/favicon.png" rel="shortcut icon">
+<link rel="shortcut icon" href="/wp-content/uploads/favicon.png">
 </head>
 <body class="scrollTop home">
 
@@ -124,27 +124,27 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
         <div class="row">
                     <h1 class="title">
                           <a href="https://www.01483.or.jp/">
-                <object alt="永松クリニック" data="/wp-content/uploads/logo.svg" type="image/svg+xml"></object>
+                <object type="image/svg+xml" data="/wp-content/uploads/logo.svg" alt="永松クリニック"></object>
               </a>
                       </h1>
           <div class="hdr_info_wrap">
             <div class="hdr_info">
               <span class="pc-only">
                 <a href="https://ssl.fdoc.jp/reserve/subjectlist/index/cid/x0860528?SITE_CODE=hp" target="_blank">
-                  <img alt="24時間ネット予約可能" src="/wp-content/uploads/header_bnr01.png">
+                  <img src="/wp-content/uploads/header_bnr01.png" alt="24時間ネット予約可能">
                 </a>
                 <a href="https://m0684872.xaas3.jp/w/wm01.php" target="_blank">
-                  <img alt="ウェブ問診" src="/wp-content/uploads/header_bnr02.png">
+                  <img src="/wp-content/uploads/header_bnr02.png" alt="ウェブ問診">
                 </a>
                 <p class="hdr_txt">
                   <span class="address">〒659-0094 兵庫県芦屋市松ノ内町10-18</span><br>
                   <span class="tel"><span>TEL</span> 0797-32-3399　<span>FAX</span> 0797-32-9293</span>
                 </p>
               </span>
-              <span class="hdr_info_sp sp-only"><a href="tel:0797323399"><img alt="TEL" src="/wp-content/uploads/icon_tel.png"></a></span>
+              <span class="hdr_info_sp sp-only"><a href="tel:0797323399"><img src="/wp-content/uploads/icon_tel.png" alt="TEL"></a></span>
             </div>
           </div>
-      <nav class="global_nav"><ul><li><a aria-current="page" href="https://www.01483.or.jp/">HOME</a></li>
+      <nav class="global_nav"><ul><li><a href="https://www.01483.or.jp/" aria-current="page">HOME</a></li>
 <li><a href="https://www.01483.or.jp/clinic">医院案内</a></li>
 <li><a href="/clinic#a01">院長紹介</a></li>
 <li><a href="https://www.01483.or.jp/contents">診療案内</a></li>
@@ -153,9 +153,9 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
             <li class="gnav_search">
               <a href="#">search</a>
   <div class="epress_search">
-    <form action="https://www.01483.or.jp/" method="get">
-      <input autocomplete="off" class="text" name="s" placeholder="" type="text" value="">
-      <input class="submit" type="submit" value="Search">
+    <form method="get" action="https://www.01483.or.jp/">
+      <input type="text" placeholder="" class="text" name="s" autocomplete="off" value="">
+      <input type="submit" value="Search" class="submit">
     </form>
   </div>
   </li>
@@ -169,18 +169,18 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
           <div class="main_visual wow">
   <ul class="main_visual_slick">
     <li>
-      <img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03" src="/wp-content/uploads/image1.jpg"><img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03" src="/wp-content/uploads/sp_image1.jpg">
+      <img src="/wp-content/uploads/image1.jpg" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03"><img src="/wp-content/uploads/sp_image1.jpg" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03">
     </li>
     <li>
-      <img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03" src="/wp-content/uploads/image2.jpg"><img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03" src="/wp-content/uploads/sp_image2.jpg">
+      <img src="/wp-content/uploads/image2.jpg" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03"><img src="/wp-content/uploads/sp_image2.jpg" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03">
     </li>
     <li>
-      <img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03" src="/wp-content/uploads/image3.jpg"><img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03" src="/wp-content/uploads/sp_image3.jpg">
+      <img src="/wp-content/uploads/image3.jpg" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03"><img src="/wp-content/uploads/sp_image3.jpg" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03">
     </li>
   </ul>
   <ul class="main_visual_copy">
     <li>
-      <img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03 main_copy1" src="/wp-content/uploads/sp_main_copy1.png"><img alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03 main_copy1" src="/wp-content/uploads/main_copy1.png">
+      <img src="/wp-content/uploads/sp_main_copy1.png" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="sp-only03 main_copy1"><img src="/wp-content/uploads/main_copy1.png" alt="皆様の笑顔と健康をお守りいたします。遺伝子検査による病気の予防や早期発見、アンチエイジングにも取り組んでいる" class="pc-only03 main_copy1">
     </li>
   </ul>
 </div>
@@ -189,7 +189,7 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
     <div class="row reverse">
       <div class="col span_6 sp-only">
         <figure>
-          <img alt="当院について" src="/wp-content/uploads/top_bg001.jpg">
+          <img src="/wp-content/uploads/top_bg001.jpg" alt="当院について">
         </figure>
       </div>
       <div class="col span_6 fadeInBoxWrap wow">
@@ -205,7 +205,7 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
          </p>
 -->
           <p class="more ani04">
-            <a class="add_arrow" href="/clinic">詳しくはこちら</a>
+            <a href="/clinic" class="add_arrow">詳しくはこちら</a>
           </p>
         </div>
       </div>
@@ -278,7 +278,7 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
     <div class="row">
       <div class="col span_12">
         <figure>
-          <a href="https://doctorsfile.jp/h/77648/" rel="noopener noreferrer" target="_blank"><img alt="Doctors File" src="/wp-content/uploads/top_bnr_img001.jpg"></a>
+          <a href="https://doctorsfile.jp/h/77648/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/top_bnr_img001.jpg" alt="Doctors File"></a>
         </figure>
       </div>
     </div>
@@ -289,18 +289,18 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
     <div class="row">
       <div class="col span_4">
         <figure class="title_img">
-          <img alt="診療案内" src="/wp-content/uploads/title_01.png">
+          <img src="/wp-content/uploads/title_01.png" alt="診療案内">
         </figure>
       </div>
       <div class="col span_8">
         <div class="content fadeInBoxWrap wow">
           <a href="/nosmoking">
             <figure>
-              <img alt="禁煙外来" class="pc-only" src="/wp-content/uploads/top_bnr002.jpg"><img alt="禁煙外来" class="sp-only" src="/wp-content/uploads/sp_top_bnr002.jpg"><span class="num_img pc-only ani01"><img alt="01" src="/wp-content/uploads/no01.png"></span>
+              <img src="/wp-content/uploads/top_bnr002.jpg" alt="禁煙外来" class="pc-only"><img src="/wp-content/uploads/sp_top_bnr002.jpg" alt="禁煙外来" class="sp-only"><span class="num_img pc-only ani01"><img src="/wp-content/uploads/no01.png" alt="01"></span>
             </figure>
             <div class="txt">
               <p class="title ani02">
-                <img alt="01" class="sp-only" src="/wp-content/uploads/sp_no01.png">禁煙外来
+                <img src="/wp-content/uploads/sp_no01.png" alt="01" class="sp-only">禁煙外来
               </p>
               <p class="ani03">
                 「タバコの害は理解している」「どうしてもタバコを吸ってしまう」など、<br class="pc-only">タバコを止めたい方に向けた禁煙外来です。
@@ -314,11 +314,11 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
         <div class="content fadeInBoxWrap wow">
           <a href="/gene">
             <figure>
-              <img alt="遺伝子検査" class="pc-only" src="/wp-content/uploads/top_bnr003.jpg"><img alt="遺伝子検査" class="sp-only" src="/wp-content/uploads/sp_top_bnr003.jpg"><span class="num_img pc-only ani01"><img alt="02" src="/wp-content/uploads/no02.png"></span>
+              <img src="/wp-content/uploads/top_bnr003.jpg" alt="遺伝子検査" class="pc-only"><img src="/wp-content/uploads/sp_top_bnr003.jpg" alt="遺伝子検査" class="sp-only"><span class="num_img pc-only ani01"><img src="/wp-content/uploads/no02.png" alt="02"></span>
             </figure>
             <div class="txt">
               <p class="title ani02">
-                <img alt="02" class="sp-only" src="/wp-content/uploads/sp_no02.png">遺伝子検査
+                <img src="/wp-content/uploads/sp_no02.png" alt="02" class="sp-only">遺伝子検査
               </p>
               <p class="ani03">
                 動脈硬化リスク判定、糖尿病合併症リスク判定、がんのリスク検査など、<br class="pc-only">現在は遺伝子検査で様々な症状のリスクを調べることができます。
@@ -332,11 +332,11 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
         <div class="content fadeInBoxWrap wow">
           <a href="/aga">
             <figure>
-              <img alt="AGA治療" class="pc-only" src="/wp-content/uploads/top_bnr004.jpg"><img alt="AGA治療" class="sp-only" src="/wp-content/uploads/sp_top_bnr004.jpg"><span class="num_img pc-only ani01"><img alt="03" src="/wp-content/uploads/no03.png"></span>
+              <img src="/wp-content/uploads/top_bnr004.jpg" alt="AGA治療" class="pc-only"><img src="/wp-content/uploads/sp_top_bnr004.jpg" alt="AGA治療" class="sp-only"><span class="num_img pc-only ani01"><img src="/wp-content/uploads/no03.png" alt="03"></span>
             </figure>
             <div class="txt">
               <p class="title ani02">
-                <img alt="03" class="sp-only" src="/wp-content/uploads/sp_no03.png">AGA治療
+                <img src="/wp-content/uploads/sp_no03.png" alt="03" class="sp-only">AGA治療
               </p>
               <p class="ani03">
                 薄毛や脱毛でお悩みの方のためのAGA治療も行っております。<br>丁寧なカウンセリングでひとりひとりに合わせた治療を行います。
@@ -350,11 +350,11 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
         <div class="content fadeInBoxWrap wow">
           <a href="/lymphocytes">
             <figure>
-              <img alt="6種複合免疫療法" class="pc-only" src="/wp-content/uploads/top_bnr005.jpg"><img alt="6種複合免疫療法" class="sp-only" src="/wp-content/uploads/sp_top_bnr005.jpg"><span class="num_img pc-only ani01"><img alt="04" src="/wp-content/uploads/no04.png"></span>
+              <img src="/wp-content/uploads/top_bnr005.jpg" alt="6種複合免疫療法" class="pc-only"><img src="/wp-content/uploads/sp_top_bnr005.jpg" alt="6種複合免疫療法" class="sp-only"><span class="num_img pc-only ani01"><img src="/wp-content/uploads/no04.png" alt="04"></span>
             </figure>
             <div class="txt">
               <p class="title ani02">
-                <img alt="04" class="sp-only" src="/wp-content/uploads/sp_no04.png">6種複合免疫療法
+                <img src="/wp-content/uploads/sp_no04.png" alt="04" class="sp-only">6種複合免疫療法
               </p>
               <p class="ani03">
                 がん免疫療法のひとつです。<br>体内の免疫細胞を体外に取り出し、活性化・増殖させてから体内に戻し、<br class="pc-only">がんと闘う力を増幅させる両方です。
@@ -368,11 +368,11 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
         <div class="content fadeInBoxWrap wow">
           <a href="/stress">
             <figure>
-              <img alt="酸化ストレスドッグ" class="pc-only" src="/wp-content/uploads/top_bnr006.jpg"><img alt="酸化ストレスドッグ" class="sp-only" src="/wp-content/uploads/sp_top_bnr006.jpg"><span class="num_img pc-only ani01"><img alt="04" src="/wp-content/uploads/no05.png"></span>
+              <img src="/wp-content/uploads/top_bnr006.jpg" alt="酸化ストレスドッグ" class="pc-only"><img src="/wp-content/uploads/sp_top_bnr006.jpg" alt="酸化ストレスドッグ" class="sp-only"><span class="num_img pc-only ani01"><img src="/wp-content/uploads/no05.png" alt="04"></span>
             </figure>
             <div class="txt">
               <p class="title ani02">
-                <img alt="05" class="sp-only" src="/wp-content/uploads/sp_no05.png">酸化ストレスドッグ
+                <img src="/wp-content/uploads/sp_no05.png" alt="05" class="sp-only">酸化ストレスドッグ
               </p>
               <p class="ani03">
                 「酸化ストレス」が過剰になると、<br class="pc-only">様々な病気や老化の引き金になると考えられています。<br>当院で事前に対策をしていきましょう。
@@ -393,37 +393,37 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
     <div class="row sp_image_cols sp_col2">
       <div class="col span_2">
         <figure>
-          <a href="http://www.drs-hair.co.jp/" rel="noopener noreferrer" target="_blank"><img alt="ドクターズヘア" src="/wp-content/uploads/link_logo1.png"></a>
+          <a href="http://www.drs-hair.co.jp/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/link_logo1.png" alt="ドクターズヘア"></a>
         </figure>
       </div>
       <div class="col span_2">
         <figure>
-          <a href="https://brand.fujifilm.com/sekai-hitotsuzutsu/contents/stomach/" rel="noopener noreferrer" target="_blank"><img alt="鼻から胃の検査" src="/wp-content/uploads/link_logo2.png"></a>
+          <a href="https://brand.fujifilm.com/sekai-hitotsuzutsu/contents/stomach/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/link_logo2.png" alt="鼻から胃の検査"></a>
         </figure>
       </div>
       <div class="col span_2">
         <figure>
-          <a href="https://www.signpostcorp.com/" rel="noopener noreferrer" target="_blank"><img alt="SignPost" src="/wp-content/uploads/link_logo3.png"></a>
+          <a href="https://www.signpostcorp.com/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/link_logo3.png" alt="SignPost"></a>
         </figure>
       </div>
       <div class="col span_2">
         <figure>
-          <a href="https://sugu-kinen.jp/" rel="noopener noreferrer" target="_blank"><img alt="すぐ禁煙.jp" src="/wp-content/uploads/link_logo4.png"></a>
+          <a href="https://sugu-kinen.jp/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/link_logo4.png" alt="すぐ禁煙.jp"></a>
         </figure>
       </div>
       <div class="col span_2">
         <figure>
-          <a href="https://gan911.com/" rel="noopener noreferrer" target="_blank"><img alt="がん免疫研究所" src="/wp-content/uploads/link_logo5.png"></a>
+          <a href="https://gan911.com/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/link_logo5.png" alt="がん免疫研究所"></a>
         </figure>
       </div>
       <div class="col span_2 break">
         <figure>
-          <a href="https://659naoso.com/" rel="noopener noreferrer" target="_blank"><img alt="無呼吸なおそう" src="/wp-content/uploads/logo6.png"></a>
+          <a href="https://659naoso.com/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/logo6.png" alt="無呼吸なおそう"></a>
         </figure>
       </div>
       <div class="col span_2 break">
         <figure>
-          <a href="https://www.mhlw.go.jp/hellowork_iryoukaigohoiku/" rel="noopener noreferrer" target="_blank"><img alt="ハローワークインタネットサービス" src="/wp-content/uploads/260423.png"></a>
+          <a href="https://www.mhlw.go.jp/hellowork_iryoukaigohoiku/" target="_blank" rel="noopener noreferrer"><img src="/wp-content/uploads/260423.png" alt="ハローワークインタネットサービス"></a>
         </figure>
       </div>
     </div>
@@ -434,7 +434,7 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
     <div class="row tile">
       <div class="col span_6">
         <figure class="logo_img">
-          <img alt="永松クリニック" src="/wp-content/uploads/logo.png">
+          <img src="/wp-content/uploads/logo.png" alt="永松クリニック">
         </figure>
         <p>〒659-0094 兵庫県芦屋市松ノ内町10-18</p>
         <p class="tel_txt">
@@ -537,12 +537,12 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
           <!--、第3火曜日-->
         </p>
         <p class="more">
-          <a class="add_arrow" href="/clinic">詳しくはこちら</a>
+          <a href="/clinic" class="add_arrow">詳しくはこちら</a>
         </p>
       </div>
       <div class="col span_6 shopinfo">
         <div class="map_container">
-          <iframe allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6557.511783662319!2d135.301783!3d34.736547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f32b0d907ad7%3A0xaf2cabbb2f30189e!2z5rC45p2-44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sus!4v1683535018446!5m2!1sja!2sus" style="border: 0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6557.511783662319!2d135.301783!3d34.736547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000f32b0d907ad7%3A0xaf2cabbb2f30189e!2z5rC45p2-44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sus!4v1683535018446!5m2!1sja!2sus" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <p>
           アクセス：阪急神戸本線「芦屋川駅」より徒歩2分<br>駐車場：あり（2台）
@@ -566,7 +566,7 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
       </div>
       <div class="col span_5">
         <p class="more">
-          <a class="add_arrow" href="/contact">お問い合わせフォーム</a>
+          <a href="/contact" class="add_arrow">お問い合わせフォーム</a>
         </p>
       </div>
     </div>
@@ -580,18 +580,18 @@ TEL 0797-32-3399 0797-32-3399 FAX 0797-32-9293
         <div class="col span_12">
           <a href="https://ssl.fdoc.jp/reserve/subjectlist/index/cid/x0860528?SITE_CODE=hp" target="_blank">
             <figure>
-              <img alt="新患専用の受付です。" src="/wp-content/uploads/epark_bn2.png">
+              <img src="/wp-content/uploads/epark_bn2.png" alt="新患専用の受付です。">
             </figure>
           </a>
         </div>
         <div class="row">
           <div class="col span_12">
-            <p class="more"><a class="add_arrow" href="https://m0684872.xaas3.jp/w/wm01.php" target="_blank">ウェブ問診</a></p>
+            <p class="more"><a href="https://m0684872.xaas3.jp/w/wm01.php" target="_blank" class="add_arrow">ウェブ問診</a></p>
           </div>
         </div>
       </div>
         <div class="row">
-        <nav class="col span_12"><ul><li><a aria-current="page" href="https://www.01483.or.jp/">HOME</a></li>
+        <nav class="col span_12"><ul><li><a href="https://www.01483.or.jp/" aria-current="page">HOME</a></li>
 <li><a href="https://www.01483.or.jp/clinic">医院案内</a></li>
 <li><a href="/clinic#a01">院長紹介</a></li>
 <li><a href="https://www.01483.or.jp/contents">診療案内</a></li>

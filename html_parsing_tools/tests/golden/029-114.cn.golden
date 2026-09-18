@@ -92,28 +92,28 @@
 === html_contents ===
 <!DOCTYPE html><html><head>
 <meta charset="gb2312">
-<meta content="IE=edge" http-equiv="X-UA-Compatible">
-<meta content="webkit" name="renderer">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
 
 <title>9659彩票网</title>
-<meta content="9659彩票网,9659cc彩票" name="keywords">
-<meta content="9659cc彩票welcome彩集团官方网站为您提供9659彩票VIP版本计划客服微聊安卓版下载手机版app最新版本更新内容,9659彩票用户登录,9659彩票在线安全入口,9659彩票购彩邀请码,9659彩票线路检测导航,9659彩票中心大厅,9659彩票专业购彩平台." name="description">
-<meta content="9659彩票" name="author">
-<meta content="9659彩票" name="Copyright">
-<link href="?css/css.css" rel="stylesheet" type="text/css">
-<link href="?css/red.css" rel="stylesheet" type="text/css">
+<meta name="keywords" content="9659彩票网,9659cc彩票">
+<meta name="description" content="9659cc彩票welcome彩集团官方网站为您提供9659彩票VIP版本计划客服微聊安卓版下载手机版app最新版本更新内容,9659彩票用户登录,9659彩票在线安全入口,9659彩票购彩邀请码,9659彩票线路检测导航,9659彩票中心大厅,9659彩票专业购彩平台.">
+<meta name="author" content="9659彩票">
+<meta name="Copyright" content="9659彩票">
+<link rel="stylesheet" type="text/css" href="?css/css.css">
+<link rel="stylesheet" type="text/css" href="?css/red.css">
 
 
 
-<link href="?css/iconfont.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="?css/iconfont.css">
 
-<link href="?css/swiper.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="?css/swiper.min.css">
 
-<link href="?css/aos.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="?css/aos.css">
 
 
 
-<link href="?css/common.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="?css/common.css">
 <!--[if IE 6]>
 <script src="?js/png.js"></script>
 <script>
@@ -129,12 +129,12 @@
   <div class="warp" style="position:relative;">
     <div class="fl">您好，欢迎来到9659彩票！</div>
     <div class="fr">
-      <a href="javascript:;" onclick="AddFavorite('9659彩票',location.href)" title="加入收藏">加入收藏</a> | <a href="javascript:;" onclick="SetHome(this,'https:/www.zygfz.com')" title="设为首页">设为首页</a> | <a href="?contact.asp">联系我们</a> | <a class="weixin">微信<div class="wx_erweima"><img src="?UploadFiles/202333143949821.jpg"></div></a> | <a class="phone">13182665152</a>
+      <a onclick="AddFavorite('9659彩票',location.href)" href="javascript:;" title="加入收藏">加入收藏</a> | <a onclick="SetHome(this,'https:/www.zygfz.com')" href="javascript:;" title="设为首页">设为首页</a> | <a href="?contact.asp">联系我们</a> | <a class="weixin">微信<div class="wx_erweima"><img src="?UploadFiles/202333143949821.jpg"></div></a> | <a class="phone">13182665152</a>
     </div>
   </div>
 </div>
 <!---------top END--------->
-<div class="warp" id="header">
+<div id="header" class="warp">
   <div id="logo"><img src="?UploadFiles/2024229124045986.jpg"></div>
   <div id="header_nav">
     <ul>
@@ -149,7 +149,7 @@
 <div id="menu_bg">
   <div class="warp nav nav3">
     <ul>
-      <li class="on"><a class="mainlevel" href="/">网站首页</a></li>
+      <li class="on"><a href="/" class="mainlevel">网站首页</a></li>
       <li><a class="mainlevel" href="?about.asp">关于9659彩票</a>
         <ul>
 		  
@@ -216,16 +216,16 @@
   </div>
 </div>
 <!-------menu END----------><div id="banner">
-  <div class="slideBox" id="slideBox">
+  <div id="slideBox" class="slideBox">
     <div><a class="next"></a> <a class="prev"></a></div>
     <div class="bd">
       <ul>
 		
-        <li><a href="https:/www.zygfz.com"><img alt="2024" src="?UploadFiles/2024226101012.JPG"></a></li>
+        <li><a href="https:/www.zygfz.com"><img src="?UploadFiles/2024226101012.JPG" alt="2024"></a></li>
 		
-        <li><a href="https:/www.zygfz.com"><img alt="幻灯片3" src="?UploadFiles/2024229131011.JPG"></a></li>
+        <li><a href="https:/www.zygfz.com"><img src="?UploadFiles/2024229131011.JPG" alt="幻灯片3"></a></li>
 		
-        <li><a href=""><img alt="公司" src="?UploadFiles/20201224141141.JPG"></a></li>
+        <li><a href=""><img src="?UploadFiles/20201224141141.JPG" alt="公司"></a></li>
 		
       </ul>
     </div>
@@ -236,31 +236,31 @@
   <div class="warp">
     <div class="fl"><h3><em class="iconfont"></em>大家都在搜：</h3>
       
-	  <a href="?search.asp?key=热缩套" target="_blank" title="热缩套">热缩套</a>
+	  <a href="?search.asp?key=热缩套" title="热缩套" target="_blank">热缩套</a>
       
-	  <a href="?search.asp?key=热缩带" target="_blank" title="热缩带">热缩带</a>
+	  <a href="?search.asp?key=热缩带" title="热缩带" target="_blank">热缩带</a>
       
-	  <a href="?search.asp?key=粘弹体防腐胶带" target="_blank" title="粘弹体防腐胶带">粘弹体防腐胶带</a>
+	  <a href="?search.asp?key=粘弹体防腐胶带" title="粘弹体防腐胶带" target="_blank">粘弹体防腐胶带</a>
       
-	  <a href="?search.asp?key=燃气穿墙热缩管" target="_blank" title="燃气穿墙热缩管">燃气穿墙热缩管</a>
+	  <a href="?search.asp?key=燃气穿墙热缩管" title="燃气穿墙热缩管" target="_blank">燃气穿墙热缩管</a>
       
-	  <a href="?search.asp?key=热缩缠绕带" target="_blank" title="热缩缠绕带">热缩缠绕带</a>
+	  <a href="?search.asp?key=热缩缠绕带" title="热缩缠绕带" target="_blank">热缩缠绕带</a>
       
-	  <a href="?search.asp?key=带胶热缩套" target="_blank" title="带胶热缩套">带胶热缩套</a>
+	  <a href="?search.asp?key=带胶热缩套" title="带胶热缩套" target="_blank">带胶热缩套</a>
       
-	  <a href="?search.asp?key=钢塑转换热缩套" target="_blank" title="钢塑转换热缩套">钢塑转换热缩套</a>
+	  <a href="?search.asp?key=钢塑转换热缩套" title="钢塑转换热缩套" target="_blank">钢塑转换热缩套</a>
       
-	  <a href="?search.asp?key=中壁涂胶管" target="_blank" title="中壁涂胶管">中壁涂胶管</a>
+	  <a href="?search.asp?key=中壁涂胶管" title="中壁涂胶管" target="_blank">中壁涂胶管</a>
       
-	  <a href="?search.asp?key=四分管热缩套" target="_blank" title="四分管热缩套">四分管热缩套</a>
+	  <a href="?search.asp?key=四分管热缩套" title="四分管热缩套" target="_blank">四分管热缩套</a>
       
     </div>
     <div class="search-right fr">
       <div class="search-tel">免费服务热线：<strong class="en">13182665152</strong></div>
       <div class="serch-box">
-        <form action="search.asp" id="KFO" method="POST" name="KFO" onsubmit="return SearchKey()" style="padding:0px; margin:0px;">
-        <div id="search-bg"><input id="Key" name="Key" placeholder="请输入您要了解的产品名称" type="text"></div>
-        <div id="search-i"><input align="middle" type="submit" value=""></div>
+        <form id="KFO" name="KFO" action="search.asp" method="POST" onsubmit="return SearchKey()" style="padding:0px; margin:0px;">
+        <div id="search-bg"><input id="Key" name="Key" type="text" placeholder="请输入您要了解的产品名称"></div>
+        <div id="search-i"><input type="submit" value="" align="middle"></div>
         </form>
       </div>
     </div>
@@ -341,47 +341,47 @@
                         <ul class="pro_list01">
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=74"><img alt="热缩带/套" src="?UploadFiles/2020129151438.JPG"></a><p>热缩带/套</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=74"><img src="?UploadFiles/2020129151438.JPG" alt="热缩带/套"></a><p>热缩带/套</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=74">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=73"><img alt="热缩套" src="?UploadFiles/20201215145928.JPG"></a><p>热缩套</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=73"><img src="?UploadFiles/20201215145928.JPG" alt="热缩套"></a><p>热缩套</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=73">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=72"><img alt="热缩缠绕带" src="?UploadFiles/20201215151338.JPG"></a><p>热缩缠绕带</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=72"><img src="?UploadFiles/20201215151338.JPG" alt="热缩缠绕带"></a><p>热缩缠绕带</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=72">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=61"><img alt="聚乙烯防腐胶带" src="?UploadFiles/2020121690339.JPG"></a><p>聚乙烯防腐胶带</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=61"><img src="?UploadFiles/2020121690339.JPG" alt="聚乙烯防腐胶带"></a><p>聚乙烯防腐胶带</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=61">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=64"><img alt="粘弹体防腐胶带" src="?UploadFiles/20201215162152.JPG"></a><p>粘弹体防腐胶带</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=64"><img src="?UploadFiles/20201215162152.JPG" alt="粘弹体防腐胶带"></a><p>粘弹体防腐胶带</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=64">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=81"><img alt="环氧玻璃钢-管道定向钻穿越用" src="?UploadFiles/2024229102359.JPG"></a><p>环氧玻璃钢-管道定向钻穿越用</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=81"><img src="?UploadFiles/2024229102359.JPG" alt="环氧玻璃钢-管道定向钻穿越用"></a><p>环氧玻璃钢-管道定向钻穿越用</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=81">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=56"><img alt="燃气穿墙热缩套管" src="?UploadFiles/20201216162227.JPG"></a><p>燃气穿墙热缩套管</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=56"><img src="?UploadFiles/20201216162227.JPG" alt="燃气穿墙热缩套管"></a><p>燃气穿墙热缩套管</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=56">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=43"><img alt="通讯用冷缩管（内置胶泥）" src="?UploadFiles/20201216160947.JPG"></a><p>通讯用冷缩管（内置胶泥）</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=43"><img src="?UploadFiles/20201216160947.JPG" alt="通讯用冷缩管（内置胶泥）"></a><p>通讯用冷缩管（内置胶泥）</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=43">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
                             <li>
-                              <div class="incp_pic"><a href="?productshow.asp?id=51"><img alt="热缩母排保护套管" src="?UploadFiles/20201216101556.JPG"></a><p>热缩母排保护套管</p></div>
+                              <div class="incp_pic"><a href="?productshow.asp?id=51"><img src="?UploadFiles/20201216101556.JPG" alt="热缩母排保护套管"></a><p>热缩母排保护套管</p></div>
                               <div class="incp_more"><a href="?productshow.asp?id=51">了解详情</a><a href="?contact.asp">立即咨询</a></div>
                             </li>
 						  
@@ -499,97 +499,97 @@
 			
         <li>
           <a href="?showcase.asp?id=50">
-          <div class="in_case_tu"><img alt="热缩带（售后指导实拍）" src="?UploadFiles/20201228155228907.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/20201228155228907.jpg" alt="热缩带（售后指导实拍）"></div>
           <div class="in_case_txt">热缩带（售后指导实拍）</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=49">
-          <div class="in_case_tu"><img alt="广东2000万吨防腐材料项目供货记录" src="?UploadFiles/2020122815491790.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/2020122815491790.jpg" alt="广东2000万吨防腐材料项目供货记录"></div>
           <div class="in_case_txt">广东2000万吨防腐材料项目供货记录</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=48">
-          <div class="in_case_tu"><img alt="1219弯管整体防腐用热缩缠绕带施工案例" src="?UploadFiles/20201228154729270.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/20201228154729270.jpg" alt="1219弯管整体防腐用热缩缠绕带施工案例"></div>
           <div class="in_case_txt">1219弯管整体防腐用热缩缠绕带施工案例</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=47">
-          <div class="in_case_tu"><img alt="阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例" src="?UploadFiles/2020122810626331.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/2020122810626331.jpg" alt="阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例"></div>
           <div class="in_case_txt">阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=46">
-          <div class="in_case_tu"><img alt="山西光固化材料施工案例" src="?UploadFiles/202012281024371.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/202012281024371.jpg" alt="山西光固化材料施工案例"></div>
           <div class="in_case_txt">山西光固化材料施工案例</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=44">
-          <div class="in_case_tu"><img alt="（长岭- 永清段）东线天然气管线工程用热缩套（开口）" src="?UploadFiles/20201225162233127.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/20201225162233127.jpg" alt="（长岭- 永清段）东线天然气管线工程用热缩套（开口）"></div>
           <div class="in_case_txt">（长岭- 永清段）东线天然气管线工程用热缩套（开口）</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=43">
-          <div class="in_case_tu"><img alt="岚县－太原输气管道工程用热缩套（闭口套）" src="?UploadFiles/2020122516164268.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/2020122516164268.jpg" alt="岚县－太原输气管道工程用热缩套（闭口套）"></div>
           <div class="in_case_txt">岚县－太原输气管道工程用热缩套（闭口套）</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=76">
-          <div class="in_case_tu"><img alt="补口热缩套施工现场拍摄" src="?UploadFiles/2021722104640556.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/2021722104640556.jpg" alt="补口热缩套施工现场拍摄"></div>
           <div class="in_case_txt">补口热缩套施工现场拍摄</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=75">
-          <div class="in_case_tu"><img alt="母排热缩保护管的施工图片" src="?UploadFiles/202162994128506.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/202162994128506.jpg" alt="母排热缩保护管的施工图片"></div>
           <div class="in_case_txt">母排热缩保护管的施工图片</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=74">
-          <div class="in_case_tu"><img alt="35KV热缩母排套管客户使用案例" src="?UploadFiles/202162993934292.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/202162993934292.jpg" alt="35KV热缩母排套管客户使用案例"></div>
           <div class="in_case_txt">35KV热缩母排套管客户使用案例</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=73">
-          <div class="in_case_tu"><img alt="10KV母排套管使用现场" src="?UploadFiles/20216299386281.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/20216299386281.jpg" alt="10KV母排套管使用现场"></div>
           <div class="in_case_txt">10KV母排套管使用现场</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=72">
-          <div class="in_case_tu"><img alt="湖北输油输气管线使用热缩套案例售后拍摄" src="?UploadFiles/202151395032691.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/202151395032691.jpg" alt="湖北输油输气管线使用热缩套案例售后拍摄"></div>
           <div class="in_case_txt">湖北输油输气管线使用热缩套案例售后拍摄</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=71">
-          <div class="in_case_tu"><img alt="安徽热缩带热缩套使用案例" src="?UploadFiles/202151394510396.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/202151394510396.jpg" alt="安徽热缩带热缩套使用案例"></div>
           <div class="in_case_txt">安徽热缩带热缩套使用案例</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=70">
-          <div class="in_case_tu"><img alt="雪原低温环境热缩套应用案例售后实拍" src="?UploadFiles/202151394310786.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/202151394310786.jpg" alt="雪原低温环境热缩套应用案例售后实拍"></div>
           <div class="in_case_txt">雪原低温环境热缩套应用案例售后实拍</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=69">
-          <div class="in_case_tu"><img alt="沙漠高温环境应用热缩带项目售后拍摄" src="?UploadFiles/202151394052777.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/202151394052777.jpg" alt="沙漠高温环境应用热缩带项目售后拍摄"></div>
           <div class="in_case_txt">沙漠高温环境应用热缩带项目售后拍摄</div></a>
         </li>
 			
         <li>
           <a href="?showcase.asp?id=68">
-          <div class="in_case_tu"><img alt="场站35kv母排套管安装使用现场" src="?UploadFiles/2021324165455964.jpg"></div>
+          <div class="in_case_tu"><img src="?UploadFiles/2021324165455964.jpg" alt="场站35kv母排套管安装使用现场"></div>
           <div class="in_case_txt">场站35kv母排套管安装使用现场</div></a>
         </li>
 		
@@ -604,7 +604,7 @@
 </div>
 <div class="c mt60">
   <div class="warp c">
-    <div class="new_left fl" id="in_new">
+    <div id="in_new" class="new_left fl">
       <div class="hd">
         <ul>
 		  
@@ -711,19 +711,19 @@
   </div>
 </div>
 <!-----------新闻中心 END------------->
-<div class="c mt60" id="link_bg">
+<div id="link_bg" class="c mt60">
   <div class="warp link">
     <h3>友情链接/LINK</h3>
 	
-    <a href="http://www.slcnc.com" target="_blank" title="激光切割机">激光切割机</a>
+    <a href="http://www.slcnc.com" title="激光切割机" target="_blank">激光切割机</a>
 	
-    <a href="http://www.hfw.cc/link/" target="_blank" title="合肥网">合肥网</a>
+    <a href="http://www.hfw.cc/link/" title="合肥网" target="_blank">合肥网</a>
 	
-    <a href="https://www.shipinkuaijian.com" target="_blank" title="农药残留检测仪">农药残留检测仪</a>
+    <a href="https://www.shipinkuaijian.com" title="农药残留检测仪" target="_blank">农药残留检测仪</a>
 	
-    <a href="http://www.hjsljq.com" target="_blank" title="不锈钢电缆接头">不锈钢电缆接头</a>
+    <a href="http://www.hjsljq.com" title="不锈钢电缆接头" target="_blank">不锈钢电缆接头</a>
 	
-    <a href="http://www.youyifazhan.cn" target="_blank" title="聚氨酯保温钢管">聚氨酯保温钢管</a>
+    <a href="http://www.youyifazhan.cn" title="聚氨酯保温钢管" target="_blank">聚氨酯保温钢管</a>
 	
   </div>
 </div>
@@ -763,7 +763,7 @@
             <div class="foot_erweima fr"><img src="?UploadFiles/20201230155218631.jpg"><p>扫码浏览手机站</p></div>
         </div>
     </div>
-    <div class="warp mt50" id="copy">
+    <div id="copy" class="warp mt50">
 		Copyright © 9659彩票 All Rights Reserved.　厂家直销：热缩带|热缩套|热缩缠绕带|燃气穿墙热缩管|粘弹体防腐胶带|冷缩管 ICP备案号：<a href="http://beian.miit.gov.cn">苏ICP备2020067422号-1　</a>
     </div>
 </div>

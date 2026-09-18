@@ -104,15 +104,15 @@ Uw loodgieter in Rotterdam en omgeving!
 <!DOCTYPE html><html lang="en"><head>
     <title>Loodgieter Rotterdam nodig? Vooraf Gratis prijsopgave!</title>
     <meta content="Met spoed op zoek naar een loodgieter of ontstoppingsbedrijf in Rotterdam. Voor verstoppingen, lekkages en onderhoud voor dezelfde dag." name="description">
-    <meta content="DZtE710SMECnqtdHDmHCUHUgVKcoWNrDZqX8ewlK" id="csrf-token" name="csrf-token">
+    <meta id="csrf-token" name="csrf-token" content="DZtE710SMECnqtdHDmHCUHUgVKcoWNrDZqX8ewlK">
     <!--Required meta tag-->
     <meta charset="UTF-8">
-    <meta content="" name="description">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" property="og:title">
-    <meta content="" property="og:type">
-    <meta content="" property="og:url">
-    <meta content="" property="og:image">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
     <!-- Rich snippets -->
         
@@ -127,16 +127,16 @@ Uw loodgieter in Rotterdam en omgeving!
             <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
             <link href="/css/reviews.css" rel="stylesheet">
     
-    <link href="assets/images/logo.png" rel="icon" type="image/png">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
 
     <!--fonts cdn	-->
-    <link href="assets/fonts/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/font.css">
     <!-- CSS File -->
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
     </head>
 
@@ -152,12 +152,12 @@ Uw loodgieter in Rotterdam en omgeving!
                     <div class="header__content_area">
                         <div class="logo__header_top">
                             <div class="logo">
-                                <a href="/" id="header_name"><img alt="Loodgieter Rotterdam" src="assets/images/logo.png" style="width:100px;"> Loodgieter Rotterdam</a>
+                                <a href="/" id="header_name"><img src="assets/images/logo.png" style="width:100px;" alt="Loodgieter Rotterdam"> Loodgieter Rotterdam</a>
                             </div>
                             <div class="header__contact">
                                 <ul>
-                                    <li><a class="btn_style_1" href="tel:010-8080553" style="width:250px; margin-right:20px"><i aria-hidden="true" class="fa fa-phone" style="font-size:0.8rem"></i> Bel nu 010-8080553</a></li>
-                                    <li><a class="btn_style_1" href="/aanvraag-formulier" style="width:250px; background-color:#f37800;">Altijd gratis prijsopgave!</a></li>
+                                    <li><a href="tel:010-8080553" class="btn_style_1" style="width:250px; margin-right:20px"><i class="fa fa-phone" aria-hidden="true" style="font-size:0.8rem"></i> Bel nu 010-8080553</a></li>
+                                    <li><a href="/aanvraag-formulier" class="btn_style_1" style="width:250px; background-color:#f37800;">Altijd gratis prijsopgave!</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -213,13 +213,13 @@ Uw loodgieter in Rotterdam en omgeving!
                     <li>
                         <a href="/cv-ketel">
                             <span class="ketel__on_details">
-                                <img alt="" src="assets/images/color_1.png">
+                                <img src="assets/images/color_1.png" alt="">
                                 <p>CV Ketel</p>
                             </span>
 
                             <span class="ketel__on_changes">
                                 <p>CV Ketel</p>
-                                <img alt="" src="assets/images/white_1.png">
+                                <img src="assets/images/white_1.png" alt="">
                                 <i class="fas fa-chevron-right"></i>
 
 
@@ -231,13 +231,13 @@ Uw loodgieter in Rotterdam en omgeving!
                     <li>
                         <a href="/verstopping">
                             <span class="ketel__on_details">
-                                <img alt="" src="assets/images/color_2.png">
+                                <img src="assets/images/color_2.png" alt="">
                                 <p>Verstoppingen</p>
                             </span>
 
                             <span class="ketel__on_changes">
                                 <p>Verstoppingen</p>
-                                <img alt="" src="assets/images/white_2.png">
+                                <img src="assets/images/white_2.png" alt="">
                                 <i class="fas fa-chevron-right"></i>
                             </span>
 
@@ -247,13 +247,13 @@ Uw loodgieter in Rotterdam en omgeving!
                     <li>
                         <a href="/lekkage">
                             <span class="ketel__on_details">
-                                <img alt="" src="assets/images/color_3.png">
+                                <img src="assets/images/color_3.png" alt="">
                                 <p>Lekkages</p>
                             </span>
 
                             <span class="ketel__on_changes">
                                 <p>Lekkages</p>
-                                <img alt="" src="assets/images/white_3.png">
+                                <img src="assets/images/white_3.png" alt="">
                                 <i class="fas fa-chevron-right"></i>
                             </span>
 
@@ -263,13 +263,13 @@ Uw loodgieter in Rotterdam en omgeving!
                     <li>
                         <a href="/loodgieterswerk">
                             <span class="ketel__on_details">
-                                <img alt="" src="assets/images/color_4.png">
+                                <img src="assets/images/color_4.png" alt="">
                                 <p>Loodgieterswerk</p>
                             </span>
 
                             <span class="ketel__on_changes">
                                 <p>Loodgieterswerk</p>
-                                <img alt="" src="assets/images/white_4.png">
+                                <img src="assets/images/white_4.png" alt="">
                                 <i class="fas fa-chevron-right"></i>
                             </span>
 
@@ -279,13 +279,13 @@ Uw loodgieter in Rotterdam en omgeving!
                     <li>
                         <a href="/dakwerk">
                             <span class="ketel__on_details">
-                                <img alt="" src="assets/images/color_5.png">
+                                <img src="assets/images/color_5.png" alt="">
                                 <p>Dak</p>
                             </span>
 
                             <span class="ketel__on_changes">
                                 <p>Dak</p>
-                                <img alt="" src="assets/images/white_5.png">
+                                <img src="assets/images/white_5.png" alt="">
                                 <i class="fas fa-chevron-right"></i>
                             </span>
 
@@ -328,7 +328,7 @@ Uw loodgieter in Rotterdam en omgeving!
                 <div class="warooM__content_area">
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="CV ketel controle loodgieter Rotterdam" src="/assets/images/categories/home/CV ketel controle loodgieter.jpeg" title="CV ketel controle loodgieter Rotterdam">
+                            <img src="/assets/images/categories/home/CV ketel controle loodgieter.jpeg" alt="CV ketel controle loodgieter Rotterdam" title="CV ketel controle loodgieter Rotterdam">
                         </div>
                     </div>
                     <div class="waroom__right_area">
@@ -355,7 +355,7 @@ Uw loodgieter in Rotterdam en omgeving!
                     </div>
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="dakdekker Rotterdam" src="/assets/images/categories/home/dakdekker.jpeg" title="dakdekker Rotterdam">
+                            <img src="/assets/images/categories/home/dakdekker.jpeg" alt="dakdekker Rotterdam" title="dakdekker Rotterdam">
                         </div>
                     </div>
                 </div>
@@ -370,7 +370,7 @@ Uw loodgieter in Rotterdam en omgeving!
                 <div class="warooM__content_area">
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="leidingwerk verleggen Rotterdam" src="/assets/images/categories/home/leidingwerk verleggen.jpeg" title="leidingwerk verleggen Rotterdam">
+                            <img src="/assets/images/categories/home/leidingwerk verleggen.jpeg" alt="leidingwerk verleggen Rotterdam" title="leidingwerk verleggen Rotterdam">
                         </div>
                     </div>
                     <div class="waroom__right_area">
@@ -397,7 +397,7 @@ Uw loodgieter in Rotterdam en omgeving!
                     </div>
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="loodgieters Rotterdam" src="/assets/images/categories/home/loodgieters.png" title="loodgieters Rotterdam">
+                            <img src="/assets/images/categories/home/loodgieters.png" alt="loodgieters Rotterdam" title="loodgieters Rotterdam">
                         </div>
                     </div>
                 </div>
@@ -412,7 +412,7 @@ Uw loodgieter in Rotterdam en omgeving!
                 <div class="warooM__content_area">
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="reparatie dakgoot Rotterdam" src="/assets/images/categories/home/reparatie dakgoot.jpeg" title="reparatie dakgoot Rotterdam">
+                            <img src="/assets/images/categories/home/reparatie dakgoot.jpeg" alt="reparatie dakgoot Rotterdam" title="reparatie dakgoot Rotterdam">
                         </div>
                     </div>
                     <div class="waroom__right_area">
@@ -439,7 +439,7 @@ Uw loodgieter in Rotterdam en omgeving!
                     </div>
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="rioleringswerk Rotterdam" src="/assets/images/categories/home/rioleringswerk.jpeg" title="rioleringswerk Rotterdam">
+                            <img src="/assets/images/categories/home/rioleringswerk.jpeg" alt="rioleringswerk Rotterdam" title="rioleringswerk Rotterdam">
                         </div>
                     </div>
                 </div>
@@ -454,7 +454,7 @@ Uw loodgieter in Rotterdam en omgeving!
                 <div class="warooM__content_area">
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="sanibroyeur reparatie Rotterdam" src="/assets/images/categories/home/sanibroyeur reparatie.jpeg" title="sanibroyeur reparatie Rotterdam">
+                            <img src="/assets/images/categories/home/sanibroyeur reparatie.jpeg" alt="sanibroyeur reparatie Rotterdam" title="sanibroyeur reparatie Rotterdam">
                         </div>
                     </div>
                     <div class="waroom__right_area">
@@ -481,7 +481,7 @@ Uw loodgieter in Rotterdam en omgeving!
                     </div>
                     <div class="waroom__left_area">
                         <div class="waroom__images">
-                            <img alt="spoed loodgieter Rotterdam" src="/assets/images/categories/home/spoed loodgieter.png" title="spoed loodgieter Rotterdam">
+                            <img src="/assets/images/categories/home/spoed loodgieter.png" alt="spoed loodgieter Rotterdam" title="spoed loodgieter Rotterdam">
                         </div>
                     </div>
                 </div>
@@ -502,7 +502,7 @@ Uw loodgieter in Rotterdam en omgeving!
                     <div class="footer__content_area">
                         <div class="footer__content">
                             <div class="footer__left_logo">
-                                <a href="/"><img alt="logo_image" src="assets/images/logo.png"></a>
+                                <a href="/"><img src="assets/images/logo.png" alt="logo_image"></a>
                             </div>
                             <div class="footer__left_text">
                                 <p>010loodgieterrotterdam.nl</p><p>Uw loodgieter in Rotterdam en omgeving!</p>
@@ -544,22 +544,22 @@ Uw loodgieter in Rotterdam en omgeving!
                 </div>
                     <div class="col-md-12">
                     <br><br>
-                    <sub style="color:#fff;">010loodgieterrotterdam.nl is onderdeel van <a href="https://www.loodgieter.nl" style="color:#fff">Loodgieter.nl</a>. De best beoordeelde landelijke loodgieter van Nederland! U krijgt altijd een lokale loodgieter!</sub>
+                    <sub style="color:#fff;">010loodgieterrotterdam.nl is onderdeel van <a style="color:#fff" href="https://www.loodgieter.nl">Loodgieter.nl</a>. De best beoordeelde landelijke loodgieter van Nederland! U krijgt altijd een lokale loodgieter!</sub>
                 </div>
             </div>
         </div>
     </footer>
     <!-- End footer main area -->
-    <div class="buttons_bottom" style="position: fixed !important;
+    <div style="position: fixed !important;
                 bottom: 0 !important;
                 z-index: 99998;
-                width: 100% !important;">
+                width: 100% !important;" class="buttons_bottom">
         <div class="row">
             <div class="col-6" style="margin:0px; padding:0px">
-                <a class="btn_style_1" href="tel:010-8080553" style="width:100%; border-radius:0; text-align:center">Bel ons</a> 
+                <a class="btn_style_1" style="width:100%; border-radius:0; text-align:center" href="tel:010-8080553">Bel ons</a> 
             </div>
             <div class="col-6" style="margin:0px; padding:0px">
-                <a class="btn_style_1" href="/aanvraag-formulier" style="width:100%; border-radius:0; text-align:center; background-color:#f37800;">Gratis prijsopgave</a> 
+                <a class="btn_style_1" style="width:100%; border-radius:0; text-align:center; background-color:#f37800;" href="/aanvraag-formulier">Gratis prijsopgave</a> 
             </div>
         </div>
     </div>

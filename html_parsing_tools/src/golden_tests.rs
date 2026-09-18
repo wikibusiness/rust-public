@@ -1,5 +1,6 @@
-//! Regression net for swapping out kuchiki (or any other internal HTML
-//! library): every public pyfunction gets run against ~45 real crawled pages
+//! Regression net for swapping out the internal HTML library (already used
+//! once for the kuchiki -> kuchikiki swap): every public pyfunction gets run
+//! against ~45 real crawled pages
 //! pulled from the `htmls-production` R2 bucket (real crawl output, not
 //! synthetic markup -- domains picked for size/language/TLD spread, see
 //! tests/fixtures/) and the combined output is diffed against a checked-in

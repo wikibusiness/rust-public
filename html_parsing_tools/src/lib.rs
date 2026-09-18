@@ -5,7 +5,7 @@ mod regularize;
 mod text_nodes;
 mod utils;
 
-use kuchiki::{iter::NodeIterator, traits::TendrilSink};
+use kuchikiki::{iter::NodeIterator, traits::TendrilSink};
 use linkify::{LinkFinder, LinkKind};
 use pyo3::exceptions::PyValueError;
 use pyo3::prelude::{pyclass, pyfunction, pymodule, wrap_pyfunction, Bound, PyModule, PyModuleMethods, PyResult};
@@ -81,7 +81,7 @@ fn get_sentences(
 ) -> PyResult<GetSentencesResult> {
     let mut result = GetSentencesResult::default();
 
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
 
     // Captured before any tag is removed below, so these match exactly what
     // the standalone get_meta_titles/get_href_attributes calls would return
@@ -199,13 +199,13 @@ fn get_sentences_parallel(
 
 #[pyfunction]
 fn get_href_attributes(html: String) -> PyResult<Vec<String>> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     Ok(get_href_attributes_internal(&document))
 }
 
 #[pyfunction]
 fn get_links(html: String) -> PyResult<Vec<(String, String)>> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     // let mut links: Vec<String> = vec![];
 
     let links: Vec<(String, String)> = document
@@ -239,17 +239,17 @@ fn get_emails(html: String) -> PyResult<Vec<String>> {
 
 #[pyfunction]
 fn get_meta_titles(html: String) -> PyResult<HashMap<String, String>> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     Ok(get_meta_titles_internal(&document))
 }
 
 #[pyfunction]
 fn tag_attribute(html: String, tag: String, attribute: String) -> PyResult<String> {
-    let document = kuchiki::parse_html().one(html);
-    let tag_nodes: kuchiki::iter::Select<kuchiki::iter::Elements<kuchiki::iter::Descendants>> =
+    let document = kuchikiki::parse_html().one(html);
+    let tag_nodes: kuchikiki::iter::Select<kuchikiki::iter::Elements<kuchikiki::iter::Descendants>> =
         document.select(tag.as_str()).unwrap();
     for tag_node in tag_nodes.collect::<Vec<_>>() {
-        let attributes: std::cell::Ref<kuchiki::Attributes> = tag_node.attributes.borrow();
+        let attributes: std::cell::Ref<kuchikiki::Attributes> = tag_node.attributes.borrow();
         return Ok(attributes.get(attribute).unwrap_or("").to_string());
     }
 
@@ -258,13 +258,13 @@ fn tag_attribute(html: String, tag: String, attribute: String) -> PyResult<Strin
 
 #[pyfunction]
 fn get_alternate_links(html: String) -> PyResult<HashMap<String, Vec<String>>> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     Ok(get_rel_alternate(&document))
 }
 
 #[pyfunction]
 fn html_contents(html: String) -> PyResult<String> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     for tag in REMOVE_TAGS_HTML_CONTENTS {
         remove_tag(&document, tag);
     }
@@ -273,7 +273,7 @@ fn html_contents(html: String) -> PyResult<String> {
 
 #[pyfunction]
 fn tag_html_contents(html: String, tag: String) -> PyResult<String> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     let document = document.select_first(tag.as_str());
     let res = match document {
         Ok(v) => v.as_node().to_string(),
@@ -285,7 +285,7 @@ fn tag_html_contents(html: String, tag: String) -> PyResult<String> {
 
 #[pyfunction]
 fn get_lang(html: String) -> PyResult<String> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
     Ok(get_lang_internal(&document))
 }
 
@@ -294,7 +294,7 @@ fn get_lang(html: String) -> PyResult<String> {
 /// get_sentences buckets by tag (every h1, then every h2, ...) and sorts
 /// paragraphs by word count -- good for keyword/embedding pipelines, useless
 /// for reconstructing a readable page. This walks h1-h6 and p together in a
-/// single selector query, which kuchiki/selectors resolves as one
+/// single selector query, which kuchikiki/selectors resolves as one
 /// document-order traversal, so headings and paragraphs interleave the way
 /// they actually appear on the page (levels are still flattened relative to
 /// each other -- an h3 nested under an h2 nested under an h1 all just come
@@ -308,7 +308,7 @@ fn get_markdown(
     remove_header: bool,
     remove_footer: bool,
 ) -> PyResult<String> {
-    let document = kuchiki::parse_html().one(html);
+    let document = kuchikiki::parse_html().one(html);
 
     for tag in REMOVE_TAGS {
         remove_tag(&document, tag);
