@@ -1,0 +1,106 @@
+=== get_lang ===
+zh-CN
+
+=== get_meta_titles ===
+  "title": "王中王"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["#"]
+
+=== get_links ===
+[("#", "")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+["描述测试"]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+关键词测试
+
+=== get_sentences.other ===
+["王中王", "澳门彩资料", "香港彩资料"]
+
+=== get_sentences.p ===
+[]
+
+=== get_sentences.meta_titles ===
+  "title": "王中王"
+
+=== get_sentences.href_attributes ===
+["#"]
+
+=== get_sentences.text_nodes ===
+[["王中王"], ["澳门彩资料"], ["香港彩资料"]]
+
+=== get_markdown ===
+
+
+=== extract_text ===
+  "main": [["澳门彩资料", "香港彩资料"]]
+
+=== tag_html_contents(title) ===
+<title>王中王</title>
+
+=== html_contents ===
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <title>王中王</title>
+    <meta content="关键词测试" name="keywords">
+    <meta content="描述测试" name="description">
+    
+    
+
+    
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="sticky-container">
+        <div class="header-bar">
+            <div class="logo-area">
+                
+                    <img alt="王中王" src="/uploads/1780723452_wzw.png" style="height: 52px; max-width: 240px; object-fit: contain;">
+                
+            </div>
+            <a href="#"><img alt="广告" class="header-ad" id="header-ad-img" src="/static/img/am_gw.png"></a>
+        </div>
+        
+        <iframe id="lottery-header-macau" src="/static/html/history.html?type=macau" style="width: 100%; height: 56px; border: none; display: block; vertical-align: top;"></iframe>
+        <iframe id="lottery-header-hk_hidden" src="/static/html/history.html?type=hk" style="width: 100%; height: 56px; border: none; display: none; vertical-align: top;"></iframe>
+        
+        <div class="tab-container">
+            <div class="tab-btn active" id="tab-macau" onclick="switchTab('macau', this)">
+                <img alt="am" class="tab-icon" src="/static/img/am_xx.webp"> 澳门彩资料
+            </div>
+            <div class="tab-btn" id="tab-hk" onclick="switchTab('hk', this)">
+                <img alt="hk" class="tab-icon" src="/static/img/hk_xx.webp"> 香港彩资料
+            </div>
+        </div>
+    </div>
+    <div class="iframe-container">
+        <iframe id="content-iframe" scrolling="no" src="/feed/macau"></iframe>
+    </div>
+</div>
+
+
+
+
+</body></html>
+

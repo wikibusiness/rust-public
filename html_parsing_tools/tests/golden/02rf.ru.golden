@@ -1,0 +1,436 @@
+=== get_lang ===
+ru
+
+=== get_meta_titles ===
+  "title": "Интернет магазин \"02rf.ru\""
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["http://02rf.ru/index.php?route=information/contact", "http://02rf.ru/index.php?route=account/account", "http://02rf.ru/index.php?route=account/register", "http://02rf.ru/index.php?route=account/login", "http://02rf.ru/index.php?route=account/wishlist", "http://02rf.ru/index.php?route=checkout/cart", "http://02rf.ru/index.php?route=checkout/checkout", "http://02rf.ru/index.php?route=common/home", "http://02rf.ru/index.php?route=product/category&path=18", "http://02rf.ru/index.php?route=product/category&path=18_59", "http://02rf.ru/index.php?route=product/category&path=18_24", "http://02rf.ru/index.php?route=product/category&path=18_17", "http://02rf.ru/index.php?route=product/category&path=18_46", "http://02rf.ru/index.php?route=product/category&path=18_45", "http://02rf.ru/index.php?route=product/category&path=18_20", "http://02rf.ru/index.php?route=product/category&path=18_61", "http://02rf.ru/index.php?route=product/category&path=18_40", "http://02rf.ru/index.php?route=product/category&path=18_63", "http://02rf.ru/index.php?route=product/category&path=18_60", "http://02rf.ru/index.php?route=product/category&path=18_25", "http://02rf.ru/index.php?route=product/category&path=18_33", "http://02rf.ru/index.php?route=product/category&path=18_34", "http://02rf.ru/index.php?route=product/category&path=18_62", "http://02rf.ru/index.php?route=product/category&path=18", "http://02rf.ru/index.php?route=product/product&product_id=48", "http://02rf.ru/index.php?route=product/product&path=33&product_id=31", "http://02rf.ru/index.php?route=product/product&product_id=41", "http://02rf.ru/index.php?route=product/product&path=33&product_id=30", "http://02rf.ru/index.php?route=product/product&product_id=48", "http://02rf.ru/index.php?route=product/product&product_id=48", "http://02rf.ru/index.php?route=product/product&product_id=31", "http://02rf.ru/index.php?route=product/product&product_id=31", "http://02rf.ru/index.php?route=product/product&product_id=30", "http://02rf.ru/index.php?route=product/product&product_id=30", "http://02rf.ru/index.php?route=product/product&product_id=33", "http://02rf.ru/index.php?route=product/product&product_id=33", "http://02rf.ru/index.php?route=product/product&product_id=41", "http://02rf.ru/index.php?route=product/product&product_id=41", "http://02rf.ru/index.php?route=product/product&product_id=28", "http://02rf.ru/index.php?route=product/product&product_id=28", "http://02rf.ru/index.php?route=product/product&product_id=51", "http://02rf.ru/index.php?route=product/product&product_id=51", "http://02rf.ru/index.php?route=product/product&product_id=69", "http://02rf.ru/index.php?route=product/product&product_id=69", "http://02rf.ru/index.php?route=product/product&product_id=76", "http://02rf.ru/index.php?route=product/product&product_id=76", "http://02rf.ru/index.php?route=product/product&product_id=81", "http://02rf.ru/index.php?route=product/product&product_id=81", "http://02rf.ru/index.php?route=product/product&product_id=83", "http://02rf.ru/index.php?route=product/product&product_id=83", "http://02rf.ru/index.php?route=product/product&product_id=88", "http://02rf.ru/index.php?route=product/product&product_id=88", "http://02rf.ru/index.php?route=product/product&product_id=91", "http://02rf.ru/index.php?route=product/product&product_id=91", "http://02rf.ru/index.php?route=product/product&product_id=72", "http://02rf.ru/index.php?route=product/product&product_id=72", "http://02rf.ru/index.php?route=product/product&product_id=90", "http://02rf.ru/index.php?route=product/product&product_id=90", "http://02rf.ru/index.php?route=information/information&information_id=6", "http://02rf.ru/index.php?route=information/information&information_id=3", "http://02rf.ru/index.php?route=information/information&information_id=5", "http://02rf.ru/index.php?route=information/contact", "http://02rf.ru/index.php?route=account/return/add", "http://02rf.ru/index.php?route=information/sitemap", "http://02rf.ru/index.php?route=product/manufacturer", "http://02rf.ru/index.php?route=account/voucher", "http://02rf.ru/index.php?route=affiliate/login", "http://02rf.ru/index.php?route=product/special", "http://02rf.ru/index.php?route=account/account", "http://02rf.ru/index.php?route=account/order", "http://02rf.ru/index.php?route=account/wishlist", "http://02rf.ru/index.php?route=account/newsletter"]
+
+=== get_links ===
+[("http://02rf.ru/index.php?route=information/contact", ""), ("http://02rf.ru/index.php?route=account/account", "Личный кабинет"), ("http://02rf.ru/index.php?route=account/register", "Регистрация"), ("http://02rf.ru/index.php?route=account/login", "Авторизация"), ("http://02rf.ru/index.php?route=account/wishlist", "Закладки (0)"), ("http://02rf.ru/index.php?route=checkout/cart", "Корзина"), ("http://02rf.ru/index.php?route=checkout/checkout", "Оформление заказа"), ("http://02rf.ru/index.php?route=common/home", "Интернет магазин \"02rf.ru\""), ("http://02rf.ru/index.php?route=product/category&path=18", "Каталог"), ("http://02rf.ru/index.php?route=product/category&path=18_59", "Аксессуары для компьютеров, оргтехники и электроники (3)"), ("http://02rf.ru/index.php?route=product/category&path=18_24", "Аксессуары для планшетов и смартфонов (3)"), ("http://02rf.ru/index.php?route=product/category&path=18_17", "Бумага (1)"), ("http://02rf.ru/index.php?route=product/category&path=18_46", "Дом и сад (12)"), ("http://02rf.ru/index.php?route=product/category&path=18_45", "Зоотовары (6)"), ("http://02rf.ru/index.php?route=product/category&path=18_20", "Изготовление печатей и штампов (4)"), ("http://02rf.ru/index.php?route=product/category&path=18_61", "Канцелярские товары (1)"), ("http://02rf.ru/index.php?route=product/category&path=18_40", "Материалы для полиграфии (5)"), ("http://02rf.ru/index.php?route=product/category&path=18_63", "Наградная продукция (0)"), ("http://02rf.ru/index.php?route=product/category&path=18_60", "Нашивки и шевроны (1)"), ("http://02rf.ru/index.php?route=product/category&path=18_25", "Оснастка для печатей и штампов (3)"), ("http://02rf.ru/index.php?route=product/category&path=18_33", "Пломбировочные материалы и устройства (13)"), ("http://02rf.ru/index.php?route=product/category&path=18_34", "Подушки штемпельные сменные (3)"), ("http://02rf.ru/index.php?route=product/category&path=18_62", "Упаковка (1)"), ("http://02rf.ru/index.php?route=product/category&path=18", "Показать всеКаталог"), ("http://02rf.ru/index.php?route=product/product&product_id=48", ""), ("http://02rf.ru/index.php?route=product/product&path=33&product_id=31", ""), ("http://02rf.ru/index.php?route=product/product&product_id=41", ""), ("http://02rf.ru/index.php?route=product/product&path=33&product_id=30", ""), ("http://02rf.ru/index.php?route=product/product&product_id=48", ""), ("http://02rf.ru/index.php?route=product/product&product_id=48", "Пленка защитная для обработки фотополимера 180 м х 315 мм"), ("http://02rf.ru/index.php?route=product/product&product_id=31", ""), ("http://02rf.ru/index.php?route=product/product&product_id=31", "Скотч пломбировочный индикаторный П-50"), ("http://02rf.ru/index.php?route=product/product&product_id=30", ""), ("http://02rf.ru/index.php?route=product/product&product_id=30", "Скотч пломбировочный индикаторный П-27"), ("http://02rf.ru/index.php?route=product/product&product_id=33", ""), ("http://02rf.ru/index.php?route=product/product&product_id=33", "Оснастка для 2-х печатей d40 мм металлическая \"Матрешка-Диско\""), ("http://02rf.ru/index.php?route=product/product&product_id=41", ""), ("http://02rf.ru/index.php?route=product/product&product_id=41", "2 печати d40 мм в одной оснастке \"Матрешка-Диско\""), ("http://02rf.ru/index.php?route=product/product&product_id=28", ""), ("http://02rf.ru/index.php?route=product/product&product_id=28", "Печать d40 мм из резины без оснастки"), ("http://02rf.ru/index.php?route=product/product&product_id=51", ""), ("http://02rf.ru/index.php?route=product/product&product_id=51", "Штамп 110 х 60 мм на пластмассовой ручной оснастке"), ("http://02rf.ru/index.php?route=product/product&product_id=69", ""), ("http://02rf.ru/index.php?route=product/product&product_id=69", "Сетевое зарядное устройство универсальное S21A20"), ("http://02rf.ru/index.php?route=product/product&product_id=76", ""), ("http://02rf.ru/index.php?route=product/product&product_id=76", "Пломбиратор с гравировкой"), ("http://02rf.ru/index.php?route=product/product&product_id=81", ""), ("http://02rf.ru/index.php?route=product/product&product_id=81", "Весы напольные электронные Scarlett SC-BS33E033"), ("http://02rf.ru/index.php?route=product/product&product_id=83", ""), ("http://02rf.ru/index.php?route=product/product&product_id=83", "Чайник электрический LERAN EKP-1757 P"), ("http://02rf.ru/index.php?route=product/product&product_id=88", ""), ("http://02rf.ru/index.php?route=product/product&product_id=88", "Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом"), ("http://02rf.ru/index.php?route=product/product&product_id=91", ""), ("http://02rf.ru/index.php?route=product/product&product_id=91", "Печать d40 мм на автоматической оснастке Colop R40 с крышкой"), ("http://02rf.ru/index.php?route=product/product&product_id=72", ""), ("http://02rf.ru/index.php?route=product/product&product_id=72", "Туалет - лоток для собак с бортиками и столбиком"), ("http://02rf.ru/index.php?route=product/product&product_id=90", ""), ("http://02rf.ru/index.php?route=product/product&product_id=90", "Оснастка для круглой печати с крышкой автоматическая пластмассовая  d40 мм Colop Printer R40"), ("http://02rf.ru/index.php?route=information/information&information_id=6", "Доставка"), ("http://02rf.ru/index.php?route=information/information&information_id=3", "Политика конфиденциальности"), ("http://02rf.ru/index.php?route=information/information&information_id=5", "Условия соглашения"), ("http://02rf.ru/index.php?route=information/contact", "Контакты"), ("http://02rf.ru/index.php?route=account/return/add", ""), ("http://02rf.ru/index.php?route=information/sitemap", "Карта сайта"), ("http://02rf.ru/index.php?route=product/manufacturer", ""), ("http://02rf.ru/index.php?route=account/voucher", ""), ("http://02rf.ru/index.php?route=affiliate/login", ""), ("http://02rf.ru/index.php?route=product/special", "Акции"), ("http://02rf.ru/index.php?route=account/account", "Личный Кабинет"), ("http://02rf.ru/index.php?route=account/order", "История заказов"), ("http://02rf.ru/index.php?route=account/wishlist", "Закладки"), ("http://02rf.ru/index.php?route=account/newsletter", "Рассылка")]
+
+=== get_emails ===
+["donate@opencart.com"]
+
+=== get_sentences.descriptions ===
+["Мой магазин"]
+
+=== get_sentences.h ===
+  "h1": ["Интернет магазин \"02rf.ru\""]
+  "h2": []
+  "h3": ["Рекомендуемые"]
+  "h4": ["Пленка защитная для обработки фотополимера 180 м х 315 мм", "Скотч пломбировочный индикаторный П-50", "Скотч пломбировочный индикаторный П-27", "Оснастка для 2-х печатей d40 мм металлическая \"Матрешка-Диско\"", "2 печати d40 мм в одной оснастке \"Матрешка-Диско\"", "Печать d40 мм из резины без оснастки", "Штамп 110 х 60 мм на пластмассовой ручной оснастке", "Сетевое зарядное устройство универсальное S21A20", "Пломбиратор с гравировкой", "Весы напольные электронные Scarlett SC-BS33E033", "Чайник электрический LERAN EKP-1757 P", "Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом", "Печать d40 мм на автоматической оснастке Colop R40 с крышкой", "Туалет - лоток для собак с бортиками и столбиком", "Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40"]
+  "h5": ["Информация", "Служба поддержки", "Дополнительно", "Личный Кабинет"]
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["Интернет магазин \"02rf.ru\"", "+7-901-440-04-04", "Личный кабинет", "Регистрация", "Авторизация", "Закладки (0)", "Корзина", "Оформление заказа", "Товаров 0 (0р.)", "Категории", "Каталог", "Аксессуары для компьютеров, оргтехники и электроники (3)", "Аксессуары для планшетов и смартфонов (3)", "Бумага (1)", "Дом и сад (12)", "Зоотовары (6)", "Изготовление печатей и штампов (4)", "Канцелярские товары (1)", "Материалы для полиграфии (5)", "Наградная продукция (0)", "Нашивки и шевроны (1)", "Оснастка для печатей и штампов (3)", "Пломбировочные материалы и устройства (13)", "Подушки штемпельные сменные (3)", "Упаковка (1)", "Показать всеКаталог", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Купить", "Доставка", "Политика конфиденциальности", "Условия соглашения", "Контакты", "Карта сайта", "Акции", "Личный Кабинет", "История заказов", "Закладки", "Рассылка"]
+
+=== get_sentences.p ===
+["Если Вам надоело носить с собой 2 печати, то это решение для Вас! 2 печати d40 мм в компактной .", "Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерны.", "Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40..", "Большой угловой штамп 110 х 60 мм на пластмассовой ручной оснастке. .", "Чайник электрический LERAN EKP-1757 P. Цвет белый, закрытый нагревательный элемент, индикация включ.", "Печать d40 мм на автоматической оснастке Colop R40 с крышкой..", "Если Вам надоело носить с собой 2 печати, то это решение для Вас!Уникальная компактная оснастка .", "Печать d40 мм из резины без оснастки для индивидуального предпринимателя или организации. .", "Сетевое зарядное устройство универсальное S21A20, USB-порт для подключения кабеля, выходная мощность."]
+
+=== get_sentences.meta_titles ===
+  "title": "Интернет магазин \"02rf.ru\""
+
+=== get_sentences.href_attributes ===
+["http://02rf.ru/index.php?route=information/contact", "http://02rf.ru/index.php?route=account/account", "http://02rf.ru/index.php?route=account/register", "http://02rf.ru/index.php?route=account/login", "http://02rf.ru/index.php?route=account/wishlist", "http://02rf.ru/index.php?route=checkout/cart", "http://02rf.ru/index.php?route=checkout/checkout", "http://02rf.ru/index.php?route=common/home", "http://02rf.ru/index.php?route=product/category&path=18", "http://02rf.ru/index.php?route=product/category&path=18_59", "http://02rf.ru/index.php?route=product/category&path=18_24", "http://02rf.ru/index.php?route=product/category&path=18_17", "http://02rf.ru/index.php?route=product/category&path=18_46", "http://02rf.ru/index.php?route=product/category&path=18_45", "http://02rf.ru/index.php?route=product/category&path=18_20", "http://02rf.ru/index.php?route=product/category&path=18_61", "http://02rf.ru/index.php?route=product/category&path=18_40", "http://02rf.ru/index.php?route=product/category&path=18_63", "http://02rf.ru/index.php?route=product/category&path=18_60", "http://02rf.ru/index.php?route=product/category&path=18_25", "http://02rf.ru/index.php?route=product/category&path=18_33", "http://02rf.ru/index.php?route=product/category&path=18_34", "http://02rf.ru/index.php?route=product/category&path=18_62", "http://02rf.ru/index.php?route=product/category&path=18", "http://02rf.ru/index.php?route=product/product&product_id=48", "http://02rf.ru/index.php?route=product/product&path=33&product_id=31", "http://02rf.ru/index.php?route=product/product&product_id=41", "http://02rf.ru/index.php?route=product/product&path=33&product_id=30", "http://02rf.ru/index.php?route=product/product&product_id=48", "http://02rf.ru/index.php?route=product/product&product_id=48", "http://02rf.ru/index.php?route=product/product&product_id=31", "http://02rf.ru/index.php?route=product/product&product_id=31", "http://02rf.ru/index.php?route=product/product&product_id=30", "http://02rf.ru/index.php?route=product/product&product_id=30", "http://02rf.ru/index.php?route=product/product&product_id=33", "http://02rf.ru/index.php?route=product/product&product_id=33", "http://02rf.ru/index.php?route=product/product&product_id=41", "http://02rf.ru/index.php?route=product/product&product_id=41", "http://02rf.ru/index.php?route=product/product&product_id=28", "http://02rf.ru/index.php?route=product/product&product_id=28", "http://02rf.ru/index.php?route=product/product&product_id=51", "http://02rf.ru/index.php?route=product/product&product_id=51", "http://02rf.ru/index.php?route=product/product&product_id=69", "http://02rf.ru/index.php?route=product/product&product_id=69", "http://02rf.ru/index.php?route=product/product&product_id=76", "http://02rf.ru/index.php?route=product/product&product_id=76", "http://02rf.ru/index.php?route=product/product&product_id=81", "http://02rf.ru/index.php?route=product/product&product_id=81", "http://02rf.ru/index.php?route=product/product&product_id=83", "http://02rf.ru/index.php?route=product/product&product_id=83", "http://02rf.ru/index.php?route=product/product&product_id=88", "http://02rf.ru/index.php?route=product/product&product_id=88", "http://02rf.ru/index.php?route=product/product&product_id=91", "http://02rf.ru/index.php?route=product/product&product_id=91", "http://02rf.ru/index.php?route=product/product&product_id=72", "http://02rf.ru/index.php?route=product/product&product_id=72", "http://02rf.ru/index.php?route=product/product&product_id=90", "http://02rf.ru/index.php?route=product/product&product_id=90", "http://02rf.ru/index.php?route=information/information&information_id=6", "http://02rf.ru/index.php?route=information/information&information_id=3", "http://02rf.ru/index.php?route=information/information&information_id=5", "http://02rf.ru/index.php?route=information/contact", "http://02rf.ru/index.php?route=account/return/add", "http://02rf.ru/index.php?route=information/sitemap", "http://02rf.ru/index.php?route=product/manufacturer", "http://02rf.ru/index.php?route=account/voucher", "http://02rf.ru/index.php?route=affiliate/login", "http://02rf.ru/index.php?route=product/special", "http://02rf.ru/index.php?route=account/account", "http://02rf.ru/index.php?route=account/order", "http://02rf.ru/index.php?route=account/wishlist", "http://02rf.ru/index.php?route=account/newsletter"]
+
+=== get_sentences.text_nodes ===
+[["Интернет магазин \"02rf.ru\""], ["+7-901-440-04-04", "Личный кабинет", "Регистрация", "Авторизация", "Закладки (0)", "Корзина", "Оформление заказа"], ["Интернет магазин \"02rf.ru\""], ["Товаров 0 (0р.)", "Ваша корзина пуста!"], ["Категории"], ["Каталог", "Аксессуары для компьютеров, оргтехники и электроники (3)", "Аксессуары для планшетов и смартфонов (3)", "Бумага (1)", "Дом и сад (12)", "Зоотовары (6)", "Изготовление печатей и штампов (4)", "Канцелярские товары (1)", "Материалы для полиграфии (5)", "Наградная продукция (0)", "Нашивки и шевроны (1)", "Оснастка для печатей и штампов (3)", "Пломбировочные материалы и устройства (13)", "Подушки штемпельные сменные (3)", "Упаковка (1)", "Показать всеКаталог"], ["Рекомендуемые"], ["Пленка защитная для обработки фотополимера 180 м х 315 мм"], ["Применяется для защиты негатива при изготовлении штампов (печатей), микросхем, печатных плат...", "2435р. Купить"], ["Скотч пломбировочный индикаторный П-50 Представляет собой самоклеющуюся ленту, выполненную из полиэстера с высокоадгезивным клеевы..", "3600р. Купить"], ["Скотч пломбировочный индикаторный П-27", "Представляет собой самоклеющуюся ленту, выполненную из полиэстера с высокоадгезивным клеевым с..", "2400р. Купить"], ["Оснастка для 2-х печатей d40 мм металлическая \"Матрешка-Диско\"", "Если Вам надоело носить с собой 2 печати, то это решение для Вас!Уникальная компактная оснастка..", "1600р. Купить"], ["2 печати d40 мм в одной оснастке \"Матрешка-Диско\"", "Если Вам надоело носить с собой 2 печати, то это решение для Вас! 2 печати d40 мм в компактной..", "2800р. Купить"], ["Печать d40 мм из резины без оснастки", "Печать d40 мм из резины без оснастки для индивидуального предпринимателя или организации...", "600р. Купить"], ["Штамп 110 х 60 мм на пластмассовой ручной оснастке", "Большой угловой штамп 110 х 60 мм на пластмассовой ручной оснастке...", "2035р. Купить"], ["Сетевое зарядное устройство универсальное S21A20", "Сетевое зарядное устройство универсальное S21A20, USB-порт для подключения кабеля, выходная мощность..", "630р. Купить"], ["Пломбиратор с гравировкой", "Пломбиратор с гравировкой для опломбирования свинцовыми или пластиковыми пломбами.Гравировка делаетс..", "1000р. Купить"], ["Весы напольные электронные Scarlett SC-BS33E033", "Простой и удобный способ контролировать свой вес.", "Высокочувствительные датчики.", "Максимальный вес..", "1250р. Купить"], ["Чайник электрический LERAN EKP-1757 P", "Чайник электрический LERAN EKP-1757 P.", "Цвет белый, закрытый нагревательный элемент, индикация включ..", "1250р. Купить"], ["Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом", "Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерны..", "1080р. Купить"], ["Печать d40 мм на автоматической оснастке Colop R40 с крышкой", "Печать d40 мм на автоматической оснастке Colop R40 с крышкой...", "1120р. Купить"], ["Туалет", "лоток для собак с бортиками и столбиком", "Лоток для собак со столбиком, бортиком и сеткой подойдет для мелких и средних пород собак, для щенко..", "960р. Купить"], ["Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40", "Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40...", "520р. Купить"], ["Информация", "Доставка", "Политика конфиденциальности", "Условия соглашения", "Служба поддержки", "Контакты", "Карта сайта"], ["Дополнительно"], ["Акции"], ["Личный Кабинет", "Личный Кабинет", "История заказов", "Закладки", "Рассылка"], ["Интернет магазин \"02rf.ru\" © 2010", "2026"]]
+
+=== get_markdown ===
+# Интернет магазин "02rf.ru"
+
+### Рекомендуемые
+
+#### Пленка защитная для обработки фотополимера 180 м х 315 мм
+
+#### Скотч пломбировочный индикаторный П-50
+
+#### Скотч пломбировочный индикаторный П-27
+
+#### Оснастка для 2-х печатей d40 мм металлическая "Матрешка-Диско"
+
+Если Вам надоело носить с собой 2 печати, то это решение для Вас!Уникальная компактная оснастка .
+
+#### 2 печати d40 мм в одной оснастке "Матрешка-Диско"
+
+Если Вам надоело носить с собой 2 печати, то это решение для Вас! 2 печати d40 мм в компактной .
+
+#### Печать d40 мм из резины без оснастки
+
+Печать d40 мм из резины без оснастки для индивидуального предпринимателя или организации. .
+
+#### Штамп 110 х 60 мм на пластмассовой ручной оснастке
+
+Большой угловой штамп 110 х 60 мм на пластмассовой ручной оснастке. .
+
+#### Сетевое зарядное устройство универсальное S21A20
+
+Сетевое зарядное устройство универсальное S21A20, USB-порт для подключения кабеля, выходная мощность.
+
+#### Пломбиратор с гравировкой
+
+#### Весы напольные электронные Scarlett SC-BS33E033
+
+#### Чайник электрический LERAN EKP-1757 P
+
+Чайник электрический LERAN EKP-1757 P. Цвет белый, закрытый нагревательный элемент, индикация включ.
+
+#### Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом
+
+Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерны.
+
+#### Печать d40 мм на автоматической оснастке Colop R40 с крышкой
+
+Печать d40 мм на автоматической оснастке Colop R40 с крышкой..
+
+#### Туалет - лоток для собак с бортиками и столбиком
+
+#### Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40
+
+Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40..
+
+##### Информация
+
+##### Служба поддержки
+
+##### Дополнительно
+
+##### Личный Кабинет
+
+=== extract_text ===
+  "footer": [["Информация", "Доставка", "Политика конфиденциальности", "Условия соглашения", "Служба поддержки", "Контакты", "Карта сайта", "Дополнительно", "Акции", "Личный Кабинет", "Личный Кабинет", "История заказов", "Закладки", "Рассылка", "Интернет магазин \"02rf.ru\" © 2010", "2026"]]
+  "main": [["Интернет магазин \"02rf.ru\"", "Товаров 0 (0р.)", "Ваша корзина пуста!", "Рекомендуемые", "Пленка защитная для обработки фотополимера 180 м х 315 мм", "Применяется для защиты негатива при изготовлении штампов (печатей), микросхем, печатных плат...", "2435р.", "Купить", "Скотч пломбировочный индикаторный П-50", "Представляет собой самоклеющуюся ленту, выполненную из полиэстера с высокоадгезивным клеевы..", "3600р.", "Купить", "Скотч пломбировочный индикаторный П-27", "Представляет собой самоклеющуюся ленту, выполненную из полиэстера с высокоадгезивным клеевым с..", "2400р.", "Купить", "Оснастка для 2-х печатей d40 мм металлическая \"Матрешка-Диско\"", "Если Вам надоело носить с собой 2 печати, то это решение для Вас!Уникальная компактная оснастка..", "1600р.", "Купить", "2 печати d40 мм в одной оснастке \"Матрешка-Диско\"", "Если Вам надоело носить с собой 2 печати, то это решение для Вас! 2 печати d40 мм в компактной..", "2800р.", "Купить", "Печать d40 мм из резины без оснастки", "Печать d40 мм из резины без оснастки для индивидуального предпринимателя или организации."], ["..", "600р.", "Купить", "Штамп 110 х 60 мм на пластмассовой ручной оснастке", "Большой угловой штамп 110 х 60 мм на пластмассовой ручной оснастке."], ["..", "2035р.", "Купить", "Сетевое зарядное устройство универсальное S21A20", "Сетевое зарядное устройство универсальное S21A20, USB-порт для подключения кабеля, выходная мощность..", "630р.", "Купить", "Пломбиратор с гравировкой", "Пломбиратор с гравировкой для опломбирования свинцовыми или пластиковыми пломбами.Гравировка делаетс..", "1000р.", "Купить", "Весы напольные электронные Scarlett SC-BS33E033", "Простой и удобный способ контролировать свой вес.", "Высокочувствительные датчики.", "Максимальный вес..", "1250р.", "Купить", "Чайник электрический LERAN EKP-1757 P", "Чайник электрический LERAN EKP-1757 P."], ["Цвет белый, закрытый нагревательный элемент, индикация включ..", "1250р.", "Купить", "Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом", "Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерны..", "1080р.", "Купить", "Печать d40 мм на автоматической оснастке Colop R40 с крышкой", "Печать d40 мм на автоматической оснастке Colop R40 с крышкой...", "1120р.", "Купить", "Туалет", "лоток для собак с бортиками и столбиком", "Лоток для собак со столбиком, бортиком и сеткой подойдет для мелких и средних пород собак, для щенко..", "960р.", "Купить", "Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40", "Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40...", "520р.", "Купить"]]
+  "navigation": [["+7-901-440-04-04", "Личный кабинет", "Регистрация", "Авторизация", "Закладки (0)", "Корзина", "Оформление заказа", "Категории", "Каталог", "Аксессуары для компьютеров, оргтехники и электроники (3)", "Аксессуары для планшетов и смартфонов (3)", "Бумага (1)", "Дом и сад (12)", "Зоотовары (6)", "Изготовление печатей и штампов (4)", "Канцелярские товары (1)", "Материалы для полиграфии (5)", "Наградная продукция (0)", "Нашивки и шевроны (1)", "Оснастка для печатей и штампов (3)", "Пломбировочные материалы и устройства (13)", "Подушки штемпельные сменные (3)", "Упаковка (1)", "Показать всеКаталог"]]
+
+=== tag_html_contents(title) ===
+<title>Интернет магазин "02rf.ru"</title>
+
+=== html_contents ===
+<!DOCTYPE html><!--[if IE]><![endif]--><!--[if IE 8 ]><html dir="ltr" lang="ru" class="ie8"><![endif]--><!--[if IE 9 ]><html dir="ltr" lang="ru" class="ie9"><![endif]--><!--[if (gt IE 9)|!(IE)]><!--><html dir="ltr" lang="ru"><!--<![endif]--><head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<title>Интернет магазин "02rf.ru"</title>
+<base href="http://02rf.ru/"><meta content="Мой магазин" name="description">
+<link href="catalog/view/javascript/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet">
+
+<link href="catalog/view/javascript/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css">
+<link href="catalog/view/theme/default/stylesheet/stylesheet.css" rel="stylesheet"><link href="catalog/view/javascript/jquery/swiper/css/swiper.min.css" media="screen" rel="stylesheet" type="text/css"><link href="catalog/view/javascript/jquery/swiper/css/opencart.css" media="screen" rel="stylesheet" type="text/css"><link href="http://02rf.ru/image/catalog/Favicon.png" rel="icon"><!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+ 
+          <!-- Yandex.Metrica counters -->          
+          
+                    <!-- /Yandex.Metrica counters -->        
+</head>
+<body>
+<nav id="top">
+  <div class="container"> 
+    <div class="nav pull-right" id="top-links">
+      <ul class="list-inline">
+        <li><a href="http://02rf.ru/index.php?route=information/contact"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">+7-901-440-04-04</span></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="http://02rf.ru/index.php?route=account/account" title="Личный кабинет"><i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Личный кабинет</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-right">            <li><a href="http://02rf.ru/index.php?route=account/register">Регистрация</a></li>
+            <li><a href="http://02rf.ru/index.php?route=account/login">Авторизация</a></li>          </ul>
+        </li>
+        <li><a href="http://02rf.ru/index.php?route=account/wishlist" id="wishlist-total" title="Закладки (0)"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Закладки (0)</span></a></li>
+        <li><a href="http://02rf.ru/index.php?route=checkout/cart" title="Корзина"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Корзина</span></a></li>
+        <li><a href="http://02rf.ru/index.php?route=checkout/checkout" title="Оформление заказа"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Оформление заказа</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="logo">          <h1><a href="http://02rf.ru/index.php?route=common/home">Интернет магазин "02rf.ru"</a></h1></div>
+      </div>
+      <div class="col-sm-5"><div class="input-group" id="search">
+  <input class="form-control input-lg" name="search" placeholder="Поиск" type="text" value="">
+  <span class="input-group-btn">
+    <button class="btn btn-default btn-lg" type="button"><i class="fa fa-search"></i></button>
+  </span>
+</div></div>
+      <div class="col-sm-3"><div class="btn-group btn-block" id="cart">
+  <button class="btn btn-inverse btn-block btn-lg dropdown-toggle" data-loading-text="Загрузка..." data-toggle="dropdown" type="button"><i class="fa fa-shopping-cart"></i> <span id="cart-total">Товаров 0 (0р.)</span></button>
+  <ul class="dropdown-menu pull-right">    <li>
+      <p class="text-center">Ваша корзина пуста!</p>
+    </li>  </ul>
+</div>
+</div>
+    </div>
+  </div>
+</header><div class="container">
+  <nav class="navbar" id="menu">
+    <div class="navbar-header"><span class="visible-xs" id="category">Категории</span>
+      <button class="btn btn-navbar navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><i class="fa fa-bars"></i></button>
+    </div>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="http://02rf.ru/index.php?route=product/category&amp;path=18">Каталог</a>
+          <div class="dropdown-menu">
+            <div class="dropdown-inner">              <ul class="list-unstyled">                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_59">Аксессуары для компьютеров, оргтехники и электроники (3)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_24">Аксессуары для планшетов и смартфонов (3)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_17">Бумага (1)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_46">Дом и сад (12)</a></li>              </ul>              <ul class="list-unstyled">                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_45">Зоотовары (6)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_20">Изготовление печатей и штампов (4)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_61">Канцелярские товары (1)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_40">Материалы для полиграфии (5)</a></li>              </ul>              <ul class="list-unstyled">                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_63">Наградная продукция (0)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_60">Нашивки и шевроны (1)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_25">Оснастка для печатей и штампов (3)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_33">Пломбировочные материалы и устройства (13)</a></li>              </ul>              <ul class="list-unstyled">                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_34">Подушки штемпельные сменные (3)</a></li>                <li><a href="http://02rf.ru/index.php?route=product/category&amp;path=18_62">Упаковка (1)</a></li>              </ul></div>
+            <a class="see-all" href="http://02rf.ru/index.php?route=product/category&amp;path=18">Показать всеКаталог</a> </div>
+        </li>      </ul>
+    </div>
+  </nav>
+</div> 
+
+<div class="container" id="common-home">
+  <div class="row">    <div class="col-sm-12" id="content"><div class="swiper-viewport">
+  <div class="swiper-container" id="slideshow0">
+    <div class="swiper-wrapper">      <div class="swiper-slide text-center"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=48"><img alt="Плёнка для защиты фотополимера рулон" class="img-responsive" src="http://02rf.ru/image/cache/catalog/polimer_plenka_2-1140x380.jpg"></a></div>      <div class="swiper-slide text-center"><a href="http://02rf.ru/index.php?route=product/product&amp;path=33&amp;product_id=31"><img alt="Скотч пломбировочный индикаторный П-50" class="img-responsive" src="http://02rf.ru/image/cache/catalog/plombirovochnie-ustroystva/skotch-1140x380.jpg"></a></div>      <div class="swiper-slide text-center"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=41"><img alt="2 печати d40 мм в одной оснастке &quot;Матрешка-Диско&quot;" class="img-responsive" src="http://02rf.ru/image/cache/catalog/pechati-i-shtampi/matreshka-disko-pechati-1140x380.jpg"></a></div>      <div class="swiper-slide text-center"><a href="http://02rf.ru/index.php?route=product/product&amp;path=33&amp;product_id=30"><img alt="Скотч пломбировочный индикаторный П-27" class="img-responsive" src="http://02rf.ru/image/cache/catalog/plombirovochnie-ustroystva/skotch-P27-1-1140x380.jpg"></a></div> </div>
+  </div>
+  <div class="swiper-pagination slideshow0"></div>
+  <div class="swiper-pager">
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</div>
+<h3>Рекомендуемые</h3>
+<div class="row">  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=48"><img alt="Пленка защитная для обработки фотополимера 180 м х 315 мм" class="img-responsive" src="http://02rf.ru/image/cache/catalog/polimer_plenka_2-200x200.jpg" title="Пленка защитная для обработки фотополимера 180 м х 315 мм"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=48">Пленка защитная для обработки фотополимера 180 м х 315 мм</a></h4>
+        <p>
+	
+		Применяется для защиты негатива при изготовлении штампов (печатей), микросхем, печатных плат...</p>        <p class="price">2435р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('48');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('48');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('48');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=31"><img alt="Скотч пломбировочный индикаторный П-50" class="img-responsive" src="http://02rf.ru/image/cache/catalog/plombirovochnie-ustroystva/skotch-200x200.jpg" title="Скотч пломбировочный индикаторный П-50"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=31">Скотч пломбировочный индикаторный П-50</a></h4>
+        <p>
+	Представляет собой самоклеющуюся ленту, выполненную из&nbsp; полиэстера с высокоадгезивным клеевы..</p>        <p class="price">3600р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('31');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('31');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('31');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=30"><img alt="Скотч пломбировочный индикаторный П-27" class="img-responsive" src="http://02rf.ru/image/cache/catalog/plombirovochnie-ustroystva/skotch-P27-1-200x200.jpg" title="Скотч пломбировочный индикаторный П-27"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=30">Скотч пломбировочный индикаторный П-27</a></h4>
+        <p>Представляет собой самоклеющуюся ленту, выполненную из&nbsp; полиэстера с высокоадгезивным клеевым с..</p>        <p class="price">2400р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('30');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('30');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('30');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=33"><img alt="Оснастка для 2-х печатей d40 мм металлическая &quot;Матрешка-Диско&quot;" class="img-responsive" src="http://02rf.ru/image/cache/catalog/osnastka/matreshka-disko-3-200x200.jpg" title="Оснастка для 2-х печатей d40 мм металлическая &quot;Матрешка-Диско&quot;"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=33">Оснастка для 2-х печатей d40 мм металлическая "Матрешка-Диско"</a></h4>
+        <p>Если Вам надоело носить с собой 2 печати, то это решение для Вас!Уникальная компактная оснастка&nbsp;..</p>        <p class="price">1600р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('33');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('33');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('33');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=41"><img alt="2 печати d40 мм в одной оснастке &quot;Матрешка-Диско&quot;" class="img-responsive" src="http://02rf.ru/image/cache/catalog/pechati-i-shtampi/matreshka-disko-pechati-200x200.jpg" title="2 печати d40 мм в одной оснастке &quot;Матрешка-Диско&quot;"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=41">2 печати d40 мм в одной оснастке "Матрешка-Диско"</a></h4>
+        <p>Если Вам надоело носить с собой 2 печати, то это решение для Вас!&nbsp;2 печати d40 мм в компактной ..</p>        <p class="price">2800р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('41');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('41');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('41');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=28"><img alt="Печать d40 мм из резины без оснастки" class="img-responsive" src="http://02rf.ru/image/cache/catalog/pechati-i-shtampi/pechat_2-200x200.jpg" title="Печать d40 мм из резины без оснастки"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=28">Печать d40 мм из резины без оснастки</a></h4>
+        <p>Печать d40 мм из резины без оснастки для индивидуального предпринимателя или организации.
+
+..</p>        <p class="price">600р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('28');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('28');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('28');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=51"><img alt="Штамп 110 х 60 мм на пластмассовой ручной оснастке" class="img-responsive" src="http://02rf.ru/image/cache/catalog/pechati-i-shtampi/Shtamp-110x60-PO-200x200.jpg" title="Штамп 110 х 60 мм на пластмассовой ручной оснастке"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=51">Штамп 110 х 60 мм на пластмассовой ручной оснастке</a></h4>
+        <p>Большой угловой штамп 110 х 60 мм на пластмассовой ручной оснастке.
+..</p>        <p class="price">2035р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('51');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('51');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('51');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=69"><img alt="Сетевое зарядное устройство универсальное S21A20" class="img-responsive" src="http://02rf.ru/image/cache/catalog/aks_plan_tel/szu_S21A20_1_2-200x200.jpg" title="Сетевое зарядное устройство универсальное S21A20"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=69">Сетевое зарядное устройство универсальное S21A20</a></h4>
+        <p>Сетевое зарядное устройство универсальное S21A20, USB-порт для подключения кабеля, выходная мощность..</p>        <p class="price">630р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('69');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('69');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('69');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=76"><img alt="Пломбиратор с гравировкой" class="img-responsive" src="http://02rf.ru/image/cache/catalog/plombirovochnie-ustroystva/plombirator2-200x200.jpg" title="Пломбиратор с гравировкой"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=76">Пломбиратор с гравировкой</a></h4>
+        <p>Пломбиратор с гравировкой для опломбирования свинцовыми или пластиковыми пломбами.Гравировка делаетс..</p>        <p class="price">1000р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('76');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('76');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('76');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=81"><img alt="Весы напольные электронные Scarlett SC-BS33E033" class="img-responsive" src="http://02rf.ru/image/cache/catalog/dacha-i-sad/SCARLETT_SC_BS33E033_2-200x200.jpg" title="Весы напольные электронные Scarlett SC-BS33E033"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=81">Весы напольные электронные Scarlett SC-BS33E033</a></h4>
+        <p>- Простой и удобный способ контролировать свой вес.- Высокочувствительные датчики.- Максимальный вес..</p>        <p class="price">1250р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('81');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('81');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('81');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=83"><img alt="Чайник электрический LERAN EKP-1757 P" class="img-responsive" src="http://02rf.ru/image/cache/catalog/dacha-i-sad/Leran/leran_ekp_1757_p-200x200.jpg" title="Чайник электрический LERAN EKP-1757 P"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=83">Чайник электрический LERAN EKP-1757 P</a></h4>
+        <p>Чайник электрический LERAN EKP-1757 P.
+Цвет белый, закрытый нагревательный элемент, индикация включ..</p>        <p class="price">1250р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('83');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('83');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('83');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=88"><img alt="Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом" class="img-responsive" src="http://02rf.ru/image/cache/catalog/materiali-dlia-poligrafii/bordur-200x200.jpg" title="Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=88">Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерным способом</a></h4>
+        <p>Липкая резина (бордюрная лента) Colop 2,5 мм х 30 м для изготовления печатей и штампов фотополимерны..</p>        <p class="price">1080р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('88');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('88');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('88');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=91"><img alt="Печать d40 мм на автоматической оснастке Colop R40 с крышкой" class="img-responsive" src="http://02rf.ru/image/cache/catalog/pechati-i-shtampi/pechat-na-avtomaticheskoy-osnastke_Colop-R40-200x200.jpg" title="Печать d40 мм на автоматической оснастке Colop R40 с крышкой"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=91">Печать d40 мм на автоматической оснастке Colop R40 с крышкой</a></h4>
+        <p>Печать d40 мм на автоматической оснастке Colop R40 с крышкой...</p>        <p class="price">1120р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('91');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('91');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('91');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=72"><img alt="Туалет - лоток для собак с бортиками и столбиком" class="img-responsive" src="http://02rf.ru/image/cache/catalog/tovary-dlja-zhivotnyh/Screenshot_20230720_103948_Chrome-200x200.jpg" title="Туалет - лоток для собак с бортиками и столбиком"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=72">Туалет - лоток для собак с бортиками и столбиком</a></h4>
+        <p>Лоток для собак со столбиком, бортиком и сеткой подойдет для мелких и средних пород собак, для щенко..</p>        <p class="price">960р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('72');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('72');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('72');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div>  <div class="product-layout col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="product-thumb transition">
+      <div class="image"><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=90"><img alt="Оснастка для круглой печати с крышкой автоматическая пластмассовая  d40 мм Colop Printer R40" class="img-responsive" src="http://02rf.ru/image/cache/catalog/osnastka/700-nw-200x200.jpg" title="Оснастка для круглой печати с крышкой автоматическая пластмассовая  d40 мм Colop Printer R40"></a></div>
+      <div class="caption">
+        <h4><a href="http://02rf.ru/index.php?route=product/product&amp;product_id=90">Оснастка для круглой печати с крышкой автоматическая пластмассовая  d40 мм Colop Printer R40</a></h4>
+        <p>Оснастка для круглой печати с крышкой автоматическая пластмассовая d40 мм Colop Printer R40...</p>        <p class="price">520р.        </p>      </div>
+      <div class="button-group">
+        <button onclick="cart.add('90');" type="button"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Купить</span></button>
+        <button data-toggle="tooltip" onclick="wishlist.add('90');" title="В закладки" type="button"><i class="fa fa-heart"></i></button>
+        <button data-toggle="tooltip" onclick="compare.add('90');" title="В сравнение" type="button"><i class="fa fa-exchange"></i></button>
+      </div>
+    </div>
+  </div></div>
+</div></div>
+</div><footer>
+  <div class="container">
+    <div class="row">      <div class="col-sm-3">
+        <h5>Информация</h5>
+        <ul class="list-unstyled">          <li><a href="http://02rf.ru/index.php?route=information/information&amp;information_id=6">Доставка</a></li>          <li><a href="http://02rf.ru/index.php?route=information/information&amp;information_id=3">Политика конфиденциальности</a></li>          <li><a href="http://02rf.ru/index.php?route=information/information&amp;information_id=5">Условия соглашения</a></li>        </ul>
+      </div>      <div class="col-sm-3">
+        <h5>Служба поддержки</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://02rf.ru/index.php?route=information/contact">Контакты</a></li>
+          <li><a href="http://02rf.ru/index.php?route=account/return/add"></a></li>
+          <li><a href="http://02rf.ru/index.php?route=information/sitemap">Карта сайта</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Дополнительно</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://02rf.ru/index.php?route=product/manufacturer"></a></li>
+          <li><a href="http://02rf.ru/index.php?route=account/voucher"></a></li>
+          <li><a href="http://02rf.ru/index.php?route=affiliate/login"></a></li>
+          <li><a href="http://02rf.ru/index.php?route=product/special">Акции</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Личный Кабинет</h5>
+        <ul class="list-unstyled">
+          <li><a href="http://02rf.ru/index.php?route=account/account">Личный Кабинет</a></li>
+          <li><a href="http://02rf.ru/index.php?route=account/order">История заказов</a></li>
+          <li><a href="http://02rf.ru/index.php?route=account/wishlist">Закладки</a></li>
+          <li><a href="http://02rf.ru/index.php?route=account/newsletter">Рассылка</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p><br> Интернет магазин "02rf.ru" © 2010 - 2026</p>
+  </div>
+</footer><!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+
+          
+        
+</body></html>
+

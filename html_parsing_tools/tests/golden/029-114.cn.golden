@@ -1,0 +1,788 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": "9659彩票网"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["javascript:;", "javascript:;", "?contact.asp", "", "", "", "", "", "", "/", "?about.asp", "?about.asp?id=1", "?about.asp?id=2", "?products.asp", "?products.asp?classid=1", "?products.asp?classid=2", "?products.asp?classid=3", "?products.asp?classid=4", "?case.asp", "?case.asp?classid=1", "?case.asp?classid=2", "?case.asp?classid=4", "?case.asp?classid=5", "?news.asp", "?news.asp?classid=1", "?news.asp?classid=4", "?service.asp", "?service.asp?id=1", "?recruit.asp", "?recruit.asp?id=1", "?recruit.asp?id=2", "?feedback.asp", "?contact.asp", "", "", "https:/www.zygfz.com", "https:/www.zygfz.com", "", "?search.asp?key=热缩套", "?search.asp?key=热缩带", "?search.asp?key=粘弹体防腐胶带", "?search.asp?key=燃气穿墙热缩管", "?search.asp?key=热缩缠绕带", "?search.asp?key=带胶热缩套", "?search.asp?key=钢塑转换热缩套", "?search.asp?key=中壁涂胶管", "?search.asp?key=四分管热缩套", "?products.asp?classid=1", "?products.asp?classid=1&smallclassid=1", "?products.asp?classid=1&smallclassid=2", "?products.asp?classid=2", "?products.asp?classid=2&smallclassid=3", "?products.asp?classid=2&smallclassid=4", "?products.asp?classid=3", "?products.asp?classid=3&smallclassid=5", "?products.asp?classid=3&smallclassid=7", "?products.asp?classid=4", "?products.asp?classid=4&smallclassid=8", "?products.asp?classid=4&smallclassid=9", "?productshow.asp?id=74", "?productshow.asp?id=74", "?contact.asp", "?productshow.asp?id=73", "?productshow.asp?id=73", "?contact.asp", "?productshow.asp?id=72", "?productshow.asp?id=72", "?contact.asp", "?productshow.asp?id=61", "?productshow.asp?id=61", "?contact.asp", "?productshow.asp?id=64", "?productshow.asp?id=64", "?contact.asp", "?productshow.asp?id=81", "?productshow.asp?id=81", "?contact.asp", "?productshow.asp?id=56", "?productshow.asp?id=56", "?contact.asp", "?productshow.asp?id=43", "?productshow.asp?id=43", "?contact.asp", "?productshow.asp?id=51", "?productshow.asp?id=51", "?contact.asp", "https://wpa.qq.com/msgrd?v=3&uin=2622652832&site=qq&menu=yes", "", "", "?showcase.asp?id=50", "?showcase.asp?id=49", "?showcase.asp?id=48", "?showcase.asp?id=47", "?showcase.asp?id=46", "?showcase.asp?id=44", "?showcase.asp?id=43", "?showcase.asp?id=76", "?showcase.asp?id=75", "?showcase.asp?id=74", "?showcase.asp?id=73", "?showcase.asp?id=72", "?showcase.asp?id=71", "?showcase.asp?id=70", "?showcase.asp?id=69", "?showcase.asp?id=68", "?shownews.asp?id=147", "?shownews.asp?id=79", "?shownews.asp?id=74", "?shownews.asp?id=71", "?shownews.asp?id=99", "?shownews.asp?id=96", "?shownews.asp?id=64", "?shownews.asp?id=63", "?shownews.asp?id=99", "?shownews.asp?id=96", "http://www.slcnc.com", "http://www.hfw.cc/link/", "https://www.shipinkuaijian.com", "http://www.hjsljq.com", "http://www.youyifazhan.cn", "/", "?about.asp", "?products.asp", "?case.asp", "?news.asp", "?service.asp", "?recruit.asp", "?feedback.asp", "?contact.asp", "http://beian.miit.gov.cn", "https://wpa.qq.com/msgrd?v=3&uin=2622652832&site=qq&menu=yes", "", "", "", "http://www.xxfseo.com/?time=1782523213"]
+
+=== get_links ===
+[("javascript:;", "加入收藏"), ("javascript:;", "设为首页"), ("?contact.asp", "联系我们"), ("", "微信"), ("", "13182665152"), ("", "诚信经营"), ("", "资质齐全"), ("", "用心服务"), ("", "全天在线"), ("/", "网站首页"), ("?about.asp", "关于9659彩票"), ("?about.asp?id=1", "关于9659彩票"), ("?about.asp?id=2", "企业文化"), ("?products.asp", "产品展示"), ("?products.asp?classid=1", "管道防腐热缩材料"), ("?products.asp?classid=2", "管道防腐冷缠材料"), ("?products.asp?classid=3", "电子电力热缩材料"), ("?products.asp?classid=4", "电力电缆冷缩材料"), ("?case.asp", "工程案例"), ("?case.asp?classid=1", "管道防腐工程案例"), ("?case.asp?classid=2", "电力电缆工程案例"), ("?case.asp?classid=4", "生产设备"), ("?case.asp?classid=5", "实验室设备"), ("?news.asp", "新闻中心"), ("?news.asp?classid=1", "产品资讯"), ("?news.asp?classid=4", "施工说明"), ("?service.asp", "服务支持"), ("?service.asp?id=1", "销售理念"), ("?recruit.asp", "诚聘英才"), ("?recruit.asp?id=1", "人才战略"), ("?recruit.asp?id=2", "招聘岗位"), ("?feedback.asp", "在线留言"), ("?contact.asp", "联系我们"), ("", ""), ("", ""), ("https:/www.zygfz.com", ""), ("https:/www.zygfz.com", ""), ("", ""), ("?search.asp?key=热缩套", "热缩套"), ("?search.asp?key=热缩带", "热缩带"), ("?search.asp?key=粘弹体防腐胶带", "粘弹体防腐胶带"), ("?search.asp?key=燃气穿墙热缩管", "燃气穿墙热缩管"), ("?search.asp?key=热缩缠绕带", "热缩缠绕带"), ("?search.asp?key=带胶热缩套", "带胶热缩套"), ("?search.asp?key=钢塑转换热缩套", "钢塑转换热缩套"), ("?search.asp?key=中壁涂胶管", "中壁涂胶管"), ("?search.asp?key=四分管热缩套", "四分管热缩套"), ("?products.asp?classid=1", "管道防腐热缩材料"), ("?products.asp?classid=1&smallclassid=1", "热缩带（套）等系列产品"), ("?products.asp?classid=1&smallclassid=2", "管道补伤施工等系列产品"), ("?products.asp?classid=2", "管道防腐冷缠材料"), ("?products.asp?classid=2&smallclassid=3", "粘弹体材料等系列产品"), ("?products.asp?classid=2&smallclassid=4", "冷缠防腐胶带等系列产品"), ("?products.asp?classid=3", "电子电力热缩材料"), ("?products.asp?classid=3&smallclassid=5", "热缩电缆附件系列产品"), ("?products.asp?classid=3&smallclassid=7", "热缩套管及配件相关产品"), ("?products.asp?classid=4", "电力电缆冷缩材料"), ("?products.asp?classid=4&smallclassid=8", "冷缩电缆附件系列产品"), ("?products.asp?classid=4&smallclassid=9", "冷缩管相关系列产品"), ("?productshow.asp?id=74", ""), ("?productshow.asp?id=74", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=73", ""), ("?productshow.asp?id=73", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=72", ""), ("?productshow.asp?id=72", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=61", ""), ("?productshow.asp?id=61", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=64", ""), ("?productshow.asp?id=64", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=81", ""), ("?productshow.asp?id=81", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=56", ""), ("?productshow.asp?id=56", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=43", ""), ("?productshow.asp?id=43", "了解详情"), ("?contact.asp", "立即咨询"), ("?productshow.asp?id=51", ""), ("?productshow.asp?id=51", "了解详情"), ("?contact.asp", "立即咨询"), ("https://wpa.qq.com/msgrd?v=3&uin=2622652832&site=qq&menu=yes", "\u{e648} 立即免费咨询"), ("", ""), ("", ""), ("?showcase.asp?id=50", "热缩带（售后指导实拍）"), ("?showcase.asp?id=49", "广东2000万吨防腐材料项目供货记录"), ("?showcase.asp?id=48", "1219弯管整体防腐用热缩缠绕带施工案例"), ("?showcase.asp?id=47", "阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例"), ("?showcase.asp?id=46", "山西光固化材料施工案例"), ("?showcase.asp?id=44", "（长岭- 永清段）东线天然气管线工程用热缩套（开口）"), ("?showcase.asp?id=43", "岚县－太原输气管道工程用热缩套（闭口套）"), ("?showcase.asp?id=76", "补口热缩套施工现场拍摄"), ("?showcase.asp?id=75", "母排热缩保护管的施工图片"), ("?showcase.asp?id=74", "35KV热缩母排套管客户使用案例"), ("?showcase.asp?id=73", "10KV母排套管使用现场"), ("?showcase.asp?id=72", "湖北输油输气管线使用热缩套案例售后拍摄"), ("?showcase.asp?id=71", "安徽热缩带热缩套使用案例"), ("?showcase.asp?id=70", "雪原低温环境热缩套应用案例售后实拍"), ("?showcase.asp?id=69", "沙漠高温环境应用热缩带项目售后拍摄"), ("?showcase.asp?id=68", "场站35kv母排套管安装使用现场"), ("?shownews.asp?id=147", "燃气穿墙热缩管的生产周期"), ("?shownews.asp?id=79", "什么是3PE防腐材料"), ("?shownews.asp?id=74", "燃气穿墙热缩套管的长度有哪些"), ("?shownews.asp?id=71", "钢制管道3PE防腐层存在的几点问题"), ("?shownews.asp?id=99", "聚乙烯/聚丙烯冷缠带的施工步骤和注意事项"), ("?shownews.asp?id=96", "弯管式燃气管道用钢塑转换热缩套防腐工艺"), ("?shownews.asp?id=64", "燃气穿墙热缩套管施工说明"), ("?shownews.asp?id=63", "3pe热缩套补口安装施工说明"), ("?shownews.asp?id=99", ""), ("?shownews.asp?id=96", ""), ("http://www.slcnc.com", "激光切割机"), ("http://www.hfw.cc/link/", "合肥网"), ("https://www.shipinkuaijian.com", "农药残留检测仪"), ("http://www.hjsljq.com", "不锈钢电缆接头"), ("http://www.youyifazhan.cn", "聚氨酯保温钢管"), ("/", "网站首页"), ("?about.asp", "关于9659彩票"), ("?products.asp", "产品展示"), ("?case.asp", "工程案例"), ("?news.asp", "新闻中心"), ("?service.asp", "服务支持"), ("?recruit.asp", "诚聘英才"), ("?feedback.asp", "在线留言"), ("?contact.asp", "联系我们"), ("http://beian.miit.gov.cn", "苏ICP备2020067422号-1"), ("https://wpa.qq.com/msgrd?v=3&uin=2622652832&site=qq&menu=yes", "\u{e648} 在线客服"), ("", "\u{e63b} 官方微信"), ("", "\u{e6a0} 服务热线"), ("", "\u{e60d} 返回顶部"), ("http://www.xxfseo.com/?time=1782523213", "xxfseo.com")]
+
+=== get_emails ===
+["2622652832@qq.com"]
+
+=== get_sentences.descriptions ===
+["9659cc彩票welcome彩集团官方网站为您提供9659彩票VIP版本计划客服微聊安卓版下载手机版app最新版本更新内容,9659彩票用户登录,9659彩票在线安全入口,9659彩票购彩邀请码,9659彩票线路检测导航,9659彩票中心大厅,9659彩票专业购彩平台."]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": ["产品展示"]
+  "h3": ["\u{e86e} 大家都在搜：", "PRODUCT CATEGORY", "为什么要选择中扬高分子材料？", "选择我们的四大理由", "01 多年行业经验，产品种类齐全", "02 可非标定制产品，满足客户不同需求", "03 无贸易商赚差价-厂价直销", "04 专业的服务团队，售后无忧", "关于9659彩票", "工程案例", "新闻中心", "友情链接/LINK", "\u{e63c} 公司地址", "\u{e6a0} 联系方式", "网站导航"]
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+9659彩票网,9659cc彩票
+
+=== get_sentences.other ===
+["9659彩票网", "您好，欢迎来到9659彩票！", "加入收藏", "|", "设为首页", "|", "联系我们", "|", "微信", "|", "13182665152", "网站首页", "关于9659彩票", "关于9659彩票", "企业文化", "产品展示", "管道防腐热缩材料", "管道防腐冷缠材料", "电子电力热缩材料", "电力电缆冷缩材料", "工程案例", "管道防腐工程案例", "电力电缆工程案例", "生产设备", "实验室设备", "新闻中心", "产品资讯", "施工说明", "服务支持", "销售理念", "诚聘英才", "人才战略", "招聘岗位", "在线留言", "联系我们", "热缩套", "热缩带", "粘弹体防腐胶带", "燃气穿墙热缩管", "热缩缠绕带", "带胶热缩套", "钢塑转换热缩套", "中壁涂胶管", "四分管热缩套", "免费服务热线：", "13182665152", "管道防腐热缩材料", "热缩带（套）等系列产品", "管道补伤施工等系列产品", "管道防腐冷缠材料", "粘弹体材料等系列产品", "冷缠防腐胶带等系列产品", "电子电力热缩材料", "热缩电缆附件系列产品", "热缩套管及配件相关产品", "电力电缆冷缩材料", "冷缩电缆附件系列产品", "冷缩管相关系列产品", "了解详情", "立即咨询", "了解详情", "立即咨询", "了解详情", "立即咨询", "了解详情", "立即咨询", "了解详情", "立即咨询", "了解详情", "立即咨询", "了解详情", "立即咨询", "了解详情", "立即咨询", "了解详情", "立即咨询", "专注研发工匠品质，用质量体现价值", "\u{e648}", "立即免费咨询", "以冷热缩材料为核心，提供产品,技术和服务，助力管道防腐与绝缘电力行业健康发展", "一家以“质量为生命，技术为根本，与客户共同发展，  为社会创造财富”为使命的高新企业。", "1000＋", "为上千家客户单位服务", "18000", "生产基地1.8万平方米", "15", "从事防腐绝缘行业15年", "9659彩票一家提供管道防腐用热缩材料、冷缠材料；电子电力绝缘防护用冷缩材料，热缩套管等产品和施工方案技术支持的知名公司，公司地址位于江苏省东南部吴江区，东临上海，西接太湖，南接浙江，北接苏州。公司在苏州、滨州、河北设有三大生产基地，总占地面积6万平方米，生产厂房1.8万平方米。产品广泛应用于电力、电子、化工、军工、通讯、造船、汽车、石油和燃气等行业。公司成立至今，秉承优质低价的经营思路和诚信为本的经营理念，寄望让品牌名扬中外！", "公司产品主要分为两大类", "管道防腐行业产品包括：补口用热缩带、热缩套、热缩缠绕带、热缩防水帽、燃气热缩穿墙套管、钢塑转换热缩套、焊接式闭口套、粘弹体防腐胶带、粘弹体防腐膏、聚乙烯冷缠外护带，聚丙烯增强纤维冷缠外护带、补伤片、补伤棒、施工用聚四氟乙烯压辊、热缩烤枪、无溶剂环氧涂料等防腐材料", "电子电力产品包括：热缩套管、母排套管、热缩电缆附件、冷缩电缆附件、通讯冷缩管、热缩封帽、热缩指套、3倍带胶热缩套管等冷热缩材料。", "我们的产品通过了行业和国家权威机构的检验，我们的电力产品通过了武汉高压研究所的检验。电子用热收缩管已通过UL和加拿大国家标准局的认证。管道防腐热收缩材料通过中国石油工程技术研究院检验，质量和环境管理体系通过ISO9000和14001认证，以及中国石油SY/T0413、4054等国际标准。产品已广泛应用于电力、电子、石油、天然气、化工、自来水、电信、公路建设、造船和修船等行业和领域。客户遍布中国100多个城市，用户超过1000人。防腐产品在我国西气东输、川气东输、双兰线、西南成品油等大型油田和长输管道的重点工程中发挥了重要作用。产品还出口到欧洲、亚太经合组织、中东、南非等地区，成为亚太经合组织地区服务体系完善的防腐热收缩材料领先供应商。", "中扬产品以优良的品质，低廉的价格广泛应用于国内外多项重点工程", "热缩带（售后指导实拍）", "广东2000万吨防腐材料项目供货记录", "1219弯管整体防腐用热缩缠绕带施工案例", "阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例", "山西光固化材料施工案例", "（长岭- 永清段）东线天然气管线工程用热缩套（开口）", "岚县－太原输气管道工程用热缩套（闭口套）", "补口热缩套施工现场拍摄", "母排热缩保护管的施工图片", "35KV热缩母排套管客户使用案例", "10KV母排套管使用现场", "湖北输油输气管线使用热缩套案例售后拍摄", "安徽热缩带热缩套使用案例", "雪原低温环境热缩套应用案例售后实拍", "沙漠高温环境应用热缩带项目售后拍摄", "场站35kv母排套管安装使用现场", "公司将以“诚信方能大智慧，客户至上，金牌品质，专业服务”为标准高品质的服务社会", "产品资讯", "施工说明", "07-21", "燃气穿墙热缩管的生产周期", "01-27", "什么是3PE防腐材料", "01-20", "燃气穿墙热缩套管的长度有哪些", "01-18", "钢制管道3PE防腐层存在的几点问题", "04-02", "聚乙烯/聚丙烯冷缠带的施工步骤和注意事项", "03-22", "弯管式燃气管道用钢塑转换热缩套防腐工艺", "01-06", "燃气穿墙热缩套管施工说明", "01-06", "3pe热缩套补口安装施工说明", "聚乙烯/聚丙烯冷缠带的施工步骤和注意事项", "弯管式燃气管道用钢塑转换热缩套防腐工艺", "激光切割机", "合肥网", "农药残留检测仪", "不锈钢电缆接头", "聚氨酯保温钢管", "网站首页", "关于9659彩票", "产品展示", "工程案例", "新闻中心", "服务支持", "诚聘英才", "在线留言", "联系我们", "Copyright © 9659彩票 All Rights Reserved.\u{3000}厂家直销：热缩带|热缩套|热缩缠绕带|燃气穿墙热缩管|粘弹体防腐胶带|冷缩管 ICP备案号：", "苏ICP备2020067422号-1", "\u{e648}", "\u{e63b}", "\u{e6a0}", "\u{e60d}", "xxfseo.com"]
+
+=== get_sentences.p ===
+["周一至周日 08:00 - 20:00"]
+
+=== get_sentences.meta_titles ===
+  "title": "9659彩票网"
+
+=== get_sentences.href_attributes ===
+["javascript:;", "javascript:;", "?contact.asp", "", "", "", "", "", "", "/", "?about.asp", "?about.asp?id=1", "?about.asp?id=2", "?products.asp", "?products.asp?classid=1", "?products.asp?classid=2", "?products.asp?classid=3", "?products.asp?classid=4", "?case.asp", "?case.asp?classid=1", "?case.asp?classid=2", "?case.asp?classid=4", "?case.asp?classid=5", "?news.asp", "?news.asp?classid=1", "?news.asp?classid=4", "?service.asp", "?service.asp?id=1", "?recruit.asp", "?recruit.asp?id=1", "?recruit.asp?id=2", "?feedback.asp", "?contact.asp", "", "", "https:/www.zygfz.com", "https:/www.zygfz.com", "", "?search.asp?key=热缩套", "?search.asp?key=热缩带", "?search.asp?key=粘弹体防腐胶带", "?search.asp?key=燃气穿墙热缩管", "?search.asp?key=热缩缠绕带", "?search.asp?key=带胶热缩套", "?search.asp?key=钢塑转换热缩套", "?search.asp?key=中壁涂胶管", "?search.asp?key=四分管热缩套", "?products.asp?classid=1", "?products.asp?classid=1&smallclassid=1", "?products.asp?classid=1&smallclassid=2", "?products.asp?classid=2", "?products.asp?classid=2&smallclassid=3", "?products.asp?classid=2&smallclassid=4", "?products.asp?classid=3", "?products.asp?classid=3&smallclassid=5", "?products.asp?classid=3&smallclassid=7", "?products.asp?classid=4", "?products.asp?classid=4&smallclassid=8", "?products.asp?classid=4&smallclassid=9", "?productshow.asp?id=74", "?productshow.asp?id=74", "?contact.asp", "?productshow.asp?id=73", "?productshow.asp?id=73", "?contact.asp", "?productshow.asp?id=72", "?productshow.asp?id=72", "?contact.asp", "?productshow.asp?id=61", "?productshow.asp?id=61", "?contact.asp", "?productshow.asp?id=64", "?productshow.asp?id=64", "?contact.asp", "?productshow.asp?id=81", "?productshow.asp?id=81", "?contact.asp", "?productshow.asp?id=56", "?productshow.asp?id=56", "?contact.asp", "?productshow.asp?id=43", "?productshow.asp?id=43", "?contact.asp", "?productshow.asp?id=51", "?productshow.asp?id=51", "?contact.asp", "https://wpa.qq.com/msgrd?v=3&uin=2622652832&site=qq&menu=yes", "", "", "?showcase.asp?id=50", "?showcase.asp?id=49", "?showcase.asp?id=48", "?showcase.asp?id=47", "?showcase.asp?id=46", "?showcase.asp?id=44", "?showcase.asp?id=43", "?showcase.asp?id=76", "?showcase.asp?id=75", "?showcase.asp?id=74", "?showcase.asp?id=73", "?showcase.asp?id=72", "?showcase.asp?id=71", "?showcase.asp?id=70", "?showcase.asp?id=69", "?showcase.asp?id=68", "?shownews.asp?id=147", "?shownews.asp?id=79", "?shownews.asp?id=74", "?shownews.asp?id=71", "?shownews.asp?id=99", "?shownews.asp?id=96", "?shownews.asp?id=64", "?shownews.asp?id=63", "?shownews.asp?id=99", "?shownews.asp?id=96", "http://www.slcnc.com", "http://www.hfw.cc/link/", "https://www.shipinkuaijian.com", "http://www.hjsljq.com", "http://www.youyifazhan.cn", "/", "?about.asp", "?products.asp", "?case.asp", "?news.asp", "?service.asp", "?recruit.asp", "?feedback.asp", "?contact.asp", "http://beian.miit.gov.cn", "https://wpa.qq.com/msgrd?v=3&uin=2622652832&site=qq&menu=yes", "", "", "", "http://www.xxfseo.com/?time=1782523213"]
+
+=== get_sentences.text_nodes ===
+[["9659彩票网"], ["您好，欢迎来到9659彩票！", "加入收藏", "设为首页", "联系我们", "微信", "13182665152"], ["诚信经营", "资质齐全", "用心服务", "全天在线"], ["网站首页", "关于9659彩票", "关于9659彩票", "企业文化"], ["产品展示", "管道防腐热缩材料", "管道防腐冷缠材料", "电子电力热缩材料", "电力电缆冷缩材料"], ["工程案例", "管道防腐工程案例", "电力电缆工程案例", "生产设备", "实验室设备"], ["新闻中心", "产品资讯", "施工说明"], ["服务支持", "销售理念"], ["诚聘英才", "人才战略", "招聘岗位"], ["在线留言", "联系我们"], ["\u{e86e}", "大家都在搜：", "热缩套", "热缩带", "粘弹体防腐胶带", "燃气穿墙热缩管", "热缩缠绕带", "带胶热缩套", "钢塑转换热缩套", "中壁涂胶管", "四分管热缩套"], ["免费服务热线：", "13182665152"], ["产品展示", "PRODUCT CATEGORY"], ["管道防腐热缩材料"], ["热缩带（套）等系列产品", "管道补伤施工等系列产品"], ["管道防腐冷缠材料"], ["粘弹体材料等系列产品", "冷缠防腐胶带等系列产品"], ["电子电力热缩材料"], ["热缩电缆附件系列产品", "热缩套管及配件相关产品"], ["电力电缆冷缩材料"], ["冷缩电缆附件系列产品", "冷缩管相关系列产品"], ["热缩带/套", "了解详情", "立即咨询"], ["热缩套", "了解详情", "立即咨询"], ["热缩缠绕带", "了解详情", "立即咨询"], ["聚乙烯防腐胶带", "了解详情", "立即咨询"], ["粘弹体防腐胶带", "了解详情", "立即咨询"], ["环氧玻璃钢-管道定向钻穿越用", "了解详情", "立即咨询"], ["燃气穿墙热缩套管", "了解详情", "立即咨询"], ["通讯用冷缩管（内置胶泥）", "了解详情", "立即咨询"], ["热缩母排保护套管", "了解详情", "立即咨询"], ["为什么要选择中扬高分子材料？", "专注研发工匠品质，用质量体现价值"], ["\u{e650}", "与客户进行洽谈了解，分析使用需求，提供合理且专业的使用搭配方案", "\u{e650}", "签订合同后，专人1对1流程跟进，确保订单顺利进行，及时安全送达", "\u{e650}", "完善的售后保障，1年的质保期，同时提供产品合格证，检测报告，让您放心使用", "\u{e650}", "专业售后服务团队，免费指导施工，分析问题原因，提供解决方案"], ["选择9659彩票", "联系客服免费提供样品试用", "\u{e648}", "立即免费咨询"], ["选择我们的四大理由", "以冷热缩材料为核心，提供产品,技术和服务，助力管道防腐与绝缘电力行业健康发展"], ["01", "多年行业经验，产品种类齐全", "9659彩票在管道防腐材料，绝缘防护行业耕耘多年，为过千位客户提供产品服务，均获一致好评，公司主要产品有：热缩带（套），聚乙烯防腐胶带，热缩压敏带，燃气穿墙热缩套管，粘弹体防腐胶带/膏，防腐腻子，热缩母排套管，中壁涂胶管等等。"], ["02", "可非标定制产品，满足客户不同需求", "多年行业顾问技术团队提供防腐、防水材料采购咨询和专属解决方案，技术团队从业经验平均达10年，可精细化把控需求。产品可根据工程实际需求定制，降低客户成本，致力于做定制化应用方案。严格执行生产标准进行生产，可根据企业实际需求非标定制，准确契合客户需求，产品品质无惧市场比较。"], ["03", "无贸易商赚差价-厂价直销", "9659彩票严格控制生产中的各项成本，尽大化让利于客户，高产能，低报废率，利润远优于同行。公司同步开通企业淘宝店铺，明码标价，厂家直销，无中间差价，价格实惠透明。免去中间环节的盘剥，降低产品的流通成本。"], ["04", "专业的服务团队，售后无忧", "公司提供售前；售中；售后一站式服务，拥有专业的安装工程师团队及售后服务专线，不论是售前施工演示，还是售后施工培训，只要您一个电话，24小时全天候在线服务，指导或者上门进行培训、指导，让您绝无后顾之忧！"], ["\u{e66f}", "服务咨询热线：", "13182665152", "只要您一个电话，24小时全天候服务"], ["关于9659彩票", "一家以“质量为生命，技术为根本，与客户共同发展， 为社会创造财富”为使命的高新企业。"], ["1000＋", "为上千家客户单位服务", "18000", "生产基地1.8万平方米", "15", "从事防腐绝缘行业15年", "9659彩票一家提供管道防腐用热缩材料、冷缠材料；电子电力绝缘防护用冷缩材料，热缩套管等产品和施工方案技术支持的知名公司，公司地址位于江苏省东南部吴江区，东临上海，西接太湖，南接浙江，北接苏州。公司在苏州、滨州、河北设有三大生产基地，总占地面积6万平方米，生产厂房1.8万平方米。产品广泛应用于电力、电子、化工、军工、通讯、造船、汽车、石油和燃气等行业。公司成立至今，秉承优质低价的经营思路和诚信为本的经营理念，寄望让品牌名扬中外！", "公司产品主要分为两大类", "管道防腐行业产品包括：补口用热缩带、热缩套、热缩缠绕带、热缩防水帽、燃气热缩穿墙套管、钢塑转换热缩套、焊接式闭口套、粘弹体防腐胶带、粘弹体防腐膏、聚乙烯冷缠外护带，聚丙烯增强纤维冷缠外护带、补伤片、补伤棒、施工用聚四氟乙烯压辊、热缩烤枪、无溶剂环氧涂料等防腐材料 电子电力产品包括：热缩套管、母排套管、热缩电缆附件、冷缩电缆附件、通讯冷缩管、热缩封帽、热缩指套、3倍带胶热缩套管等冷热缩材料。 我们的产品通过了行业和国家权威机构的检验，我们的电力产品通过了武汉高压研究所的检验。电子用热收缩管已通过UL和加拿大国家标准局的认证。管道防腐热收缩材料通过中国石油工程技术研究院检验，质量和环境管理体系通过ISO9000和14001认证，以及中国石油SY/T0413、4054等国际标准。产品已广泛应用于电力、电子、石油、天然气、化工、自来水、电信、公路建设、造船和修船等行业和领域。客户遍布中国100多个城市，用户超过1000人。防腐产品在我国西气东输、川气东输、双兰线、西南成品油等大型油田和长输管道的重点工程中发挥了重要作用。产品还出口到欧洲、亚太经合组织、中东、南非等地区，成为亚太经合组织地区服务体系完善的防腐热收缩材料领先供应商。"], ["工程案例", "中扬产品以优良的品质，低廉的价格广泛应用于国内外多项重点工程"], ["热缩带（售后指导实拍）"], ["广东2000万吨防腐材料项目供货记录"], ["1219弯管整体防腐用热缩缠绕带施工案例"], ["阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例"], ["山西光固化材料施工案例"], ["（长岭", "永清段）东线天然气管线工程用热缩套（开口）"], ["岚县－太原输气管道工程用热缩套（闭口套）"], ["补口热缩套施工现场拍摄"], ["母排热缩保护管的施工图片"], ["35KV热缩母排套管客户使用案例"], ["10KV母排套管使用现场"], ["湖北输油输气管线使用热缩套案例售后拍摄"], ["安徽热缩带热缩套使用案例"], ["雪原低温环境热缩套应用案例售后实拍"], ["沙漠高温环境应用热缩带项目售后拍摄"], ["场站35kv母排套管安装使用现场"], ["新闻中心", "公司将以“诚信方能大智慧，客户至上，金牌品质，专业服务”为标准高品质的服务社会"], ["产品资讯", "施工说明"], ["07-21", "2021", "燃气穿墙热缩管的生产周期", "燃气穿墙热缩管的生产周期"], ["01-27", "2021", "什么是3PE防腐材料", "3PE防腐层是指 底层-无溶剂环氧涂料层 中层-防腐热熔胶层 外层-辐照交联聚乙烯基材层这三层复合而成就是3PE防腐层"], ["01-20", "2021", "燃气穿墙热缩套管的长度有哪些", "燃气穿墙热缩套管也被称为DN管穿墙保护套管，专用于燃气管道的埋地防腐保护和穿墙防腐保护。小区燃气管道入户的分支钢管处于于露空和埋地敷设的连接点"], ["01-18", "2021", "钢制管道3PE防腐层存在的几点问题", "3PE外防腐层存在的问题，首先是技术定位。目前国际上普遍采用的成熟的防腐方式，是环氧粉末防腐涂层。3PE是环氧粉末防腐方式的一部分，也有一种说法是升级版，这个说法并不确切。"], ["04-02", "2021", "聚乙烯/聚丙烯冷缠带的施工步骤和注意事项", "厂家介绍使用聚乙烯冷缠带（PE）或聚丙烯冷缠带（PP）的施工步骤和注意事项。"], ["03-22", "2021", "弯管式燃气管道用钢塑转换热缩套防腐工艺", "钢塑转换接头现在广泛应用在城市建设管网系统中，包括燃气管道小区入户等，那么弯管式的钢塑转换接头应该怎么去做防腐密封呢，一般常规的直管型钢塑转换接头都可以使用咱们厂家生产的钢塑转换热缩套。"], ["01-06", "2021", "燃气穿墙热缩套管施工说明", "选择合适口径的燃气穿墙热缩套管套入穿墙的镀锌管外，在套入时注意不要损伤套管内部的热熔胶，如果不慎将穿墙套管的外层刮破得重新更换一根热缩套管。"], ["01-06", "2021", "3pe热缩套补口安装施工说明", "将热缩套移到安装位置，并从中间位置沿环向均匀加热，使中间部位先收缩，然后向两侧均匀加热，从管底到管顶逐步加热使热缩套均匀收缩。"], ["聚乙烯/聚丙烯冷缠带的施工步骤和注意事项"], ["弯管式燃气管道用钢塑转换热缩套防腐工艺"], ["友情链接/LINK", "激光切割机", "合肥网", "农药残留检测仪", "不锈钢电缆接头", "聚氨酯保温钢管"], ["\u{e63c}", "公司地址", "江苏省苏州市吴江区汾湖经济开发区", "\u{e6a0}", "联系方式", "免费服务热线：13182665152", "电子邮箱：2622652832@qq.com"], ["网站导航", "网站首页", "关于9659彩票", "产品展示", "工程案例", "新闻中心", "服务支持", "诚聘英才", "在线留言", "联系我们"], ["扫码关注微信", "扫码浏览手机站"], ["Copyright © 9659彩票 All Rights Reserved. 厂家直销：热缩带", "热缩套", "热缩缠绕带", "燃气穿墙热缩管", "粘弹体防腐胶带", "冷缩管 ICP备案号：", "苏ICP备2020067422号-1"], ["\u{e648}", "在线客服", "\u{e63b}", "官方微信", "扫码关注我们", "\u{e6a0}", "服务热线", "13182665152", "周一至周日 08:00", "20:00", "\u{e60d}", "返回顶部"], ["xxfseo.com"]]
+
+=== get_markdown ===
+###  大家都在搜：
+
+## 产品展示
+
+### PRODUCT CATEGORY
+
+### 为什么要选择中扬高分子材料？
+
+### 选择我们的四大理由
+
+### 01 多年行业经验，产品种类齐全
+
+### 02 可非标定制产品，满足客户不同需求
+
+### 03 无贸易商赚差价-厂价直销
+
+### 04 专业的服务团队，售后无忧
+
+### 关于9659彩票
+
+### 工程案例
+
+### 新闻中心
+
+### 友情链接/LINK
+
+###  公司地址
+
+###  联系方式
+
+### 网站导航
+
+周一至周日 08:00 - 20:00
+
+=== extract_text ===
+  "main": [["您好,欢迎来到9659彩票!", "加入收藏", "设为首页", "联系我们", "微信", "13182665152", "诚信经营", "资质齐全", "用心服务", "全天在线", "网站首页", "关于9659彩票", "关于9659彩票", "企业文化", "产品展示", "管道防腐热缩材料", "管道防腐冷缠材料", "电子电力热缩材料", "电力电缆冷缩材料", "工程案例", "管道防腐工程案例", "电力电缆工程案例", "生产设备", "实验室设备", "新闻中心", "产品资讯", "施工说明", "服务支持", "销售理念", "诚聘英才", "人才战略", "招聘岗位", "在线留言", "联系我们", "大家都在搜:", "热缩套", "热缩带", "粘弹体防腐胶带", "燃气穿墙热缩管", "热缩缠绕带", "带胶热缩套", "钢塑转换热缩套", "中壁涂胶管", "四分管热缩套", "免费服务热线:13182665152", "产品展示", "PRODUCT CATEGORY", "管道防腐热缩材料", "热缩带(套)等系列产品", "管道补伤施工等系列产品", "管道防腐冷缠材料", "粘弹体材料等系列产品", "冷缠防腐胶带等系列产品", "电子电力热缩材料", "热缩电缆附件系列产品", "热缩套管及配件相关产品", "电力电缆冷缩材料", "冷缩电缆附件系列产品", "冷缩管相关系列产品", "热缩带/套", "了解详情", "立即咨询", "热缩套", "了解详情", "立即咨询", "热缩缠绕带", "了解详情", "立即咨询", "聚乙烯防腐胶带", "了解详情", "立即咨询", "粘弹体防腐胶带", "了解详情", "立即咨询", "环氧玻璃钢-管道定向钻穿越用", "了解详情", "立即咨询", "燃气穿墙热缩套管", "了解详情", "立即咨询", "通讯用冷缩管(内置胶泥)", "了解详情", "立即咨询", "热缩母排保护套管", "了解详情", "立即咨询", "为什么要选择中扬高分子材料?", "专注研发工匠品质,用质量体现价值", "与客户进行洽谈了解,分析使用需求,提供合理且专业的使用搭配方案", "签订合同后,专人1对1流程跟进,确保订单顺利进行,及时安全送达", "完善的售后保障,1年的质保期,同时提供产品合格证,检测报告,让您放心使用", "专业售后服务团队,免费指导施工,分析问题原因,提供解决方案", "选择9659彩票", "联系客服免费提供样品试用", "立即免费咨询", "选择我们的四大理由", "以冷热缩材料为核心,提供产品,技术和服务,助力管道防腐与绝缘电力行业健康发展", "01多年行业经验,产品种类齐全", "9659彩票在管道防腐材料,绝缘防护行业耕耘多年,为过千位客户提供产品服务,均获一致好评,公司主要产品有:热缩带(套),聚乙烯防腐胶带,热缩压敏带,燃气穿墙热缩套管,粘弹体防腐胶带/膏,防腐腻子,热缩母排套管,中壁涂胶管等等。", "02可非标定制产品,满足客户不同需求", "多年行业顾问技术团队提供防腐、防水材料采购咨询和专属解决方案,技术团队从业经验平均达10年,可精细化把控需求。产品可根据工程实际需求定制,降低客户成本,致力于做定制化应用方案。严格执行生产标准进行生产,可根据企业实际需求非标定制,准确契合客户需求,产品品质无惧市场比较。", "03无贸易商赚差价-厂价直销", "9659彩票严格控制生产中的各项成本,尽大化让利于客户,高产能,低报废率,利润远优于同行。公司同步开通企业淘宝店铺,明码标价,厂家直销,无中间差价,价格实惠透明。免去中间环节的盘剥,降低产品的流通成本。", "04专业的服务团队,售后无忧", "公司提供售前;售中;售后一站式服务,拥有专业的安装工程师团队及售后服务专线,不论是售前施工演示,还是售后施工培训,只要您一个电话,24小时全天候在线服务,指导或者上门进行培训、指导,让您绝无后顾之忧!", "服务咨询热线:", "13182665152", "只要您一个电话,24小时全天候服务", "关于9659彩票", "一家以“质量为生命,技术为根本,与客户共同发展, 为社会创造财富”为使命的高新企业。", "1000+为上千家客户单位服务", "18000生产基地1.8万平方米", "15从事防腐绝缘行业15年", "9659彩票一家提供管道防腐用热缩材料、冷缠材料;电子电力绝缘防护用冷缩材料,热缩套管等产品和施工方案技术支持的知名公司,公司地址位于江苏省东南部吴江区,东临上海,西接太湖,南接浙江,北接苏州。公司在苏州、滨州、河北设有三大生产基地,总占地面积6万平方米,生产厂房1.8万平方米。产品广泛应用于电力、电子、化工、军工、通讯、造船、汽车、石油和燃气等行业。公司成立至今,秉承优质低价的经营思路和诚信为本的经营理念,寄望让品牌名扬中外!", "公司产品主要分为两大类", "管道防腐行业产品包括:补口用热缩带、热缩套、热缩缠绕带、热缩防水帽、燃气热缩穿墙套管、钢塑转换热缩套、焊接式闭口套、粘弹体防腐胶带、粘弹体防腐膏、聚乙烯冷缠外护带,聚丙烯增强纤维冷缠外护带、补伤片、补伤棒、施工用聚四氟乙烯压辊、热缩烤枪、无溶剂环氧涂料等防腐材料", "电子电力产品包括:热缩套管、母排套管、热缩电缆附件、冷缩电缆附件、通讯冷缩管、热缩封帽、热缩指套、3倍带胶热缩套管等冷热缩材料。", "我们的产品通过了行业和国家权威机构的检验,我们的电力产品通过了武汉高压研究所的检验。电子用热收缩管已通过UL和加拿大国家标准局的认证。管道防腐热收缩材料通过中国石油工程技术研究院检验,质量和环境管理体系通过ISO9000和14001认证,以及中国石油SY/T0413、4054等国际标准。产品已广泛应用于电力、电子、石油、天然气、化工、自来水、电信、公路建设、造船和修船等行业和领域。客户遍布中国100多个城市,用户超过1000人。防腐产品在我国西气东输、川气东输、双兰线、西南成品油等大型油田和长输管道的重点工程中发挥了重要作用。产品还出口到欧洲、亚太经合组织、中东、南非等地区,成为亚太经合组织地区服务体系完善的防腐热收缩材料领先供应商。", "工程案例", "中扬产品以优良的品质,低廉的价格广泛应用于国内外多项重点工程", "热缩带(售后指导实拍)", "广东2000万吨防腐材料项目供货记录", "1219弯管整体防腐用热缩缠绕带施工案例", "阀门法兰用粘弹体防腐胶带,外缠聚丙烯冷缠带案例", "山西光固化材料施工案例", "(长岭", "永清段)东线天然气管线工程用热缩套(开口)", "岚县-太原输气管道工程用热缩套(闭口套)", "补口热缩套施工现场拍摄", "母排热缩保护管的施工图片", "35KV热缩母排套管客户使用案例", "10KV母排套管使用现场", "湖北输油输气管线使用热缩套案例售后拍摄", "安徽热缩带热缩套使用案例", "雪原低温环境热缩套应用案例售后实拍", "沙漠高温环境应用热缩带项目售后拍摄", "场站35kv母排套管安装使用现场", "新闻中心", "公司将以“诚信方能大智慧,客户至上,金牌品质,专业服务”为标准高品质的服务社会", "产品资讯", "施工说明", "07-21", "2021", "燃气穿墙热缩管的生产周期", "燃气穿墙热缩管的生产周期", "01-27", "2021", "什么是3PE防腐材料", "3PE防腐层是指 底层-无溶剂环氧涂料层 中层-防腐热熔胶层 外层-辐照交联聚乙烯基材层这三层复合而成就是3PE防腐层", "01-20", "2021", "燃气穿墙热缩套管的长度有哪些", "燃气穿墙热缩套管也被称为DN管穿墙保护套管,专用于燃气管道的埋地防腐保护和穿墙防腐保护。小区燃气管道入户的分支钢管处于于露空和埋地敷设的连接点", "01-18", "2021", "钢制管道3PE防腐层存在的几点问题", "3PE外防腐层存在的问题,首先是技术定位。目前国际上普遍采用的成熟的防腐方式,是环氧粉末防腐涂层。3PE是环氧粉末防腐方式的一部分,也有一种说法是升级版,这个说法并不确切。", "04-02", "2021", "聚乙烯/聚丙烯冷缠带的施工步骤和注意事项", "厂家介绍使用聚乙烯冷缠带(PE)或聚丙烯冷缠带(PP)的施工步骤和注意事项。", "03-22", "2021", "弯管式燃气管道用钢塑转换热缩套防腐工艺", "钢塑转换接头现在广泛应用在城市建设管网系统中,包括燃气管道小区入户等,那么弯管式的钢塑转换接头应该怎么去做防腐密封呢,一般常规的直管型钢塑转换接头都可以使用咱们厂家生产的钢塑转换热缩套。", "01-06", "2021", "燃气穿墙热缩套管施工说明", "选择合适口径的燃气穿墙热缩套管套入穿墙的镀锌管外,在套入时注意不要损伤套管内部的热熔胶,如果不慎将穿墙套管的外层刮破得重新更换一根热缩套管。", "01-06", "2021", "3pe热缩套补口安装施工说明", "将热缩套移到安装位置,并从中间位置沿环向均匀加热,使中间部位先收缩,然后向两侧均匀加热,从管底到管顶逐步加热使热缩套均匀收缩。", "聚乙烯/聚丙烯冷缠带的施工步骤和注意事项", "弯管式燃气管道用钢塑转换热缩套防腐工艺", "友情链接/LINK", "激光切割机", "合肥网", "农药残留检测仪", "不锈钢电缆接头", "聚氨酯保温钢管", "公司地址", "江苏省苏州市吴江区汾湖经济开发区", "联系方式", "免费服务热线:13182665152", "电子邮箱:2622652832@qq.com", "网站导航", "网站首页", "关于9659彩票", "产品展示", "工程案例", "新闻中心", "服务支持", "诚聘英才", "在线留言", "联系我们", "扫码关注微信", "扫码浏览手机站", "Copyright © 9659彩票 All Rights Reserved. 厂家直销:热缩带", "热缩套", "热缩缠绕带", "燃气穿墙热缩管", "粘弹体防腐胶带", "冷缩管 ICP备案号:", "苏ICP备2020067422号-1", "在线客服", "官方微信", "扫码关注我们", "服务热线", "13182665152", "周一至周日 08:00", "20:00", "返回顶部", "xxfseo.com"]]
+
+=== tag_html_contents(title) ===
+<title>9659彩票网</title>
+
+=== html_contents ===
+<!DOCTYPE html><html><head>
+<meta charset="gb2312">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="webkit" name="renderer">
+
+<title>9659彩票网</title>
+<meta content="9659彩票网,9659cc彩票" name="keywords">
+<meta content="9659cc彩票welcome彩集团官方网站为您提供9659彩票VIP版本计划客服微聊安卓版下载手机版app最新版本更新内容,9659彩票用户登录,9659彩票在线安全入口,9659彩票购彩邀请码,9659彩票线路检测导航,9659彩票中心大厅,9659彩票专业购彩平台." name="description">
+<meta content="9659彩票" name="author">
+<meta content="9659彩票" name="Copyright">
+<link href="?css/css.css" rel="stylesheet" type="text/css">
+<link href="?css/red.css" rel="stylesheet" type="text/css">
+
+
+
+<link href="?css/iconfont.css" rel="stylesheet" type="text/css">
+
+<link href="?css/swiper.min.css" rel="stylesheet" type="text/css">
+
+<link href="?css/aos.css" rel="stylesheet" type="text/css">
+
+
+
+<link href="?css/common.css" rel="stylesheet" type="text/css">
+<!--[if IE 6]>
+<script src="?js/png.js"></script>
+<script>
+    DD_belatedPNG.fix('.warp img');
+</script>
+<![endif]-->
+
+
+</head>
+<body>
+
+<div id="top_bg">
+  <div class="warp" style="position:relative;">
+    <div class="fl">您好，欢迎来到9659彩票！</div>
+    <div class="fr">
+      <a href="javascript:;" onclick="AddFavorite('9659彩票',location.href)" title="加入收藏">加入收藏</a> | <a href="javascript:;" onclick="SetHome(this,'https:/www.zygfz.com')" title="设为首页">设为首页</a> | <a href="?contact.asp">联系我们</a> | <a class="weixin">微信<div class="wx_erweima"><img src="?UploadFiles/202333143949821.jpg"></div></a> | <a class="phone">13182665152</a>
+    </div>
+  </div>
+</div>
+<!---------top END--------->
+<div class="warp" id="header">
+  <div id="logo"><img src="?UploadFiles/2024229124045986.jpg"></div>
+  <div id="header_nav">
+    <ul>
+      <li><a><img src="?images/icon01.png"><p>诚信经营</p></a></li>
+      <i class="i1"></i><li><a><img src="?images/icon02.png"><p>资质齐全</p></a></li>
+      <i class="i1"></i><li><a><img src="?images/icon03.png"><p>用心服务</p></a></li>
+      <i class="i1"></i><li><a><img src="?images/icon04.png"><p>全天在线</p></a></li>
+    </ul>
+  </div>
+</div>
+<!---------header END--------->
+<div id="menu_bg">
+  <div class="warp nav nav3">
+    <ul>
+      <li class="on"><a class="mainlevel" href="/">网站首页</a></li>
+      <li><a class="mainlevel" href="?about.asp">关于9659彩票</a>
+        <ul>
+		  
+           <li><a href="?about.asp?id=1" title="关于9659彩票">关于9659彩票</a></li>
+		  
+           <li><a href="?about.asp?id=2" title="企业文化">企业文化</a></li>
+		  
+        </ul>
+      </li>
+      <li><a class="mainlevel" href="?products.asp">产品展示</a>
+        <ul>
+		  
+           <li><a href="?products.asp?classid=1" title="管道防腐热缩材料">管道防腐热缩材料</a></li>
+          
+           <li><a href="?products.asp?classid=2" title="管道防腐冷缠材料">管道防腐冷缠材料</a></li>
+          
+           <li><a href="?products.asp?classid=3" title="电子电力热缩材料">电子电力热缩材料</a></li>
+          
+           <li><a href="?products.asp?classid=4" title="电力电缆冷缩材料">电力电缆冷缩材料</a></li>
+          
+        </ul>
+      </li>
+      <li><a class="mainlevel" href="?case.asp">工程案例</a>
+        <ul>
+		  
+           <li><a href="?case.asp?classid=1" title="管道防腐工程案例">管道防腐工程案例</a></li>
+          
+           <li><a href="?case.asp?classid=2" title="电力电缆工程案例">电力电缆工程案例</a></li>
+          
+           <li><a href="?case.asp?classid=4" title="生产设备">生产设备</a></li>
+          
+           <li><a href="?case.asp?classid=5" title="实验室设备">实验室设备</a></li>
+          
+        </ul>
+      </li>
+      <li><a class="mainlevel" href="?news.asp">新闻中心</a>
+        <ul>
+		  
+           <li><a href="?news.asp?classid=1" title="产品资讯">产品资讯</a></li>
+          
+           <li><a href="?news.asp?classid=4" title="施工说明">施工说明</a></li>
+          
+        </ul>
+      </li>
+      <li><a class="mainlevel" href="?service.asp">服务支持</a>
+        <ul>
+		  
+           <li><a href="?service.asp?id=1" title="销售理念">销售理念</a></li>
+          
+        </ul>
+      </li>
+      <li><a class="mainlevel" href="?recruit.asp">诚聘英才</a>
+        <ul>
+		  
+           <li><a href="?recruit.asp?id=1" title="人才战略">人才战略</a></li>
+          
+           <li><a href="?recruit.asp?id=2" title="招聘岗位">招聘岗位</a></li>
+          
+        </ul>
+      </li>
+      <li><a class="mainlevel" href="?feedback.asp">在线留言</a></li>
+      <li><a class="mainlevel" href="?contact.asp">联系我们</a></li>
+    </ul>
+  </div>
+</div>
+<!-------menu END----------><div id="banner">
+  <div class="slideBox" id="slideBox">
+    <div><a class="next"></a> <a class="prev"></a></div>
+    <div class="bd">
+      <ul>
+		
+        <li><a href="https:/www.zygfz.com"><img alt="2024" src="?UploadFiles/2024226101012.JPG"></a></li>
+		
+        <li><a href="https:/www.zygfz.com"><img alt="幻灯片3" src="?UploadFiles/2024229131011.JPG"></a></li>
+		
+        <li><a href=""><img alt="公司" src="?UploadFiles/20201224141141.JPG"></a></li>
+		
+      </ul>
+    </div>
+  </div>
+  
+</div>
+<!-----------banner END-------------><div class="search">
+  <div class="warp">
+    <div class="fl"><h3><em class="iconfont"></em>大家都在搜：</h3>
+      
+	  <a href="?search.asp?key=热缩套" target="_blank" title="热缩套">热缩套</a>
+      
+	  <a href="?search.asp?key=热缩带" target="_blank" title="热缩带">热缩带</a>
+      
+	  <a href="?search.asp?key=粘弹体防腐胶带" target="_blank" title="粘弹体防腐胶带">粘弹体防腐胶带</a>
+      
+	  <a href="?search.asp?key=燃气穿墙热缩管" target="_blank" title="燃气穿墙热缩管">燃气穿墙热缩管</a>
+      
+	  <a href="?search.asp?key=热缩缠绕带" target="_blank" title="热缩缠绕带">热缩缠绕带</a>
+      
+	  <a href="?search.asp?key=带胶热缩套" target="_blank" title="带胶热缩套">带胶热缩套</a>
+      
+	  <a href="?search.asp?key=钢塑转换热缩套" target="_blank" title="钢塑转换热缩套">钢塑转换热缩套</a>
+      
+	  <a href="?search.asp?key=中壁涂胶管" target="_blank" title="中壁涂胶管">中壁涂胶管</a>
+      
+	  <a href="?search.asp?key=四分管热缩套" target="_blank" title="四分管热缩套">四分管热缩套</a>
+      
+    </div>
+    <div class="search-right fr">
+      <div class="search-tel">免费服务热线：<strong class="en">13182665152</strong></div>
+      <div class="serch-box">
+        <form action="search.asp" id="KFO" method="POST" name="KFO" onsubmit="return SearchKey()" style="padding:0px; margin:0px;">
+        <div id="search-bg"><input id="Key" name="Key" placeholder="请输入您要了解的产品名称" type="text"></div>
+        <div id="search-i"><input align="middle" type="submit" value=""></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----------搜索 END------------->
+<div class="bg01">
+    <div class="warp">
+        <div class="in_pro_menu fl">
+            <div class="in_pro_tit">
+                <h2>产品展示</h2>
+                <h3>PRODUCT CATEGORY</h3>
+            </div>
+            <div class="nlist">
+            <div class="TabTitle2">
+              <ul class="expmenu">
+            
+                <li>
+                  <div class="bigclassmenu"><a href="?products.asp?classid=1" title="管道防腐热缩材料">管道防腐热缩材料</a></div>
+				
+                  <ul class="menu">
+				  	
+                    <li><a href="?products.asp?classid=1&amp;smallclassid=1" title="热缩带（套）等系列产品">热缩带（套）等系列产品</a></li>
+					
+                    <li><a href="?products.asp?classid=1&amp;smallclassid=2" title="管道补伤施工等系列产品">管道补伤施工等系列产品</a></li>
+					
+                  </ul>
+				  
+                </li>
+            
+                <li>
+                  <div class="bigclassmenu"><a href="?products.asp?classid=2" title="管道防腐冷缠材料">管道防腐冷缠材料</a></div>
+				
+                  <ul class="menu">
+				  	
+                    <li><a href="?products.asp?classid=2&amp;smallclassid=3" title="粘弹体材料等系列产品">粘弹体材料等系列产品</a></li>
+					
+                    <li><a href="?products.asp?classid=2&amp;smallclassid=4" title="冷缠防腐胶带等系列产品">冷缠防腐胶带等系列产品</a></li>
+					
+                  </ul>
+				  
+                </li>
+            
+                <li>
+                  <div class="bigclassmenu"><a href="?products.asp?classid=3" title="电子电力热缩材料">电子电力热缩材料</a></div>
+				
+                  <ul class="menu">
+				  	
+                    <li><a href="?products.asp?classid=3&amp;smallclassid=5" title="热缩电缆附件系列产品">热缩电缆附件系列产品</a></li>
+					
+                    <li><a href="?products.asp?classid=3&amp;smallclassid=7" title="热缩套管及配件相关产品">热缩套管及配件相关产品</a></li>
+					
+                  </ul>
+				  
+                </li>
+            
+                <li>
+                  <div class="bigclassmenu"><a href="?products.asp?classid=4" title="电力电缆冷缩材料">电力电缆冷缩材料</a></div>
+				
+                  <ul class="menu">
+				  	
+                    <li><a href="?products.asp?classid=4&amp;smallclassid=8" title="冷缩电缆附件系列产品">冷缩电缆附件系列产品</a></li>
+					
+                    <li><a href="?products.asp?classid=4&amp;smallclassid=9" title="冷缩管相关系列产品">冷缩管相关系列产品</a></li>
+					
+                  </ul>
+				  
+                </li>
+            
+              </ul>
+           </div>
+        </div>
+        </div>
+        <div class="in_pro_box fr">
+            <div id="in_pro_list">
+                <div class="bd">
+                    <div style="display:block;">
+                        <ul class="pro_list01">
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=74"><img alt="热缩带/套" src="?UploadFiles/2020129151438.JPG"></a><p>热缩带/套</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=74">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=73"><img alt="热缩套" src="?UploadFiles/20201215145928.JPG"></a><p>热缩套</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=73">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=72"><img alt="热缩缠绕带" src="?UploadFiles/20201215151338.JPG"></a><p>热缩缠绕带</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=72">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=61"><img alt="聚乙烯防腐胶带" src="?UploadFiles/2020121690339.JPG"></a><p>聚乙烯防腐胶带</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=61">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=64"><img alt="粘弹体防腐胶带" src="?UploadFiles/20201215162152.JPG"></a><p>粘弹体防腐胶带</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=64">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=81"><img alt="环氧玻璃钢-管道定向钻穿越用" src="?UploadFiles/2024229102359.JPG"></a><p>环氧玻璃钢-管道定向钻穿越用</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=81">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=56"><img alt="燃气穿墙热缩套管" src="?UploadFiles/20201216162227.JPG"></a><p>燃气穿墙热缩套管</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=56">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=43"><img alt="通讯用冷缩管（内置胶泥）" src="?UploadFiles/20201216160947.JPG"></a><p>通讯用冷缩管（内置胶泥）</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=43">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                            <li>
+                              <div class="incp_pic"><a href="?productshow.asp?id=51"><img alt="热缩母排保护套管" src="?UploadFiles/20201216101556.JPG"></a><p>热缩母排保护套管</p></div>
+                              <div class="incp_more"><a href="?productshow.asp?id=51">了解详情</a><a href="?contact.asp">立即咨询</a></div>
+                            </li>
+						  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-----------产品 END------------->
+
+<div class="bg02" style="background:url(?UploadFiles/202422913555217.jpg) bottom center no-repeat #FFF;">
+    <div class="title mt40">
+        <div class="title_top"><h3>为什么要选择中扬高分子材料？</h3></div>
+        <div class="tit_en">专注研发工匠品质，用质量体现价值</div>
+    </div>
+    <div class="warp">
+        <div class="tro_w">
+            <p><em class="iconfont"></em>与客户进行洽谈了解，分析使用需求，提供合理且专业的使用搭配方案</p>
+            <p><em class="iconfont"></em>签订合同后，专人1对1流程跟进，确保订单顺利进行，及时安全送达</p>
+            <p><em class="iconfont"></em>完善的售后保障，1年的质保期，同时提供产品合格证，检测报告，让您放心使用</p>
+            <p><em class="iconfont"></em>专业售后服务团队，免费指导施工，分析问题原因，提供解决方案</p>
+        </div>
+        <div class="tro_btn">
+            <div class="fl">
+                <p>选择9659彩票</p>
+                <p><strong>联系客服免费提供样品试用</strong></p>
+            </div>
+            <div class="fr"><a href="https://wpa.qq.com/msgrd?v=3&amp;uin=2622652832&amp;site=qq&amp;menu=yes" target="_blank"><em class="iconfont"></em>立即免费咨询</a></div>
+        </div>
+    </div>
+</div>
+<!-------------------------->
+<div class="title mt40">
+    <div class="title_top"><h3>选择我们的四大理由</h3></div>
+    <div class="tit_en">以冷热缩材料为核心，提供产品,技术和服务，助力管道防腐与绝缘电力行业健康发展</div>
+</div>
+<div class="warp in_ys mt50">
+  <ul>
+  
+    <li>
+      <div class="ys_item">
+        <h3><em>01</em>多年行业经验，产品种类齐全</h3>
+        <p>9659彩票在管道防腐材料，绝缘防护行业耕耘多年，为过千位客户提供产品服务，均获一致好评，公司主要产品有：热缩带（套），聚乙烯防腐胶带，热缩压敏带，燃气穿墙热缩套管，粘弹体防腐胶带/膏，防腐腻子，热缩母排套管，中壁涂胶管等等。</p>
+      </div>
+      <div class="ys_pic"><img src="?UploadFiles/2021722102121324.png"></div>
+    </li>
+  
+    <li>
+      <div class="ys_item">
+        <h3><em>02</em>可非标定制产品，满足客户不同需求</h3>
+        <p>多年行业顾问技术团队提供防腐、防水材料采购咨询和专属解决方案，技术团队从业经验平均达10年，可精细化把控需求。产品可根据工程实际需求定制，降低客户成本，致力于做定制化应用方案。严格执行生产标准进行生产，可根据企业实际需求非标定制，准确契合客户需求，产品品质无惧市场比较。</p>
+      </div>
+      <div class="ys_pic"><img src="?UploadFiles/2021722102550874.png"></div>
+    </li>
+  
+    <li>
+      <div class="ys_item">
+        <h3><em>03</em>无贸易商赚差价-厂价直销</h3>
+        <p>9659彩票严格控制生产中的各项成本，尽大化让利于客户，高产能，低报废率，利润远优于同行。公司同步开通企业淘宝店铺，明码标价，厂家直销，无中间差价，价格实惠透明。免去中间环节的盘剥，降低产品的流通成本。</p>
+      </div>
+      <div class="ys_pic"><img src="?UploadFiles/2021722102533651.png"></div>
+    </li>
+  
+    <li>
+      <div class="ys_item">
+        <h3><em>04</em>专业的服务团队，售后无忧</h3>
+        <p>公司提供售前；售中；售后一站式服务，拥有专业的安装工程师团队及售后服务专线，不论是售前施工演示，还是售后施工培训，只要您一个电话，24小时全天候在线服务，指导或者上门进行培训、指导，让您绝无后顾之忧！</p>
+      </div>
+      <div class="ys_pic"><img src="?UploadFiles/2021722102514774.png"></div>
+    </li>
+  
+  </ul>
+</div>
+<!-----------优势 END------------>
+<div id="bann_bg" style="background:url(?UploadFiles/20201229153453638.jpg) top center no-repeat;">
+    <div class="warp">
+        <div class="bann_tel">
+            <p class="b1"><em class="iconfont"></em>服务咨询热线：</p>
+            <p class="b2">13182665152</p>
+            <p class="b3">只要您一个电话，24小时全天候服务</p>
+        </div>
+    </div>
+</div>
+<!-----------END------------>
+<div class="bg03">
+    <div class="title">
+        <div class="title_top"><h3>关于9659彩票</h3></div>
+        <div class="tit_en">一家以“质量为生命，技术为根本，与客户共同发展，  为社会创造财富”为使命的高新企业。</div>
+    </div>
+    <div class="warp c mt50">
+        <div class="ab_left fl">
+            <div class="ab_left_pic"><img src="?UploadFiles/2020122916538280.jpg"></div>
+        </div>
+        <div class="ab_right fr">
+            <div class="ab_right_item">
+                <ul>
+                    <li><em>1000＋</em>为上千家客户单位服务</li><li><em>18000</em>生产基地1.8万平方米</li><li><em>15</em>从事防腐绝缘行业15年</li>
+                </ul>
+            </div>
+            <div class="ab_right_pic">9659彩票一家提供管道防腐用热缩材料、冷缠材料；电子电力绝缘防护用冷缩材料，热缩套管等产品和施工方案技术支持的知名公司，公司地址位于江苏省东南部吴江区，东临上海，西接太湖，南接浙江，北接苏州。公司在苏州、滨州、河北设有三大生产基地，总占地面积6万平方米，生产厂房1.8万平方米。产品广泛应用于电力、电子、化工、军工、通讯、造船、汽车、石油和燃气等行业。公司成立至今，秉承优质低价的经营思路和诚信为本的经营理念，寄望让品牌名扬中外！<br><br>公司产品主要分为两大类<br>管道防腐行业产品包括：补口用热缩带、热缩套、热缩缠绕带、热缩防水帽、燃气热缩穿墙套管、钢塑转换热缩套、焊接式闭口套、粘弹体防腐胶带、粘弹体防腐膏、聚乙烯冷缠外护带，聚丙烯增强纤维冷缠外护带、补伤片、补伤棒、施工用聚四氟乙烯压辊、热缩烤枪、无溶剂环氧涂料等防腐材料　<br>电子电力产品包括：热缩套管、母排套管、热缩电缆附件、冷缩电缆附件、通讯冷缩管、热缩封帽、热缩指套、3倍带胶热缩套管等冷热缩材料。<br>　　我们的产品通过了行业和国家权威机构的检验，我们的电力产品通过了武汉高压研究所的检验。电子用热收缩管已通过UL和加拿大国家标准局的认证。管道防腐热收缩材料通过中国石油工程技术研究院检验，质量和环境管理体系通过ISO9000和14001认证，以及中国石油SY/T0413、4054等国际标准。产品已广泛应用于电力、电子、石油、天然气、化工、自来水、电信、公路建设、造船和修船等行业和领域。客户遍布中国100多个城市，用户超过1000人。防腐产品在我国西气东输、川气东输、双兰线、西南成品油等大型油田和长输管道的重点工程中发挥了重要作用。产品还出口到欧洲、亚太经合组织、中东、南非等地区，成为亚太经合组织地区服务体系完善的防腐热收缩材料领先供应商。</div>
+        </div>
+    </div>
+<!-------关于9659彩票 END--------->
+  <div class="warp c mt50">
+    <div class="title">
+        <div class="title_top"><h3>工程案例</h3></div>
+        <div class="tit_en">中扬产品以优良的品质，低廉的价格广泛应用于国内外多项重点工程</div>
+    </div>
+    <div class="in_case mt30">
+      <div class="hd"><a class="next"></a> <a class="prev"></a></div>
+      <ul>
+			
+        <li>
+          <a href="?showcase.asp?id=50">
+          <div class="in_case_tu"><img alt="热缩带（售后指导实拍）" src="?UploadFiles/20201228155228907.jpg"></div>
+          <div class="in_case_txt">热缩带（售后指导实拍）</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=49">
+          <div class="in_case_tu"><img alt="广东2000万吨防腐材料项目供货记录" src="?UploadFiles/2020122815491790.jpg"></div>
+          <div class="in_case_txt">广东2000万吨防腐材料项目供货记录</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=48">
+          <div class="in_case_tu"><img alt="1219弯管整体防腐用热缩缠绕带施工案例" src="?UploadFiles/20201228154729270.jpg"></div>
+          <div class="in_case_txt">1219弯管整体防腐用热缩缠绕带施工案例</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=47">
+          <div class="in_case_tu"><img alt="阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例" src="?UploadFiles/2020122810626331.jpg"></div>
+          <div class="in_case_txt">阀门法兰用粘弹体防腐胶带，外缠聚丙烯冷缠带案例</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=46">
+          <div class="in_case_tu"><img alt="山西光固化材料施工案例" src="?UploadFiles/202012281024371.jpg"></div>
+          <div class="in_case_txt">山西光固化材料施工案例</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=44">
+          <div class="in_case_tu"><img alt="（长岭- 永清段）东线天然气管线工程用热缩套（开口）" src="?UploadFiles/20201225162233127.jpg"></div>
+          <div class="in_case_txt">（长岭- 永清段）东线天然气管线工程用热缩套（开口）</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=43">
+          <div class="in_case_tu"><img alt="岚县－太原输气管道工程用热缩套（闭口套）" src="?UploadFiles/2020122516164268.jpg"></div>
+          <div class="in_case_txt">岚县－太原输气管道工程用热缩套（闭口套）</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=76">
+          <div class="in_case_tu"><img alt="补口热缩套施工现场拍摄" src="?UploadFiles/2021722104640556.jpg"></div>
+          <div class="in_case_txt">补口热缩套施工现场拍摄</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=75">
+          <div class="in_case_tu"><img alt="母排热缩保护管的施工图片" src="?UploadFiles/202162994128506.jpg"></div>
+          <div class="in_case_txt">母排热缩保护管的施工图片</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=74">
+          <div class="in_case_tu"><img alt="35KV热缩母排套管客户使用案例" src="?UploadFiles/202162993934292.jpg"></div>
+          <div class="in_case_txt">35KV热缩母排套管客户使用案例</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=73">
+          <div class="in_case_tu"><img alt="10KV母排套管使用现场" src="?UploadFiles/20216299386281.jpg"></div>
+          <div class="in_case_txt">10KV母排套管使用现场</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=72">
+          <div class="in_case_tu"><img alt="湖北输油输气管线使用热缩套案例售后拍摄" src="?UploadFiles/202151395032691.jpg"></div>
+          <div class="in_case_txt">湖北输油输气管线使用热缩套案例售后拍摄</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=71">
+          <div class="in_case_tu"><img alt="安徽热缩带热缩套使用案例" src="?UploadFiles/202151394510396.jpg"></div>
+          <div class="in_case_txt">安徽热缩带热缩套使用案例</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=70">
+          <div class="in_case_tu"><img alt="雪原低温环境热缩套应用案例售后实拍" src="?UploadFiles/202151394310786.jpg"></div>
+          <div class="in_case_txt">雪原低温环境热缩套应用案例售后实拍</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=69">
+          <div class="in_case_tu"><img alt="沙漠高温环境应用热缩带项目售后拍摄" src="?UploadFiles/202151394052777.jpg"></div>
+          <div class="in_case_txt">沙漠高温环境应用热缩带项目售后拍摄</div></a>
+        </li>
+			
+        <li>
+          <a href="?showcase.asp?id=68">
+          <div class="in_case_tu"><img alt="场站35kv母排套管安装使用现场" src="?UploadFiles/2021324165455964.jpg"></div>
+          <div class="in_case_txt">场站35kv母排套管安装使用现场</div></a>
+        </li>
+		
+      </ul>
+    </div>
+    
+  </div>
+</div>
+<div class="title mt50">
+    <div class="title_top"><h3>新闻中心</h3></div>
+    <div class="tit_en">公司将以“诚信方能大智慧，客户至上，金牌品质，专业服务”为标准高品质的服务社会</div>
+</div>
+<div class="c mt60">
+  <div class="warp c">
+    <div class="new_left fl" id="in_new">
+      <div class="hd">
+        <ul>
+		  
+          <li class="on">产品资讯</li>
+		  
+          <li>施工说明</li>
+		  
+        </ul>
+      </div>
+      <div class="bd">
+	  
+        <div style="display:block;">
+          <ul>
+		  
+            <li>
+              <div class="new_time fl">07-21<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=147">燃气穿墙热缩管的生产周期</a>
+                <p>燃气穿墙热缩管的生产周期</p>
+              </div>
+            </li>
+		  
+            <li>
+              <div class="new_time fl">01-27<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=79">什么是3PE防腐材料</a>
+                <p>3PE防腐层是指 底层-无溶剂环氧涂料层 中层-防腐热熔胶层 外层-辐照交联聚乙烯基材层这三层复合而成就是3PE防腐层</p>
+              </div>
+            </li>
+		  
+            <li>
+              <div class="new_time fl">01-20<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=74">燃气穿墙热缩套管的长度有哪些</a>
+                <p>燃气穿墙热缩套管也被称为DN管穿墙保护套管，专用于燃气管道的埋地防腐保护和穿墙防腐保护。小区燃气管道入户的分支钢管处于于露空和埋地敷设的连接点</p>
+              </div>
+            </li>
+		  
+            <li>
+              <div class="new_time fl">01-18<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=71">钢制管道3PE防腐层存在的几点问题</a>
+                <p>3PE外防腐层存在的问题，首先是技术定位。目前国际上普遍采用的成熟的防腐方式，是环氧粉末防腐涂层。3PE是环氧粉末防腐方式的一部分，也有一种说法是升级版，这个说法并不确切。</p>
+              </div>
+            </li>
+		  
+          </ul>
+        </div>
+	  
+        <div style="display:block;display:none;">
+          <ul>
+		  
+            <li>
+              <div class="new_time fl">04-02<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=99">聚乙烯/聚丙烯冷缠带的施工步骤和注意事项</a>
+                <p>厂家介绍使用聚乙烯冷缠带（PE）或聚丙烯冷缠带（PP）的施工步骤和注意事项。</p>
+              </div>
+            </li>
+		  
+            <li>
+              <div class="new_time fl">03-22<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=96">弯管式燃气管道用钢塑转换热缩套防腐工艺</a>
+                <p>钢塑转换接头现在广泛应用在城市建设管网系统中，包括燃气管道小区入户等，那么弯管式的钢塑转换接头应该怎么去做防腐密封呢，一般常规的直管型钢塑转换接头都可以使用咱们厂家生产的钢塑转换热缩套。</p>
+              </div>
+            </li>
+		  
+            <li>
+              <div class="new_time fl">01-06<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=64">燃气穿墙热缩套管施工说明</a>
+                <p>选择合适口径的燃气穿墙热缩套管套入穿墙的镀锌管外，在套入时注意不要损伤套管内部的热熔胶，如果不慎将穿墙套管的外层刮破得重新更换一根热缩套管。</p>
+              </div>
+            </li>
+		  
+            <li>
+              <div class="new_time fl">01-06<p>2021</p></div>
+              <div class="new_con fr">
+                <a href="?shownews.asp?id=63">3pe热缩套补口安装施工说明</a>
+                <p>将热缩套移到安装位置，并从中间位置沿环向均匀加热，使中间部位先收缩，然后向两侧均匀加热，从管底到管顶逐步加热使热缩套均匀收缩。</p>
+              </div>
+            </li>
+		  
+          </ul>
+        </div>
+	  
+      </div>
+      
+    </div>
+    <div class="new_right fr">
+      <ul>
+		
+        <li><a href="?shownews.asp?id=99"><img src="?UploadFiles/20214294817899.jpg"></a>
+          <div class="txt_item"><span class="fr"></span>聚乙烯/聚丙烯冷缠带的施工步骤和注意事项</div>
+        </li>
+		
+        <li><a href="?shownews.asp?id=96"><img src="?UploadFiles/20214295230136.jpg"></a>
+          <div class="txt_item"><span class="fr"></span>弯管式燃气管道用钢塑转换热缩套防腐工艺</div>
+        </li>
+		
+      </ul>
+    </div>
+  </div>
+</div>
+<!-----------新闻中心 END------------->
+<div class="c mt60" id="link_bg">
+  <div class="warp link">
+    <h3>友情链接/LINK</h3>
+	
+    <a href="http://www.slcnc.com" target="_blank" title="激光切割机">激光切割机</a>
+	
+    <a href="http://www.hfw.cc/link/" target="_blank" title="合肥网">合肥网</a>
+	
+    <a href="https://www.shipinkuaijian.com" target="_blank" title="农药残留检测仪">农药残留检测仪</a>
+	
+    <a href="http://www.hjsljq.com" target="_blank" title="不锈钢电缆接头">不锈钢电缆接头</a>
+	
+    <a href="http://www.youyifazhan.cn" target="_blank" title="聚氨酯保温钢管">聚氨酯保温钢管</a>
+	
+  </div>
+</div>
+<!-----------友情链接 END------------->
+<div id="foot_contact_bg">
+    <div class="warp foot_contact">
+        <div class="ft_add fl">
+            <h3><em class="iconfont"></em>公司地址</h3>
+            <p>江苏省苏州市吴江区汾湖经济开发区</p>
+        </div>
+        <div class="ft_tel fr">
+            <h3><em class="iconfont"></em>联系方式</h3>
+            <p><span>免费服务热线：13182665152</span> <span>电子邮箱：2622652832@qq.com</span></p>
+        </div>
+    </div>
+</div>
+<!-----------地址 END------------->
+<div id="foot_bg">
+    <div class="warp c">
+        <div class="foot_logo fl"><img src="?UploadFiles/202012299287660.png"></div>
+        <div class="foot_nav fl">
+            <h3>网站导航</h3>
+            <ul>
+                <li><a href="/">网站首页</a></li>
+                <li><a href="?about.asp">关于9659彩票</a></li>
+                <li><a href="?products.asp">产品展示</a></li>
+                <li><a href="?case.asp">工程案例</a></li>
+                <li><a href="?news.asp">新闻中心</a></li>
+                <li><a href="?service.asp">服务支持</a></li>
+                <li><a href="?recruit.asp">诚聘英才</a></li>
+                <li><a href="?feedback.asp">在线留言</a></li>
+                <li><a href="?contact.asp">联系我们</a></li>
+           </ul>
+        </div>
+        <div class="fr">
+            <div class="foot_erweima fl"><img src="?UploadFiles/202333143949821.jpg"><p>扫码关注微信</p></div>
+            <div class="foot_erweima fr"><img src="?UploadFiles/20201230155218631.jpg"><p>扫码浏览手机站</p></div>
+        </div>
+    </div>
+    <div class="warp mt50" id="copy">
+		Copyright © 9659彩票 All Rights Reserved.　厂家直销：热缩带|热缩套|热缩缠绕带|燃气穿墙热缩管|粘弹体防腐胶带|冷缩管 ICP备案号：<a href="http://beian.miit.gov.cn">苏ICP备2020067422号-1　</a>
+    </div>
+</div>
+
+<div class="xuanfu_menu_box">
+    <ul>
+        <li class="zx"><a href="https://wpa.qq.com/msgrd?v=3&amp;uin=2622652832&amp;site=qq&amp;menu=yes" target="_blank"><em class="iconfont"></em><p>在线客服</p></a></li>
+        <li class="wx toolbar-item"><a><em class="iconfont"></em><p>官方微信</p></a>
+          <div class="toolbar-layer"><p>扫码关注我们</p><img src="?UploadFiles/202333143949821.jpg"></div>
+        </li>
+        <li class="tel toolbar-item"><a><em class="iconfont"></em><p>服务热线</p></a>
+          <div class="toolbar-layer"><p class="ph">13182665152</p><p>周一至周日 08:00 - 20:00</p></div>
+        </li>
+        <li class="go_top"><a class="demo"><em class="iconfont"></em><p>返回顶部</p></a></li>
+    </ul>
+</div>
+
+<!------------右悬浮 END---------------->
+
+<!-- freevslinks --><div style="display:none"><a href="http://www.xxfseo.com/?time=1782523213">xxfseo.com</a></div><!-- /freevslinks -->
+</body></html>
+

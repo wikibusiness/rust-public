@@ -1,0 +1,113 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": "Temco supplies quality auto parts, motorcycle parts & packaging machines"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["/auto/index.html", "/autopart/", "/packaging/index.html", "/motorcycle/index.html", "/auto/index.html", "/packaging/index.html", "/motorcycle/index.html"]
+
+=== get_links ===
+[("/auto/index.html", "AUTO PARTS"), ("/autopart/", ""), ("/packaging/index.html", "PACKAGING MACHINE"), ("/motorcycle/index.html", "MOTORCYCLE PARTS"), ("/auto/index.html", ""), ("/packaging/index.html", ""), ("/motorcycle/index.html", "")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+["temco supply quality auto parts & packaging machine"]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+manufacturer trading company exporter supplier supply auto parts, packaging machines brake pad brake shoe bosch valeo peugeot cylinder head engine water pump oil pump suspension parts chasis
+
+=== get_sentences.other ===
+["Temco supplies quality auto parts, motorcycle parts & packaging machines", "AUTO PARTS", "PACKAGING MACHINE", "MOTORCYCLE PARTS", "COPYRIGHT 2008-2019 TEMCO INTERNATIONAL LIMITED. ALL RIGHTS RESERVED"]
+
+=== get_sentences.p ===
+[]
+
+=== get_sentences.meta_titles ===
+  "title": "Temco supplies quality auto parts, motorcycle parts & packaging machines"
+
+=== get_sentences.href_attributes ===
+["/auto/index.html", "/autopart/", "/packaging/index.html", "/motorcycle/index.html", "/auto/index.html", "/packaging/index.html", "/motorcycle/index.html"]
+
+=== get_sentences.text_nodes ===
+[["Temco supplies quality auto parts, motorcycle parts & packaging machines"], ["AUTO PARTS"], ["PACKAGING MACHINE"], ["MOTORCYCLE PARTS"], ["COPYRIGHT 2008-2019 TEMCO INTERNATIONAL LIMITED. ALL RIGHTS RESERVED"]]
+
+=== get_markdown ===
+
+
+=== extract_text ===
+  "main": [["AUTO PARTS", "PACKAGING MACHINE", "MOTORCYCLE PARTS", "COPYRIGHT 2008-2019 TEMCO INTERNATIONAL LIMITED. ALL RIGHTS RESERVED"]]
+
+=== tag_html_contents(title) ===
+<title>Temco supplies quality auto parts, motorcycle parts &amp; packaging machines</title>
+
+=== html_contents ===
+<!DOCTYPE html><html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+<meta content="temco supply quality auto parts &amp; packaging machine" name="description">
+
+<meta content="manufacturer trading company exporter supplier supply auto parts, packaging machines brake pad brake shoe bosch valeo peugeot cylinder head engine water pump oil pump suspension parts chasis" name="keywords">
+<title>Temco supplies quality auto parts, motorcycle parts &amp; packaging machines</title>
+
+
+
+
+
+
+</head>
+
+<body link="#808080" vlink="#808080">
+
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:79px; top:26px; width:366px; height:93px; z-index:4"><img border="0" height="93" src="images/temco.gif" title="TEMCO is a leading supplier for various auto parts &amp; packaging machine supplier from China. We commit for high quality products at competitive price" width="366"></div>
+
+
+<div id="text1" style="position:absolute; overflow:hidden; left:100px; top:490px; width:190px; height:36px; z-index:1"><div class="wpmd">
+<div><font class="ws14" face="Tahoma"><b><a href="/auto/index.html">AUTO PARTS  </a><a href="/autopart/"><img border="0" height="20" src="images/beta.jpg" width="50"></a></b></font></div> 
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:480px; top:490px; width:223px; height:36px; z-index:2"><div class="wpmd">
+<div><font class="ws14" face="Tahoma"><b><a href="/packaging/index.html">PACKAGING MACHINE</a></b></font></div>
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:840px; top:490px; width:223px; height:36px; z-index:2"><div class="wpmd">
+<div><font class="ws14" face="Tahoma"><b><a href="/motorcycle/index.html">MOTORCYCLE PARTS</a></b></font></div>
+</div></div>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:300x; top:540px; width:150px; height:36px; z-index:1"><div class="wpmd">
+
+</div></div>
+
+<div id="image2" style="position:absolute; overflow:hidden; left:20px; top:190px; width:375px; height:271px; z-index:3"><a href="/auto/index.html"><img border="0" height="271" src="images/car2.gif" title="TEMCO auto parts offer high quality auto parts including brake pads, cylinder head, crankshaft, clutch disc, water pump oil fuel filter suspension &amp; chasis parts from China. we can supply all the spare parts you need." width="375"></a></div>
+
+<div id="image3" style="position:absolute; overflow:hidden; left:450px; top:139px; width:260px; height:330px; z-index:5"><a href="/packaging/index.html"><img border="0" height="330" src="images/packing2.gif" title="TEMCO packaging machines covers all the packing machines you need from cup sealer, strapping machine,impulse sealer, coding machine, vacuum machine  shrinking &amp; automatic packing machines" width="260"></a></div>
+
+<div id="image3" style="position:absolute; overflow:hidden; left:780px; top:190px; width:330px; height:230px; z-index:5"><a href="/motorcycle/index.html"><img border="0" height="230" src="images/motorcycle.jpg" title="Motorcycle Parts, Underconstruction, coming soon..." width="330"></a></div>
+
+<div id="text4" style="position:absolute; overflow:hidden; left:280px; top:590px; width:560px; height:44px; z-index:0"><div class="wpmd">
+<div><font color="#808080" face="Tahoma"><b>COPYRIGHT 2008-2019 TEMCO INTERNATIONAL LIMITED. ALL RIGHTS RESERVED</b></font></div>
+</div></div>
+
+
+
+
+</div>
+
+</body></html>
+

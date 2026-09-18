@@ -1,0 +1,619 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": "やまざき眼科クリニック - 足立区竹の塚"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["index.html", "index.html", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "tel:03-5831-0140", "index.html", "tel:03-5831-0140", "clinic.html", "doctor.html", "treatment.html", "access.html", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "clinic.html#recruit", "treatment.html#sec02", "treatment.html#sec01", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "index.html", "tel:03-5831-0140", "access.html#access", "tel:03-5831-0140"]
+
+=== get_links ===
+[("index.html", ""), ("index.html", ""), ("index.html", "ホーム"), ("clinic.html", "クリニックのご案内"), ("doctor.html", "院長のご紹介"), ("treatment.html", "診療のご案内"), ("access.html", "アクセス地図"), ("tel:03-5831-0140", ""), ("index.html", ""), ("tel:03-5831-0140", ""), ("clinic.html", "クリニックのご案内"), ("doctor.html", "院長のご紹介"), ("treatment.html", "診療のご案内"), ("access.html", "アクセス地図"), ("index.html", "ホーム home"), ("clinic.html", "クリニックのご案内 clinic"), ("doctor.html", "院長のご紹介 doctor"), ("treatment.html", "診療のご案内 treatment"), ("access.html", "アクセス地図 access"), ("index.html", "ホーム home"), ("clinic.html", "クリニックのご案内 clinic"), ("doctor.html", "院長のご紹介 doctor"), ("treatment.html", "診療のご案内 treatment"), ("access.html", "アクセス地図 access"), ("clinic.html#recruit", "こちら"), ("treatment.html#sec02", "詳細はこちらをご覧ください"), ("treatment.html#sec01", "詳細はこちらをご覧ください"), ("index.html", "ホーム"), ("clinic.html", "クリニックのご案内"), ("doctor.html", "院長のご紹介"), ("treatment.html", "診療のご案内"), ("access.html", "アクセス地図"), ("index.html", ""), ("tel:03-5831-0140", "お問い合わせ・ご相談はお気軽に"), ("access.html#access", "アクセス地図 当院までの道のりはこちら"), ("tel:03-5831-0140", "")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+["東京都足立区竹の塚の眼科専門のクリニックやまざき眼科クリニックです。眼科一般・白内障手術・コンタクト取扱い。"]
+
+=== get_sentences.h ===
+  "h1": ["足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術", "足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術"]
+  "h2": ["眼科専門医が 診療いたします", "検診・検査", "白内障の 日帰り手術", "こんな症状 、ございませんか？"]
+  "h3": ["白内障手術", "緑内障検診", "一般外来", "網膜光凝固術", "コンタクト処方", "アクセス地図"]
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+眼科,足立区,竹の塚,駅,白内障,手術,コンタクト,竹ノ塚
+
+=== get_sentences.other ===
+["やまざき眼科クリニック - 足立区竹の塚", "ホーム", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図", "診療時間", "月", "火", "水", "木", "金", "土", "日・祝", "9:00 - 12:30", "●", "●", "●", "●", "●", "●", "休", "15:00 - 19:00", "●", "●", "●", "休", "●", "■", "休", "東京都足立区の", "ホームドクターとして", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図", "ホーム", "home", "クリニックのご案内", "clinic", "院長のご紹介", "doctor", "診療のご案内", "treatment", "アクセス地図", "access", "ホーム", "home", "クリニックのご案内", "clinic", "院長のご紹介", "doctor", "診療のご案内", "treatment", "アクセス地図", "access", "2025.07.09", "【求人募集】", "視能訓練士さんを募集しております。詳しくは", "こちら", "をご覧ください。", "詳細はこちらをご覧ください", "詳細はこちらをご覧ください", "眼がかゆい", "眼が痛い", "眼がかすむ", "眼の周りがピクピク痙攣する", "最近、見えにくい気がする", "コンタクトが合わない", "眼鏡の選び方を知りたい", "白内障の日帰り手術について知りたい", "ホーム", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図", "診療時間", "月", "火", "水", "木", "金", "土", "日・祝", "9:00 - 12:30", "●", "●", "●", "●", "●", "●", "休", "15:00 - 19:00", "●", "●", "●", "休", "●", "■", "休", "Copyright © やまざき眼科クリニック.All Rights Reserved."]
+
+=== get_sentences.p ===
+["9:00 - 12:30 / 15:00 - 19:00 （土曜のみ17：00まで） 木曜午後・日曜・祝祭日休診"]
+
+=== get_sentences.meta_titles ===
+  "title": "やまざき眼科クリニック - 足立区竹の塚"
+
+=== get_sentences.href_attributes ===
+["index.html", "index.html", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "tel:03-5831-0140", "index.html", "tel:03-5831-0140", "clinic.html", "doctor.html", "treatment.html", "access.html", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "clinic.html#recruit", "treatment.html#sec02", "treatment.html#sec01", "index.html", "clinic.html", "doctor.html", "treatment.html", "access.html", "index.html", "tel:03-5831-0140", "access.html#access", "tel:03-5831-0140"]
+
+=== get_sentences.text_nodes ===
+[["やまざき眼科クリニック", "足立区竹の塚"], ["足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術"], ["ホーム", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図"], ["診療時間", "月", "火", "水", "木", "金", "土", "日・祝"], ["9:00", "12:30", "●", "●", "●", "●", "●", "●", "休"], ["15:00", "19:00", "●", "●", "●", "休", "●", "■", "休"], ["休診日／", "木曜午後", "・", "日曜", "・", "祝祭日", "■", "／土曜日は14：00〜17：00まで"], ["足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術"], ["〒121-0813 東京都足立区竹の塚1-30-20 泰尚ビル2Ｆ"], ["「竹ノ塚」駅", "東口 徒歩", "３", "分"], ["東京都足立区の ホームドクターとして", "皆様の眼の健康を守る役割を", "果たしていきたいと考えております"], ["クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図"], ["ホーム", "home", "クリニックのご案内", "clinic", "院長のご紹介", "doctor", "診療のご案内", "treatment", "アクセス地図", "access"], ["ホーム", "home", "クリニックのご案内", "clinic", "院長のご紹介", "doctor", "診療のご案内", "treatment", "アクセス地図", "access"], ["2025.07.09", "【求人募集】 視能訓練士さんを募集しております。詳しくは", "こちら", "をご覧ください。"], ["眼科専門医が", "診療いたします", "患者さんの不安を取り除きあるいは軽減できるように、眼科専門医として、医学界の日進月歩の発展に乗り遅れることがないような更なる研鑽を重ね「常に最善の医療を患者さんに提供する」という気持ちで頑張ってまいります。"], ["白内障手術"], ["緑内障検診"], ["一般外来"], ["網膜光凝固術"], ["コンタクト処方"], ["検診・検査"], ["緑内障検診や白内障検診、成人病（糖尿病、高血圧、高コレステロール血症）眼病検診など検診を行っております。"], ["詳細はこちらをご覧ください"], ["白内障の", "日帰り手術"], ["当クリニックでは白内障の手術を日帰りで行うことができます。体の負担、長期間の入院などなく、手術を受けることが可能です。"], ["詳細はこちらをご覧ください"], ["こんな症状", "、ございませんか？"], ["眼がかゆい", "眼が痛い", "眼がかすむ", "眼の周りがピクピク痙攣する", "最近、見えにくい気がする", "コンタクトが合わない", "眼鏡の選び方を知りたい", "白内障の日帰り手術について知りたい"], ["おひとりで悩まず、まずはお気軽にご相談ください"], ["ホーム", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図"], ["お問い合わせ・ご相談はお気軽に"], ["診療時間", "月", "火", "水", "木", "金", "土", "日・祝"], ["9:00", "12:30", "●", "●", "●", "●", "●", "●", "休"], ["15:00", "19:00", "●", "●", "●", "休", "●", "■", "休"], ["休診日／", "木曜午後", "・", "日曜", "・", "祝祭日", "■", "／土曜日は14：00〜17：00まで"], ["「竹ノ塚」駅", "東口 徒歩", "3", "分", "〒121-0813 東京都足立区竹の塚1-30-20 泰尚ビル2Ｆ"], ["アクセス地図", "当院までの道のりはこちら"], ["Copyright © やまざき眼科クリニック.All Rights Reserved."], ["9:00", "12:30 / 15:00", "19:00 （土曜のみ17：00まで）", "木曜午後・日曜・祝祭日休診"]]
+
+=== get_markdown ===
+# 足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術
+
+# 足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術
+
+## 眼科専門医が 診療いたします
+
+### 白内障手術
+
+### 緑内障検診
+
+### 一般外来
+
+### 網膜光凝固術
+
+### コンタクト処方
+
+## 検診・検査
+
+## 白内障の 日帰り手術
+
+## こんな症状 、ございませんか？
+
+### アクセス地図
+
+9:00 - 12:30 / 15:00 - 19:00 （土曜のみ17：00まで） 木曜午後・日曜・祝祭日休診
+
+=== extract_text ===
+  "footer": [["ホーム", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図", "お問い合わせ・ご相談はお気軽に", "診療時間", "月", "火", "水", "木", "金", "土", "日・祝", "9:00", "12:30", "●", "●", "●", "●", "●", "●", "休", "15:00", "19:00", "●", "●", "●", "休", "●", "■", "休", "休診日/", "木曜午後", "・", "日曜", "・", "祝祭日", "■", "/土曜日は14:00〜17:00まで", "「竹ノ塚」駅", "東口 徒歩", "3", "分", "〒121-0813 東京都足立区竹の塚1-30-20 泰尚ビル2F", "アクセス地図", "当院までの道のりはこちら", "Copyright © やまざき眼科クリニック.All Rights Reserved."]]
+  "main": [["足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術", "診療時間", "月", "火", "水", "木", "金", "土", "日・祝", "9:00", "12:30", "●", "●", "●", "●", "●", "●", "休", "15:00", "19:00", "●", "●", "●", "休", "●", "■", "休", "休診日/", "木曜午後", "・", "日曜", "・", "祝祭日", "■", "/土曜日は14:00〜17:00まで", "足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術", "〒121-0813", "東京都足立区竹の塚1-30-20 泰尚ビル2F", "「竹ノ塚」駅", "東口 徒歩", "3", "分", "東京都足立区の", "ホームドクターとして", "皆様の眼の健康を守る役割を", "果たしていきたいと考えております", "2025.07.09", "【求人募集】", "視能訓練士さんを募集しております。詳しくは", "こちら", "をご覧ください。", "眼科専門医が", "診療いたします", "患者さんの不安を取り除きあるいは軽減できるように、眼科専門医として、医学界の日進月歩の発展に乗り遅れることがないような更なる研鑽を重ね「常に最善の医療を患者さんに提供する」という気持ちで頑張ってまいります。", "白内障手術", "緑内障検診", "一般外来", "網膜光凝固術", "コンタクト処方", "検診・検査", "緑内障検診や白内障検診、成人病(糖尿病、高血圧、高コレステロール血症)眼病検診など検診を行っております。", "詳細はこちらをご覧ください", "白内障の", "日帰り手術", "当クリニックでは白内障の手術を日帰りで行うことができます。体の負担、長期間の入院などなく、手術を受けることが可能です。", "詳細はこちらをご覧ください", "こんな症状", "、ございませんか?", "眼がかゆい", "眼が痛い", "眼がかすむ", "眼の周りがピクピク痙攣する", "最近、見えにくい気がする", "コンタクトが合わない", "眼鏡の選び方を知りたい", "白内障の日帰り手術について知りたい", "おひとりで悩まず、まずはお気軽にご相談ください", "9:00", "12:30 / 15:00", "19:00 (土曜のみ17:00まで)", "木曜午後・日曜・祝祭日休診"]]
+  "navigation": [["ホーム", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図", "クリニックのご案内", "院長のご紹介", "診療のご案内", "アクセス地図", "ホーム", "home", "クリニックのご案内", "clinic", "院長のご紹介", "doctor", "診療のご案内", "treatment", "アクセス地図", "access", "ホーム", "home", "クリニックのご案内", "clinic", "院長のご紹介", "doctor", "診療のご案内", "treatment", "アクセス地図", "access"]]
+
+=== tag_html_contents(title) ===
+<title>やまざき眼科クリニック - 足立区竹の塚</title>
+
+=== html_contents ===
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<title>やまざき眼科クリニック - 足立区竹の塚</title>
+<meta content="Copyright (C) やまざき眼科クリニック All Rights Reserved." name="copyright">
+<meta content="東京都足立区竹の塚の眼科専門のクリニックやまざき眼科クリニックです。眼科一般・白内障手術・コンタクト取扱い。" name="description">
+<meta content="眼科,足立区,竹の塚,駅,白内障,手術,コンタクト,竹ノ塚" name="keywords">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="notranslate" name="google">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 8]><script src="js/selectivizr.js"></script><![endif]-->
+
+
+
+<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400&amp;display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&amp;display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Courgette&amp;display=swap" rel="stylesheet"> 
+<link href="_assets/js/plugin/sliderPro/slider-pro.css" rel="stylesheet">
+<link href="_assets/css/style_pc.min.css" media="(min-width: 641px)" rel="stylesheet">
+<link href="_assets/css/style_sp.min.css" media="(max-width: 640px)" rel="stylesheet">
+</head>
+
+
+<body>
+	<div class="header_box">
+		<header>
+			<!----------------- SPヘッダー ----------------->
+			<div class="sp header_contents">
+				<div class="header_inner">
+					<div class="seo_h1_contents">
+						<h1 class="seo_ttl">足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術</h1>
+						<div class="header_box">
+							<a class="header_logo" href="index.html"><img alt="やまざき眼科クリニック" src="_assets/images/common/header_logo.png"></a>
+						</div>	
+					</div>
+
+					<div id="nav">
+						<div class="global-nav">
+							<div class="nav_logo">
+								<a href="index.html">
+									<img alt="" src="_assets/images/common/footer_logo.png">
+								</a>
+							</div>
+						<nav>
+							<div class="nav_inner">
+								<ul class="global-nav__list">
+									<li class="global-nav__item"><a class="nav_menu" href="index.html">ホーム</a></li>
+									<li class="global-nav__item"><a class="nav_menu" href="clinic.html">クリニックのご案内</a></li>
+									<li class="global-nav__item"><a class="nav_menu" href="doctor.html">院長のご紹介</a></li>
+									<li class="global-nav__item"><a class="nav_menu" href="treatment.html">診療のご案内</a></li>								
+									<li class="global-nav__item"><a class="nav_menu" href="access.html">アクセス地図</a></li>
+								</ul>
+							</div>
+						</nav>
+
+						<div class="nav_info_inner">
+							<div class="nav_tel">
+								<a href="tel:03-5831-0140">
+									<img alt="" src="_assets/images/common/tel02.png">
+								</a>
+							</div>
+							<div class="nav_schedule">
+
+							<div class="schedule">
+    <div class="scheduleTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>診療時間</th>
+                    <th>月</th>
+                    <th>火</th>
+                    <th>水</th>
+                    <th>木</th>
+                    <th>金</th>
+                    <th>土</th>
+                    <th>日・祝</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>9:00 - 12:30</th>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td><span class="holiday">休</span></td>
+                </tr>
+                <tr>
+                    <th>15:00 - 19:00</th>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td><span class="holiday">休</span></td>
+                    <td>●</td>
+                    <td><span class="saturday">■</span></td>
+                    <td><span class="holiday">休</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="notice">休診日／<span class="f_red">木曜午後</span>・<span class="f_red">日曜</span>・<span class="f_red">祝祭日</span><br>
+        <span class="f_orange2">■</span>／土曜日は14：00〜17：00まで</p>
+</div>
+			
+
+							</div>
+						</div>
+					</div>
+
+						<div class="hamburger" id="js-hamburger">
+							<span class="hamburger__line hamburger__line--1"></span>
+							<span class="hamburger__line hamburger__line--2"></span>
+							<span class="hamburger__line hamburger__line--3"></span>
+						</div>
+						<div class="black-bg" id="js-black-bg"></div>
+					</div>
+				</div>
+			</div>
+
+			<!----------------- PCヘッダー ----------------->
+			<div class="pc_header pc">
+				<div class="main_sub_info">
+					<div class="inner_contents">
+						<div class="contents_left">
+							<div class="h1_bg">
+								<h1>足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術</h1>
+							</div>
+							<div class="header_logo">
+								<a href="index.html"><img alt="やまざき眼科クリニック" src="_assets/images/common/header_logo.png"></a>
+							</div>
+						</div>
+						<div class="contents_right">
+							<div class="contents_right_top">
+								<div class="header_tel">
+									<a href="tel:03-5831-0140"><img alt="03-5831-0140" src="_assets/images/common/header_tel.png"></a>
+								</div>	
+							</div>
+							<div class="contents_right_bottom">
+								<p class="address_text">〒121-0813<br>
+									東京都足立区竹の塚1-30-20 泰尚ビル2Ｆ</p>
+								<div class="access_box">
+									<p><span class="f_yellow">「竹ノ塚」駅</span>東口 徒歩<span class="f_yellow"><span class="f_big">３</span>分</span></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--main_sub-->
+		</header>
+
+		<!----------------- メインビジュアル ----------------->
+		<div class="main_visual">			
+			<!----------------- メインビジュアルスライド ----------------->
+			<div class="main_slider">
+				<div class="main_front">
+					<div class="slide01"></div>
+					<div class="slide02"></div>
+					<div class="slide03"></div>
+				</div>
+				<div class="slide_contents_box">
+					<div class="slide_contents_inner">
+						<div class="slide_text">
+							<span>東京都足立区の<br>
+								ホームドクターとして</span>
+							<p>皆様の眼の健康を守る役割を<br>果たしていきたいと考えております</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<nav class="sp top_sp_nav">
+			<ul>
+				<li><a href="clinic.html">クリニックのご案内</a></li>
+				<li><a href="doctor.html">院長のご紹介</a></li>
+				<li><a href="treatment.html">診療のご案内</a></li>
+				<li><a href="access.html">アクセス地図</a></li>			
+			</ul>
+		</nav>
+
+		<!----------------- PCグローバルナビゲーション ----------------->
+		<nav class="pc_nav pc">
+			<div class="pc_nav_inner">
+				<ul class="pc_nav_menu">
+					<li><a href="index.html">ホーム<span>home</span></a></li>
+					<li><a href="clinic.html">クリニックのご案内<span>clinic</span></a></li>
+					<li><a href="doctor.html">院長のご紹介<span>doctor</span></a></li>
+					<li><a href="treatment.html">診療のご案内<span>treatment</span></a></li>
+					<li><a href="access.html">アクセス地図<span>access</span></a></li>			
+				</ul>
+			</div>
+		</nav>
+
+		<div class="fixed_nav pc">
+			<nav>
+				<div class="nav_left">
+					<div class="pc_nav">
+						<div class="pc_nav_inner">
+							<ul class="pc_nav_menu">
+								<li><a href="index.html">ホーム<span>home</span></a></li>
+								<li><a href="clinic.html">クリニックのご案内<span>clinic</span></a></li>
+								<li><a href="doctor.html">院長のご紹介<span>doctor</span></a></li>
+								<li><a href="treatment.html">診療のご案内<span>treatment</span></a></li>
+								<li><a href="access.html">アクセス地図<span>access</span></a></li>			
+							</ul>			
+						</div>
+					</div>
+			
+	
+				</div>
+				<div class="nav_right">
+					<div class="fixed_nav_tel">
+						<img alt="03-5831-0140" src="_assets/images/common/tel.png">
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	
+
+	<article>
+
+		<!----------------- section_information ----------------->
+		<section class="section_name" id="section_information">
+			<div class="innerContents w1080">
+				<div id="information_contents">
+				<h2><img alt="news" src="_assets/images/index/news_ttl_en.png"></h2>	
+
+				<div class="info_box">
+					<dl class="info_contents">
+						
+
+<div>
+    <dt>2025.07.09</dt>
+    <dd><span class="bold">【求人募集】</span><br>
+    視能訓練士さんを募集しております。詳しくは<a href="clinic.html#recruit"><span class="f_orange">こちら</span></a>をご覧ください。</dd>
+</div>
+
+<!--
+
+<div>
+    <dt>2025.12.15</dt>
+    <dd>【年末年始の休診日について】<br>
+        <span class="f_red">12月27日(土)午後～1月4日(日)</span>まで<span class="f_red">休診</span>とさせていただきます。
+    </dd>
+</div>
+
+<div>
+    <dt>2025.08.25</dt>
+    <dd>【臨時休診のお知らせ】<br>
+        <span class="f_red">9月12日(金)は午後休診</span>になります。</dd>
+</div>
+
+
+<div>
+    <dt>2025.07.09</dt>
+    <dd>【夏季休診のお知らせ】<br>
+        <span class="f_red">8月10日(日)～17日(日)まで夏季休診</span>とさせていただきます。</dd>
+</div>
+
+<div>
+    <dt>2024.11.25</dt>
+    <dd>【年末年始の休診日について】<br>
+        <span class="f_red">12月28日(土)午後～1月5日(日)</span>まで<span class="f_red">休診</span>とさせていただきます。</dd>
+</div>
+
+<div>
+    <dt>2024.07.08</dt>
+    <dd>【夏季休診のお知らせ】<br>
+        <span class="f_red">8月11日(日)～18日(日)まで夏季休診</span>とさせていただきます。</dd>
+</div>	
+
+
+<div>
+    <dt>2023.11.24</dt>
+    <dd>【年末年始の休診日について】<br>
+        <span class="f_red">12月28日(木)～1月3日(水)</span>まで<span class="f_red">休診</span>とさせていただきます。</dd>
+</div>
+
+<div>
+    <dt>2023.07.10</dt>
+    <dd>【夏季休診のお知らせ】<br>
+        <span class="f_red">8月9日(水)～15日(火)まで休診</span>とさせていただきます。</dd>
+</div>	
+
+<div>
+    <dt>2022.11.29</dt>
+    <dd>【年末年始の休診日について】<br>
+        <span class="f_red">12月27日(火)午後～1月3日(火)</span>まで<span class="f_red">休診</span>とさせていただきます。</dd>
+</div>	
+
+-->
+
+					
+					</dl>
+				</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!----------------- section_clinic ----------------->
+		<section class="section_name" id="section_clinic">
+			<div class="innerContents w1080">
+				<div class="clinic_text_box">
+					<div class="clinic_text">
+						<h2>眼科専門医が<br class="sp">診療いたします</h2>
+						<p>患者さんの不安を取り除きあるいは軽減できるように、眼科専門医として、医学界の日進月歩の発展に乗り遅れることがないような更なる研鑽を重ね「常に最善の医療を患者さんに提供する」という気持ちで頑張ってまいります。</p>
+					</div>
+					<div class="clinic_img">
+						<img alt="" src="_assets/images/index/clinic_img.png">
+					</div>
+				</div>
+
+				<div class="clinic_treatment">
+					<ul class="treatment_list">
+						<li>
+							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon01.png"></span>
+							<h3>白内障手術</h3>
+						</li>
+						<li>
+							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon02.png"></span>
+							<h3>緑内障検診</h3>
+						</li>
+						<li>
+							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon03.png"></span>
+							<h3>一般外来</h3>
+						</li>
+						<li>
+							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon04.png"></span>
+							<h3>網膜光凝固術</h3>
+						</li>
+						<li>
+							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon05.png"></span>
+							<h3>コンタクト処方</h3>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		
+		
+
+		<!----------------- section_surgery ----------------->
+		<section class="section_name" id="section_surgery">
+			<div class="innerContents w1080">
+				<ul class="surgery_list">
+					<li class="surgeryL">
+						<div class="surgery_top">
+							<h2>検診・検査</h2>
+
+							<div class="surgery_img">
+								<img alt="" src="_assets/images/index/surgeryL_img.png">
+							</div>
+						</div>
+						<p>緑内障検診や白内障検診、成人病（糖尿病、高血圧、高コレステロール血症）眼病検診など検診を行っております。</p>
+						<div class="link_btn01">
+							<a href="treatment.html#sec02">詳細はこちらをご覧ください</a>
+						</div>
+					</li>
+					<li class="surgeryR">
+						<div class="surgery_top">
+							<h2>白内障の<br>日帰り手術</h2>
+							<div class="surgery_img">
+								<img alt="" src="_assets/images/index/surgeryR_img.png">
+							</div>
+						</div>
+						<p>当クリニックでは白内障の手術を日帰りで行うことができます。体の負担、長期間の入院などなく、手術を受けることが可能です。</p>
+						<div class="link_btn01">
+							<a href="treatment.html#sec01">詳細はこちらをご覧ください</a>
+						</div>
+
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		
+		<!----------------- section_worries ----------------->
+		<section class="section_name" id="section_worries">
+			<div class="worries_bg"></div>
+
+			<div class="innerContents w1080">
+				<h2><span class="h2_inner"><span class="under_line">こんな症状</span>、ございませんか？</span></h2>
+
+				<ul class="worries_list">
+					<li>眼がかゆい</li>
+					<li>眼が痛い</li>
+					<li>眼がかすむ</li>
+					<li>眼の周りがピクピク痙攣する</li>
+					<li>最近、見えにくい気がする</li>
+					<li>コンタクトが合わない</li>
+					<li>眼鏡の選び方を知りたい</li>
+					<li>白内障の日帰り手術について知りたい</li>
+				</ul>
+
+				<div class="worries_last_text">
+					<p><span>おひとりで悩まず、まずはお気軽にご相談ください</span></p>
+				</div>
+			</div>
+		</section>
+
+	</article>
+
+	<footer id="footer">
+		<!----------------- フッターリンク ----------------->
+		<div class="footer_menu">
+			<div class="w1080">
+				<ul class="footermenulist">
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="clinic.html">クリニックのご案内</a></li>
+					<li><a href="doctor.html">院長のご紹介</a></li>
+					<li><a href="treatment.html">診療のご案内</a></li>
+					<li><a href="access.html">アクセス地図</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!----------------- フッターインフォメーション ----------------->
+		<div class="inner_footer">
+			<div class="footer_info w1080">
+				<div class="footer_info_top">
+					<div class="footer_infoL">
+						<div class="footer_logo">
+							<a href="index.html">
+								<img alt="やまざき眼科クリニック" src="_assets/images/common/footer_logo.png">
+							</a>
+						</div>
+
+						<div class="footer_tel">
+							<a href="tel:03-5831-0140">
+								<p>お問い合わせ・ご相談はお気軽に</p>
+								<img alt="03-5831-0140" src="_assets/images/common/footer_tel.png">
+							</a>
+						</div>
+
+					</div>
+					<div class="footer_infoR">
+					<div class="schedule">
+    <div class="scheduleTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>診療時間</th>
+                    <th>月</th>
+                    <th>火</th>
+                    <th>水</th>
+                    <th>木</th>
+                    <th>金</th>
+                    <th>土</th>
+                    <th>日・祝</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>9:00 - 12:30</th>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td><span class="holiday">休</span></td>
+                </tr>
+                <tr>
+                    <th>15:00 - 19:00</th>
+                    <td>●</td>
+                    <td>●</td>
+                    <td>●</td>
+                    <td><span class="holiday">休</span></td>
+                    <td>●</td>
+                    <td><span class="saturday">■</span></td>
+                    <td><span class="holiday">休</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <p class="notice">休診日／<span class="f_red">木曜午後</span>・<span class="f_red">日曜</span>・<span class="f_red">祝祭日</span><br>
+        <span class="f_orange2">■</span>／土曜日は14：00〜17：00まで</p>
+</div>
+			
+					</div>
+				</div>
+				<div class="footer_info_bottom">
+					<div class="footer_access_box">
+						<h2><img alt="" src="_assets/images/common/footer_access_ttl.png"></h2>
+						<div class="footer_access_text">
+							<div class="textL">
+								<p class="text_access"><span class="f_yellow">「竹ノ塚」駅</span>東口 徒歩<span class="f_yellow"><span class="f_big">3</span>分</span></p>
+								<p class="text_address">〒121-0813 東京都足立区竹の塚1-30-20 泰尚ビル2Ｆ</p>
+							</div>
+							<div class="textR">
+								<a href="access.html#access">
+									<h3>アクセス地図</h3>
+									<p>当院までの道のりはこちら</p>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="footer_map">
+				<iframe allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.3121398225494!2d139.78963951572834!3d35.792269680168516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189195dc5cb053%3A0x35017998f3f3beb0!2z5pel5pys44CB44CSMTIxLTA4MTMg5p2x5Lqs6YO96Laz56uL5Yy656u544Gu5aGa77yR5LiB55uu77yT77yQ4oiS77yS77yQIOazsOWwmuODk-ODqyAyZg!5e0!3m2!1sja!2sus!4v1667278042600!5m2!1sja!2sus"></iframe>			
+			</div>
+		</div>
+		<div class="copyright_box">Copyright © やまざき眼科クリニック.All Rights Reserved.</div>
+	</footer>
+
+	<!----------------- ページトップボタン ----------------->
+	<div class="pagetop"></div>
+
+	<!----------------- フッター固定ボタン ----------------->
+	<div class="mobile_footer sp">
+		<ul class="link_box">
+			<li class="link_tel">
+				<a class="link" href="tel:03-5831-0140">
+					<img alt="" src="_assets/images/sp/tel.png">
+				</a>	
+			</li>
+		</ul>
+		<p class="mobile_footer_text">9:00 - 12:30　/　15:00 - 19:00 （土曜のみ17：00まで）<br><span>木曜午後・日曜・祝祭日休診</span></p>
+	</div>
+
+
+
+
+</body></html>
+

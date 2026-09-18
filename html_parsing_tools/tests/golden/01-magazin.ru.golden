@@ -1,0 +1,954 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": "Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге | МАГАЗИН 01"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["#order", "#", "/", "#call_back", "/", "/catalog/", "/o-kompanii/", "/ustanovka/", "/galereya/", "/partnyery/", "/contacts/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-02-90/", "/catalog/", "#", "#", "/protivopozharnye-dveri/", "/protivopozharnye-dveri/", "/protivopozharnye-dveri/ei-30/", "/protivopozharnye-dveri/ei-60/", "/protivopozharnye-dveri/ei-90/", "/protivopozharnye-dveri/ei-120/", "/protivopozharnye-vorota/", "/protivopozharnye-vorota/", "/protivopozharnye-vorota/ei30/", "/protivopozharnye-vorota/ei60/", "/protivopozharnye-vorota/ei90/", "/protivopozharnye-vorota/ei120/", "/protivopozharnye-lyuki/", "/protivopozharnye-lyuki/", "/protivopozharnye-lyuki/ei-60-/", "/ulichnye-dveri-s-termorazryvom/", "/ulichnye-dveri-s-termorazryvom/", "/ulichnye-dveri-s-termorazryvom/seriya-ei-60/", "/furnitura-dlya-protivopozharnykh-dverey/", "/furnitura-dlya-protivopozharnykh-dverey/", "/furnitura-dlya-protivopozharnykh-dverey/balki-antipanika/", "/furnitura-dlya-protivopozharnykh-dverey/zamki/", "/furnitura-dlya-protivopozharnykh-dverey/ruchki/", "/protivopozharnye-dveri/ei-30/derevyannaya-protivopozharnaya-dver-ei-30-shpon-dub/", "/protivopozharnye-lyuki/ei-60-/protivopozharnyy-lyuk-lp-60/", "/protivopozharnye-dveri/ei-30/dpg-pod-okrasku-ei30-ei60/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpms-01-60/", "/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-01-90/", "/protivopozharnye-dveri/ei-30/derevyannye-protivopozharnye-ei-30-shpon-dub-belenyy/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-601/", "/protivopozharnye-dveri/ei-60/protivopozharn-/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-1000kh2100/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-900kh2100/", "/protivopozharnye-dveri/ei-90/protivopozharnaya-dvupolnaya-dver-dpms-02-90/", "/protivopozharnye-dveri/ei-120/protivopozharnaya-odnostvorchataya-dver-dpm-01-120/", "mailto:9791020@mail.ru", "/", "/catalog/", "/o-kompanii/", "/ustanovka/", "/galereya/", "/partnyery/", "/contacts/"]
+
+=== get_links ===
+[("#order", "Модальное окно \"Заказ товара\""), ("#", "Дверь деревянная шпонированная EI-30 Шпон дуб беленый"), ("/", ""), ("#call_back", "Обратный звонок"), ("/", ""), ("/catalog/", "Каталог"), ("/o-kompanii/", "О компании"), ("/ustanovka/", "Установка"), ("/galereya/", "Галерея"), ("/partnyery/", "Партнёры"), ("/contacts/", "Контакты"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60 Каталог"), ("/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-02-90/", "ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90 Каталог"), ("/catalog/", "Противопожарные двери Безопасность превыше всего Каталог"), ("#", ""), ("#", ""), ("/protivopozharnye-dveri/", ""), ("/protivopozharnye-dveri/", "Противопожарные двери"), ("/protivopozharnye-dveri/ei-30/", "Двери EI 30"), ("/protivopozharnye-dveri/ei-60/", "Двери EI 60"), ("/protivopozharnye-dveri/ei-90/", "Двери EI 90"), ("/protivopozharnye-dveri/ei-120/", "Двери EI 120"), ("/protivopozharnye-vorota/", ""), ("/protivopozharnye-vorota/", "Противопожарные ворота"), ("/protivopozharnye-vorota/ei30/", "Ворота EI 30"), ("/protivopozharnye-vorota/ei60/", "Ворота EI 60"), ("/protivopozharnye-vorota/ei90/", "Ворота EI 90"), ("/protivopozharnye-vorota/ei120/", "Ворота EI 120"), ("/protivopozharnye-lyuki/", ""), ("/protivopozharnye-lyuki/", "Противопожарные люки"), ("/protivopozharnye-lyuki/ei-60-/", "EI 60"), ("/ulichnye-dveri-s-termorazryvom/", ""), ("/ulichnye-dveri-s-termorazryvom/", "Уличные Термо двери"), ("/ulichnye-dveri-s-termorazryvom/seriya-ei-60/", "ТЕРМО"), ("/furnitura-dlya-protivopozharnykh-dverey/", ""), ("/furnitura-dlya-protivopozharnykh-dverey/", "Фурнитура для противопожарных дверей"), ("/furnitura-dlya-protivopozharnykh-dverey/balki-antipanika/", "Балки"), ("/furnitura-dlya-protivopozharnykh-dverey/zamki/", "Замки"), ("/furnitura-dlya-protivopozharnykh-dverey/ruchki/", "Ручки"), ("/protivopozharnye-dveri/ei-30/derevyannaya-protivopozharnaya-dver-ei-30-shpon-dub/", "Деревянная противопожарная дверь EI-30 Шпон дуб 27 500 a ЗАКАЗАТЬ"), ("/protivopozharnye-lyuki/ei-60-/protivopozharnyy-lyuk-lp-60/", "Противопожарный люк ЛП-60 8 500 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-30/dpg-pod-okrasku-ei30-ei60/", "Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60 18900 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpms-01-60/", "Противопожарная дверь ДПМС-01 60 размеры: 900х2100 22000 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-01-90/", "Противопожарная дверь ДПМ-01 90 31000 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-30/derevyannye-protivopozharnye-ei-30-shpon-dub-belenyy/", "Деревянная противопожарная дверь EI-30 Шпон дуб беленый 27 500 a 17500 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "Противопожарная дверь ДПМ-01 60 15000 a 21000 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-601/", "Противопожарная дверь ДПМ-01 60 16500 a 21000 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-60/protivopozharn-/", "Противопожарная дверь ДПМ - EI60 размер 700х2100 19500 a 21000 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-1000kh2100/", "Противопожарная дверь ДПМ - EI60 размер 1000х2100 19500 a 21000 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-900kh2100/", "Противопожарная дверь ДПМ - EI60 размер 900х2100 19500 a 21000 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-90/protivopozharnaya-dvupolnaya-dver-dpms-02-90/", "Противопожарная двупольная дверь ДПМС-02 90 48700 a 49 900 a ЗАКАЗАТЬ"), ("/protivopozharnye-dveri/ei-120/protivopozharnaya-odnostvorchataya-dver-dpm-01-120/", "Противопожарная одностворчатая дверь ДПМ-01 120 51000 a 53700 a ЗАКАЗАТЬ"), ("mailto:9791020@mail.ru", "9791020@mail.ru"), ("/", "Главная"), ("/catalog/", "Каталог"), ("/o-kompanii/", "О компании"), ("/ustanovka/", "Установка"), ("/galereya/", "Галерея"), ("/partnyery/", "Партнёры"), ("/contacts/", "Контакты")]
+
+=== get_emails ===
+["9791020@mail.ru", "9791020@mail.ru", "9791020@mail.ru"]
+
+=== get_sentences.descriptions ===
+["Купить противопожарные двери в Москве и Московской области. В нашем интернет-магазине вы сможете заказать недорого противопожарные двери : отличная цена от производителя, а предлагаемая продукция отличается качеством и надежностью"]
+
+=== get_sentences.h ===
+  "h1": ["Противопожарные двери в Москве"]
+  "h2": ["ПОПУЛЯРНЫЕ ТОВАРЫ", "АКЦИИ", "Реклама", "Изготовим для вас противопожарные двери"]
+  "h3": ["Деревянная противопожарная дверь EI-30 Шпон дуб", "Противопожарный люк ЛП-60", "Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60", "Противопожарная дверь ДПМС-01 60 размеры: 900х2100", "Противопожарная дверь ДПМ-01 90", "Деревянная противопожарная дверь EI-30 Шпон дуб беленый", "Противопожарная дверь ДПМ-01 60", "Противопожарная дверь ДПМ-01 60", "Противопожарная дверь ДПМ - EI60 размер 700х2100", "Противопожарная дверь ДПМ - EI60 размер 1000х2100", "Противопожарная дверь ДПМ - EI60 размер 900х2100", "Противопожарная двупольная дверь ДПМС-02 90", "Противопожарная одностворчатая дверь ДПМ-01 120"]
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+Противопожарные двери
+
+=== get_sentences.other ===
+["Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге | МАГАЗИН 01", "Модальное окно \"Заказ товара\"", "Заказ товара", "Дверь деревянная шпонированная EI-30 Шпон дуб беленый", "Количество:", "-", "+", "Обратная связь", "Пожалуйста, заполните форму ниже. Наш сотрудник  свяжется с вами в ближайшее время", "Имя", "Телефон", "или e-mail", "Комментарий", "Заказать обратный звонок", "Противопожарные двери", "от производителя в Москве", "+7(926)821 20 07", "Обратный звонок", "Каталог", "О компании", "Установка", "Галерея", "Партнёры", "Контакты", "ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60", "Каталог", "ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90", "Каталог", "Противопожарные двери", "Безопасность превыше всего", "Каталог", "Противопожарные двери", "Двери EI 30", "Двери EI 60", "Двери EI 90", "Двери EI 120", "Противопожарные ворота", "Ворота EI 30", "Ворота EI 60", "Ворота EI 90", "Ворота EI 120", "Противопожарные люки", "EI 60", "Уличные Термо двери", "ТЕРМО", "Фурнитура для", "противопожарных дверей", "Балки", "Замки", "Ручки", "27 500", "a", "ЗАКАЗАТЬ", "8 500", "a", "ЗАКАЗАТЬ", "18900", "a", "ЗАКАЗАТЬ", "22000", "a", "ЗАКАЗАТЬ", "31000", "a", "ЗАКАЗАТЬ", "27 500", "a", "17500", "a", "ЗАКАЗАТЬ", "15000", "a", "21000", "a", "ЗАКАЗАТЬ", "16500", "a", "21000", "a", "ЗАКАЗАТЬ", "19500", "a", "21000", "a", "ЗАКАЗАТЬ", "19500", "a", "21000", "a", "ЗАКАЗАТЬ", "19500", "a", "21000", "a", "ЗАКАЗАТЬ", "48700", "a", "49 900", "a", "ЗАКАЗАТЬ", "51000", "a", "53700", "a", "ЗАКАЗАТЬ", "Противопожарные конструкции сдержат распространение огня и дыма в другие помещения здания, позволят безопасно эвакуировать сотрудников, документацию или оборудование, и в случае ЧП возможные убытки будут минимальными.", "Противопожарные люки - для чердаков, подвальных помещений и межэтажных перекрытий.", "Противопожарные ворота - для КПП, пропускных пунктов, въездов в склады и прочее.", "Стеклянные перегородки - для офисных и торговых центров.", "Противопожарная фурнитура - даст дополнительную защиту от огня и дыма.", "ОБРАТНАЯ СВЯЗЬ", "Контактная информация", "+7(926)821 20 07", "9791020@mail.ru", "г. Москва Ленинский Р-он.", "метро: Анино", "21-Й км. МКАД  ТК \"Каширский Двор 3\"", "Павильон П3-С5", "МЕНЮ", "Главная", "Каталог", "О компании", "Установка", "Галерея", "Партнёры", "Контакты"]
+
+=== get_sentences.p ===
+["Также наши двери предотвращают несанкционированное проникновение на территорию объекта. Имеют высокий порог звуко- и теплоизоляции. Предел огнестойкости - от 30 до 120 минут", "10 500 a"]
+
+=== get_sentences.meta_titles ===
+  "title": "Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге | МАГАЗИН 01"
+
+=== get_sentences.href_attributes ===
+["#order", "#", "/", "#call_back", "/", "/catalog/", "/o-kompanii/", "/ustanovka/", "/galereya/", "/partnyery/", "/contacts/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-02-90/", "/catalog/", "#", "#", "/protivopozharnye-dveri/", "/protivopozharnye-dveri/", "/protivopozharnye-dveri/ei-30/", "/protivopozharnye-dveri/ei-60/", "/protivopozharnye-dveri/ei-90/", "/protivopozharnye-dveri/ei-120/", "/protivopozharnye-vorota/", "/protivopozharnye-vorota/", "/protivopozharnye-vorota/ei30/", "/protivopozharnye-vorota/ei60/", "/protivopozharnye-vorota/ei90/", "/protivopozharnye-vorota/ei120/", "/protivopozharnye-lyuki/", "/protivopozharnye-lyuki/", "/protivopozharnye-lyuki/ei-60-/", "/ulichnye-dveri-s-termorazryvom/", "/ulichnye-dveri-s-termorazryvom/", "/ulichnye-dveri-s-termorazryvom/seriya-ei-60/", "/furnitura-dlya-protivopozharnykh-dverey/", "/furnitura-dlya-protivopozharnykh-dverey/", "/furnitura-dlya-protivopozharnykh-dverey/balki-antipanika/", "/furnitura-dlya-protivopozharnykh-dverey/zamki/", "/furnitura-dlya-protivopozharnykh-dverey/ruchki/", "/protivopozharnye-dveri/ei-30/derevyannaya-protivopozharnaya-dver-ei-30-shpon-dub/", "/protivopozharnye-lyuki/ei-60-/protivopozharnyy-lyuk-lp-60/", "/protivopozharnye-dveri/ei-30/dpg-pod-okrasku-ei30-ei60/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpms-01-60/", "/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-01-90/", "/protivopozharnye-dveri/ei-30/derevyannye-protivopozharnye-ei-30-shpon-dub-belenyy/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-601/", "/protivopozharnye-dveri/ei-60/protivopozharn-/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-1000kh2100/", "/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-900kh2100/", "/protivopozharnye-dveri/ei-90/protivopozharnaya-dvupolnaya-dver-dpms-02-90/", "/protivopozharnye-dveri/ei-120/protivopozharnaya-odnostvorchataya-dver-dpm-01-120/", "mailto:9791020@mail.ru", "/", "/catalog/", "/o-kompanii/", "/ustanovka/", "/galereya/", "/partnyery/", "/contacts/"]
+
+=== get_sentences.text_nodes ===
+[["Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге", "МАГАЗИН 01"], ["Модальное окно \"Заказ товара\""], ["Заказ товара"], ["Дверь деревянная шпонированная EI-30 Шпон дуб беленый", "10 500", "a"], ["Количество:"], ["-"], ["+"], ["Обратная связь", "Пожалуйста, заполните форму ниже. Наш сотрудник свяжется с вами в ближайшее время"], ["Имя"], ["Телефон", "или e-mail"], ["Комментарий"], ["Заказать обратный звонок"], ["Противопожарные двери", "от производителя в Москве"], ["+7(926)821 20 07", "9791020@mail.ru", "Обратный звонок"], ["Каталог"], ["О компании"], ["Установка"], ["Галерея"], ["Партнёры"], ["Контакты"], ["ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60", "Каталог"], ["ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90", "Каталог"], ["Противопожарные двери", "Безопасность превыше всего", "Каталог"], ["Противопожарные двери"], ["Двери EI 30"], ["Двери EI 60"], ["Двери EI 90"], ["Двери EI 120"], ["Противопожарные ворота"], ["Ворота EI 30"], ["Ворота EI 60"], ["Ворота EI 90"], ["Ворота EI 120"], ["Противопожарные люки"], ["EI 60"], ["Уличные Термо двери"], ["ТЕРМО"], ["Фурнитура для", "противопожарных дверей"], ["Балки"], ["Замки"], ["Ручки"], ["ПОПУЛЯРНЫЕ ТОВАРЫ"], ["Деревянная противопожарная дверь EI-30 Шпон дуб", "27 500", "a", "ЗАКАЗАТЬ"], ["Противопожарный люк ЛП-60", "8 500", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60", "18900", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПМС-01 60 размеры: 900х2100", "22000", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПМ-01 90", "31000", "a", "ЗАКАЗАТЬ"], ["АКЦИИ"], ["Деревянная противопожарная дверь EI-30 Шпон дуб беленый", "27 500", "a", "17500", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПМ-01 60", "15000", "a", "21000", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПМ-01 60", "16500", "a", "21000", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПМ", "EI60 размер 700х2100", "19500", "a", "21000", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПМ", "EI60 размер 1000х2100", "19500", "a", "21000", "a", "ЗАКАЗАТЬ"], ["Противопожарная дверь ДПМ", "EI60 размер 900х2100", "19500", "a", "21000", "a", "ЗАКАЗАТЬ"], ["Противопожарная двупольная дверь ДПМС-02 90", "48700", "a", "49 900", "a", "ЗАКАЗАТЬ"], ["Противопожарная одностворчатая дверь ДПМ-01 120", "51000", "a", "53700", "a", "ЗАКАЗАТЬ"], ["Противопожарные двери в Москве"], ["Самая распространенная конструкция, которая убережет здание от распространения огня", "это противопожарные двери. Их устанавливают на подстанциях, в помещениях электрощитовых и складов, на предприятиях, в бизнес центрах, в холлах, которые ведут к лифтам. Любое из перечисленных зданий так или иначе имеет высокую вероятность возгорания в помещении, что может повлечь за собой большие убытки."], ["Противопожарные конструкции сдержат распространение огня и дыма в другие помещения здания, позволят безопасно эвакуировать сотрудников, документацию или оборудование, и в случае ЧП возможные убытки будут минимальными."], ["Реклама"], ["Изготовим для вас противопожарные двери"], ["Изготовим двери на заказ. Все противопожарные двери производим по ГОСТу и в соответствии с требованиями СНИП. На любую нашу продукцию вы получите гарантию. Цену на наши противопожарные двери в Москве вы можете узнать на нашем сайте или по телефону. Стоимость зависит от габаритов дверей, от толщины дверного полотна, наличия остекления, порога и других дополнительных деталей."], ["Также наши двери предотвращают несанкционированное проникновение на территорию объекта. Имеют высокий порог звуко", "и теплоизоляции. Предел огнестойкости", "от 30 до 120 минут."], ["На нашем сайте вы сможете выбрать и купить не только противопожарные двери, но и другие виды противопожарной продукции:"], ["Противопожарные люки", "для чердаков, подвальных помещений и межэтажных перекрытий.", "Противопожарные ворота", "для КПП, пропускных пунктов, въездов в склады и прочее. Стеклянные перегородки", "для офисных и торговых центров. Противопожарная фурнитура", "даст дополнительную защиту от огня и дыма."], ["ОБРАТНАЯ СВЯЗЬ"], ["Контактная информация"], ["+7(926)821 20 07", "9791020@mail.ru", "г. Москва Ленинский Р-он.", "метро: Анино", "21-Й км. МКАД ТК \"Каширский Двор 3\" Павильон П3-С5"], ["МЕНЮ"], ["Главная"], ["Каталог"], ["О компании"], ["Установка"], ["Галерея"], ["Партнёры"], ["Контакты"], ["© МАГАЗИН01 1994—2016"]]
+
+=== get_markdown ===
+10 500 a
+
+## ПОПУЛЯРНЫЕ ТОВАРЫ
+
+### Деревянная противопожарная дверь EI-30 Шпон дуб
+
+### Противопожарный люк ЛП-60
+
+### Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60
+
+### Противопожарная дверь ДПМС-01 60 размеры: 900х2100
+
+### Противопожарная дверь ДПМ-01 90
+
+## АКЦИИ
+
+### Деревянная противопожарная дверь EI-30 Шпон дуб беленый
+
+### Противопожарная дверь ДПМ-01 60
+
+### Противопожарная дверь ДПМ-01 60
+
+### Противопожарная дверь ДПМ - EI60 размер 700х2100
+
+### Противопожарная дверь ДПМ - EI60 размер 1000х2100
+
+### Противопожарная дверь ДПМ - EI60 размер 900х2100
+
+### Противопожарная двупольная дверь ДПМС-02 90
+
+### Противопожарная одностворчатая дверь ДПМ-01 120
+
+# Противопожарные двери в Москве
+
+## Реклама
+
+## Изготовим для вас противопожарные двери
+
+Также наши двери предотвращают несанкционированное проникновение на территорию объекта. Имеют высокий порог звуко- и теплоизоляции. Предел огнестойкости - от 30 до 120 минут
+
+=== extract_text ===
+  "footer": [["ОБРАТНАЯ СВЯЗЬ", "Контактная информация", "+7(926)821 20 07", "9791020@mail.ru", "г. Москва Ленинский Р-он.", "метро: Анино", "21-Й км. МКАД ТК \"Каширский Двор 3\"", "Павильон П3-С5", "МЕНЮ", "Главная", "Каталог", "О компании", "Установка", "Галерея", "Партнёры", "Контакты", "© МАГАЗИН01 1994—2016"]]
+  "main": [["Модальное окно \"Заказ товара\"", "Заказ товара", "Дверь деревянная шпонированная EI-30 Шпон дуб беленый", "10 500", "a", "Количество:", "+", "Обратная связь", "Пожалуйста, заполните форму ниже. Наш сотрудник свяжется с вами в ближайшее время", "Имя", "Телефон", "или e-mail", "Комментарий", "Заказать обратный звонок", "Противопожарные двери", "от производителя в Москве", "+7(926)821 20 07", "9791020@mail.ru", "Обратный звонок", "ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60", "Каталог", "ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90", "Каталог", "Противопожарные двери", "Безопасность превыше всего", "Каталог", "Противопожарные двери", "Двери EI 30", "Двери EI 60", "Двери EI 90", "Двери EI 120", "Противопожарные ворота", "Ворота EI 30", "Ворота EI 60", "Ворота EI 90", "Ворота EI 120", "Противопожарные люки", "EI 60", "Уличные Термо двери", "ТЕРМО", "Фурнитура для", "противопожарных дверей", "Балки", "Замки", "Ручки", "ПОПУЛЯРНЫЕ ТОВАРЫ", "Деревянная противопожарная дверь EI-30 Шпон дуб", "27 500", "a", "ЗАКАЗАТЬ", "Противопожарный люк ЛП-60", "8 500", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60", "18900", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПМС-01 60 размеры: 900х2100", "22000", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПМ-01 90", "31000", "a", "ЗАКАЗАТЬ", "АКЦИИ", "Деревянная противопожарная дверь EI-30 Шпон дуб беленый", "27 500", "a", "17500", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПМ-01 60", "15000", "a", "21000", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПМ-01 60", "16500", "a", "21000", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПМ", "EI60 размер 700х2100", "19500", "a", "21000", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПМ", "EI60 размер 1000х2100", "19500", "a", "21000", "a", "ЗАКАЗАТЬ", "Противопожарная дверь ДПМ", "EI60 размер 900х2100", "19500", "a", "21000", "a", "ЗАКАЗАТЬ", "Противопожарная двупольная дверь ДПМС-02 90", "48700", "a", "49 900", "a", "ЗАКАЗАТЬ", "Противопожарная одностворчатая дверь ДПМ-01 120", "51000", "a", "53700", "a", "ЗАКАЗАТЬ", "Противопожарные двери в Москве", "Самая распространенная конструкция, которая убережет здание от распространения огня", "это противопожарные двери. Их устанавливают на подстанциях, в помещениях электрощитовых и складов, на предприятиях, в бизнес центрах, в холлах, которые ведут к лифтам. Любое из перечисленных зданий так или иначе имеет высокую вероятность возгорания в помещении, что может повлечь за собой большие убытки.", "Противопожарные конструкции сдержат распространение огня и дыма в другие помещения здания, позволят безопасно эвакуировать сотрудников, документацию или оборудование, и в случае ЧП возможные убытки будут минимальными.", "Реклама", "Изготовим для вас противопожарные двери", "Изготовим двери на заказ. Все противопожарные двери производим по ГОСТу и в соответствии с требованиями СНИП. На любую нашу продукцию вы получите гарантию. Цену на наши противопожарные двери в Москве вы можете узнать на нашем сайте или по телефону. Стоимость зависит от габаритов дверей, от толщины дверного полотна, наличия остекления, порога и других дополнительных деталей.", "Также наши двери предотвращают несанкционированное проникновение на территорию объекта. Имеют высокий порог звуко", "и теплоизоляции. Предел огнестойкости", "от 30 до 120 минут.", "На нашем сайте вы сможете выбрать и купить не только противопожарные двери, но и другие виды противопожарной продукции: Противопожарные люки", "для чердаков, подвальных помещений и межэтажных перекрытий.", "Противопожарные ворота", "для КПП, пропускных пунктов, въездов в склады и прочее.", "Стеклянные перегородки", "для офисных и торговых центров.", "Противопожарная фурнитура", "даст дополнительную защиту от огня и дыма."]]
+  "navigation": [["Каталог", "О компании", "Установка", "Галерея", "Партнёры", "Контакты"]]
+
+=== tag_html_contents(title) ===
+<title>Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге | МАГАЗИН 01</title>
+
+=== html_contents ===
+<html class="js-no"><head>
+
+
+   <meta charset="utf-8">
+
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+   <meta content="8fa045d1b9160230" name="yandex-verification">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<meta content="index, follow" name="robots">
+<meta content="Противопожарные двери" name="keywords">
+<meta content="Купить противопожарные двери в Москве и Московской области. В нашем интернет-магазине вы сможете заказать недорого противопожарные двери : отличная цена от производителя, а предлагаемая продукция отличается качеством и надежностью" name="description">
+<link href="/bitrix/cache/css/s1/xml_catalog/kernel_main/kernel_main.css?167837886449398" rel="stylesheet" type="text/css">
+<link href="/bitrix/cache/css/s1/xml_catalog/page_d9b528cbf26119591c00f7ff733c6549/page_d9b528cbf26119591c00f7ff733c6549.css?1678029359614" rel="stylesheet" type="text/css">
+<link href="/bitrix/panel/main/popup.min.css?148250605520476" rel="stylesheet" type="text/css">
+<link data-template-style="true" href="/bitrix/cache/css/s1/xml_catalog/template_79fb3897a5896a9efc2df22b152bc396/template_79fb3897a5896a9efc2df22b152bc396.css?16780290572545" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+
+
+
+<!-- <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "cf5dc9bd4962154e47f7d8b36d5382e2"]); _ba.push(["host", "01-magazin.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script> -->
+
+
+	<title>Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге | МАГАЗИН 01</title>
+
+    <link href="/bitrix/templates/xml_catalog/css/style.css" rel="stylesheet">
+    <link href="/bitrix/templates/xml_catalog/css/jquery.validate.css" rel="stylesheet">
+    <link href="/bitrix/templates/xml_catalog/css/jquery.fancybox.css" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	  <script src="js/components/html5shiv.min.js"></script>
+	  <script src="js/components/respond.min.js"></script>
+	<![endif]-->
+
+    
+    
+    
+    
+    
+<meta content="7a5b96f8125c6d41" name="yandex-verification">
+<meta content="NazKJ8Z_TCTZRM3MlX3Vakec6pUHc-ZwedPDYRpjoEI" name="google-site-verification">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="js-modal_white" href="#order" id="odait" style="display:none">Модальное окно "Заказ товара"</a>
+<div id="order" style="display: none;">
+
+	<div class="modal modal-animate modal_500 modal-white">
+
+		<button class="modal-close js-modal_close"></button><!-- /modal-close -->
+
+		<div class="order">
+			<strong class="order-title">Заказ товара</strong><!-- /order-title -->
+			<table class="order-table">
+				<tbody><tr>
+					<td>
+						<div class="order-item">
+							<figure class="order-item_image"><img alt="" id="od3" src="/bitrix/templates/xml_catalog/images/doors_min.png"></figure><!-- /order-item_image -->
+							<div class="order-item_desc">
+								<strong class="order-item_title"><a href="#" id="od2">Дверь деревянная шпонированная EI-30 Шпон дуб беленый</a></strong><!-- /order-item_title -->
+								<p class="order-item_price"><span id="od1">10 500<span><span class="rub">a</span></span></span></p><!-- /order-item_price -->
+							</div><!-- /"order-item_desc -->
+						</div><!-- /order-item -->
+					</td>
+					<td>
+						<strong class="order-title_sub">Количество:</strong><!-- /order-title_sub -->
+						<ul class="spinner">
+							<li><button class="btn btn-grey btn-spinner">-</button></li>
+							<li><input class="form-text" id="od4" type="text" value="1"></li>
+							<li><button class="btn btn-grey btn-spinner">+</button></li>
+						</ul><!-- /spinner -->
+					</td>
+				</tr>
+			</tbody></table><!-- /order-table -->
+		</div><!-- /order -->
+
+		<hr>
+
+		<div class="form">
+			<form action="javascript:addOrder();" id="validate_order">
+				<strong class="form-title">Обратная связь</strong><!-- /form-title -->
+				<em class="form-caption">Пожалуйста, заполните форму ниже. Наш сотрудник  свяжется с вами в ближайшее время</em><!-- /form-caption -->
+				<div class="form-row">
+					<label class="form-label">Имя</label><!-- /form-label -->
+					<div class="form-field">
+						<input class="form-text" data-validate="validate(required)" id="ii1" type="text">
+					</div><!-- /form-field -->
+				</div><!-- /form-row -->
+				<div class="form-row">
+					<label class="form-label"><small>Телефон<br>или e-mail</small></label><!-- /form-label -->
+					<div class="form-field">
+						<input class="form-text" data-validate="validate(required)" id="ii2" type="text">
+					</div><!-- /form-field -->
+				</div><!-- /form-row -->
+				<div class="form-row">
+					<label class="form-label">Комментарий</label><!-- /form-label -->
+					<div class="form-field">
+						<textarea class="form-textarea" cols="30" data-validate="validate(rangelength(10,140))" id="ii3" rows="10"></textarea>
+					</div><!-- /form-field -->
+				</div><!-- /form-row -->
+				<div class="clearfix">
+					<input class="btn btn-grey pull-right" type="submit" value="ОТПРАВИТЬ">
+				</div><!-- /clearfix -->
+			</form>
+			
+		</div><!-- /form -->
+		
+	</div><!-- /modal -->
+	
+</div><!-- /order -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Modal -->
+
+<div id="call_back" style="display: none;">
+
+	<div class="modal modal-animate modal_390">
+
+		<button class="modal-close js-modal_close"></button><!-- /modal-close -->
+
+		<div class="call_back">
+			<form action="javascript:phonecall();" id="validate_call_back">
+				<strong class="call_back-title">Заказать обратный звонок</strong><!-- /call-bback_title -->
+				<div class="form-field">
+					<input class="call_back-text" data-validate="validate(required)" placeholder="Ваше имя" type="text">
+				</div><!-- /form-field -->
+				
+				<div class="form-field">
+					<input class="call_back-text" data-validate="validate(required, number)" placeholder="Телефон" type="text">
+				</div><!-- /form-field -->
+				
+				<div class="text-center">
+					<input class="btn btn-white" type="submit" value="Отправить">
+				</div><!-- /text-center -->
+			</form>
+				
+		</div><!-- /call_back -->
+		
+	</div><!-- /modal -->
+	
+</div><!-- /call_back -->
+
+<!-- Layout -->
+
+<div class="layout">
+	
+	<header class="header">
+		<div class="container">
+
+			<div class="clearfix">
+				<div class="logo">
+					<figure class="logo-image"><a href="/"><img alt="01-magazin.ru" src="/bitrix/templates/xml_catalog/images/logo.png"></a></figure><!-- /logo-image -->
+					<strong class="logo-text">Противопожарные двери<br>от производителя в Москве</strong><!-- /logo-text -->
+				</div><!-- /logo -->
+				<div class="contacts">
+					<b><span class="icon-phone"></span>+7(926)821 20 07</b>
+					<p><span class="icon-mail"></span>9791020@mail.ru</p>
+					<a class="link-dashed js-modal" href="#call_back" title="Обратный звонок">Обратный звонок</a>
+				</div><!-- /contacts -->
+			</div><!-- /clearfix -->
+
+			
+<nav class="nav">
+				<ul class="nav-list">
+				
+						<li class="current"><a href="/" title="Главная">
+<span class="icon-home"></span></a></li>
+	
+
+						<li><a href="/catalog/" title="Каталог">
+Каталог</a></li>
+	
+
+						<li><a href="/o-kompanii/" title="О компании">
+О компании</a></li>
+	
+
+						<li><a href="/ustanovka/" title="Установка">
+Установка</a></li>
+	
+
+						<li><a href="/galereya/" title="Галерея">
+Галерея</a></li>
+	
+
+						<li><a href="/partnyery/" title="Партнёры">
+Партнёры</a></li>
+	
+
+						<li><a href="/contacts/" title="Контакты">
+Контакты</a></li>
+	
+
+				</ul><!-- /nav-list -->
+			</nav>
+
+		</div><!-- /container -->
+	</header><!-- /header -->
+
+		
+	<main class="main main-inner">
+
+			<div class="container">
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+			
+<div class="container">
+	 
+
+
+
+			<div class="slides-section">
+				<ul class="slides" id="slides">
+
+
+
+																														<li id="bx_3218110189_28">
+														<a href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/" style="z-index: 300;position: relative;text-decoration: none;">
+															<figure class="slides-image">
+																<img alt="" src="/upload/iblock/0b9/banner2.1.jpg">
+															</figure><!-- /slides-image -->
+															<div class="slides-caption" style="top: -355px;z-index: 100;position: absolute;">
+																	<strong class="slides-title" style="text-decoration: none;margin-top: 150px;">ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60</strong><!-- /slides-title -->
+																	<span class="btn btn-blue">Каталог</span>
+															</div><!-- /slides-caption -->
+															
+														</a>
+													</li>
+																														<li id="bx_3218110189_29">
+														<a href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-02-90/" style="z-index: 300;position: relative;text-decoration: none;">
+															<figure class="slides-image">
+																<img alt="" src="/upload/iblock/688/banner3.1.jpg">
+															</figure><!-- /slides-image -->
+															<div class="slides-caption" style="top: -355px;z-index: 100;position: absolute;">
+																	<strong class="slides-title" style="text-decoration: none;margin-top: 150px;">ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90</strong><!-- /slides-title -->
+																	<span class="btn btn-blue">Каталог</span>
+															</div><!-- /slides-caption -->
+															
+														</a>
+													</li>
+																														<li id="bx_3218110189_1">
+														<a href="/catalog/" style="z-index: 300;position: relative;text-decoration: none;">
+															<figure class="slides-image">
+																<img alt="" src="/upload/iblock/1e0/img_banner1.jpg">
+															</figure><!-- /slides-image -->
+															<div class="slides-caption" style="top: -355px;z-index: 100;position: absolute;">
+																	<strong class="slides-title" style="text-decoration: none;margin-top: 150px;">Противопожарные двери<br>Безопасность превыше всего</strong><!-- /slides-title -->
+																	<span class="btn btn-blue">Каталог</span>
+															</div><!-- /slides-caption -->
+															
+														</a>
+													</li>
+								
+				</ul><!-- /slides -->
+				<a class="slides-prev" href="#" id="slides-prev"></a>
+				<a class="slides-next" href="#" id="slides-next"></a>
+			</div><!-- /slides-section -->		 <div class="doors">
+				
+	
+	<ul class="doors-list">
+	
+		
+		
+				
+		
+		<li id="bx_1847241719_1"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-dveri/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_1.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-dveri/">Противопожарные двери</a></strong>
+		<ul class="doors-item_menu">
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_5"><a href="/protivopozharnye-dveri/ei-30/">Двери EI 30</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_8"><a href="/protivopozharnye-dveri/ei-60/">Двери EI 60</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_11"><a href="/protivopozharnye-dveri/ei-90/">Двери EI 90</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_14"><a href="/protivopozharnye-dveri/ei-120/">Двери EI 120</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_24"></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_26"></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_25"></li>
+		</ul>
+	
+	<span></span></div></div></li>
+	
+		
+		
+				
+		
+		<li id="bx_1847241719_2"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-vorota/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_2.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-vorota/">Противопожарные ворота</a></strong>
+		<ul class="doors-item_menu">
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_6"><a href="/protivopozharnye-vorota/ei30/">Ворота EI 30</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_9"><a href="/protivopozharnye-vorota/ei60/">Ворота EI 60</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_12"><a href="/protivopozharnye-vorota/ei90/">Ворота EI 90</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_15"><a href="/protivopozharnye-vorota/ei120/">Ворота EI 120</a></li>
+		</ul>
+	
+	<span></span></div></div></li>
+	
+		
+		
+				
+		
+		<li id="bx_1847241719_3"><div class="doors-item"><figure class="doors-item_image"><a href="/protivopozharnye-lyuki/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_3.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/protivopozharnye-lyuki/">Противопожарные люки</a></strong>
+		<ul class="doors-item_menu">
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_10"><a href="/protivopozharnye-lyuki/ei-60-/">EI 60</a></li>
+		</ul>
+	
+	<span></span></div></div></li>
+	
+		
+		
+				
+		
+		<li id="bx_1847241719_4"><div class="doors-item"><figure class="doors-item_image"><a href="/ulichnye-dveri-s-termorazryvom/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_4.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title"><a href="/ulichnye-dveri-s-termorazryvom/">Уличные Термо двери</a></strong>
+		<ul class="doors-item_menu">
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_17"><a href="/ulichnye-dveri-s-termorazryvom/seriya-ei-60/">ТЕРМО</a></li>
+		</ul>
+	
+	<span></span></div></div></li>
+	
+		
+		
+				
+		
+		<li id="bx_1847241719_19"><div class="doors-item"><figure class="doors-item_image"><a href="/furnitura-dlya-protivopozharnykh-dverey/"><img alt="" src="/bitrix/templates/xml_catalog/images/doors_5.png"></a></figure><div class="doors-item_desc"><strong class="doors-item_title" style="margin-top:-5px;margin-left:-23px"><a href="/furnitura-dlya-protivopozharnykh-dverey/">Фурнитура для<br>противопожарных дверей</a></strong>
+		<ul class="doors-item_menu">
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_22"><a href="/furnitura-dlya-protivopozharnykh-dverey/balki-antipanika/">Балки</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_21"><a href="/furnitura-dlya-protivopozharnykh-dverey/zamki/">Замки</a></li>
+		
+		
+		
+				
+		
+		<li id="bx_1847241719_20"><a href="/furnitura-dlya-protivopozharnykh-dverey/ruchki/">Ручки</a></li>
+		</ul></div>
+	</div></li>
+	</ul></div>
+				
+			</div>
+
+
+	<div class="bl bl-grey">
+		<div class="container">
+			<div class="products">
+				<h2 class="products-title">ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
+				 <!-- /products-title --> <!--a href="#" class="link-dashed link-more">РЎРјРѕС‚СЂРµС‚СЊ РІСЃРµ</a--> 
+
+
+<ul class="products-list">
+
+
+
+
+		
+	
+	<li id="bx_651765591_6">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-30/derevyannaya-protivopozharnaya-dver-ei-30-shpon-dub/">
+																		<span class="icon-popular"></span>
+																											<figure class="products-item_image"><img alt="" src="/upload/iblock/798/pozh_dub.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Деревянная противопожарная дверь EI-30 Шпон дуб</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">27 500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_651765591_10">
+			<a class="products-item" href="/protivopozharnye-lyuki/ei-60-/protivopozharnyy-lyuk-lp-60/">
+																		<span class="icon-popular"></span>
+																											<figure class="products-item_image"><img alt="" src="/upload/iblock/c6c/pic_small_26.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарный люк ЛП-60</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">8 500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_651765591_68">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-30/dpg-pod-okrasku-ei30-ei60/">
+																		<span class="icon-popular"></span>
+																											<figure class="products-item_image"><img alt="" src="/upload/iblock/e7d/protivopozharnye-_-dpg-_-mdf_novyy-razmer.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">18900<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_651765591_23">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpms-01-60/">
+																		<span class="icon-popular"></span>
+																											<figure class="products-item_image"><img alt="" src="/upload/iblock/542/dpms_01_60.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПМС-01 60 размеры: 900х2100</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">22000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_651765591_17">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-01-90/">
+																		<span class="icon-popular"></span>
+																											<figure class="products-item_image"><img alt="" src="/upload/iblock/065/010_1.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПМ-01 90</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">31000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+	<br>
+</ul>
+
+				</div>
+			 <!-- /products -->
+			<div class="products">
+				<div class="products-head">
+					<h2 class="products-title">АКЦИИ</h2>
+					 <!-- /products-title --> <!--a href="#" class="link-dashed link-more">РЎРјРѕС‚СЂРµС‚СЊ РІСЃРµ</a-->
+				</div>
+				 <!-- /products-head --> 
+
+
+<ul class="products-list">
+
+
+
+
+		
+	
+	<li id="bx_1373509569_3">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-30/derevyannye-protivopozharnye-ei-30-shpon-dub-belenyy/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/0ee/product_1.png"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Деревянная противопожарная дверь EI-30 Шпон дуб беленый</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">27 500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">17500<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_1373509569_24">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/567/grin_ot50.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПМ-01 60</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">15000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_1373509569_31">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-601/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/d9e/grin_ot20.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПМ-01 60</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">16500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_1373509569_34">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharn-/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/683/grin_ot1.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПМ - EI60 размер 700х2100</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">19500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_1373509569_38">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-1000kh2100/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/cf0/grin_ot1.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПМ - EI60 размер 1000х2100</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">19500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_1373509569_37">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-900kh2100/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/e90/grin_ot1.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная дверь ДПМ - EI60 размер 900х2100</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">19500<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">21000<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_1373509569_18">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-90/protivopozharnaya-dvupolnaya-dver-dpms-02-90/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/c32/014.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная двупольная дверь ДПМС-02 90</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">48700<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">49 900<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+		
+	
+	<li id="bx_1373509569_21">
+			<a class="products-item" href="/protivopozharnye-dveri/ei-120/protivopozharnaya-odnostvorchataya-dver-dpm-01-120/">
+																											<span class="icon-action"></span>
+																		<figure class="products-item_image"><img alt="" src="/upload/iblock/056/dpm_ei120.jpg"></figure><!-- /products-item_image -->
+									<h3 class="products-item_title">Противопожарная одностворчатая дверь ДПМ-01 120</h3><!-- /products-item_title -->
+									<b class="products-item_price"><span class="mod1">51000<span><span class="rub">a</span></span></span></b><!-- /products-item_price -->
+																		<b class="products-item_price" style="height: 0px;position: relative;top: -24px;overflow: visible;left: 87px;font-size: 16px;text-decoration: line-through;">53700<span class="rub">a</span></b><!-- /products-item_price -->
+																		<button class="btn btn-md btn-order">ЗАКАЗАТЬ</button>
+								</a><!-- /products-item -->
+	</li>
+	
+	
+	<br>
+</ul>
+
+				</div>
+			 <!-- /products -->
+		</div>
+		 <!-- /container -->
+	</div>
+	 <!-- /bl bl-grey -->
+</div>
+ <!-- /container -->
+<div class="container">
+	<h1>Противопожарные двери в Москве</h1>
+	<p>
+		 Самая распространенная конструкция, которая убережет здание от распространения огня - это противопожарные двери. Их устанавливают на подстанциях, в помещениях электрощитовых и складов, на предприятиях, в бизнес центрах, в холлах, которые ведут к лифтам. Любое из перечисленных зданий так или иначе имеет высокую вероятность возгорания в помещении, что может повлечь за собой большие убытки.
+	</p>
+	 Противопожарные конструкции сдержат распространение огня и дыма в другие помещения здания, позволят безопасно эвакуировать сотрудников, документацию или оборудование, и в случае ЧП возможные убытки будут минимальными. <br>
+	<p>
+	</p>
+	<p>
+	</p><h2>Реклама</h2>
+		<p></p>
+	<h2>Изготовим для вас противопожарные двери</h2>
+	<p>
+Изготовим двери на заказ. Все противопожарные двери производим по ГОСТу и в соответствии с требованиями СНИП. На любую нашу продукцию вы получите гарантию. Цену на наши противопожарные двери в Москве вы можете узнать на нашем сайте или по телефону. Стоимость зависит от габаритов дверей, от толщины дверного полотна, наличия остекления, порога и других дополнительных деталей.
+	</p>
+	
+		<p> Также наши двери предотвращают несанкционированное проникновение на территорию объекта. Имеют высокий порог звуко- и теплоизоляции. Предел огнестойкости - от 30 до 120 минут.
+	</p>
+	<p>
+		 На нашем сайте вы сможете выбрать и купить не только противопожарные двери, но и другие виды противопожарной продукции:
+	</p>
+	<ul>
+		<li>Противопожарные люки - для чердаков, подвальных помещений и межэтажных перекрытий.</li>
+		<li>Противопожарные ворота - для КПП, пропускных пунктов, въездов в склады и прочее. </li>
+		<li>Стеклянные перегородки - для офисных и торговых центров. </li>
+		<li>Противопожарная фурнитура - даст дополнительную защиту от огня и дыма.</li>
+	</ul>
+</div>
+ <!-- /container --><br>
+
+
+
+
+ 
+
+			</main></div>
+		
+	
+	
+	
+	<div class="bl bl-grey bl-similar" id="jumpthere" style="display:none">
+	</div>
+	
+	<!-- /main -->
+
+	<footer class="footer">
+		<div class="container">
+
+			<div class="row">
+				<div class="row-col">
+
+					<div class="feedback">
+						<form action="javascript:sendmail();" id="validate">
+							<strong class="feedback-title">ОБРАТНАЯ СВЯЗЬ</strong><!-- /feedback-title -->
+							<div class="form-field">
+								<input class="custom-text" data-validate="validate(required)" placeholder="Имя" type="text">
+							</div><!-- /form-field -->
+							
+							<div class="form-field">
+								<input class="custom-text" data-validate="validate(email)" placeholder="Электронная почта" type="text">
+							</div><!-- /form-field -->
+							
+							<div class="form-field">
+								<textarea class="custom-textarea" cols="30" data-validate="validate(rangelength(10,140))" placeholder="Сообщение" rows="10"></textarea>
+							</div><!-- /form-field -->
+							
+							<input class="btn btn-md btn-white pull-right" type="submit" value="Отправить">
+						</form>
+						
+					</div><!-- /feedback -->
+					
+				</div><!-- /row-col -->
+				<div class="row-col">
+
+					<div class="contacts-info">
+						<strong class="contacts-info-title">Контактная информация</strong><!-- /contacts-info_title -->
+						<ul class="contacts-info-list">
+							<li><span class="icon-phone_white"></span>+7(926)821 20 07</li>
+							<li><span class="icon-mail_white"></span><u><a href="mailto:9791020@mail.ru" style="color:#c5deed">9791020@mail.ru</a></u></li>
+							<li><span class="icon-loc_white"></span>г. Москва Ленинский Р-он.<br>метро: Анино<br>21-Й км. МКАД  ТК "Каширский Двор 3"<br> Павильон П3-С5</li>
+						</ul><!-- /contacts-info_list -->
+					</div><!-- /contacts-info -->
+					
+				</div><!-- /row-col -->
+				<div class="row-col">
+
+
+					
+					
+
+
+
+
+<div class="menu">
+						<strong class="menu-title">МЕНЮ</strong><!-- /menu-title -->
+						<ul class="menu-list">
+
+
+	     <!-- first level-->
+				<li class="bx_hma_one_lvl current">
+			<a data-description="" href="/">
+				Главная			</a>
+		</li>
+	     <!-- first level-->
+				<li class="bx_hma_one_lvl ">
+			<a data-description="" href="/catalog/">
+				Каталог			</a>
+		</li>
+	     <!-- first level-->
+				<li class="bx_hma_one_lvl ">
+			<a data-description="" href="/o-kompanii/">
+				О компании			</a>
+		</li>
+	     <!-- first level-->
+				<li class="bx_hma_one_lvl ">
+			<a data-description="" href="/ustanovka/">
+				Установка			</a>
+		</li>
+	     <!-- first level-->
+				<li class="bx_hma_one_lvl ">
+			<a data-description="" href="/galereya/">
+				Галерея			</a>
+		</li>
+	     <!-- first level-->
+				<li class="bx_hma_one_lvl ">
+			<a data-description="" href="/partnyery/">
+				Партнёры			</a>
+		</li>
+	     <!-- first level-->
+				<li class="bx_hma_one_lvl ">
+			<a data-description="" href="/contacts/">
+				Контакты			</a>
+		</li>
+							</ul><!-- /menu-list -->
+					</div>					
+					
+				</div><!-- /row-col -->
+			</div><!-- /row -->
+
+		</div><!-- /container -->
+
+		<p class="copyright"><span class="container">© МАГАЗИН01 1994—2016</span></p><!-- /copyright -->
+
+	</footer><!-- /footer -->
+
+<!-- /layout -->
+<!-- Yandex.Metrika counter -->
+
+
+<!-- /Yandex.Metrika counter -->
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+
+<!-- {/literal} END JIVOSITE CODE -->
+ 
+
+
+
+
+
+
+
+
+
+</body></html>
+

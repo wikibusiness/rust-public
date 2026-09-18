@@ -1,0 +1,148 @@
+<!DOCTYPE html><html lang="zh-CN"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>王中王</title>
+    <meta name="keywords" content="关键词测试">
+    <meta name="description" content="描述测试">
+    
+    <script src="/static/js/tj.js"></script>
+
+    <style>
+        :root {
+            --primary-color: #33aff7;
+            --page-bg: #f0ecec;
+            --block-bg: #33aff7; 
+            --card-bg: #ffffff;   
+            --tab-container-bg: #ffffff;
+            --tab-active-bg: #33aff7;
+            --tab-active-text: #ffffff;
+            --tab-inactive-bg: #f0ecec;
+            --tab-inactive-text: #fa501d;
+            --title-color: #33aff7;
+            --title-text-color: #060706;
+            --border-color: #bfbdbd;
+            --text-color: #333333;
+            --top-header-bg: #33aff7;
+            --top-header-text: #fa501d;
+        }
+
+        div[style*="var(--title-color"] {
+            color: var(--title-text-color) !important;
+            height: 44px !important;            
+            padding: 0 10px !important;         
+            display: flex !important;           
+            align-items: center !important;     
+            justify-content: center !important; 
+            font-size: clamp(14px, 5.5vw, 24px) !important; 
+            font-weight: 900 !important;        
+            letter-spacing: 1px !important;     
+            box-sizing: border-box !important;
+            overflow: hidden !important;
+            white-space: nowrap !important;
+            text-overflow: ellipsis !important;
+        }
+
+        div[style*="var(--title-color"] * {
+            white-space: nowrap !important;
+            font-size: inherit !important;
+        }
+
+        body { margin: 0; padding: 0; font-family: -apple-system, sans-serif; background: var(--page-bg); min-height: 100vh; display: flex; justify-content: center; }
+        .main-wrapper { width: 100%; max-width: 720px; min-height: 100vh; display: flex; flex-direction: column; background: var(--page-bg); }
+
+        .sticky-container { position: -webkit-sticky; position: sticky; top: 0; z-index: 999; background: var(--page-bg); box-shadow: 0 4px 10px rgba(0,0,0,0.06); }
+        .header-bar { display: flex; justify-content: space-between; align-items: center; padding: 6px 10px; background: var(--top-header-bg); border-bottom: 1px solid var(--border-color); }
+        .logo-area { font-size: 26px; font-weight: bold; color: var(--top-header-text); letter-spacing: 1px; display: flex; align-items: center; }
+        .header-ad { height: 42px; border-radius: 4px; display: block; }
+        
+        .tab-container { display: flex; align-items: center; background: var(--tab-container-bg); padding: 0 1px; gap: 2px; border-bottom: 1px solid var(--border-color); margin-bottom: 0; height: 44px; box-sizing: border-box; }
+        .tab-btn { flex: 1; display: flex; align-items: center; justify-content: center; height: 42px; font-size: 26px; font-weight: bold; color: var(--tab-inactive-text); background: var(--tab-inactive-bg); border-radius: 999px; cursor: pointer; border: 1px solid var(--border-color); transition: all 0.2s; box-sizing: border-box; }
+        .tab-btn.active { background: var(--tab-active-bg); color: var(--tab-active-text); border-color: var(--tab-active-bg); }
+        
+        .tab-icon { height: 28px; width: auto; margin-right: 6px; display: block; }
+        
+        .iframe-container { width: 100%; flex: 1; background: var(--page-bg); }
+        .iframe-container iframe { width: 100%; border: none; display: block; overflow: hidden; min-height: 800px; }
+
+        @media (max-width: 540px) {
+            .logo-area { font-size: 24px; }
+            .header-ad { height: 38px; }
+            .header-bar { padding: 5px 8px; }
+            .tab-btn { font-size: 22px; }
+            .tab-icon { height: 24px; margin-right: 5px; }
+        }
+        @media (max-width: 480px) {
+            .logo-area { font-size: 22px; }
+            .header-ad { height: 36px; }
+            .tab-btn { font-size: 20px; }
+            .tab-icon { height: 22px; margin-right: 4px; }
+        }
+        @media (max-width: 375px) {
+            .tab-btn { font-size: 18px; }
+            .tab-icon { height: 20px; margin-right: 3px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="sticky-container">
+        <div class="header-bar">
+            <div class="logo-area">
+                
+                    <img src="/uploads/1780723452_wzw.png" alt="王中王" style="height: 52px; max-width: 240px; object-fit: contain;">
+                
+            </div>
+            <a href="#"><img id="header-ad-img" class="header-ad" src="/static/img/am_gw.png" alt="广告"></a>
+        </div>
+        
+        <iframe id="lottery-header-macau" src="/static/html/history.html?type=macau" style="width: 100%; height: 56px; border: none; display: block; vertical-align: top;"></iframe>
+        <iframe id="lottery-header-hk_hidden" src="/static/html/history.html?type=hk" style="width: 100%; height: 56px; border: none; display: none; vertical-align: top;"></iframe>
+        
+        <div class="tab-container">
+            <div class="tab-btn active" id="tab-macau" onclick="switchTab('macau', this)">
+                <img class="tab-icon" src="/static/img/am_xx.webp" alt="am"> 澳门彩资料
+            </div>
+            <div class="tab-btn" id="tab-hk" onclick="switchTab('hk', this)">
+                <img class="tab-icon" src="/static/img/hk_xx.webp" alt="hk"> 香港彩资料
+            </div>
+        </div>
+    </div>
+    <div class="iframe-container">
+        <iframe id="content-iframe" src="/feed/macau" scrolling="no"></iframe>
+    </div>
+</div>
+
+<script>
+    function switchTab(type, element) {
+        document.getElementById('content-iframe').src = '/feed/' + type;
+        
+        if (type === 'macau') {
+            document.getElementById('header-ad-img').src = '/static/img/am_gw.png';
+        } else {
+            document.getElementById('header-ad-img').src = '/static/img/hk_gw.png';
+        }
+
+        var tabs = document.getElementsByClassName('tab-btn');
+        for (var i = 0; i < tabs.length; i++) {
+            tabs[i].classList.remove('active');
+        }
+        element.classList.add('active');
+
+        if (type === 'macau') {
+            document.getElementById('lottery-header-macau').style.display = 'block';
+            document.getElementById('lottery-header-hk_hidden').style.display = 'none';
+        } else {
+            document.getElementById('lottery-header-macau').style.display = 'none';
+            document.getElementById('lottery-header-hk_hidden').style.display = 'block';
+        }
+    }
+    window.addEventListener('message', function(event) {
+        if (event.data && event.data.type === 'iframe-resize') {
+            document.getElementById('content-iframe').style.height = event.data.height + 'px';
+        }
+    });
+</script>
+
+
+</body></html>

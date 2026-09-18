@@ -1,0 +1,63 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+[]
+
+=== get_links ===
+[]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+[]
+
+=== get_sentences.p ===
+[]
+
+=== get_sentences.meta_titles ===
+
+
+=== get_sentences.href_attributes ===
+[]
+
+=== get_sentences.text_nodes ===
+[]
+
+=== get_markdown ===
+
+
+=== extract_text ===
+
+
+=== tag_html_contents(title) ===
+
+
+=== html_contents ===
+<html><head>
+</head><body></body></html>
+

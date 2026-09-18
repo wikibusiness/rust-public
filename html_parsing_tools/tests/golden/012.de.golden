@@ -1,0 +1,74 @@
+=== get_lang ===
+en
+
+=== get_meta_titles ===
+
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+[]
+
+=== get_links ===
+[]
+
+=== get_emails ===
+["xe.iaso@techaro.lol"]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+[]
+
+=== get_sentences.p ===
+["Please wait a moment while we ensure the security of your connection"]
+
+=== get_sentences.meta_titles ===
+
+
+=== get_sentences.href_attributes ===
+[]
+
+=== get_sentences.text_nodes ===
+[["Loading...", "Please wait a moment while we ensure the security of your connection."]]
+
+=== get_markdown ===
+Please wait a moment while we ensure the security of your connection
+
+=== extract_text ===
+  "main": [["Loading...", "Please wait a moment while we ensure the security of your connection."]]
+
+=== tag_html_contents(title) ===
+
+
+=== html_contents ===
+<!DOCTYPE html><html lang="en"><head>
+    <link href="/.within.website/x/xess/xess.min.css" rel="stylesheet">
+    <link href="/.within.website/x/cmd/anubis/static/css/custom.css" rel="stylesheet">
+    
+  </head>
+  <body id="top">
+    <main>
+      <div class="centered-div"><div id="app"><p id="status">Loading...</p><p>Please wait a moment while we ensure the security of your connection.</p></div></div>
+      
+    </main>
+  
+
+</body></html>
+

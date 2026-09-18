@@ -1,0 +1,137 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": "www.01050.com-官网首页"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/company/contactus", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999"]
+
+=== get_links ===
+[("http://www.4.cn/search/detail/pid/34948605/ref/11999", "立即购买 >>"), ("http://www.4.cn/search/detail/pid/34948605/ref/11999", "BUY NOW >>"), ("http://www.4.cn/company/contactus", ""), ("http://www.4.cn/search/detail/pid/34948605/ref/11999", "“点击这里”"), ("http://www.4.cn/search/detail/pid/34948605/ref/11999", "我要购买 >>"), ("http://www.4.cn/search/detail/pid/34948605/ref/11999", "“visit here”"), ("http://www.4.cn/search/detail/pid/34948605/ref/11999", "BUY NOW >>")]
+
+=== get_emails ===
+["support@goldenname.com", "support@goldenname.com"]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": ["01050.com", "联系我们"]
+  "h3": ["域名交易方式："]
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["www.01050.com-官网首页", "QQ：2726103981", "Copyright © 1998 -2025 www.01050.com All Rights Reserved"]
+
+=== get_sentences.p ===
+["4.cn is a world leading domain escrow service platform and ICANN-Accredited Registrar, with 6 years rich experience in domain name brokerage and over 300 million RMB transaction volume every year. We promise our clients with professional, safe and easy third-party service. The whole transaction process may take 5 workdays", "For detailed process, you can “visit here” or contact support@goldenname.com", "您正在访问的域名可以转让!This domain name is for sale!", "售价 Listing Price: CNY 5747.00", "立即购买 >> BUY NOW >>", "域名 Domain Name: 01050.com", "BUY NOW >>"]
+
+=== get_sentences.meta_titles ===
+  "title": "www.01050.com-官网首页"
+
+=== get_sentences.href_attributes ===
+["http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/company/contactus", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999", "http://www.4.cn/search/detail/pid/34948605/ref/11999"]
+
+=== get_sentences.text_nodes ===
+[["www.01050.com-官网首页"], ["01050.com"], ["您正在访问的域名可以转让!This domain name is for sale!"], ["一口价出售中！"], ["域名", "Domain Name: 01050.com"], ["售价", "Listing Price: CNY 5747.00"], ["立即购买", ">>", "BUY NOW", ">>"], ["域名交易方式："], ["联系我们"], ["QQ：2726103981"], ["通过金名网(4.cn) 中介交易"], ["金名网(4.cn)是全球领先的域名交易服务机构，同时也是Icann认证的注册商，拥有六年的域名交易经验，年交易额达3亿元以上。我们承诺，提供简单、安全、专业的第三方服务！ 为了保证交易的安全，整个交易过程大概需要5个工作日。"], ["具体交易流程可", "“点击这里”", "查看或咨询support@goldenname.com。"], ["我要购买", ">>"], ["Process Overview:"], ["4.cn is a world leading domain escrow service platform and ICANN-Accredited Registrar, with 6 years rich experience in domain name brokerage and over 300 million RMB transaction volume every year. We promise our clients with professional, safe and easy third-party service. The whole transaction process may take 5 workdays."], ["For detailed process, you can “visit here” or contact support@goldenname.com."], ["BUY NOW", ">>"], ["Copyright © 1998", "2025 www.01050.com All Rights Reserved"]]
+
+=== get_markdown ===
+## 01050.com
+
+您正在访问的域名可以转让!This domain name is for sale!
+
+域名 Domain Name: 01050.com
+
+售价 Listing Price: CNY 5747.00
+
+立即购买 >> BUY NOW >>
+
+### 域名交易方式：
+
+## 联系我们
+
+4.cn is a world leading domain escrow service platform and ICANN-Accredited Registrar, with 6 years rich experience in domain name brokerage and over 300 million RMB transaction volume every year. We promise our clients with professional, safe and easy third-party service. The whole transaction process may take 5 workdays
+
+For detailed process, you can “visit here” or contact support@goldenname.com
+
+BUY NOW >>
+
+=== extract_text ===
+  "main": [["01050.com", "您正在访问的域名可以转让!This domain name is for sale!", "一口价出售中!", "域名Domain Name: 01050.com", "售价Listing Price: CNY 5747.00", "立即购买>>", "BUY NOW>>", "域名交易方式:", "联系我们", "QQ:2726103981", "通过金名网(4.cn) 中介交易", "金名网(4.cn)是全球领先的域名交易服务机构,同时也是Icann认证的注册商,拥有六年的域名交易经验,年交易额达3亿元以上。我们承诺,提供简单、安全、专业的第三方服务! 为了保证交易的安全,整个交易过程大概需要5个工作日。", "具体交易流程可", "“点击这里”", "查看或咨询support@goldenname.com。", "我要购买>>", "Process Overview: 4.cn is a world leading domain escrow service platform and ICANN-Accredited Registrar, with 6 years rich experience in domain name brokerage and over 300 million RMB transaction volume every year. We promise our clients with professional, safe and easy third-party service. The whole transaction process may take 5 workdays.", "For detailed process, you can", "“visit here”", "or contact support@goldenname.com.", "BUY NOW>>", "Copyright © 1998", "2025 www.01050.com All Rights Reserved"]]
+
+=== tag_html_contents(title) ===
+<title>www.01050.com-官网首页</title>
+
+=== html_contents ===
+<html dir="ltr"><head><link href="data:;base64,iVBORw0KGgo=" rel="icon"><meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+        <title>www.01050.com-官网首页</title>
+    </head>
+    <body>
+        <p>
+        <meta content="01050.com" name="keywords">
+        <meta content="01050.com" name="description">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <link href="https://www.4.cn/img/style.css" rel="stylesheet" type="text/css">
+        <link href="https://www.4.cn/template/stencil.css" rel="stylesheet" type="text/css"></p>
+        <p>&nbsp;</p>
+        <div class="a-header">
+        <div class="a-banner stencil-overall">
+        <div class="name">
+        <h2 class="domain-name">01050.com</h2>
+        <p>您正在访问的域名可以转让!This domain name is for sale!&nbsp;</p>
+        </div>
+        <div>
+        <div class="l">
+        <p>一口价出售中！</p>
+        <p><span>域名<i>Domain Name:</i></span><em>01050.com</em></p>
+        <p><span>售价<i>Listing Price:</i></span><em>CNY 5747.00</em></p>
+        <p><a class="buy" href="http://www.4.cn/search/detail/pid/34948605/ref/11999" style="float: left" title="Buy Now">立即购买<i>&gt;&gt;</i></a> &nbsp;&nbsp; <a class="buy" href="http://www.4.cn/search/detail/pid/34948605/ref/11999" style="float: left" title="Buy Now">BUY NOW<i>&gt;&gt;</i></a></p>
+        <p>&nbsp;</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <p>&nbsp;</p>
+        <p style="text-align: center">&nbsp;</p>
+        <p>&nbsp;</p>
+        <div class="a-content clearfix">
+        <div class="stencil-overall">
+        <h3>域名交易方式：</h3>
+        <div class="l"><a href="http://www.4.cn/company/contactus" title="联系我们"><img alt="" src="http://www.4.cn/template/images/a-pic.jpg"></a>
+        <div style="line-height: 25px; padding-top: 20px">
+        <h2>联系我们</h2>
+        <dl>
+            <p>&nbsp;</p>
+            <dd>QQ：2726103981</dd>
+        </dl>
+        </div>
+        </div>
+        <div class="r info">
+        <p class="color">通过金名网(4.cn) 中介交易</p>
+        <p>金名网(4.cn)是全球领先的域名交易服务机构，同时也是Icann认证的注册商，拥有六年的域名交易经验，年交易额达3亿元以上。我们承诺，提供简单、安全、专业的第三方服务！ 为了保证交易的安全，整个交易过程大概需要5个工作日。</p>
+        <p>具体交易流程可<a href="http://www.4.cn/search/detail/pid/34948605/ref/11999" title="咨询">“点击这里”</a>查看或咨询support@goldenname.com。</p>
+        <p><a class="buy" href="http://www.4.cn/search/detail/pid/34948605/ref/11999" title="我要购买">我要购买<i>&gt;&gt;</i></a></p>
+        <p class="color pt">Process Overview:</p>
+        <p>4.cn is a world leading domain escrow service platform and ICANN-Accredited Registrar, with 6 years rich experience in domain name brokerage and over 300 million RMB transaction volume every year. We promise our clients with professional, safe and easy third-party service. The whole transaction process may take 5 workdays.</p>
+        <p>For detailed process, you can <a href="http://www.4.cn/search/detail/pid/34948605/ref/11999" title="contact">“visit here”</a> or contact support@goldenname.com.</p>
+        <p><a class="buy" href="http://www.4.cn/search/detail/pid/34948605/ref/11999" title="BUY NOW">BUY NOW<i>&gt;&gt;</i></a></p>
+        </div>
+        </div>
+        </div>
+        <div class="bottom stencil-overall">Copyright © 1998 -2025 www.01050.com All Rights Reserved </div>
+    <div style="display:none"></div>
+</body></html>
+

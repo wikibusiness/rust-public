@@ -1,0 +1,93 @@
+=== get_lang ===
+en
+
+=== get_meta_titles ===
+  "title": "Parking Page"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+[""]
+
+=== get_links ===
+[("", "Still have questions? Talk to us in live chat")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": ["yourwebsite.com"]
+  "h2": ["Do you own this domain?", "Frequently asked questions"]
+  "h3": ["Like this domain?", "Who is Spaceship for?", "How do I choose the right domain name?", "Why do I need a domain to build a website?", "What is Unbox™?", "What is Spacemail?"]
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["Parking Page", "Log in to your account", "Find your perfect match", "Still have questions? Talk to us in live chat", "The entirety of this site is protected by copyright © Spaceship, Inc since 2019"]
+
+=== get_sentences.p ===
+["It’s the technical magic that connects your products and services together. Unbox™ means you can choose exactly what you need for your website, project, or business and have it configured and ready to go in a few moments. Plus you can manage it all more easily in one place — your Launchpad. It also means you can mix, match, and connect new products and services as your website, project, or business grows", "Spaceship is for anyone who wants to get online, but who also wants the freedom to build their digital world without being locked into ‘standard’ mass-market website builders. You get to choose and connect the domain, hosting, email you want, and keep connecting new services and tools as you (and indeed, we) grow", "Really, you aren’t just getting a website address. You’re creating an online brand. Checking which domain names are available is a crucial step in deciding on business names in today’s digital world. So it needs careful thought up front. That’s why we start your website journey with a domain name", "Spacemail is the next step (make that giant leap) in email technology. It combines advanced tools with simple controls — the best of both worlds. It’s got AI-powered spam filtering. Everything has been specially designed to give businesses smart and secure email to protect data, people, and websites", "The best domain name is one that is easy to spell and short in length. It’s your online identity so you need to select one that accurately represents your brand. Consider future-proofing your domain name by avoiding trendy words, as your business may expand", "It’s the best first step. Your domain name is essentially your website’s address. It marks your piece of the internet and makes sure people can find your website when they need to. For your brand and business, though, it can be far more important", "Your domain has expired. Please log in to your Spaceship account to renew it. If you don’t, it will be deleted and made available for public registration"]
+
+=== get_sentences.meta_titles ===
+  "title": "Parking Page"
+
+=== get_sentences.href_attributes ===
+[""]
+
+=== get_sentences.text_nodes ===
+[["Parking Page", "yourwebsite.com", "Registered at", "Do you own this domain?", "Your domain has expired. Please log in to your Spaceship account to renew it. If you don’t, it will be deleted and made available for public registration.", "Log in to your account", "Like this domain?", "Find your perfect match", "Frequently asked questions", "Who is Spaceship for?", "Spaceship is for anyone who wants to get online, but who also wants the freedom to build their digital world without being locked into ‘standard’ mass-market website builders. You get to choose and connect the domain, hosting, email you want, and keep connecting new services and tools as you (and indeed, we) grow.", "How do I choose the right domain name?", "The best domain name is one that is easy to spell and short in length. It’s your online identity so you need to select one that accurately represents your brand. Consider future-proofing your domain name by avoiding trendy words, as your business may expand.", "Why do I need a domain to build a website?", "It’s the best first step. Your domain name is essentially your website’s address. It marks your piece of the internet and makes sure people can find your website when they need to. For your brand and business, though, it can be far more important.", "Really, you aren’t just getting a website address. You’re creating an online brand. Checking which domain names are available is a crucial step in deciding on business names in today’s digital world. So it needs careful thought up front. That’s why we start your website journey with a domain name.", "What is Unbox™?", "It’s the technical magic that connects your products and services together. Unbox™ means you can choose exactly what you need for your website, project, or business and have it configured and ready to go in a few moments. Plus you can manage it all more easily in one place — your Launchpad. It also means you can mix, match, and connect new products and services as your website, project, or business grows.", "What is Spacemail?", "Spacemail is the next step (make that giant leap) in email technology. It combines advanced tools with simple controls — the best of both worlds. It’s got AI-powered spam filtering. Everything has been specially designed to give businesses smart and secure email to protect data, people, and websites.", "Still have questions? Talk to us in live chat The entirety of this site is protected by copyright © Spaceship, Inc since 2019"]]
+
+=== get_markdown ===
+# yourwebsite.com
+
+## Do you own this domain?
+
+Your domain has expired. Please log in to your Spaceship account to renew it. If you don’t, it will be deleted and made available for public registration
+
+### Like this domain?
+
+## Frequently asked questions
+
+### Who is Spaceship for?
+
+Spaceship is for anyone who wants to get online, but who also wants the freedom to build their digital world without being locked into ‘standard’ mass-market website builders. You get to choose and connect the domain, hosting, email you want, and keep connecting new services and tools as you (and indeed, we) grow
+
+### How do I choose the right domain name?
+
+The best domain name is one that is easy to spell and short in length. It’s your online identity so you need to select one that accurately represents your brand. Consider future-proofing your domain name by avoiding trendy words, as your business may expand
+
+### Why do I need a domain to build a website?
+
+It’s the best first step. Your domain name is essentially your website’s address. It marks your piece of the internet and makes sure people can find your website when they need to. For your brand and business, though, it can be far more important
+
+Really, you aren’t just getting a website address. You’re creating an online brand. Checking which domain names are available is a crucial step in deciding on business names in today’s digital world. So it needs careful thought up front. That’s why we start your website journey with a domain name
+
+### What is Unbox™?
+
+It’s the technical magic that connects your products and services together. Unbox™ means you can choose exactly what you need for your website, project, or business and have it configured and ready to go in a few moments. Plus you can manage it all more easily in one place — your Launchpad. It also means you can mix, match, and connect new products and services as your website, project, or business grows
+
+### What is Spacemail?
+
+Spacemail is the next step (make that giant leap) in email technology. It combines advanced tools with simple controls — the best of both worlds. It’s got AI-powered spam filtering. Everything has been specially designed to give businesses smart and secure email to protect data, people, and websites
+
+=== extract_text ===
+  "footer": [["The entirety of this site is protected by copyright © Spaceship, Inc since 2019"]]
+  "main": [["yourwebsite.com", "Registered at", "Do you own this domain?", "Your domain has expired. Please log in to your Spaceship account to renew it. If you don’t, it will be deleted and made available for public registration.", "Log in to your account", "Like this domain?", "Find your perfect match", "Frequently asked questions", "Who is Spaceship for?", "Spaceship is for anyone who wants to get online, but who also wants the freedom to build their digital world without being locked into ‘standard’ mass-market website builders. You get to choose and connect the domain, hosting, email you want, and keep connecting new services and tools as you (and indeed, we) grow.", "How do I choose the right domain name?", "The best domain name is one that is easy to spell and short in length. It’s your online identity so you need to select one that accurately represents your brand. Consider future-proofing your domain name by avoiding trendy words, as your business may expand.", "Why do I need a domain to build a website?", "It’s the best first step. Your domain name is essentially your website’s address. It marks your piece of the internet and makes sure people can find your website when they need to. For your brand and business, though, it can be far more important.", "Really, you aren’t just getting a website address. You’re creating an online brand. Checking which domain names are available is a crucial step in deciding on business names in today’s digital world. So it needs careful thought up front. That’s why we start your website journey with a domain name.", "What is UnboxTM?", "It’s the technical magic that connects your products and services together. UnboxTM means you can choose exactly what you need for your website, project, or business and have it configured and ready to go in a few moments. Plus you can manage it all more easily in one place — your Launchpad. It also means you can mix, match, and connect new products and services as your website, project, or business grows.", "What is Spacemail?", "Spacemail is the next step (make that giant leap) in email technology. It combines advanced tools with simple controls — the best of both worlds. It’s got AI-powered spam filtering. Everything has been specially designed to give businesses smart and secure email to protect data, people, and websites.", "Still have questions? Talk to us in live chat"]]
+
+=== tag_html_contents(title) ===
+<title>Parking Page</title>
+
+=== html_contents ===
+<!DOCTYPE html><html data-sds-mode="light" lang="en"><head><meta charset="UTF-8"><meta content="width=device-width,initial-scale=1" name="viewport"><title>Parking Page</title><link href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsSAAALEgHS3X78AAABj0lEQVRYhe2XwXGDMBBFfzK5Jx3Y7sBnXexUIEpICe4gSQdOB5RgKgi5cE4HSTqwK8AjWDECs7CSUcghfwYzFsvusvskwU1ZlphTt7NG/wsJ3IXcpDTWAF4AaBrKzP8iw6evL28GlMYSqALddy6dAKyLDN8+/kJasO8JDhrb+zrzqoDS2AJ4HzF7LDLkUp++FUgnsvFPQOkKuoXAdEG2IolaMAAeJzGQ0gpw4HESAzlaASF4nEaBlFTACyrfewcT8ACP0yiQbAsCwOM0CORQBdIJgoN8sK3oTUBpJAA2EwS32pDPC120QGk8UOmv6X2ffqgVR/daXwV2EYKDfO66g60KEHhfEYK7WrlAditwzZyXqhWjSSACeJxaQFYtiAgepwZIW4FY4HFqgHQT+G1VMW0LQr9OPugcys4q5LXcvIIfzGEXFWIooUOPu6hlpqNN4BXAM2N3sgEB5N2VDLWjI02vlJLZOglx+8mb+WkWIto2nwgQQ2lOT3mQPlGfaMollJT1nRZZvU3/f5zOmwCAM25mhAUkYQn5AAAAAElFTkSuQmCC" rel="icon" sizes="any"></head><body><main class="gb-scope-sds sps-parkingpage"><section class="sps-parkingpage__hero gb-container gb-typography-inverted gb-text-center gb-text-md-left"><h1 class="sps-parkingpage__hero-domain-name gb-text-break" id="hostname">yourwebsite.com</h1><div class="gb-row gb-row--middle gb-row--gutter-sm gb-pb-6"><div class="gb-col-12 gb-col-md-auto"><p class="sps-parkingpage__hero-subtitle gb-mb-md-0">Registered at</p></div><div class="gb-col-12 gb-col-md-auto"></div></div><div class="gb-row gb-row--middle gb-row--between gb-pt-1"><div class="gb-col-12 gb-col-lg-7 gb-pb-6 gb-pb-lg-0"><h2 class="sps-parkingpage__hero-title">Do you own this domain?</h2><p class="sps-parkingpage__hero-subtitle">Your domain has expired. Please log in to your Spaceship account to renew it. If you don’t, it will be deleted and made available for public registration.</p><button class="gb-button gb-button--brand gb-button--lg" onclick="window.location.href='https://www.spaceship.com/auth/';" type="button"><span class="gb-button__text">Log in to your account</span></button></div><div class="gb-col-12 gb-col-lg-5 gb-col-hg-4 gb-pt-1 gb-pt-lg-0"><div class="gb-card"><div class="gb-card__container"><h3 class="sps-parkingpage__hero-card-title">Like this domain?</h3><button class="gb-button gb-button--gray-inverted gb-button--lg" onclick="window.location.href='https://www.spaceship.com/';" type="button"><span class="gb-button__text">Find your perfect match</span></button></div></div></div></div></section><section class="sps-parkingpage__faq gb-container gb-typography-inverted"><div class="sps-parkingpage__faq-wrapper"><h2 class="sps-parkingpage__heading sps-parkingpage__faq-title">Frequently asked questions</h2><h3 class="sps-parkingpage__faq-question">Who is Spaceship for?</h3><p class="sps-parkingpage__faq-answer">Spaceship is for anyone who wants to get online, but who also wants the freedom to build their digital world without being locked into ‘standard’ mass-market website builders. You get to choose and connect the domain, hosting, email you want, and keep connecting new services and tools as you (and indeed, we) grow.</p><h3 class="sps-parkingpage__faq-question">How do I choose the right domain name?</h3><p class="sps-parkingpage__faq-answer">The best domain name is one that is easy to spell and short in length. It’s your online identity so you need to select one that accurately represents your brand. Consider future-proofing your domain name by avoiding trendy words, as your business may expand.</p><h3 class="sps-parkingpage__faq-question">Why do I need a domain to build a website?</h3><p class="sps-parkingpage__faq-answer">It’s the best first step. Your domain name is essentially your website’s address. It marks your piece of the internet and makes sure people can find your website when they need to. For your brand and business, though, it can be far more important.</p><p class="sps-parkingpage__faq-answer">Really, you aren’t just getting a website address. You’re creating an online brand. Checking which domain names are available is a crucial step in deciding on business names in today’s digital world. So it needs careful thought up front. That’s why we start your website journey with a domain name.</p><h3 class="sps-parkingpage__faq-question">What is Unbox™?</h3><p class="sps-parkingpage__faq-answer">It’s the technical magic that connects your products and services together. Unbox™ means you can choose exactly what you need for your website, project, or business and have it configured and ready to go in a few moments. Plus you can manage it all more easily in one place — your Launchpad. It also means you can mix, match, and connect new products and services as your website, project, or business grows.</p><h3 class="sps-parkingpage__faq-question">What is Spacemail?</h3><p class="sps-parkingpage__faq-answer">Spacemail is the next step (make that giant leap) in email technology. It combines advanced tools with simple controls — the best of both worlds. It’s got AI-powered spam filtering. Everything has been specially designed to give businesses smart and secure email to protect data, people, and websites.</p><a class="gb-link gb-link-inverted sps-parkingpage__faq-link" onclick="window.location.href='https://www.spaceship.com/';">Still have questions? Talk to us in live chat </a></div></section><footer class="sps-parkingpage__footer gb-typography-inverted"><div class="gb-container gb-py-5"><div class="gb-row gb-row--no-gutters gb-row--middle"><div class="gb-col-auto gb-pr-md-6 gb-pb-4 gb-pb-md-0"></div><span class="gb-col-12 gb-col-md-auto gb-text-small">The entirety of this site is protected by copyright © Spaceship, Inc since 2019</span></div></div></footer></main></body></html>
+
