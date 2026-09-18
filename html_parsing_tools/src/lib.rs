@@ -1,4 +1,6 @@
 mod extract_text;
+#[cfg(test)]
+mod golden_tests;
 mod regularize;
 mod text_nodes;
 mod utils;
@@ -60,6 +62,11 @@ struct GetSentencesResult {
     other: Vec<String>,
     p: Vec<String>,
     text_nodes: Vec<Vec<String>>,
+    // Same parse as everything else above -- a caller that already has a
+    // GetSentencesResult for a page should read these instead of calling
+    // get_meta_titles/get_href_attributes and reparsing the page's HTML.
+    meta_titles: HashMap<String, String>,
+    href_attributes: Vec<String>,
 }
 
 #[pyfunction]
@@ -75,6 +82,12 @@ fn get_sentences(
     let mut result = GetSentencesResult::default();
 
     let document = kuchiki::parse_html().one(html);
+
+    // Captured before any tag is removed below, so these match exactly what
+    // the standalone get_meta_titles/get_href_attributes calls would return
+    // for the same (untouched) HTML.
+    result.meta_titles = get_meta_titles_internal(&document);
+    result.href_attributes = get_href_attributes_internal(&document);
 
     let json_ld = get_json_ld(&document);
     if !json_ld.is_empty() {
@@ -187,23 +200,7 @@ fn get_sentences_parallel(
 #[pyfunction]
 fn get_href_attributes(html: String) -> PyResult<Vec<String>> {
     let document = kuchiki::parse_html().one(html);
-    // let mut links: Vec<String> = vec![];
-
-    let links: Vec<String> = document
-        .select("a")
-        .unwrap()
-        // .collect()
-        .map(|x| {
-            let attributes = x.attributes.borrow();
-            let href = attributes.get("href");
-            if href.is_none() {
-                return "".to_string();
-            }
-            href.unwrap().to_string()
-        })
-        .collect();
-
-    Ok(links)
+    Ok(get_href_attributes_internal(&document))
 }
 
 #[pyfunction]
@@ -243,29 +240,7 @@ fn get_emails(html: String) -> PyResult<Vec<String>> {
 #[pyfunction]
 fn get_meta_titles(html: String) -> PyResult<HashMap<String, String>> {
     let document = kuchiki::parse_html().one(html);
-    let mut result: HashMap<String, String> = HashMap::new();
-    let tag_nodes = document.select("meta").unwrap();
-    for tag_node in tag_nodes.collect::<Vec<_>>() {
-        let attributes: std::cell::Ref<kuchiki::Attributes> = tag_node.attributes.borrow();
-        let name_attribute = attributes.get("name").unwrap_or("");
-        if name_attribute == "twitter:title" || name_attribute == "og:title" {
-            let content = attributes.get("content").unwrap_or("").to_string();
-            if content.is_empty() {
-                continue;
-            }
-            result.insert(name_attribute.to_string(), content);
-        }
-    }
-    let tag_nodes: kuchiki::iter::Select<kuchiki::iter::Elements<kuchiki::iter::Descendants>> =
-        document.select("title").unwrap();
-    for tag_node in tag_nodes.collect::<Vec<_>>() {
-        result.insert(
-            "title".to_string(),
-            get_text_string(tag_node.as_node(), " "),
-        );
-    }
-
-    Ok(result)
+    Ok(get_meta_titles_internal(&document))
 }
 
 #[pyfunction]
@@ -484,6 +459,11 @@ mod tests {
             result.descriptions,
             ["meta description", "meta og:description"]
         );
+        // get_meta_titles only recognizes <meta name="og:title"/"twitter:title">,
+        // not property= (that's get_descriptions' job, and it does check both) --
+        // HTML's own og:title tag above uses property=, so it's correctly absent here.
+        assert!(result.meta_titles.is_empty());
+        assert_eq!(result.href_attributes, ["mailto:homeas@home.dk"]);
 
         let result = get_sentences(
             "<html><head></head></html>".to_string(),
@@ -604,6 +584,45 @@ mod tests {
 
         assert_eq!(result[0].text_nodes, text_nodes);
         assert_eq!(result[1].text_nodes, text_nodes);
+    }
+
+    #[test]
+    fn test_get_sentences_meta_titles_and_href_attributes_match_standalone_calls() {
+        // The whole point of carrying these on GetSentencesResult is that a
+        // caller who already parsed a page via get_sentences/get_sentences_parallel
+        // gets the same answer get_meta_titles/get_href_attributes would have
+        // given on a fresh parse of the same HTML, without reparsing it.
+        let html = HTML.to_string();
+
+        let sentences =
+            get_sentences(html.clone(), "_stop_", false, false, true, None).unwrap();
+        let standalone_meta_titles = get_meta_titles(html.clone()).unwrap();
+        let standalone_href_attributes = get_href_attributes(html).unwrap();
+
+        assert_eq!(sentences.meta_titles, standalone_meta_titles);
+        assert_eq!(sentences.href_attributes, standalone_href_attributes);
+        // Non-trivial, so this isn't just two empty collections trivially
+        // matching each other (HTML's meta tags use property=, which
+        // get_meta_titles doesn't match -- see test_get_sentences).
+        assert!(!sentences.href_attributes.is_empty());
+
+        // A page whose meta tags actually use name= (the form get_meta_titles
+        // does match) exercises the non-empty case for that field too.
+        let with_name_meta = "<html><head><meta name=\"og:title\" content=\"Meta Title\">\
+            <title>Page Title</title></head><body><a href=\"/a\">x</a></body></html>"
+            .to_string();
+        let sentences = get_sentences(
+            with_name_meta.clone(),
+            "_stop_",
+            false,
+            false,
+            true,
+            None,
+        )
+        .unwrap();
+        let standalone_meta_titles = get_meta_titles(with_name_meta).unwrap();
+        assert_eq!(sentences.meta_titles, standalone_meta_titles);
+        assert!(!sentences.meta_titles.is_empty());
     }
 
     #[test]

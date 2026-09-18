@@ -1,0 +1,388 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": "臺灣普旭實業有限公司"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["#", "/cn", "/index.php", "/en", "user.php?act=login", "user.php?act=register", "flow.php", "flow.php", "index.php", "article.php?id=15", "article.php?id=33", "article.php?id=20", "productlist.php?id=5", "category.php?id=1", "category.php?id=36", "category.php?id=48", "category.php?id=49", "category.php?id=50", "category.php?id=51", "category.php?id=52", "category.php?id=39", "category.php?id=40", "category.php?id=41", "category.php?id=57", "category.php?id=47", "category.php?id=58", "category.php?id=5", "category.php?id=6", "category.php?id=26", "category.php?id=53", "category.php?id=55", "category.php?id=23", "category.php?id=37", "category.php?id=25", "category.php?id=38", "category.php?id=42", "category.php?id=43", "category.php?id=44", "category.php?id=4", "category.php?id=34", "category.php?id=35", "category.php?id=45", "category.php?id=46", "category.php?id=59", "message.php", "user.php", "article.php?id=19", "productlist.php?id=5", "product.php?id=257", "product.php?id=257", "product.php?id=1503", "product.php?id=1503", "product.php?id=1869", "product.php?id=1869", "product.php?id=1868", "product.php?id=1868", "product.php?id=1867", "product.php?id=1867", "product.php?id=1866", "product.php?id=1866", "article_cat.php?id=4", "article.php?id=26", "article.php?id=25", "article.php?id=24", "article.php?id=23", "article_cat.php?id=5", "article.php?id=36", "article.php?id=35", "article.php?id=34", "article.php?id=14", "article.php?id=13", "article.php?id=11", "article_cat.php?id=6", "article.php?id=32", "article.php?id=31", "article.php?id=30", "article.php?id=29", "article.php?id=19", "skype:pushcoltd2?chat", "http://www.facebook.com/profile.php?id=100004058653515", "https://twitter.com/pushcoltd", "http://www.youtube.com/channel/UCUJ3lvSCf7Ges7XJAVzZd0w?feature=mhee", "index.php", "skype:pushcoltd2?chat", "flow.php", "#"]
+
+=== get_links ===
+[("#", ""), ("/cn", "简体"), ("/index.php", "繁体"), ("/en", "English"), ("user.php?act=login", "登錄"), ("user.php?act=register", "注册"), ("flow.php", "結賬"), ("flow.php", "購物車: (0)"), ("index.php", "首頁"), ("article.php?id=15", "關於我們"), ("article.php?id=33", "> 關於我們"), ("article.php?id=20", "公司簡介"), ("productlist.php?id=5", "産品展示"), ("category.php?id=1", "網上商城"), ("category.php?id=36", "地震防災用品"), ("category.php?id=48", "餐廚用品"), ("category.php?id=49", "碗筷/餐具/便當盒"), ("category.php?id=50", "精緻禮盒"), ("category.php?id=51", "廚房用具"), ("category.php?id=52", "茶壺/保溫杯/杯子"), ("category.php?id=39", "機能面料衣褲"), ("category.php?id=40", "機能面料衣褲(女)"), ("category.php?id=41", "機能面料衣褲(男)"), ("category.php?id=57", "帽子/背心/面罩/圍脖"), ("category.php?id=47", "居家生活用品"), ("category.php?id=58", "皮夾錢包"), ("category.php?id=5", "旅行休閒用品"), ("category.php?id=6", "便攜旅游用品"), ("category.php?id=26", "精緻玩家手電"), ("category.php?id=53", "折疊車/海關鎖(吊牌)"), ("category.php?id=55", "行李箱拖運套"), ("category.php?id=23", "背包類"), ("category.php?id=37", "戶外登山露營用品"), ("category.php?id=25", "登山包/野餐包/折疊桌椅"), ("category.php?id=38", "吊床/睡袋/睡墊/枕頭"), ("category.php?id=42", "帳篷 / 登山杖"), ("category.php?id=43", "露營燈/手電筒/登山配件"), ("category.php?id=44", "運動休閒用品"), ("category.php?id=4", "汽車用品"), ("category.php?id=34", "自行車用品"), ("category.php?id=35", "自行車工具類"), ("category.php?id=45", "自行車包類"), ("category.php?id=46", "自行車燈"), ("category.php?id=59", "自行車周邊用品"), ("message.php", "保固註冊"), ("user.php", "會員中心"), ("article.php?id=19", "聯絡我們"), ("productlist.php?id=5", "+more"), ("product.php?id=257", ""), ("product.php?id=257", "PUSH!機能面料 衣可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12"), ("product.php?id=1503", ""), ("product.php?id=1503", "PUSH!機能面料衣 可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12軍綠色"), ("product.php?id=1869", ""), ("product.php?id=1869", "PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 寶寶 老人專用食物小剪刀 D407"), ("product.php?id=1868", ""), ("product.php?id=1868", "PUSH!廚房用品多功能可拆卸雞骨剪 加厚剪刀 全鋼強力多用途烤肉家禽剪刀工 D404"), ("product.php?id=1867", ""), ("product.php?id=1867", "PUSH!廚房用品 廚房擦絲器 七刀切菜器 切條機切丁器多功能刨絲器馬鈴薯切絲器 D405"), ("product.php?id=1866", ""), ("product.php?id=1866", "PUSH!廚房用品 廚房擦絲器 六刀切菜器 切條機 多功能刨絲器馬鈴薯絲切絲器 D403"), ("article_cat.php?id=4", "新聞中心"), ("article.php?id=26", "Sell energy saving d..."), ("article.php?id=25", "holidy promotion"), ("article.php?id=24", "leave message"), ("article.php?id=23", "Sell Car diagnostic ..."), ("article_cat.php?id=5", "客戶服務"), ("article.php?id=36", "> 購物須知"), ("article.php?id=35", "> 註冊流程"), ("article.php?id=34", "> 購物流程"), ("article.php?id=14", "> 密碼修改及取回"), ("article.php?id=13", "> 配送/付款方式說明"), ("article.php?id=11", ">售後維修服務"), ("article_cat.php?id=6", "網站資訊"), ("article.php?id=32", "> 隱私權政策"), ("article.php?id=31", "> 服務條款"), ("article.php?id=30", "> 常見問題解答"), ("article.php?id=29", ">  招賢納士"), ("article.php?id=19", "聯絡我們"), ("skype:pushcoltd2?chat", "pushcoltd2"), ("http://www.facebook.com/profile.php?id=100004058653515", "Facebook"), ("https://twitter.com/pushcoltd", "Twitter"), ("http://www.youtube.com/channel/UCUJ3lvSCf7Ges7XJAVzZd0w?feature=mhee", "YouTube"), ("index.php", ""), ("skype:pushcoltd2?chat", ""), ("flow.php", ""), ("#", "")]
+
+=== get_emails ===
+["push.bon@msa.hinet.net", "service@007push.com.tw"]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": ["最新上市", "新聞中心", "客戶服務", "網站資訊", "聯絡訊息", "聯絡我們"]
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["臺灣普旭實業有限公司", "简体", "|", "繁体", "|", "English", "登錄", "注册", "結賬", "購物車: (0)", "首頁", "關於我們", "> 關於我們", "公司簡介", "産品展示", "網上商城", "地震防災用品", "餐廚用品", "碗筷/餐具/便當盒", "精緻禮盒", "廚房用具", "茶壺/保溫杯/杯子", "機能面料衣褲", "機能面料衣褲(女)", "機能面料衣褲(男)", "帽子/背心/面罩/圍脖", "居家生活用品", "皮夾錢包", "旅行休閒用品", "便攜旅游用品", "精緻玩家手電", "折疊車/海關鎖(吊牌)", "行李箱拖運套", "背包類", "戶外登山露營用品", "登山包/野餐包/折疊桌椅", "吊床/睡袋/睡墊/枕頭", "帳篷 / 登山杖", "露營燈/手電筒/登山配件", "運動休閒用品", "汽車用品", "自行車用品", "自行車工具類", "自行車包類", "自行車燈", "自行車周邊用品", "保固註冊", "會員中心", "聯絡我們", "Next", "Previous", "+more", "Sell energy saving d...", "holidy promotion", "leave message", "Sell Car diagnostic ...", "> 購物須知", "> 註冊流程", "> 購物流程", "> 密碼修改及取回", "> 配送/付款方式說明", ">售後維修服務", "> 隱私權政策", "> 服務條款", "> 常見問題解答", ">  招賢納士", "聯絡我們", "service@007push.com.tw", "+886-37-370307", "pushcoltd2", "Facebook", "Twitter", "YouTube"]
+
+=== get_sentences.p ===
+["PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 寶寶 老人專用食物小剪刀 D407"]
+
+=== get_sentences.meta_titles ===
+  "title": "臺灣普旭實業有限公司"
+
+=== get_sentences.href_attributes ===
+["#", "/cn", "/index.php", "/en", "user.php?act=login", "user.php?act=register", "flow.php", "flow.php", "index.php", "article.php?id=15", "article.php?id=33", "article.php?id=20", "productlist.php?id=5", "category.php?id=1", "category.php?id=36", "category.php?id=48", "category.php?id=49", "category.php?id=50", "category.php?id=51", "category.php?id=52", "category.php?id=39", "category.php?id=40", "category.php?id=41", "category.php?id=57", "category.php?id=47", "category.php?id=58", "category.php?id=5", "category.php?id=6", "category.php?id=26", "category.php?id=53", "category.php?id=55", "category.php?id=23", "category.php?id=37", "category.php?id=25", "category.php?id=38", "category.php?id=42", "category.php?id=43", "category.php?id=44", "category.php?id=4", "category.php?id=34", "category.php?id=35", "category.php?id=45", "category.php?id=46", "category.php?id=59", "message.php", "user.php", "article.php?id=19", "productlist.php?id=5", "product.php?id=257", "product.php?id=257", "product.php?id=1503", "product.php?id=1503", "product.php?id=1869", "product.php?id=1869", "product.php?id=1868", "product.php?id=1868", "product.php?id=1867", "product.php?id=1867", "product.php?id=1866", "product.php?id=1866", "article_cat.php?id=4", "article.php?id=26", "article.php?id=25", "article.php?id=24", "article.php?id=23", "article_cat.php?id=5", "article.php?id=36", "article.php?id=35", "article.php?id=34", "article.php?id=14", "article.php?id=13", "article.php?id=11", "article_cat.php?id=6", "article.php?id=32", "article.php?id=31", "article.php?id=30", "article.php?id=29", "article.php?id=19", "skype:pushcoltd2?chat", "http://www.facebook.com/profile.php?id=100004058653515", "https://twitter.com/pushcoltd", "http://www.youtube.com/channel/UCUJ3lvSCf7Ges7XJAVzZd0w?feature=mhee", "index.php", "skype:pushcoltd2?chat", "flow.php", "#"]
+
+=== get_sentences.text_nodes ===
+[["臺灣普旭實業有限公司"], ["简体", "繁体", "English", "登錄", "注册", "結賬", "購物車: (0)"], ["首頁", "關於我們", "> 關於我們", "公司簡介"], ["産品展示"], ["網上商城"], ["地震防災用品"], ["餐廚用品", "碗筷/餐具/便當盒", "精緻禮盒", "廚房用具", "茶壺/保溫杯/杯子"], ["機能面料衣褲", "機能面料衣褲(女)", "機能面料衣褲(男)", "帽子/背心/面罩/圍脖"], ["居家生活用品"], ["皮夾錢包"], ["旅行休閒用品", "便攜旅游用品", "精緻玩家手電", "折疊車/海關鎖(吊牌)", "行李箱拖運套", "背包類"], ["戶外登山露營用品", "登山包/野餐包/折疊桌椅", "吊床/睡袋/睡墊/枕頭", "帳篷 / 登山杖", "露營燈/手電筒/登山配件"], ["運動休閒用品"], ["汽車用品"], ["自行車用品", "自行車工具類", "自行車包類", "自行車燈", "自行車周邊用品"], ["保固註冊", "會員中心", "聯絡我們"], ["Next"], ["Previous"], ["+more", "最新上市"], ["PUSH!機能面料 衣可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12"], ["PUSH!機能面料衣 可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12軍綠色"], ["PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 寶寶 老人專用食物小剪刀 D407"], ["PUSH!廚房用品多功能可拆卸雞骨剪 加厚剪刀 全鋼強力多用途烤肉家禽剪刀工 D404"], ["PUSH!廚房用品 廚房擦絲器 七刀切菜器 切條機切丁器多功能刨絲器馬鈴薯切絲器 D405"], ["PUSH!廚房用品 廚房擦絲器 六刀切菜器 切條機 多功能刨絲器馬鈴薯絲切絲器 D403"], ["新聞中心", "Sell energy saving d...", "holidy promotion", "leave message", "Sell Car diagnostic..."], ["客戶服務", "> 購物須知", "> 註冊流程", "> 購物流程", "> 密碼修改及取回", "> 配送/付款方式說明", ">售後維修服務"], ["網站資訊", "> 隱私權政策", "> 服務條款", "> 常見問題解答", "> 招賢納士", "聯絡我們"], ["聯絡訊息", "service@007push.com.tw", "+886-37-370307", "pushcoltd2"], ["聯絡我們", "Facebook", "Twitter", "YouTube"], ["Copyright © PUSH Innovation Co., Ltd. All Rights Reserved. Technical Support:Qingfeng Team"]]
+
+=== get_markdown ===
+## 最新上市
+
+PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 寶寶 老人專用食物小剪刀 D407
+
+## 新聞中心
+
+## 客戶服務
+
+## 網站資訊
+
+## 聯絡訊息
+
+## 聯絡我們
+
+=== extract_text ===
+  "main": [["简体", "繁体", "English", "登錄", "注册", "結賬", "購物車: (0)", "首頁", "關於我們", "> 關於我們", "公司簡介", "産品展示", "網上商城", "地震防災用品", "餐廚用品", "碗筷/餐具/便當盒", "精緻禮盒", "廚房用具", "茶壺/保溫杯/杯子", "機能面料衣褲", "機能面料衣褲(女)", "機能面料衣褲(男)", "帽子/背心/面罩/圍脖", "居家生活用品", "皮夾錢包", "旅行休閒用品", "便攜旅游用品", "精緻玩家手電", "折疊車/海關鎖(吊牌)", "行李箱拖運套", "背包類", "戶外登山露營用品", "登山包/野餐包/折疊桌椅", "吊床/睡袋/睡墊/枕頭", "帳篷 / 登山杖", "露營燈/手電筒/登山配件", "運動休閒用品", "汽車用品", "自行車用品", "自行車工具類", "自行車包類", "自行車燈", "自行車周邊用品", "保固註冊", "會員中心", "聯絡我們", "Next", "Previous", "+more", "最新上市", "PUSH!機能面料 衣可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12", "PUSH!機能面料衣 可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12軍綠色", "PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 寶寶 老人專用食物小剪刀 D407", "PUSH!廚房用品多功能可拆卸雞骨剪 加厚剪刀 全鋼強力多用途烤肉家禽剪刀工 D404", "PUSH!廚房用品 廚房擦絲器 七刀切菜器 切條機切丁器多功能刨絲器馬鈴薯切絲器 D405", "PUSH!廚房用品 廚房擦絲器 六刀切菜器 切條機 多功能刨絲器馬鈴薯絲切絲器 D403", "新聞中心", "Sell energy saving d...", "holidy promotion", "leave message", "Sell Car diagnostic...", "客戶服務", "> 購物須知", "> 註冊流程", "> 購物流程", "> 密碼修改及取回", "> 配送/付款方式說明", ">售後維修服務", "網站資訊", "> 隱私權政策", "> 服務條款", "> 常見問題解答", "> 招賢納士", "聯絡我們", "聯絡訊息", "service@007push.com.tw", "+886-37-370307", "pushcoltd2", "聯絡我們", "Facebook", "Twitter", "YouTube", "Copyright © PUSH Innovation Co., Ltd. All Rights Reserved. Technical Support:Qingfeng Team"]]
+
+=== tag_html_contents(title) ===
+<title>臺灣普旭實業有限公司</title>
+
+=== html_contents ===
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="ECSHOP v2.7.2" name="Generator">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="普旭 PUSH! 普旭實業有限公司 PUSH 戶外用品 餐廚用品" name="Keywords">
+<meta content="全場現貨,台灣快速出貨,禮品,團購,客制化.歡迎聯絡我們估價 公司名稱:普旭實業有限公司 統一編號:80617962 聯絡電話:037-370307 郵箱地址: push.bon@msa.hinet.net 地址:苗栗市府東路57號 工作時間:(周一至周五,早9:00~12:00,下午13:30~18:30) 有任何問題可聊聊先詢問唷!" name="Description">
+<title>臺灣普旭實業有限公司</title>
+<link href="favicon.ico" rel="shortcut icon">
+<link href="animated_favicon.gif" rel="icon" type="image/gif">
+<link href="feed.php" rel="alternate" title="RSS|臺灣普旭實業有限公司" type="application/rss+xml">
+<link href="themes/mpc/style.css" rel="stylesheet" type="text/css">
+
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG.js" ></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('div,img,p,ul,li,span,i,b,a,h2,h3,h4,strong,em,.first-menu a:hover');
+</script>
+<style type="text/css"> 
+html{background:url(themes/mpc/images/html.jpg) repeat}
+ #demo_r {position: absolute;} 
+#demo_r {top: expression(offsetParent.scrollTop + 300);} 
+</style> 
+<![endif]-->
+</head>
+<body>
+<div id="header">
+  <div class="logo"><a href="#"><iframe allowtransparency="true" frameborder="0" height="233" marginheight="0" marginwidth="0" scrolling="no" src="themes/mpc/flash.html" width="800"></iframe> </a></div>
+  <div class="head-top"> <span style="float:right"><a href="/cn">简体</a> | <a href="/index.php">繁体</a> | <a href="/en">English</a></span>
+    <ul class="head-top-menu">
+     <div id="append_parent"></div>
+      <li class="bg1"><a href="user.php?act=login" target="_blank">登錄</a></li>
+      <li class="bg2"><a href="user.php?act=register" target="_blank">注册</a></li>
+      <li class="bg3"><a href="flow.php">結賬</a></li>
+      <li class="bg4"><a href="flow.php">購物車: (0)</a></li>
+    </ul>
+    <div class="search">
+    <form action="search.php" id="advancedSearchForm" method="get" name="advancedSearchForm">
+    <input class="txt" id="keywords" name="keywords" type="text" value="">
+      <input class="btn" name="Submit" type="submit" value="">
+      </form>
+    </div>
+  
+  </div>
+  <ul class="first-menu" id="webmenu">
+    <li style="font-size:14px; font-weight:bold"><a href="index.php">首頁</a></li>
+    <li style="font-size:14px; font-weight:bold"><a href="article.php?id=15">關於我們</a>
+      <ul class="second-menu" id="subNews">
+           <li><a href="article.php?id=33" title="> 關於我們">&gt; 關於我們</a></li> 
+     <li><a href="article.php?id=20" title="公司簡介">公司簡介</a></li> 
+ 
+      </ul>
+    </li>
+ <li style="font-size:14px; font-weight:bold"><a href="productlist.php?id=5">産品展示</a>
+   <ul class="second-menu" id="subNews">
+              
+         
+        
+              
+         
+        
+              
+         
+        
+              
+         
+        
+         
+        
+      </ul>
+      </li>
+      
+     <li style="font-size:14px; font-weight:bold"><a href="category.php?id=1">網上商城</a>
+      <ul class="second-menu" id="subNews">
+         
+          
+         
+         
+                  <li>
+       <a href="category.php?id=36">地震防災用品</a>
+      
+          <ul class="third-menu">
+             
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=48">餐廚用品</a>
+      
+          <ul class="third-menu">
+                    <li><a href="category.php?id=49">碗筷/餐具/便當盒</a></li>
+               <li><a href="category.php?id=50">精緻禮盒</a></li>
+               <li><a href="category.php?id=51">廚房用具</a></li>
+               <li><a href="category.php?id=52">茶壺/保溫杯/杯子</a></li>
+        
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=39">機能面料衣褲</a>
+      
+          <ul class="third-menu">
+                    <li><a href="category.php?id=40">機能面料衣褲(女)</a></li>
+               <li><a href="category.php?id=41">機能面料衣褲(男)</a></li>
+               <li><a href="category.php?id=57">帽子/背心/面罩/圍脖</a></li>
+        
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=47">居家生活用品</a>
+      
+          <ul class="third-menu">
+             
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=58">皮夾錢包</a>
+      
+          <ul class="third-menu">
+             
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=5">旅行休閒用品</a>
+      
+          <ul class="third-menu">
+                    <li><a href="category.php?id=6">便攜旅游用品</a></li>
+               <li><a href="category.php?id=26">精緻玩家手電</a></li>
+               <li><a href="category.php?id=53">折疊車/海關鎖(吊牌)</a></li>
+               <li><a href="category.php?id=55">行李箱拖運套</a></li>
+               <li><a href="category.php?id=23">背包類</a></li>
+        
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=37">戶外登山露營用品</a>
+      
+          <ul class="third-menu">
+                    <li><a href="category.php?id=25">登山包/野餐包/折疊桌椅</a></li>
+               <li><a href="category.php?id=38">吊床/睡袋/睡墊/枕頭</a></li>
+               <li><a href="category.php?id=42">帳篷 / 登山杖</a></li>
+               <li><a href="category.php?id=43">露營燈/手電筒/登山配件</a></li>
+        
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=44">運動休閒用品</a>
+      
+          <ul class="third-menu">
+             
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=4">汽車用品</a>
+      
+          <ul class="third-menu">
+             
+          </ul>
+               </li>
+                    <li>
+       <a href="category.php?id=34">自行車用品</a>
+      
+          <ul class="third-menu">
+                    <li><a href="category.php?id=35">自行車工具類</a></li>
+               <li><a href="category.php?id=45">自行車包類</a></li>
+               <li><a href="category.php?id=46">自行車燈</a></li>
+               <li><a href="category.php?id=59">自行車周邊用品</a></li>
+        
+          </ul>
+               </li>
+             
+  
+         
+          
+         
+          
+         
+      </ul>
+    </li> 
+    
+  <li style="font-size:14px; font-weight:bold"><a href="message.php">保固註冊</a></li>
+ <li style="font-size:14px; font-weight:bold"><a href="user.php">會員中心</a></li>
+  <li style="font-size:14px; font-weight:bold"><a href="article.php?id=19">聯絡我們</a></li>
+  </ul>
+</div>
+<div class="bk10"></div>
+<div id="container-box">
+  
+  
+  <div class="lof-slidecontent" id="lofslidecontent45" style="width:920px; height:350px;">
+    <div class="preload">
+      <div></div>
+    </div>
+    
+    <div class="lof-main-outer" style="width:920px; height:350px;">
+      <ul class="lof-main-wapper">
+                             </ul>
+    </div>
+    
+    
+    <div class="lof-navigator-wapper">
+      <div class="lof-next" href="" onclick="return false">Next</div>
+      <div class="lof-navigator-outer">
+        <ul class="lof-navigator">
+                               </ul>
+      </div>
+      <div class="lof-previous" href="" onclick="return false">Previous</div>
+    </div>
+    
+  </div>
+</div>
+<div class="bk20"></div>
+<div id="content">
+  <div class="title"><a class="more" href="productlist.php?id=5" target="_blank">+more</a>
+    <h2><b></b>最新上市</h2>
+  </div>
+  <div class="index-list">
+    <ul>
+ 
+      <li>
+        <p class="index-list-pic"><a href="product.php?id=257"><img height="200" src="images/202012/thumb_img/257_thumb_G_1607621758770.jpg" width="260"></a></p>
+        <p class="index-list-tit"><a href="product.php?id=257">PUSH!機能面料 衣可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12</a></p>
+      </li>
+  
+      <li>
+        <p class="index-list-pic"><a href="product.php?id=1503"><img height="200" src="images/202207/thumb_img/1503_thumb_G_1658947223416.jpg" width="260"></a></p>
+        <p class="index-list-tit"><a href="product.php?id=1503">PUSH!機能面料衣 可拆卸防風帽背心 馬甲背心 透氣釣魚攝影背心馬甲F12軍綠色</a></p>
+      </li>
+  
+      <li>
+        <p class="index-list-pic"><a href="product.php?id=1869"><img height="200" src="images/202608/thumb_img/1869_thumb_G_1786411679769.jpg" width="260"></a></p>
+        <p class="index-list-tit"><a href="product.php?id=1869">PUSH!餐具用品 316不銹鋼輔食剪刀 叉 勺 夾 可拆卸洗外帶剪刀 寶寶 老人專用食物小剪刀 D407</a></p>
+      </li>
+  
+      <li>
+        <p class="index-list-pic"><a href="product.php?id=1868"><img height="200" src="images/202608/thumb_img/1868_thumb_G_1786323765819.jpg" width="260"></a></p>
+        <p class="index-list-tit"><a href="product.php?id=1868">PUSH!廚房用品多功能可拆卸雞骨剪 加厚剪刀 全鋼強力多用途烤肉家禽剪刀工 D404</a></p>
+      </li>
+  
+      <li>
+        <p class="index-list-pic"><a href="product.php?id=1867"><img height="200" src="images/202607/thumb_img/1867_thumb_G_1785261329084.jpg" width="260"></a></p>
+        <p class="index-list-tit"><a href="product.php?id=1867">PUSH!廚房用品 廚房擦絲器 七刀切菜器 切條機切丁器多功能刨絲器馬鈴薯切絲器 D405 </a></p>
+      </li>
+  
+      <li>
+        <p class="index-list-pic"><a href="product.php?id=1866"><img height="200" src="images/202607/thumb_img/1866_thumb_G_1785260913875.jpg" width="260"></a></p>
+        <p class="index-list-tit"><a href="product.php?id=1866">PUSH!廚房用品 廚房擦絲器 六刀切菜器 切條機 多功能刨絲器馬鈴薯絲切絲器 D403</a></p>
+      </li>
+     
+    </ul>
+  </div>
+</div>
+<div class="bk20"></div>
+<div class="footerbg">
+  <div id="footer">
+    <div class="help">
+      <div class="helpers1">
+        <h2><a href="article_cat.php?id=4">新聞中心</a></h2>
+        <ul> 
+              <li><a href="article.php?id=26" title="Sell energy saving device Fuel Saver and Battery Reviver">Sell energy saving d...</a></li> 
+     <li><a href="article.php?id=25" title="holidy promotion">holidy promotion</a></li> 
+     <li><a href="article.php?id=24" title="leave message">leave message</a></li> 
+     <li><a href="article.php?id=23" title="Sell Car diagnostic tool battery tester and charger for all">Sell Car diagnostic ...</a></li> 
+ 
+        </ul>
+      </div>
+      <div class="helpers2">
+        <h2><a href="article_cat.php?id=5">客戶服務</a></h2>
+        <ul>
+              <li><a href="article.php?id=36" title="> 購物須知">&gt; 購物須知</a></li> 
+     <li><a href="article.php?id=35" title="> 註冊流程">&gt; 註冊流程</a></li> 
+     <li><a href="article.php?id=34" title="> 購物流程">&gt; 購物流程</a></li> 
+     <li><a href="article.php?id=14" title="> 密碼修改及取回">&gt; 密碼修改及取回</a></li> 
+     <li><a href="article.php?id=13" title="> 配送/付款方式說明">&gt; 配送/付款方式說明</a></li> 
+     <li><a href="article.php?id=11" title=">售後維修服務">&gt;售後維修服務</a></li> 
+ 
+        </ul>
+      </div>
+      <div class="helpers2">
+        <h2><a href="article_cat.php?id=6">網站資訊</a></h2>
+        <ul>
+              <li><a href="article.php?id=32" title="> 隱私權政策">&gt; 隱私權政策</a></li> 
+     <li><a href="article.php?id=31" title="> 服務條款">&gt; 服務條款</a></li> 
+     <li><a href="article.php?id=30" title="> 常見問題解答">&gt; 常見問題解答</a></li> 
+     <li><a href="article.php?id=29" title=">  招賢納士">&gt;  招賢納士</a></li> 
+     <li><a href="article.php?id=19" title="聯絡我們">聯絡我們</a></li> 
+ 
+        </ul>
+      </div>
+      <div class="helper2">
+        <h2>聯絡訊息</h2>
+        <ul>
+          <li class="fbg1">service@007push.com.tw</li>
+          <li class="fbg2">+886-37-370307</li>
+          <li class="fbg4"><a href="skype:pushcoltd2?chat">pushcoltd2</a></li>
+        </ul>
+      </div>
+      <div class="helper3">
+        <h2>聯絡我們</h2>
+        <ul>
+          <li class="fbg5"><a href="http://www.facebook.com/profile.php?id=100004058653515" target="_blank">Facebook</a></li>
+          <li class="fbg6"><a href="https://twitter.com/pushcoltd" target="_blank">Twitter</a></li>
+          <li class="fbg7"><a href="http://www.youtube.com/channel/UCUJ3lvSCf7Ges7XJAVzZd0w?feature=mhee" target="_blank">YouTube</a></li>
+        </ul>
+      </div>
+      <div class="bk15"></div>
+      <p><img src="themes/mpc/images/fu1.jpg">&nbsp;&nbsp;&nbsp;<img src="themes/mpc/images/fu2.jpg">&nbsp;&nbsp;&nbsp;<img src="themes/mpc/images/fu3.jpg">&nbsp;&nbsp;&nbsp;<img src="themes/mpc/images/fu4.jpg"></p>
+      <div class="bk20"></div>
+      <div class="bk20"></div>
+      <p> Copyright © PUSH Innovation Co., Ltd. All Rights Reserved. Technical Support:Qingfeng Team</p>
+    </div>
+  </div>
+  <div class="bk20"></div>
+</div>
+<div id="demo_r"><a href="index.php"><img src="themes/mpc/images/sd1.png" title="返回首頁"></a><a href="skype:pushcoltd2?chat"><img src="themes/mpc/images/foot4.png" title="在線聊天"></a><a href="flow.php"><img src="themes/mpc/images/sd4.png" title="購物車"></a><a href="#"><img src="themes/mpc/images/sd5.png" title="返回頂部"></a></div>
+
+
+
+</body></html>
+

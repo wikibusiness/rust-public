@@ -1,0 +1,139 @@
+=== get_lang ===
+fr-FR
+
+=== get_meta_titles ===
+  "title": "Site en construction"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["https://www.ovhcloud.com/", "https://docs.ovh.com/fr/hosting/", "https://community.ovh.com/", "https://help.ovhcloud.com/fr/", "https://www.ovh.com/manager/", "https://www.ovhcloud.com/"]
+
+=== get_links ===
+[("https://www.ovhcloud.com/", ""), ("https://docs.ovh.com/fr/hosting/", "Guides"), ("https://community.ovh.com/", "Forum"), ("https://help.ovhcloud.com/fr/", "Contact"), ("https://www.ovh.com/manager/", "Espace Client"), ("https://www.ovhcloud.com/", "OVHcloud")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": ["Site en construction"]
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["Site en construction", "Guides", "Forum", "Contact", "Espace Client"]
+
+=== get_sentences.p ===
+["o1 o2 o3 o4 o5 o6 o7 o8 o9 o10 o11 o12 o13 o14 o15 o16 o17 o18 o19 o20 o21 o22 o23 o24 o25 o26 o27 o28 o29 o30 o31 o32 o33 o34 o35 o36 o37 o38 o39 o40 o41 o42 o43 o44 o45 o46 o47 o48 o49 o50 o51 o52 o53 o54 o55 o56 o57 o58 o59 o60 o61 o62 o63", "m1 m2 m3 m4 m5 m6 m7 m8 m9 m10 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20 m21 m22 m23 m24 m25 m26 m27 m28 m29 m30 m31 m32 m33 m34 m35 m36 m37 m38 m39 m40 m41 m42 m43 m44 m45 m46 m47 m48 m49 m50 m51 m52 m53 m54 m55 m56 m57 m58 m59 m60 m61", "c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 c16 c17 c18 c19 c20 c21 c22 c23 c24 c25 c26 c27 c28 c29 c30 c31 c32 c33 c34 c35 c36 c37 c38 c39 c40 c41 c42 c43 c44 c45 c46 c47 c48 c49 c50 c51", "Besoin d'assistance ou d'informations ?"]
+
+=== get_sentences.meta_titles ===
+  "title": "Site en construction"
+
+=== get_sentences.href_attributes ===
+["https://www.ovhcloud.com/", "https://docs.ovh.com/fr/hosting/", "https://community.ovh.com/", "https://help.ovhcloud.com/fr/", "https://www.ovh.com/manager/", "https://www.ovhcloud.com/"]
+
+=== get_sentences.text_nodes ===
+[["Site en construction"], ["Site en construction", "Besoin d'assistance ou d'informations?"], ["Guides"], ["Forum"], ["Contact"], ["Espace Client"], ["© Copyright 1999", "OVHcloud"], ["11"], ["11"], ["11"], ["11"], ["11"], ["c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9", "c10", "c11", "c12", "c13", "c14", "c15", "c16", "c17", "c18", "c19", "c20", "c21", "c22", "c23", "c24", "c25", "c26", "c27", "c28", "c29", "c30", "c31", "c32", "c33", "c34", "c35", "c36", "c37", "c38", "c39", "c40", "c41", "c42", "c43", "c44", "c45", "c46", "c47", "c48", "c49", "c50", "c51"], ["o1", "o2", "o3", "o4", "o5", "o6", "o7", "o8", "o9", "o10", "o11", "o12", "o13", "o14", "o15", "o16", "o17", "o18", "o19", "o20", "o21", "o22", "o23", "o24", "o25", "o26", "o27", "o28", "o29", "o30", "o31", "o32", "o33", "o34", "o35", "o36", "o37", "o38", "o39", "o40", "o41", "o42", "o43", "o44", "o45", "o46", "o47", "o48", "o49", "o50", "o51", "o52", "o53", "o54", "o55", "o56", "o57", "o58", "o59", "o60", "o61", "o62", "o63"], ["m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "m11", "m12", "m13", "m14", "m15", "m16", "m17", "m18", "m19", "m20", "m21", "m22", "m23", "m24", "m25", "m26", "m27", "m28", "m29", "m30", "m31", "m32", "m33", "m34", "m35", "m36", "m37", "m38", "m39", "m40", "m41", "m42", "m43", "m44", "m45", "m46", "m47", "m48", "m49", "m50", "m51", "m52", "m53", "m54", "m55", "m56", "m57", "m58", "m59", "m60", "m61"]]
+
+=== get_markdown ===
+# Site en construction
+
+Besoin d'assistance ou d'informations ?
+
+c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 c16 c17 c18 c19 c20 c21 c22 c23 c24 c25 c26 c27 c28 c29 c30 c31 c32 c33 c34 c35 c36 c37 c38 c39 c40 c41 c42 c43 c44 c45 c46 c47 c48 c49 c50 c51
+
+o1 o2 o3 o4 o5 o6 o7 o8 o9 o10 o11 o12 o13 o14 o15 o16 o17 o18 o19 o20 o21 o22 o23 o24 o25 o26 o27 o28 o29 o30 o31 o32 o33 o34 o35 o36 o37 o38 o39 o40 o41 o42 o43 o44 o45 o46 o47 o48 o49 o50 o51 o52 o53 o54 o55 o56 o57 o58 o59 o60 o61 o62 o63
+
+m1 m2 m3 m4 m5 m6 m7 m8 m9 m10 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20 m21 m22 m23 m24 m25 m26 m27 m28 m29 m30 m31 m32 m33 m34 m35 m36 m37 m38 m39 m40 m41 m42 m43 m44 m45 m46 m47 m48 m49 m50 m51 m52 m53 m54 m55 m56 m57 m58 m59 m60 m61
+
+=== extract_text ===
+  "main": [["Site en construction", "Besoin d'assistance ou d'informations?", "Guides", "Forum", "Contact", "Espace Client", "© Copyright 1999", "OVHcloud", "11", "11", "11", "11", "11", "c1", "c2", "c3", "c4", "c5", "c6", "c7", "c8", "c9", "c10", "c11", "c12", "c13", "c14", "c15", "c16", "c17", "c18", "c19", "c20", "c21", "c22", "c23", "c24", "c25", "c26", "c27", "c28", "c29", "c30", "c31", "c32", "c33", "c34", "c35", "c36", "c37", "c38", "c39", "c40", "c41", "c42", "c43", "c44", "c45", "c46", "c47", "c48", "c49", "c50", "c51", "o1", "o2", "o3", "o4", "o5", "o6", "o7", "o8", "o9", "o10", "o11", "o12", "o13", "o14", "o15", "o16", "o17", "o18", "o19", "o20", "o21", "o22", "o23", "o24", "o25", "o26", "o27", "o28", "o29", "o30", "o31", "o32", "o33", "o34", "o35", "o36", "o37", "o38", "o39", "o40", "o41", "o42", "o43", "o44", "o45", "o46", "o47", "o48", "o49", "o50", "o51", "o52", "o53", "o54", "o55", "o56", "o57", "o58", "o59", "o60", "o61", "o62", "o63", "m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "m9", "m10", "m11", "m12", "m13", "m14", "m15", "m16", "m17", "m18", "m19", "m20", "m21", "m22", "m23", "m24", "m25", "m26", "m27", "m28", "m29", "m30", "m31", "m32", "m33", "m34", "m35", "m36", "m37", "m38", "m39", "m40", "m41", "m42", "m43", "m44", "m45", "m46", "m47", "m48", "m49", "m50", "m51", "m52", "m53", "m54", "m55", "m56", "m57", "m58", "m59", "m60", "m61"]]
+
+=== tag_html_contents(title) ===
+<title qtlid="74178">Site en construction</title>
+
+=== html_contents ===
+<html lang="fr-FR" xml:lang="fr-FR"><head>
+<meta content="width=device-width" name="viewport">
+<title qtlid="74178">Site en construction</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="fr-FR" http-equiv="Content-Language">
+<meta content="OVHcloud" name="Copyright">
+<meta content="OVHcloud" name="Author">
+<meta content="none,noindex,nofollow" name="robots">
+<meta content="no-cache" http-equiv="cache-control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="2.00000" name="DP.PopRank">
+<link href="/__ovh/common/img/favicon.ico" rel="icon" translate="none" type="image/x-icon">
+
+</head>
+<body>
+<div class="header"><div class="wrapper">
+<a href="https://www.ovhcloud.com/"><img src="/__ovh/common/img/logo-white.png" style="max-width: 250px; margin-left: 10px"></a>
+</div></div>
+<div 8%;"="" __ovh="" common="" img="" padding:="" style="background-image: url(" transparenttriangle.svg");=""><div class="wrapper"><div class="content">
+<br><img src="/__ovh/common/img/icon-traffic-cone.png" style="max-width: 80px; left: 50%; margin-top: 18px;"><br><br><h1 qtlid="74178">Site en construction</h1>
+<img qtlid_src="74217" src="/__ovh/common/img/shadow.png" style="max-width: 605px;"><br><br><p qtlid="74230">Besoin d'assistance ou d'informations ?</p>
+<br><div class="item"><a href="https://docs.ovh.com/fr/hosting/" qtlid="74256" qtlid_title="74256" target="_blank" title="Guides"><img qtlid_src="74269" src="/__ovh/common/img/icon-book.png">
+                                    Guides
+                                </a></div>
+<div class="item"><a href="https://community.ovh.com/" qtlid="28406" qtlid_title="28406" target="_blank" title="Forum"><img qtlid_src="74308" src="/__ovh/common/img/icon-speech-bubble.png">
+                                    Forum
+                                </a></div>
+<div class="item"><a href="https://help.ovhcloud.com/fr/" qtlid="74334" qtlid_title="74334" target="_blank" title="Contact"><img qtlid_src="74347" src="/__ovh/common/img/icon-user-support.png">
+                                    Contact
+                                </a></div>
+<div class="item"><a href="https://www.ovh.com/manager/" qtlid="68351" qtlid_title="68351" target="_blank" title="Espace Client"><img qtlid_src="74373" src="/__ovh/common/img/icon-app-gear.png">
+                                    Espace Client
+                                </a></div>
+<br style="clear: both;">
+</div></div></div>
+<div class="footer"><p qtlid="74386">
+    © Copyright 1999 <a href="https://www.ovhcloud.com/" qtlid="29339">OVHcloud</a>
+
+                            </p></div>
+
+                
+<div style="display: none;" translate="none"><div class="ovh-domain-signature" style="display:none">
+	<p data="0">
+		
+	</p>	<p data="1">
+		<span>11</span>
+	</p>	<p data="1">
+		<span>11</span>
+	</p>	<p data="0">
+		
+	</p>	<p data="0">
+		
+	</p>	<p data="1">
+		<span>11</span>
+	</p>	<p data="1">
+		<span>11</span>
+	</p>	<p data="1">
+		<span>11</span>
+	</p>	<hr>
+	<p data="c">
+		<span>c1</span><span>c2</span><span>c3</span><span>c4</span><span>c5</span><span>c6</span><span>c7</span><span>c8</span><span>c9</span><span>c10</span><span>c11</span><span>c12</span><span>c13</span><span>c14</span><span>c15</span><span>c16</span><span>c17</span><span>c18</span><span>c19</span><span>c20</span><span>c21</span><span>c22</span><span>c23</span><span>c24</span><span>c25</span><span>c26</span><span>c27</span><span>c28</span><span>c29</span><span>c30</span><span>c31</span><span>c32</span><span>c33</span><span>c34</span><span>c35</span><span>c36</span><span>c37</span><span>c38</span><span>c39</span><span>c40</span><span>c41</span><span>c42</span><span>c43</span><span>c44</span><span>c45</span><span>c46</span><span>c47</span><span>c48</span><span>c49</span><span>c50</span><span>c51</span>
+	</p>	<p data="o">
+		<span>o1</span><span>o2</span><span>o3</span><span>o4</span><span>o5</span><span>o6</span><span>o7</span><span>o8</span><span>o9</span><span>o10</span><span>o11</span><span>o12</span><span>o13</span><span>o14</span><span>o15</span><span>o16</span><span>o17</span><span>o18</span><span>o19</span><span>o20</span><span>o21</span><span>o22</span><span>o23</span><span>o24</span><span>o25</span><span>o26</span><span>o27</span><span>o28</span><span>o29</span><span>o30</span><span>o31</span><span>o32</span><span>o33</span><span>o34</span><span>o35</span><span>o36</span><span>o37</span><span>o38</span><span>o39</span><span>o40</span><span>o41</span><span>o42</span><span>o43</span><span>o44</span><span>o45</span><span>o46</span><span>o47</span><span>o48</span><span>o49</span><span>o50</span><span>o51</span><span>o52</span><span>o53</span><span>o54</span><span>o55</span><span>o56</span><span>o57</span><span>o58</span><span>o59</span><span>o60</span><span>o61</span><span>o62</span><span>o63</span>
+	</p>	<p data="m">
+		<span>m1</span><span>m2</span><span>m3</span><span>m4</span><span>m5</span><span>m6</span><span>m7</span><span>m8</span><span>m9</span><span>m10</span><span>m11</span><span>m12</span><span>m13</span><span>m14</span><span>m15</span><span>m16</span><span>m17</span><span>m18</span><span>m19</span><span>m20</span><span>m21</span><span>m22</span><span>m23</span><span>m24</span><span>m25</span><span>m26</span><span>m27</span><span>m28</span><span>m29</span><span>m30</span><span>m31</span><span>m32</span><span>m33</span><span>m34</span><span>m35</span><span>m36</span><span>m37</span><span>m38</span><span>m39</span><span>m40</span><span>m41</span><span>m42</span><span>m43</span><span>m44</span><span>m45</span><span>m46</span><span>m47</span><span>m48</span><span>m49</span><span>m50</span><span>m51</span><span>m52</span><span>m53</span><span>m54</span><span>m55</span><span>m56</span><span>m57</span><span>m58</span><span>m59</span><span>m60</span><span>m61</span>
+	</p>
+</div></div>
+
+
+</body></html>
+

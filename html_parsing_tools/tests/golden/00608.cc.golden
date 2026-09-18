@@ -1,0 +1,99 @@
+=== get_lang ===
+en
+
+=== get_meta_titles ===
+  "title": "00608.cc"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+[]
+
+=== get_links ===
+[]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": ["We’re getting things ready"]
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["00608.cc"]
+
+=== get_sentences.p ===
+["Loading your experience… This won’t take long"]
+
+=== get_sentences.meta_titles ===
+  "title": "00608.cc"
+
+=== get_sentences.href_attributes ===
+[]
+
+=== get_sentences.text_nodes ===
+[["00608.cc"], ["We’re getting things ready", "Loading your experience… This won’t take long."]]
+
+=== get_markdown ===
+# We’re getting things ready
+
+Loading your experience… This won’t take long
+
+=== extract_text ===
+  "main": [["We’re getting things ready", "Loading your experience... This won’t take long."]]
+
+=== tag_html_contents(title) ===
+<title>00608.cc</title>
+
+=== html_contents ===
+<!DOCTYPE html><html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <title>00608.cc</title>
+                
+    
+    
+</head>
+
+<body>
+
+
+
+<div>
+    
+    </div>
+
+<div id="content">
+    <div class="loading" id="loading">
+        <div aria-label="Loading" class="spinner" role="status"></div>
+        <h1>We’re getting things ready</h1>
+        <p>Loading your experience… This won’t take long.</p>
+    </div>
+    </div>
+
+
+<div class="wrapper1" id="keywords-template" style="display:none;">
+    <div class="wrapper2">
+        <div class="wrapper3">
+            <div class="fallback-term-holder" id="fallbackTerms"></div>
+        </div>
+    </div>
+</div>
+
+
+</body></html>
+

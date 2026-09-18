@@ -68,6 +68,46 @@ pub fn get_rel_alternate(document: &NodeRef) -> HashMap<String, Vec<String>> {
     return result;
 }
 
+/// Shared by the standalone get_meta_titles pyfunction and get_sentences,
+/// so a caller that already has a GetSentencesResult for a page doesn't need
+/// to reparse its HTML just to read these.
+pub fn get_meta_titles_internal(document: &NodeRef) -> HashMap<String, String> {
+    let mut result: HashMap<String, String> = HashMap::new();
+    let tag_nodes = document.select("meta").unwrap();
+    for tag_node in tag_nodes.collect::<Vec<_>>() {
+        let attributes = tag_node.attributes.borrow();
+        let name_attribute = attributes.get("name").unwrap_or("");
+        if name_attribute == "twitter:title" || name_attribute == "og:title" {
+            let content = attributes.get("content").unwrap_or("").to_string();
+            if content.is_empty() {
+                continue;
+            }
+            result.insert(name_attribute.to_string(), content);
+        }
+    }
+    let tag_nodes = document.select("title").unwrap();
+    for tag_node in tag_nodes.collect::<Vec<_>>() {
+        result.insert(
+            "title".to_string(),
+            get_text_string(tag_node.as_node(), " "),
+        );
+    }
+    result
+}
+
+/// Shared by the standalone get_href_attributes pyfunction and get_sentences
+/// -- see get_meta_titles_internal.
+pub fn get_href_attributes_internal(document: &NodeRef) -> Vec<String> {
+    document
+        .select("a")
+        .unwrap()
+        .map(|x| {
+            let attributes = x.attributes.borrow();
+            attributes.get("href").unwrap_or("").to_string()
+        })
+        .collect()
+}
+
 pub fn get_descriptions(document: &NodeRef) -> Vec<String> {
     let mut descriptions: HashSet<String> = HashSet::new();
     if let Ok(tag_nodes) = document.select("meta") {

@@ -1,0 +1,110 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": "Домен продается. Купить в магазине доменов Руцентр"
+  "twitter:title": " Домен продается. Купить в магазине доменов Руцентр "
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["https://www.nic.ru/shop/lot/", "https://www.nic.ru/", "https://www.nic.ru/shop/"]
+
+=== get_links ===
+[("https://www.nic.ru/shop/lot/", "Купить в Руцентр"), ("https://www.nic.ru/", ""), ("https://www.nic.ru/shop/", "Другие домены в магазине доменов")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+["Узнать подробнее о домене в магазине доменов Руцентр."]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+домен, регистрация доменов, РФ, RU, COM, аукцион доменов, хостинг, почта, освобождающиеся домены
+
+=== get_sentences.other ===
+["Домен продается. Купить в магазине доменов Руцентр", "Домен продается", "Рус", "Eng", "Купить в Руцентр", "Другие домены в магазине доменов"]
+
+=== get_sentences.p ===
+[]
+
+=== get_sentences.meta_titles ===
+  "title": "Домен продается. Купить в магазине доменов Руцентр"
+  "twitter:title": " Домен продается. Купить в магазине доменов Руцентр "
+
+=== get_sentences.href_attributes ===
+["https://www.nic.ru/shop/lot/", "https://www.nic.ru/", "https://www.nic.ru/shop/"]
+
+=== get_sentences.text_nodes ===
+[["Домен продается. Купить в магазине доменов Руцентр"], ["Домен продается", "Рус", "Eng", "Купить в Руцентр", "Другие домены в магазине доменов"]]
+
+=== get_markdown ===
+
+
+=== extract_text ===
+  "main": [["Домен продается", "Рус", "Eng", "Купить в Руцентр", "Другие домены в магазине доменов"]]
+
+=== tag_html_contents(title) ===
+<title>Домен продается. Купить в магазине доменов Руцентр</title>
+
+=== html_contents ===
+<!DOCTYPE html><html><head>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>Домен продается. Купить в магазине доменов Руцентр</title>
+        <meta content="Узнать подробнее о домене в магазине доменов Руцентр." name="description">
+        <meta content="домен, регистрация доменов, РФ, RU, COM, аукцион доменов, хостинг, почта, освобождающиеся домены" name="keywords">
+        <meta content="nic.ru" name="application-name">
+        <meta content="noyaca" name="robots">
+        <meta content="/favicon_70x70.png" name="msapplication-square70x70logo">
+        <meta content="/favicon_150x150.png" name="msapplication-square150x150logo">
+        <meta content="/favicon_310x150.png" name="msapplication-wide310x150logo">
+        <meta content="/favicon_310x310.png" name="msapplication-square310x310logo">
+        <meta content="Домен продается. Купить в магазине доменов Руцентр" id="title" property="og:title">
+        <meta content="Узнать подробнее о домене в магазине доменов Руцентр." id="description" property="og:description">
+        <meta content="summary_large_image" name="twitter:card">
+        <meta content="@ru_nic" name="twitter:site">
+        <meta content=" Домен продается. Купить в магазине доменов Руцентр " name="twitter:title">
+        <meta content=" Узнать подробнее о домене в магазине доменов Руцентр." name="twitter:description">
+        <meta content="https://storage.nic.ru/ru/images/png/1.rc-preview.png" name="twitter:image">
+        <meta content="https://storage.nic.ru/ru/images/png/1.rc-preview.png" property="og:image">
+        <link href="https://www.nic.ru/favicon.png" rel="icon" type="image/png">
+        <link href="https://www.nic.ru/favicon_192x192.png" rel="icon" sizes="192x192" type="image/png">
+        <link href="https://www.nic.ru/favicon_192x192.png" rel="apple-touch-icon" type="image/png">
+        <link href="https://www.nic.ru/favicon_152x152.png" rel="apple-touch-icon" sizes="152x152" type="image/png">
+        <link href="https://www.nic.ru/favicon_167x167.png" rel="apple-touch-icon" sizes="167x167" type="image/png">
+        <link href="https://www.nic.ru/favicon_180x180.png" rel="apple-touch-icon" sizes="180x180" type="image/png">
+        <link as="script" href="/static/frontend-entry/bundle.eecf1ce51a756bdc385b.bundle.js" rel="preload">
+        <link href="https://mc.yandex.ru" rel="preconnect">
+        <link href="https://stats.g.doubleclick.net" rel="preconnect">
+        <link href="https://www.nic.ru/scripts/css/font-faces.css" rel="stylesheet">
+        <meta content="#030303" name="theme-color">
+        <link href="/favicon.ico" rel="shortcut icon">
+        
+        
+        <!-- Переехало в frontend-scripts в рамках RCWEB-10158-->
+        <!-- <script async type='text/javascript' src='https://mc.yandex.ru/metrika/tag.js'></script>-->
+        <!-- <script async type='text/javascript' src='https://www.google-analytics.com/analytics.js'></script>-->
+        <!-- <script async type='text/javascript' src='https://www.googletagmanager.com/gtm.js?id=GTM-K9MTVC'></script-->
+
+        
+        
+        
+      </head>
+      <body>
+        <div class="body-container"><div data-reactroot="" id="frontend-parking"><div id="__frontend-parking_PAGE_HEAD__"><link href="/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.css" rel="stylesheet"></div><div class="parking__wrapper___3QNQY"><div class="parking__header___3F-lN"><span class="_0_13_2_text__base___1jep0 _0_13_2_text__preset-textMain___DBI8G _0_13_2_text__color-primaryBlack___2dBcH _0_13_2_text__wrap-normal___19vDF">Домен продается</span><div class="parking__lang___11BqK"><button class="langButton__clearButton___2csJ_ langButton__active___3ME4S" type="button"><span class="_0_13_2_text__base___1jep0 _0_13_2_text__preset-textMain___DBI8G _0_13_2_text__color-tertiaryMain___590O8 _0_13_2_text__wrap-normal___19vDF">Рус</span></button><button class="langButton__clearButton___2csJ_" type="button"><span class="_0_13_2_text__base___1jep0 _0_13_2_text__preset-textMain___DBI8G _0_13_2_text__color-primaryBlack___2dBcH _0_13_2_text__wrap-normal___19vDF">Eng</span></button></div></div><div class="parking__content___2dkVh"><div class="body__base___dqEyY"><div></div><div class="body__centerElementWrapper___1PDAC"><div><a class="_0_5_0_link__link___O8crE _0_5_0_link__link_underlined_always___1CkJ8 _0_5_0_link__link_iconMargin_left___30i96" href="https://www.nic.ru/shop/lot/" rel="noreferrer noopener"><button class="_0_8_0_button__base___3QXLU _0_8_0_button__font___nhfv1 _0_8_0_button__font-size-l___8iJ-n _0_8_0_button__size-l___3BxYo _0_8_0_button__color-light-mode-primary___1rpIM" type="button">Купить в Руцентр</button></a></div></div></div></div><div class="parking__bottom___2UyJ_"><a href="https://www.nic.ru/"><div class="_0_33_0_logoIcon__logo___3cOup parking__logo___3jrFv"></div></a><div class="parking__shopLink___2cSRD"><a class="_0_5_0_link__link___O8crE parking__none___3ikcX _0_5_0_link__link_iconMargin_left___30i96" href="https://www.nic.ru/shop/" rel="noreferrer noopener"><div class="parking__otherDomains___1t_Oq"><span class="_0_13_2_text__base___1jep0 _0_13_2_text__preset-textMain___DBI8G _0_13_2_text__color-primaryBlack___2dBcH _0_13_2_text__wrap-normal___19vDF">Другие домены в магазине доменов</span><div class="parking__arrow___3CtqU"></div></div></a></div></div></div></div></div>
+        <div id="portal_zone"><div>
+      </div></div>    
+    </body></html>
+

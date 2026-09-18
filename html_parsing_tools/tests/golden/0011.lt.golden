@@ -1,0 +1,403 @@
+=== get_lang ===
+en-US
+
+=== get_meta_titles ===
+  "title": "0011.LT"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["/en/", "/en/", "/en/services/", "/en/about/", "/en/contacts/", "/en/donations/", "/en/donations/", "https://jitsi.0011.lt", "https://mastodon.0011.lt", "https://peertube.0011.lt", "https://searxng.0011.lt", "https://cryptpad.0011.lt", "https://app.element.io/", "https://git.0011.lt"]
+
+=== get_links ===
+[("/en/", "0011.LT"), ("/en/", "Dashboard"), ("/en/services/", "Services"), ("/en/about/", "About"), ("/en/contacts/", "Contacts"), ("/en/donations/", "Donations"), ("/en/donations/", "donating"), ("https://jitsi.0011.lt", "Try it!"), ("https://mastodon.0011.lt", "Try it!"), ("https://peertube.0011.lt", "Try it!"), ("https://searxng.0011.lt", "Try it!"), ("https://cryptpad.0011.lt", "Try it!"), ("https://app.element.io/", "Try it!"), ("https://git.0011.lt", "Try it!")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": ["Jitsi Meet", "Mastodon", "PeerTube", "SearXNG", "CryptPad", "Element", "Forgejo"]
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["0011.LT", "0011.LT", "Dashboard", "Services", "About", "Contacts", "Donations", "English (EN)", "Lietuviškai (LT)", "Try it!", "Try it!", "Try it!", "Try it!", "Try it!", "Try it!", "Try it!"]
+
+=== get_sentences.p ===
+["Free and open source software for everybody. All instances are hosted and maintained by a non-profit 0011.LT. To help maintain long term availability of these instances please consider donating . For a better decentralization and reduced energy waste for sending zeros and ones accross the internet it is recommended to use these instances if you are located in Lithuania. Otherwise consider looking for other instances that would be hosted closer to you", "Mastodon is a software for running self-hosted social networking services. It has micro blogging features similar to „Twitter“ which are offered by a large number of independently run nodes, known as instances or servers, each with its own code of conduct, terms of service, privacy policy, privacy options, and content moderation policies", "Jitsi Meet is used for video conferencing. In addition to audio and video, screen sharing is available. New members can be invited via a generated link", "CryptPad is a collaboration suite that is end-to-end encrypted and open-source. It is designed to facilitate collaboration by synchronizing changes to documents in real time", "PeerTube is a decentralized, ActivityPub federated video platform powered by WebTorrent, that uses peer-to-peer technology to reduce load on individual servers when viewing videos", "Element is a free and open-source software instant messaging client implementing the Matrix protocol. Home server address is matrix.0011.lt", "Forgejo is open source software for hosting code using the Git version control system to aid with software development", "SearXNG is a free and open-source federated metasearch engine. It is hosted by several instances, public and private", "Forgejo registration is temporarily disabled"]
+
+=== get_sentences.meta_titles ===
+  "title": "0011.LT"
+
+=== get_sentences.href_attributes ===
+["/en/", "/en/", "/en/services/", "/en/about/", "/en/contacts/", "/en/donations/", "/en/donations/", "https://jitsi.0011.lt", "https://mastodon.0011.lt", "https://peertube.0011.lt", "https://searxng.0011.lt", "https://cryptpad.0011.lt", "https://app.element.io/", "https://git.0011.lt"]
+
+=== get_sentences.text_nodes ===
+[["0011.LT"], ["0011.LT"], ["Dashboard"], ["Services"], ["About"], ["Contacts"], ["Donations"], ["English (EN)"], ["Lietuviškai (LT)"], ["Free and open source software for everybody."], ["All instances are hosted and maintained by a non-profit 0011.LT."], ["To help maintain long term availability of these instances please consider"], ["donating."], ["For a better decentralization and reduced energy waste for sending zeros and ones accross the internet"], ["it is recommended to use these instances if you are located in Lithuania. Otherwise consider looking for"], ["other instances that would be hosted closer to you."], ["Forgejo registration is temporarily disabled."], ["Jitsi Meet"], ["Jitsi Meet is used for video conferencing. In addition to audio and video, screen sharing is available. New members can be invited via a generated link."], ["Try it!"], ["Mastodon"], ["Mastodon is a software for running self-hosted social networking services. It has micro blogging features similar to „Twitter“  which are offered by a large number of independently run nodes, known as instances or servers, each with its own code of conduct, terms of service, privacy policy, privacy options, and content moderation policies."], ["Try it!"], ["PeerTube"], ["PeerTube is a decentralized, ActivityPub federated video platform powered by WebTorrent, that uses peer-to-peer technology to reduce load on individual servers when viewing videos."], ["Try it!"], ["SearXNG"], ["SearXNG is a free and open-source federated metasearch engine. It is hosted by several instances, public and private."], ["Try it!"], ["CryptPad"], ["CryptPad is a collaboration suite that is end-to-end encrypted and open-source. It is designed to facilitate collaboration by synchronizing changes to documents in real time."], ["Try it!"], ["Element"], ["Element is a free and open-source software instant messaging client implementing the Matrix protocol. Home server address is matrix.0011.lt."], ["Try it!"], ["Forgejo"], ["Forgejo is open source software for hosting code using the Git version control system to aid with software development."], ["Try it!"]]
+
+=== get_markdown ===
+Free and open source software for everybody. All instances are hosted and maintained by a non-profit 0011.LT. To help maintain long term availability of these instances please consider donating . For a better decentralization and reduced energy waste for sending zeros and ones accross the internet it is recommended to use these instances if you are located in Lithuania. Otherwise consider looking for other instances that would be hosted closer to you
+
+Forgejo registration is temporarily disabled
+
+##### Jitsi Meet
+
+Jitsi Meet is used for video conferencing. In addition to audio and video, screen sharing is available. New members can be invited via a generated link
+
+##### Mastodon
+
+Mastodon is a software for running self-hosted social networking services. It has micro blogging features similar to „Twitter“ which are offered by a large number of independently run nodes, known as instances or servers, each with its own code of conduct, terms of service, privacy policy, privacy options, and content moderation policies
+
+##### PeerTube
+
+PeerTube is a decentralized, ActivityPub federated video platform powered by WebTorrent, that uses peer-to-peer technology to reduce load on individual servers when viewing videos
+
+##### SearXNG
+
+SearXNG is a free and open-source federated metasearch engine. It is hosted by several instances, public and private
+
+##### CryptPad
+
+CryptPad is a collaboration suite that is end-to-end encrypted and open-source. It is designed to facilitate collaboration by synchronizing changes to documents in real time
+
+##### Element
+
+Element is a free and open-source software instant messaging client implementing the Matrix protocol. Home server address is matrix.0011.lt
+
+##### Forgejo
+
+Forgejo is open source software for hosting code using the Git version control system to aid with software development
+
+=== extract_text ===
+  "main": [["0011.LT", "Dashboard", "Services", "About", "Contacts", "Donations", "English (EN)", "Lietuviškai (LT)", "Free and open source software for everybody."], ["All instances are hosted and maintained by a non-profit 0011.LT."], ["To help maintain long term availability of these instances please consider", "donating."], ["For a better decentralization and reduced energy waste for sending zeros and ones accross the internet"], ["it is recommended to use these instances if you are located in Lithuania. Otherwise consider looking for"], ["other instances that would be hosted closer to you.", "Forgejo registration is temporarily disabled.", "Jitsi Meet", "Jitsi Meet is used for video conferencing. In addition to audio and video, screen sharing is available. New members can be invited via a generated link.", "Try it!", "Mastodon", "Mastodon is a software for running self-hosted social networking services. It has micro blogging features similar to „Twitter“which are offered by a large number of independently run nodes, known as instances or servers, each with its own code of conduct, terms of service, privacy policy, privacy options, and content moderation policies.", "Try it!", "PeerTube", "PeerTube is a decentralized, ActivityPub federated video platform powered by WebTorrent, that uses peer-to-peer technology to reduce load on individual servers when viewing videos.", "Try it!", "SearXNG", "SearXNG is a free and open-source federated metasearch engine. It is hosted by several instances, public and private.", "Try it!", "CryptPad", "CryptPad is a collaboration suite that is end-to-end encrypted and open-source. It is designed to facilitate collaboration by synchronizing changes to documents in real time.", "Try it!", "Element", "Element is a free and open-source software instant messaging client implementing the Matrix protocol. Home server address is matrix.0011.lt.", "Try it!", "Forgejo", "Forgejo is open source software for hosting code using the Git version control system to aid with software development.", "Try it!"]]
+
+=== tag_html_contents(title) ===
+<title> 0011.LT </title>
+
+=== html_contents ===
+<!DOCTYPE html><html data-bs-theme="auto" lang="en-US"><head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="https://mastodon.0011.lt/@admin" rel="me">
+    <link href="https://mastodon.0011.lt/@au0" rel="me">
+    <link href="https://mastodon.0011.lt/@arija" rel="me">
+    <link href="/static/base/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <title> 0011.LT </title>
+  </head>
+  <body><div class="container-lg">
+    <header class="p-3">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center
+                    justify-content-lg-start">
+          <a class="navbar-brand link-success fw-bold px-2" href="/en/">
+            0011.LT
+          </a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li>
+              <a class="nav-link link-secondary px-3 fw-bold" href="/en/">
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a class="nav-link link-secondary px-3 fw-bold" href="/en/services/">
+                Services
+              </a>
+            </li>
+            <li>
+              <a class="nav-link link-secondary px-3 fw-bold" href="/en/about/">
+                About
+              </a>
+            </li>
+            <li>
+              <a class="nav-link link-secondary px-3 fw-bold" href="/en/contacts/">
+                Contacts
+              </a>
+            </li>
+            <li>
+              <a class="nav-link link-secondary px-3 fw-bold" href="/en/donations/">
+                Donations
+              </a>
+            </li>
+          </ul>
+          <form action="/i18n/setlang/" method="post"><input name="csrfmiddlewaretoken" type="hidden" value="zB4VAN082eV95bJDhM5nLScr4ny81PHux9CpLMLbcyCNcclL9cwLUom1854YLXbq">
+            <div class="input-group mb-3">
+            <input name="next" type="hidden" value="">
+            <select class="form-select" name="language">
+              
+              
+              
+              
+              <option selected="" value="en">
+                English (EN)
+              </option>
+              
+              <option value="lt">
+                Lietuviškai (LT)
+              </option>
+              
+            </select>
+            <input class="btn btn-sm btn-success" type="submit" value="Select">
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+    
+      <div class="container pt-4">
+        
+<div class="container pb-2">
+  <div class="card w-75 mx-auto">
+    <div class="card-body border-start border-success">
+      <p class="card-text">
+        <strong>
+          Free and open source software for everybody.
+        </strong>
+        
+        All instances are hosted and maintained by a non-profit 0011.LT.
+        To help maintain long term availability of these instances please consider
+        
+        <a class="link-success" href="/en/donations/">donating</a>.
+        
+        For a better decentralization and reduced energy waste for sending zeros and ones accross the internet
+        it is recommended to use these instances if you are located in Lithuania. Otherwise consider looking for
+        other instances that would be hosted closer to you.
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+  
+    
+    <div class="container pb-2">
+      <div class="card w-75 mx-auto">
+        <div class="card-body border-start border-info">
+          <p class="card-text">
+            
+              Forgejo registration is temporarily disabled.
+            
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  
+
+<div class="container">
+  
+  <div class="row">
+    
+    <div class="col-lg-4">
+      <div class="card my-4">
+        <h5 class="card-header text-center text-success">
+          
+            Jitsi Meet
+          
+        </h5>
+        <div class="card-body">
+          <div class="text-center pb-2">
+            <img alt="Jitsi Meet logo" height="100" src="/media/uploads/Logo_Jitsi.svg">
+          </div>
+          <p class="card-text text-center">
+            
+              Jitsi Meet is used for video conferencing. In addition to audio and video, screen sharing is available. New members can be invited via a generated link.
+            
+          </p>
+          <div class="text-center">
+            
+            <a class="btn btn-success" href="https://jitsi.0011.lt" target="_blank">
+              Try it!
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="card my-4">
+        <h5 class="card-header text-center text-success">
+          
+            Mastodon
+          
+        </h5>
+        <div class="card-body">
+          <div class="text-center pb-2">
+            <img alt="Mastodon logo" height="100" src="/media/uploads/Mastodon_Logotype_Simple.svg">
+          </div>
+          <p class="card-text text-center">
+            
+              Mastodon is a software for running self-hosted social networking services. It has micro blogging features similar to „Twitter“  which are offered by a large number of independently run nodes, known as instances or servers, each with its own code of conduct, terms of service, privacy policy, privacy options, and content moderation policies.
+            
+          </p>
+          <div class="text-center">
+            
+            <a class="btn btn-success" href="https://mastodon.0011.lt" target="_blank">
+              Try it!
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="card my-4">
+        <h5 class="card-header text-center text-success">
+          
+            PeerTube
+          
+        </h5>
+        <div class="card-body">
+          <div class="text-center pb-2">
+            <img alt="PeerTube logo" height="100" src="/media/uploads/Logo_de_PeerTube.svg">
+          </div>
+          <p class="card-text text-center">
+            
+              PeerTube is a decentralized, ActivityPub federated video platform powered by WebTorrent, that uses peer-to-peer technology to reduce load on individual servers when viewing videos.
+            
+          </p>
+          <div class="text-center">
+            
+            <a class="btn btn-success" href="https://peertube.0011.lt" target="_blank">
+              Try it!
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="card my-4">
+        <h5 class="card-header text-center text-success">
+          
+            SearXNG
+          
+        </h5>
+        <div class="card-body">
+          <div class="text-center pb-2">
+            <img alt="SearXNG logo" height="100" src="/media/uploads/SearXNG-wordmark.svg">
+          </div>
+          <p class="card-text text-center">
+            
+              SearXNG is a free and open-source federated metasearch engine. It is hosted by several instances, public and private.
+            
+          </p>
+          <div class="text-center">
+            
+            <a class="btn btn-success" href="https://searxng.0011.lt" target="_blank">
+              Try it!
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="card my-4">
+        <h5 class="card-header text-center text-success">
+          
+            CryptPad
+          
+        </h5>
+        <div class="card-body">
+          <div class="text-center pb-2">
+            <img alt="CryptPad logo" height="100" src="/media/uploads/CryptPad_logo_icon.svg">
+          </div>
+          <p class="card-text text-center">
+            
+              CryptPad is a collaboration suite that is end-to-end encrypted and open-source. It is designed to facilitate collaboration by synchronizing changes to documents in real time.
+            
+          </p>
+          <div class="text-center">
+            
+            <a class="btn btn-success" href="https://cryptpad.0011.lt" target="_blank">
+              Try it!
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="card my-4">
+        <h5 class="card-header text-center text-success">
+          
+            Element
+          
+        </h5>
+        <div class="card-body">
+          <div class="text-center pb-2">
+            <img alt="Element logo" height="100" src="/media/uploads/element.svg">
+          </div>
+          <p class="card-text text-center">
+            
+              Element is a free and open-source software instant messaging client implementing the Matrix protocol. Home server address is matrix.0011.lt.
+            
+          </p>
+          <div class="text-center">
+            
+            <a class="btn btn-success" href="https://app.element.io/" target="_blank">
+              Try it!
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="card my-4">
+        <h5 class="card-header text-center text-success">
+          
+            Forgejo
+          
+        </h5>
+        <div class="card-body">
+          <div class="text-center pb-2">
+            <img alt="Forgejo logo" height="100" src="/media/uploads/Forgejo_logo.svg">
+          </div>
+          <p class="card-text text-center">
+            
+              Forgejo is open source software for hosting code using the Git version control system to aid with software development.
+            
+          </p>
+          <div class="text-center">
+            
+            <a class="btn btn-success" href="https://git.0011.lt" target="_blank">
+              Try it!
+            </a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+</div>
+
+      </div>
+    
+  </div>
+
+</body></html>
+

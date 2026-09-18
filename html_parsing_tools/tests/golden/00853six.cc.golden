@@ -1,0 +1,289 @@
+=== get_lang ===
+
+
+=== get_meta_titles ===
+  "title": ""
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["https://www.49six.com/", "https://aa.49six.vip:1888/#/", "https://bb.49six.vip:1888/#/", "https://cc.49six.vip:1888/#/", "https://dd.49six.vip:1888/#/", "https://kk.49six.vip:1888/#/", "https://www.ub66.com/", "https://www.google.cn/intl/zh-CN/chrome/", "https://www.opera.com/zh-cn", "http://m.liebao.cn/", "https://www.firefox.com.cn/download/", "https://www.myquark.cn/", "https://www.baidu.com/", "https://www.qq.com/", "http://www.ifeng.com/", "https://www.sohu.com/", "https://www.163.com/", "https://www.youku.com/", "https://www.jd.com/", "https://www.12306.cn/", "https://gz.58.com/", "https://www.ctrip.com/", "https://www.taobao.com/", "https://www.jd.com/", "https://www.tmall.com/", "https://www.suning.com/", "https://www.gome.com.cn/", "http://book.dangdang.com/", "https://ju.taobao.com/", "http://www.meilishuo.com/", "https://www.mogu.com/", "https://www.vip.com/", "https://news.sina.com.cn/", "https://news.ifeng.com/", "http://www.uzaobao.com/", "http://www.people.com.cn/", "https://news.qq.com/", "http://news.sohu.com/", "https://www.huanqiu.com/", "https://news.163.com/", "http://www.xinhuanet.com/", "https://news.baidu.com/"]
+
+=== get_links ===
+[("https://www.49six.com/", "49SIX.COM"), ("https://aa.49six.vip:1888/#/", "线路入口一"), ("https://bb.49six.vip:1888/#/", "线路入口二"), ("https://cc.49six.vip:1888/#/", "线路入口三"), ("https://dd.49six.vip:1888/#/", "线路入口四"), ("https://kk.49six.vip:1888/#/", "线路入口五"), ("https://www.ub66.com/", "寰宇浏览器"), ("https://www.google.cn/intl/zh-CN/chrome/", "谷歌浏览器"), ("https://www.opera.com/zh-cn", "op浏览器"), ("http://m.liebao.cn/", "猎豹浏览器"), ("https://www.firefox.com.cn/download/", "火狐浏览器"), ("https://www.myquark.cn/", "夸克浏览器"), ("https://www.baidu.com/", "百度"), ("https://www.qq.com/", "腾讯"), ("http://www.ifeng.com/", "凤凰网"), ("https://www.sohu.com/", "搜狐"), ("https://www.163.com/", "网易"), ("https://www.youku.com/", "优酷"), ("https://www.jd.com/", "京东商场"), ("https://www.12306.cn/", "12306"), ("https://gz.58.com/", "58同城"), ("https://www.ctrip.com/", "携程网"), ("https://www.taobao.com/", "淘宝"), ("https://www.jd.com/", "京东商城"), ("https://www.tmall.com/", "天猫精选"), ("https://www.suning.com/", "苏宁易购"), ("https://www.gome.com.cn/", "国美在线"), ("http://book.dangdang.com/", "当当"), ("https://ju.taobao.com/", "聚划算"), ("http://www.meilishuo.com/", "美丽说"), ("https://www.mogu.com/", "蘑菇街"), ("https://www.vip.com/", "唯品会"), ("https://news.sina.com.cn/", "新浪新闻"), ("https://news.ifeng.com/", "凤凰资讯"), ("http://www.uzaobao.com/", "联合早报"), ("http://www.people.com.cn/", "人民网"), ("https://news.qq.com/", "腾讯新闻"), ("http://news.sohu.com/", "搜狐新闻"), ("https://www.huanqiu.com/", "环球时报"), ("https://news.163.com/", "网易新闻"), ("http://www.xinhuanet.com/", "新华网"), ("https://news.baidu.com/", "百度新闻")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["49SIX.COM", "温馨提示：尊敬的用户，如发现备用线路无法正常访问时，请更换其他浏览器（推荐浏览器：搜狗、谷歌、火狐）进行访问！", "请使用下方推荐的搜狗浏览器访问", "线路入口一", "线路入口二", "线路入口三", "线路入口四", "线路入口五", "荐浏览器", "常用网址", "常用购物", "常用资讯", "荐浏览器", "寰宇浏览器", "谷歌浏览器", "op浏览器", "猎豹浏览器", "火狐浏览器", "夸克浏览器", "常用网址", "百度", "腾讯", "凤凰网", "搜狐", "网易", "优酷", "京东商场", "12306", "58同城", "携程网", "常用购物", "淘宝", "京东商城", "天猫精选", "苏宁易购", "国美在线", "当当", "聚划算", "美丽说", "蘑菇街", "唯品会", "常用资讯", "新浪新闻", "凤凰资讯", "联合早报", "人民网", "腾讯新闻", "搜狐新闻", "环球时报", "网易新闻", "新华网", "百度新闻"]
+
+=== get_sentences.p ===
+[]
+
+=== get_sentences.meta_titles ===
+  "title": ""
+
+=== get_sentences.href_attributes ===
+["https://www.49six.com/", "https://aa.49six.vip:1888/#/", "https://bb.49six.vip:1888/#/", "https://cc.49six.vip:1888/#/", "https://dd.49six.vip:1888/#/", "https://kk.49six.vip:1888/#/", "https://www.ub66.com/", "https://www.google.cn/intl/zh-CN/chrome/", "https://www.opera.com/zh-cn", "http://m.liebao.cn/", "https://www.firefox.com.cn/download/", "https://www.myquark.cn/", "https://www.baidu.com/", "https://www.qq.com/", "http://www.ifeng.com/", "https://www.sohu.com/", "https://www.163.com/", "https://www.youku.com/", "https://www.jd.com/", "https://www.12306.cn/", "https://gz.58.com/", "https://www.ctrip.com/", "https://www.taobao.com/", "https://www.jd.com/", "https://www.tmall.com/", "https://www.suning.com/", "https://www.gome.com.cn/", "http://book.dangdang.com/", "https://ju.taobao.com/", "http://www.meilishuo.com/", "https://www.mogu.com/", "https://www.vip.com/", "https://news.sina.com.cn/", "https://news.ifeng.com/", "http://www.uzaobao.com/", "http://www.people.com.cn/", "https://news.qq.com/", "http://news.sohu.com/", "https://www.huanqiu.com/", "https://news.163.com/", "http://www.xinhuanet.com/", "https://news.baidu.com/"]
+
+=== get_sentences.text_nodes ===
+[["49SIX.COM"], ["温馨提示：尊敬的用户，如发现备用线路无法正常访问时，请更换其他浏览器（推荐浏览器：搜狗、谷歌、火狐）进行访问！"], ["请使用下方推荐的搜狗浏览器访问"], ["线路入口一"], ["线路入口二"], ["线路入口三"], ["线路入口四"], ["线路入口五"], ["荐浏览器"], ["常用网址"], ["常用购物"], ["常用资讯"], ["荐浏览器"], ["寰宇浏览器"], ["谷歌浏览器"], ["op浏览器"], ["猎豹浏览器"], ["火狐浏览器"], ["夸克浏览器"], ["常用网址"], ["百度"], ["腾讯"], ["凤凰网"], ["搜狐"], ["网易"], ["优酷"], ["京东商场"], ["12306"], ["58同城"], ["携程网"], ["常用购物"], ["淘宝"], ["京东商城"], ["天猫精选"], ["苏宁易购"], ["国美在线"], ["当当"], ["聚划算"], ["美丽说"], ["蘑菇街"], ["唯品会"], ["常用资讯"], ["新浪新闻"], ["凤凰资讯"], ["联合早报"], ["人民网"], ["腾讯新闻"], ["搜狐新闻"], ["环球时报"], ["网易新闻"], ["新华网"], ["百度新闻"]]
+
+=== get_markdown ===
+
+
+=== extract_text ===
+  "main": [["49SIX.COM", "温馨提示:尊敬的用户,如发现备用线路无法正常访问时,请更换其他浏览器(推荐浏览器:搜狗、谷歌、火狐)进行访问!", "请使用下方推荐的搜狗浏览器访问", "线路入口一", "线路入口二", "线路入口三", "线路入口四", "线路入口五", "荐浏览器", "常用网址", "常用购物", "常用资讯", "荐浏览器", "寰宇浏览器", "谷歌浏览器", "op浏览器", "猎豹浏览器", "火狐浏览器", "夸克浏览器", "常用网址", "百度", "腾讯", "凤凰网", "搜狐", "网易", "优酷", "京东商场", "12306", "58同城", "携程网", "常用购物", "淘宝", "京东商城", "天猫精选", "苏宁易购", "国美在线", "当当", "聚划算", "美丽说", "蘑菇街", "唯品会", "常用资讯", "新浪新闻", "凤凰资讯", "联合早报", "人民网", "腾讯新闻", "搜狐新闻", "环球时报", "网易新闻", "新华网", "百度新闻"]]
+
+=== tag_html_contents(title) ===
+<title></title>
+
+=== html_contents ===
+<!DOCTYPE html><html><head>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<meta content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+		<title></title>
+		<link href="css/main.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="body_view">
+			<div class="header_title clearfix">
+				<a class="logo fl" href="https://www.49six.com/" style="user-select: none" target="view_window">49SIX.COM</a>
+				<div class="title_tips fr">温馨提示：尊敬的用户，如发现备用线路无法正常访问时，请更换其他浏览器（推荐浏览器：搜狗、谷歌、火狐）进行访问！</div>
+			</div>
+			<div class="title_tips_text m_show">请使用下方推荐的搜狗浏览器访问</div>
+			<div class="xianlu">
+				<div class="clearfix">
+					<a class="xianlu_item ml" href="https://aa.49six.vip:1888/#/">
+						<div class="text">线路入口一</div>
+						<div class="icon m_show"></div>
+					</a>
+					<a class="xianlu_item" href="https://bb.49six.vip:1888/#/">
+						<div class="text">线路入口二</div>
+						<div class="icon m_show"></div>
+					</a>
+					<a class="xianlu_item" href="https://cc.49six.vip:1888/#/">
+						<div class="text">线路入口三</div>
+						<div class="icon m_show"></div>
+					</a>
+					<a class="xianlu_item" href="https://dd.49six.vip:1888/#/">
+						<div class="text">线路入口四</div>
+						<div class="icon m_show"></div>
+					</a>
+					<a class="xianlu_item mr" href="https://kk.49six.vip:1888/#/">
+						<div class="text">线路入口五</div>
+						<div class="icon m_show"></div>
+					</a>
+				</div>
+			</div>
+			<div class="commonlyUsed_title clearfix m_show">
+				<div class="used_title_item select">荐浏览器</div>
+				<div class="used_title_item">常用网址</div>
+				<div class="used_title_item">常用购物</div>
+				<div class="used_title_item" style="border: none;">常用资讯</div>
+			</div>
+			<div class="commonlyUsed clearfix">
+				<div class="used_left fl">
+					<div class="left_item used_item m_showUsed">
+						<div class="left_title used_item_title">荐浏览器</div>
+						<div class="left_body clearfix">
+						    <a class="address_item" href="https://www.ub66.com/" target="blank">
+								<img src="img/HY.png">
+								<span>寰宇浏览器</span>
+							</a>
+							<a class="address_item" href="https://www.google.cn/intl/zh-CN/chrome/" target="blank">
+								<img src="img/gg.png">
+								<span>谷歌浏览器</span>
+							</a>
+							<a class="address_item" href="https://www.opera.com/zh-cn" target="blank">
+								<img src="img/op.png">
+								<span>op浏览器</span>
+							</a>
+							<a class="address_item" href="http://m.liebao.cn/" target="blank">
+								<img src="img/4.png">
+								<span>猎豹浏览器</span>
+							</a>
+							<a class="address_item" href="https://www.firefox.com.cn/download/" target="blank">
+								<img src="img/lb.png">
+								<span>火狐浏览器</span>
+							</a>
+							<a class="address_item" href="https://www.myquark.cn/" target="blank">
+								<img src="img/kk.png">
+								<span>夸克浏览器</span>
+							</a>
+
+						</div>
+					</div>
+					<div class="left_item used_item m_none">
+						<div class="left_title used_item_title">常用网址</div>
+						<div class="left_body clearfix">
+							<a class="address_item" href="https://www.baidu.com/" target="blank">
+								<img src="img/1.png">
+								<span>百度</span>
+							</a>
+							<a class="address_item" href="https://www.qq.com/" target="blank">
+								<img src="img/2.png">
+								<span>腾讯</span>
+							</a>
+							<a class="address_item" href="http://www.ifeng.com/" target="blank">
+								<img src="img/3.png">
+								<span>凤凰网</span>
+							</a>
+							<a class="address_item" href="https://www.sohu.com/" target="blank">
+								<img src="img/4.png">
+								<span>搜狐</span>
+							</a>
+							<a class="address_item" href="https://www.163.com/" target="blank">
+								<img src="img/5.png">
+								<span>网易</span>
+							</a>
+							<a class="address_item" href="https://www.youku.com/" target="blank">
+								<img src="img/6.png">
+								<span>优酷</span>
+							</a>
+							<a class="address_item" href="https://www.jd.com/" target="blank">
+								<img src="img/7.png">
+								<span>京东商场</span>
+							</a>
+							<a class="address_item" href="https://www.12306.cn/" target="blank">
+								<img src="img/8.png">
+								<span>12306</span>
+							</a>
+							<a class="address_item" href="https://gz.58.com/" target="blank">
+								<img src="img/9.png">
+								<span>58同城</span>
+							</a>
+							<a class="address_item" href="https://www.ctrip.com/" target="blank">
+								<img src="img/10.png">
+								<span>携程网</span>
+							</a>
+						</div>
+					</div>
+					<div class="left_item used_item m_none">
+						<div class="left_title used_item_title">常用购物</div>
+						<div class="left_body clearfix">
+							<a class="address_item" href="https://www.taobao.com/" target="blank">
+								<img src="img/21.png">
+								<span>淘宝</span>
+							</a>
+							<a class="address_item" href="https://www.jd.com/" target="blank">
+								<img src="img/22.png">
+								<span>京东商城</span>
+							</a>
+							<a class="address_item" href="https://www.tmall.com/" target="blank">
+								<img src="img/23.png">
+								<span>天猫精选</span>
+							</a>
+							<a class="address_item" href="https://www.suning.com/" target="blank">
+								<img src="img/24.png">
+								<span>苏宁易购</span>
+							</a>
+							<a class="address_item" href="https://www.gome.com.cn/" target="blank">
+								<img src="img/25.png">
+								<span>国美在线</span>
+							</a>
+							<a class="address_item" href="http://book.dangdang.com/" target="blank">
+								<img src="img/26.png">
+								<span>当当</span>
+							</a>
+							<a class="address_item" href="https://ju.taobao.com/" target="blank">
+								<img src="img/27.png">
+								<span>聚划算</span>
+							</a>
+							<a class="address_item" href="http://www.meilishuo.com/" target="blank">
+								<img src="img/28.png">
+								<span>美丽说</span>
+							</a>
+							<a class="address_item" href="https://www.mogu.com/" target="blank">
+								<img src="img/29.png">
+								<span>蘑菇街</span>
+							</a>
+							<a class="address_item" href="https://www.vip.com/" target="blank">
+								<img src="img/30.png">
+								<span>唯品会</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="used_right fr">
+					<div class="right_item used_item m_none">
+						<div class="right_title used_item_title">常用资讯</div>
+						<div class="right_body clearfix">
+							<a class="address_item" href="https://news.sina.com.cn/" target="blank">
+								<img src="img/31.png">
+								<span>新浪新闻</span>
+							</a>
+							<a class="address_item" href="https://news.ifeng.com/" target="blank">
+								<img src="img/32.png">
+								<span>凤凰资讯</span>
+							</a>
+							<a class="address_item" href="http://www.uzaobao.com/" target="blank">
+								<img src="img/33.png">
+								<span>联合早报</span>
+							</a>
+							<a class="address_item" href="http://www.people.com.cn/" target="blank">
+								<img src="img/34.png">
+								<span>人民网</span>
+							</a>
+							<a class="address_item" href="https://news.qq.com/" target="blank">
+								<img src="img/35.png">
+								<span>腾讯新闻</span>
+							</a>
+							<a class="address_item" href="http://news.sohu.com/" target="blank">
+								<img src="img/36.png">
+								<span>搜狐新闻</span>
+							</a>
+							<a class="address_item" href="https://www.huanqiu.com/" target="blank">
+								<img src="img/37.png">
+								<span>环球时报</span>
+							</a>
+							<a class="address_item" href="https://news.163.com/" target="blank">
+								<img src="img/38.png">
+								<span>网易新闻</span>
+							</a>
+							<a class="address_item" href="http://www.xinhuanet.com/" target="blank">
+								<img src="img/39.png">
+								<span>新华网</span>
+							</a>
+							<a class="address_item" href="https://news.baidu.com/" target="blank">
+								<img src="img/40.png">
+								<span>百度新闻</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--代码统计-->
+		<div style="display:none;">
+
+    
+
+
+		</div>
+		
+		
+	
+
+</body></html>
+

@@ -1,0 +1,145 @@
+=== get_lang ===
+fr
+
+=== get_meta_titles ===
+  "title": "014.fr"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["https://iperf.fr/iperf-servers.php", "https://i.014.fr/", "https://u.014.fr/", "https://hastebin.014.fr/", "https://dns.014.fr/", "/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622"]
+
+=== get_links ===
+[("https://iperf.fr/iperf-servers.php", "Découvrir"), ("https://i.014.fr/", "Découvrir"), ("https://u.014.fr/", "Découvrir"), ("https://hastebin.014.fr/", "Découvrir"), ("https://dns.014.fr/", "Découvrir"), ("/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622", "Contactez-moi")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": ["014.fr"]
+  "h2": ["Bienvenue sur 014.fr"]
+  "h3": ["Serveur iPerf", "Hébergement d'images", "Réducteur de lien", "Hébergement de texte", "Sous domaine", "Tunnel IP"]
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["014.fr", "Découvrir", "Découvrir", "Découvrir", "Découvrir", "Découvrir"]
+
+=== get_sentences.p ===
+["Un outil pour tester la vitesse de son réseau", "Une plateforme pour mes projets créatifs et techniques", "Découvrez mes projets ci-dessous :", "Service d'hébergement d'images serverless", "Réducteur de lien serverless", "Création de tunnel IPv4", "Console d'enregistrements DNS"]
+
+=== get_sentences.meta_titles ===
+  "title": "014.fr"
+
+=== get_sentences.href_attributes ===
+["https://iperf.fr/iperf-servers.php", "https://i.014.fr/", "https://u.014.fr/", "https://hastebin.014.fr/", "https://dns.014.fr/", "/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622"]
+
+=== get_sentences.text_nodes ===
+[["014.fr"], ["014.fr", "Une plateforme pour mes projets créatifs et techniques"], ["Bienvenue sur 014.fr", "Découvrez mes projets ci-dessous:"], ["Serveur iPerf", "Un outil pour tester la vitesse de son réseau.", "Découvrir"], ["Hébergement d'images", "Service d'hébergement d'images serverless.", "Découvrir"], ["Réducteur de lien", "Réducteur de lien serverless.", "Découvrir"], ["Hébergement de texte", "Hastebin serverless.", "Découvrir"], ["Sous domaine", "Console d'enregistrements DNS", "Découvrir"], ["Tunnel IP", "Création de tunnel IPv4."], ["© 2025 014.fr", "Fait avec ❤\u{fe0f}", "Contactez-moi"]]
+
+=== get_markdown ===
+# 014.fr
+
+Une plateforme pour mes projets créatifs et techniques
+
+## Bienvenue sur 014.fr
+
+Découvrez mes projets ci-dessous :
+
+### Serveur iPerf
+
+Un outil pour tester la vitesse de son réseau
+
+### Hébergement d'images
+
+Service d'hébergement d'images serverless
+
+### Réducteur de lien
+
+Réducteur de lien serverless
+
+### Hébergement de texte
+
+### Sous domaine
+
+Console d'enregistrements DNS
+
+### Tunnel IP
+
+Création de tunnel IPv4
+
+=== extract_text ===
+  "footer": [["© 2025 014.fr", "Fait avec ❤\u{fe0f}", "Contactez-moi"]]
+  "main": [["014.fr", "Une plateforme pour mes projets créatifs et techniques", "Bienvenue sur 014.fr", "Découvrez mes projets ci-dessous: Serveur iPerf", "Un outil pour tester la vitesse de son réseau.", "Découvrir", "Hébergement d'images", "Service d'hébergement d'images serverless.", "Découvrir", "Réducteur de lien", "Réducteur de lien serverless.", "Découvrir", "Hébergement de texte", "Hastebin serverless.", "Découvrir", "Sous domaine", "Console d'enregistrements DNS", "Découvrir", "Tunnel IP", "Création de tunnel IPv4."]]
+
+=== tag_html_contents(title) ===
+<title>014.fr</title>
+
+=== html_contents ===
+<!DOCTYPE html><html lang="fr"><head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>014.fr</title>
+    
+</head>
+<body>
+    <header>
+        <h1>014.fr</h1>
+        <p>Une plateforme pour mes projets créatifs et techniques</p>
+    </header>
+    <main>
+        <h2>Bienvenue sur 014.fr</h2>
+        <p>Découvrez mes projets ci-dessous :</p>
+        <div class="projects">
+            <!-- Projet 1 : Serveur iPerf -->
+            <div class="project">
+                <h3>Serveur iPerf</h3>
+                <p>Un outil pour tester la vitesse de son réseau.</p>
+                <a href="https://iperf.fr/iperf-servers.php" target="_blank">Découvrir</a>
+            </div>
+            <!-- Projet 2 : Hébergement d'images -->
+            <div class="project">
+                <h3>Hébergement d'images</h3>
+                <p>Service d'hébergement d'images serverless.</p>
+                <a href="https://i.014.fr/" target="_blank">Découvrir</a>
+            </div>
+            <div class="project">
+                <h3>Réducteur de lien</h3>
+                <p>Réducteur de lien serverless.</p>
+                <a href="https://u.014.fr/" target="_blank">Découvrir</a>
+            </div>
+            <div class="project">
+                <h3>Hébergement de texte</h3>
+                <p>Hastebin serverless.</p>
+                <a href="https://hastebin.014.fr/" target="_blank">Découvrir</a>
+            </div>
+             <div class="project">
+                <h3>Sous domaine</h3>
+                <p>Console d'enregistrements DNS</p>
+                <a href="https://dns.014.fr/" target="_blank">Découvrir</a>
+            </div>
+            <div class="project">
+                <h3>Tunnel IP</h3>
+                <p>Création de tunnel IPv4.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 014.fr - Fait avec ❤️ | <a href="/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622">Contactez-moi</a></p>
+
+    </footer>
+
+
+</body></html>
+

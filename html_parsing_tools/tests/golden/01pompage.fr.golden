@@ -1,0 +1,126 @@
+=== get_lang ===
+fr
+
+=== get_meta_titles ===
+  "title": "Mieux gérer vos réseaux de distribution d'eau | 01 Pompage | Ain"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["https://www.linkedin.com/in/julien-poucet-0714a0187/"]
+
+=== get_links ===
+[("https://www.linkedin.com/in/julien-poucet-0714a0187/", "Nous suivre")]
+
+=== get_emails ===
+["contact@01pompage.fr"]
+
+=== get_sentences.descriptions ===
+["Implantée au coeur du territoire de l'Ain, la société 01 Pompage apporte des solutions clés en main en matière de gestion des réseaux."]
+
+=== get_sentences.h ===
+  "h1": ["Site web en cours"]
+  "h2": []
+  "h3": ["Venir chez nous", "Contactez-nous", "Suivre nos actualités"]
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["Mieux gérer vos réseaux de distribution d'eau | 01 Pompage | Ain", "Notre nouveau site internet est en cours de construction.", "En attendant, vous pouvez toujours nous contacter.", "Lieudit Hameau de Cormoz", "18 rue des Abeilles", "01500 Château Gaillard", "04 74 38 71 30", "contact@01pompage.fr", "Abonnez-vous à notre page Linkedin pour tout savoir de notre actualité.", "Nous suivre"]
+
+=== get_sentences.p ===
+[]
+
+=== get_sentences.meta_titles ===
+  "title": "Mieux gérer vos réseaux de distribution d'eau | 01 Pompage | Ain"
+
+=== get_sentences.href_attributes ===
+["https://www.linkedin.com/in/julien-poucet-0714a0187/"]
+
+=== get_sentences.text_nodes ===
+[["Mieux gérer vos réseaux de distribution d'eau", "01 Pompage", "Ain"], ["Site web en cours", "Notre nouveau site internet est en cours de construction. En attendant, vous pouvez toujours nous contacter."], ["Venir chez nous", "Lieudit Hameau de Cormoz", "18 rue des Abeilles", "01500 Château Gaillard"], ["Contactez-nous"], ["04 74 38 71 30", "contact@01pompage.fr"], ["Suivre nos actualités", "Abonnez-vous à notre page Linkedin pour tout savoir de notre actualité."], ["Nous suivre"]]
+
+=== get_markdown ===
+# Site web en cours
+
+### Venir chez nous
+
+### Contactez-nous
+
+### Suivre nos actualités
+
+=== extract_text ===
+  "main": [["Site web en cours", "Notre nouveau site internet est en cours de construction.", "En attendant, vous pouvez toujours nous contacter.", "Venir chez nous", "Lieudit Hameau de Cormoz", "18 rue des Abeilles", "01500 Château Gaillard", "Contactez-nous", "04 74 38 71 30", "contact@01pompage.fr", "Suivre nos actualités", "Abonnez-vous à notre page Linkedin pour tout savoir de notre actualité.", "Nous suivre"]]
+
+=== tag_html_contents(title) ===
+<title>Mieux gérer vos réseaux de distribution d'eau | 01 Pompage | Ain</title>
+
+=== html_contents ===
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  --><!--  Last Published: Tue May 17 2022 14:06:42 GMT+0000 (Coordinated Universal Time)  --><html data-wf-page="628358627e97644c5d14ca05" data-wf-site="62440e06df380388a576e737" lang="fr"><head>
+  <meta charset="utf-8">
+  <title>Mieux gérer vos réseaux de distribution d'eau | 01 Pompage | Ain</title>
+  <meta content="Implantée au coeur du territoire de l'Ain, la société 01 Pompage apporte des solutions clés en main en matière de gestion des réseaux." name="description">
+  <meta content="Coming-soon" property="og:title">
+  <meta content="Coming-soon" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/01-pompage.webflow.css" rel="stylesheet" type="text/css">
+  
+  
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  
+  <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  
+</head>
+<body class="body-coming_soon">
+  <div class="logo-coming_soon"><img alt="logo de 01 pompage" loading="lazy" sizes="200px" src="images/logo-01pompage-white.png" srcset="images/logo-01pompage-white-p-500.png 500w, images/logo-01pompage-white-p-800.png 800w, images/logo-01pompage-white.png 998w" width="200"></div>
+  <div class="main-container text-white">
+    <div class="container-large text-center align-center">
+      <h1 class="display-heading">Site web en cours</h1>
+      <div class="large-text">Notre nouveau site internet est en cours de construction. <br>En attendant, vous pouvez toujours nous contacter.</div>
+    </div>
+  </div>
+  <div class="main-container text-white">
+    <div class="coming_soon-coordonnees">
+      <div>
+        <h3 class="footer-heading">Venir chez nous</h3>
+        <div>Lieudit Hameau de Cormoz<br>18 rue des Abeilles<br>01500 Château Gaillard</div>
+      </div>
+      <div>
+        <h3 class="footer-heading">Contactez-nous</h3>
+        <div>
+          <div>04 74 38 71 30<br></div>
+          <div>contact@01pompage.fr<br></div>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer-heading">Suivre nos actualités</h3>
+        <div>Abonnez-vous à notre page Linkedin pour tout savoir de notre actualité.</div>
+        <a class="underline-link text-white margin-top-15 w-inline-block" href="https://www.linkedin.com/in/julien-poucet-0714a0187/" target="_blank">
+          <div class="link-with-arrow">
+            <div>Nous suivre</div><img alt="" class="link-arrow-image" src="images/icon-chevron-right_1.svg">
+          </div>
+          <div class="underline-container bg-white">
+            <div class="underline-line bg-white"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+
+</body></html>
+

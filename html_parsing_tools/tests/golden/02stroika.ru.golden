@@ -1,0 +1,124 @@
+=== get_lang ===
+en
+
+=== get_meta_titles ===
+  "title": "Истёк срок регистрации домена"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["http://beget.com", "https://cp.beget.com/domains", "https://beget.com/domain-register", "https://beget.com/ru/domain-register", "https://beget.com/ru/virtual-hosting", "https://beget.com/ru/vps", "https://beget.com/ru/dedicated-servers", "https://whois.beget.com", "mailto:support@beget.com"]
+
+=== get_links ===
+[("http://beget.com", ""), ("https://cp.beget.com/domains", "Продлить домен"), ("https://beget.com/domain-register", "Зарегистрировать новый домен"), ("https://beget.com/ru/domain-register", "Домены от ₽"), ("https://beget.com/ru/virtual-hosting", "Хостинг от ₽"), ("https://beget.com/ru/vps", "VPS от ₽"), ("https://beget.com/ru/dedicated-servers", "Аренда серверов от ₽"), ("https://whois.beget.com", "формой обратной связи."), ("mailto:support@beget.com", "support@beget.com")]
+
+=== get_emails ===
+["support@beget.com", "support@beget.com"]
+
+=== get_sentences.descriptions ===
+[]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": []
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+[]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["Истёк срок регистрации домена", "Продлить домен", "Зарегистрировать новый домен"]
+
+=== get_sentences.p ===
+["Россия: +7 (800) 700-06-08", "Украина: +380 (800) 802-192"]
+
+=== get_sentences.meta_titles ===
+  "title": "Истёк срок регистрации домена"
+
+=== get_sentences.href_attributes ===
+["http://beget.com", "https://cp.beget.com/domains", "https://beget.com/domain-register", "https://beget.com/ru/domain-register", "https://beget.com/ru/virtual-hosting", "https://beget.com/ru/vps", "https://beget.com/ru/dedicated-servers", "https://whois.beget.com", "mailto:support@beget.com"]
+
+=== get_sentences.text_nodes ===
+[["Истёк срок регистрации домена"], ["Истёк срок регистрации домена"], ["Если домен не будет продлён в ближайшее время, то он освободится и снова станет доступен для регистрации."], ["Продлить домен", "Зарегистрировать новый домен"], ["Домены от ₽", "Хостинг", "от ₽", "VPS", "от ₽", "Аренда серверов от ₽"], ["Для связи с владельцем домена воспользуйтесь формой обратной связи."], ["Тех. поддержка: support@beget.com", "Россия: +7 (800) 700-06-08", "Украина: +380 (800) 802-192"]]
+
+=== get_markdown ===
+Россия: +7 (800) 700-06-08
+
+Украина: +380 (800) 802-192
+
+=== extract_text ===
+  "footer": [["Тех. поддержка: support@beget.com", "Россия: +7 (800) 700-06-08", "Украина: +380 (800) 802-192"]]
+  "main": [["Истёк срок регистрации домена", "Если домен не будет продлён в ближайшее время, то он освободится и снова станет доступен для регистрации.", "Продлить домен", "Зарегистрировать новый домен", "Домены", "от", "₽", "Хостинг", "от", "₽", "VPS", "от", "₽", "Аренда серверов", "от", "₽", "Для связи с владельцем домена воспользуйтесь", "формой обратной связи."]]
+
+=== tag_html_contents(title) ===
+<title>Истёк срок регистрации домена</title>
+
+=== html_contents ===
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Истёк срок регистрации домена</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Caption" rel="stylesheet">
+    <link href="https://beget.com/css/prices.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    
+
+    
+
+</head>
+<body>
+<div class="top">
+    <header>
+        <noindex>
+            <a class="logo" href="http://beget.com" rel="nofollow" target="_blank" title="Перейти на сайт хостинг-провайдера">
+                <img src="https://cp.beget.com/i/logo.png">
+            </a>
+        </noindex>
+    </header>
+    <main>
+        <div class="main-text">
+            <span class="octo">
+                <img src="https://cp.beget.com/img/octo/octo_expired.png">
+            </span>
+            <span class="hint">
+
+                <p class="title">Истёк срок регистрации домена</p>
+                <h1><span class="js__hostname"></span></h1>
+                <p>Если домен не будет продлён в ближайшее время, то он освободится и снова станет доступен для регистрации.</p>
+                <div class="btn-row mt-20">
+                    <noindex><a class="btn" href="https://cp.beget.com/domains" rel="nofollow" target="_blank">Продлить домен</a></noindex>
+                    <noindex><a class="ml-30" href="https://beget.com/domain-register" rel="nofollow" target="_blank">Зарегистрировать новый домен</a></noindex>
+                </div>
+                <div class="service show-price-block">
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/domain-register" rel="nofollow" target="_blank">Домены <span class="price"><span class="from">от</span> <span class="domains-price-value"></span> ₽</span></a></noindex></p>
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/virtual-hosting" rel="nofollow" target="_blank">Хостинг<span class="price"><span class="from">от</span> <span class="hosting-price-value"></span> ₽</span></a></noindex></p>
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/vps" rel="nofollow" target="_blank">VPS<span class="price"><span class="from">от</span> <span class="vps-price-value"></span> ₽</span></a></noindex></p>
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/dedicated-servers" rel="nofollow" target="_blank">Аренда серверов <span class="price"><span class="from">от</span> <span class="servers-price-value"></span> ₽</span></a></noindex></p>
+                </div>
+
+                <p class="contact-administrator">Для связи с владельцем домена воспользуйтесь <noindex><a href="https://whois.beget.com" rel="nofollow" target="_blank">формой обратной связи.</a></noindex></p>
+                
+                <hr>
+                <div class="bottom-mobile">
+                    <footer>
+                        <p><span class="txt">Тех. поддержка: </span><span class="footer-info"><noindex><a href="mailto:support@beget.com" rel="nofollow">support@beget.com</a></noindex></span></p>
+                        <p><span class="txt">Россия:</span> <span class="footer-info">+7 (800) 700-06-08</span></p>
+                        <p><span class="txt">Украина:</span> <span class="footer-info">+380 (800) 802-192</span></p>
+                    </footer>
+                </div>
+            </span>
+        </div>
+    </main>
+</div>
+
+
+</body></html>
+

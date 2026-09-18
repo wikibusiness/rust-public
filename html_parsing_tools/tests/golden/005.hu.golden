@@ -1,0 +1,216 @@
+=== get_lang ===
+hu
+
+=== get_meta_titles ===
+  "title": "Legyen Ön is 005-ös Ügynök! |"
+
+=== get_alternate_links ===
+
+
+=== get_href_attributes ===
+["#site-content", "#", "https://005.hu/", "https://005.hu/projectek/", "https://005.hu/biztositaskotes-legolcsobb-biztositas/", "https://005.hu/hirdeto-oldalak/", "https://005.hu/", "https://005.hu/", "#", "https://005.hu/", "https://005.hu/projectek/", "https://005.hu/biztositaskotes-legolcsobb-biztositas/", "https://005.hu/hirdeto-oldalak/", "#", "/kapcsolat/"]
+
+=== get_links ===
+[("#site-content", "Ugrás a tartalomra"), ("#", "Menü Bezárás"), ("https://005.hu/", "Kezdőlap"), ("https://005.hu/projectek/", "Projectek"), ("https://005.hu/biztositaskotes-legolcsobb-biztositas/", "Biztosításkötés"), ("https://005.hu/hirdeto-oldalak/", "Hirdető oldalak"), ("https://005.hu/", ""), ("https://005.hu/", ""), ("#", ""), ("https://005.hu/", "Kezdőlap"), ("https://005.hu/projectek/", "Projectek"), ("https://005.hu/biztositaskotes-legolcsobb-biztositas/", "Biztosításkötés"), ("https://005.hu/hirdeto-oldalak/", "Hirdető oldalak"), ("#", ""), ("/kapcsolat/", "Kapcsolat")]
+
+=== get_emails ===
+[]
+
+=== get_sentences.descriptions ===
+["Legyen Ön is 005-ös Ügynök! Csatlakozzon csapatunkhoz! A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer.…"]
+
+=== get_sentences.h ===
+  "h1": []
+  "h2": ["Legyen Ön is 005-ös Ügynök!", "Csatlakozzon csapatunkhoz!"]
+  "h3": []
+  "h4": []
+  "h5": []
+  "h6": []
+
+=== get_sentences.json_ld ===
+["{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://005.hu/\",\"url\":\"https://005.hu/\",\"name\":\"Legyen Ön is 005-ös Ügynök! |\",\"isPartOf\":{\"@id\":\"https://005.hu/#website\"},\"about\":{\"@id\":\"https://005.hu/#organization\"},\"primaryImageOfPage\":{\"@id\":\"https://005.hu/#primaryimage\"},\"image\":{\"@id\":\"https://005.hu/#primaryimage\"},\"thumbnailUrl\":\"https://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg\",\"datePublished\":\"2023-04-25T08:41:52+00:00\",\"dateModified\":\"2023-05-02T18:23:05+00:00\",\"breadcrumb\":{\"@id\":\"https://005.hu/#breadcrumb\"},\"inLanguage\":\"hu\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https://005.hu/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"hu\",\"@id\":\"https://005.hu/#primaryimage\",\"url\":\"https://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg\",\"contentUrl\":\"https://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://005.hu/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\"}]},{\"@type\":\"WebSite\",\"@id\":\"https://005.hu/#website\",\"url\":\"https://005.hu/\",\"name\":\"005 - Internetes Ügynökség\",\"description\":\"\",\"publisher\":{\"@id\":\"https://005.hu/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://005.hu/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"hu\"},{\"@type\":\"Organization\",\"@id\":\"https://005.hu/#organization\",\"name\":\"Petrényi-Petrik József E.V.\",\"url\":\"https://005.hu/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"hu\",\"@id\":\"https://005.hu/#/schema/logo/image/\",\"url\":\"https://005.hu/wp-content/uploads/2023/05/cropped-005-ugynokseg-logo-1.png\",\"contentUrl\":\"https://005.hu/wp-content/uploads/2023/05/cropped-005-ugynokseg-logo-1.png\",\"width\":250,\"height\":100,\"caption\":\"Petrényi-Petrik József E.V.\"},\"image\":{\"@id\":\"https://005.hu/#/schema/logo/image/\"}}]}"]
+
+=== get_sentences.keywords ===
+
+
+=== get_sentences.other ===
+["Legyen Ön is 005-ös Ügynök! |", "Ugrás a tartalomra", "Menü", "Bezárás", "Kezdőlap", "Projectek", "Biztosításkötés", "Hirdető oldalak", "Keresése:", "Menü", "Keresése:", "Kezdőlap", "Projectek", "Biztosításkötés", "Hirdető oldalak", "Kapcsolat"]
+
+=== get_sentences.p ===
+["Célunk, hogy minél több üzleti lehetőséget felkutassunk és egy sokrétű pénzkereseti kínálatot állítsunk össze. Eladunk, értékesítünk. Mit? Akár „bármit is”, ami eladható online, vagy telefonon! 🙂 Az értékesítési csatorna kiválasztása Önre lesz bízva", "A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer. Ön annyit dolgozik és keres, amennyit csak szeretne", "Ha érdekli a lehetőség, pár adat megadásával jelentkezhet csapatunkba. Minimum középfokú végzettségűeket keresünk. Nagy ismeretségi kör, meglévő üzleti kapcsolatok előnyt jelentenek, segíti az értékesítést", "Ez nem egy MLM rendszer, nem hálózatépítés! Nem vagyunk munkáltató, nem lesz senki az alkalmazottunk. Üzleti partnerek leszünk!", "Lesz olyan munka, ahol oktatáson is részt kell venni, tanulni kell, hogy az alapvető tudással rendelkezzen", "Hamarosan itt lesz elérhető jelentkezési űrlapunk. Addig is köszönjük a türelmet!", "3530 Miskolc, Király 12", "Minden jog fenntartva 2024", "Üdvözöljük a 005-ös ügynököknél!", "Üdvözöljük a 005-ös ügynököknél!", "Petrényi-Petrik József E.V"]
+
+=== get_sentences.meta_titles ===
+  "title": "Legyen Ön is 005-ös Ügynök! |"
+
+=== get_sentences.href_attributes ===
+["#site-content", "#", "https://005.hu/", "https://005.hu/projectek/", "https://005.hu/biztositaskotes-legolcsobb-biztositas/", "https://005.hu/hirdeto-oldalak/", "https://005.hu/", "https://005.hu/", "#", "https://005.hu/", "https://005.hu/projectek/", "https://005.hu/biztositaskotes-legolcsobb-biztositas/", "https://005.hu/hirdeto-oldalak/", "#", "/kapcsolat/"]
+
+=== get_sentences.text_nodes ===
+[["Legyen Ön is 005-ös Ügynök!"], ["Ugrás a tartalomra", "Menü", "Bezárás", "Üdvözöljük a 005-ös ügynököknél!", "Kezdőlap", "Projectek", "Biztosításkötés", "Hirdető oldalak"], ["Keresése: Menü", "Üdvözöljük a 005-ös ügynököknél!", "Keresése: Kezdőlap", "Projectek", "Biztosításkötés", "Hirdető oldalak", "Kapcsolat"], ["Legyen Ön is 005-ös Ügynök!"], ["Csatlakozzon csapatunkhoz!"], ["A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer. Ön annyit dolgozik és keres, amennyit csak szeretne.", "Célunk, hogy minél több üzleti lehetőséget felkutassunk és egy sokrétű pénzkereseti kínálatot állítsunk össze. Eladunk, értékesítünk. Mit? Akár „bármit is”, ami eladható online, vagy telefonon! 🙂 Az értékesítési csatorna kiválasztása Önre lesz bízva.", "Lesz olyan munka, ahol oktatáson is részt kell venni, tanulni kell, hogy az alapvető tudással rendelkezzen.", "Ez nem egy MLM rendszer, nem hálózatépítés! Nem vagyunk munkáltató, nem lesz senki az alkalmazottunk. Üzleti partnerek leszünk!"], ["Ha érdekli a lehetőség, pár adat megadásával jelentkezhet csapatunkba. Minimum középfokú végzettségűeket keresünk. Nagy ismeretségi kör, meglévő üzleti kapcsolatok előnyt jelentenek, segíti az értékesítést.", "Számlaképesség feltétel!", "Hamarosan itt lesz elérhető jelentkezési űrlapunk.", "Addig is köszönjük a türelmet!", "Impresszum", "Petrényi-Petrik József E.V.", "3530 Miskolc, Király 12.", "Minden jog fenntartva 2024"]]
+
+=== get_markdown ===
+Üdvözöljük a 005-ös ügynököknél!
+
+Üdvözöljük a 005-ös ügynököknél!
+
+## Legyen Ön is 005-ös Ügynök!
+
+## Csatlakozzon csapatunkhoz!
+
+A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer. Ön annyit dolgozik és keres, amennyit csak szeretne
+
+Célunk, hogy minél több üzleti lehetőséget felkutassunk és egy sokrétű pénzkereseti kínálatot állítsunk össze. Eladunk, értékesítünk. Mit? Akár „bármit is”, ami eladható online, vagy telefonon! 🙂 Az értékesítési csatorna kiválasztása Önre lesz bízva
+
+Lesz olyan munka, ahol oktatáson is részt kell venni, tanulni kell, hogy az alapvető tudással rendelkezzen
+
+Ez nem egy MLM rendszer, nem hálózatépítés! Nem vagyunk munkáltató, nem lesz senki az alkalmazottunk. Üzleti partnerek leszünk!
+
+Ha érdekli a lehetőség, pár adat megadásával jelentkezhet csapatunkba. Minimum középfokú végzettségűeket keresünk. Nagy ismeretségi kör, meglévő üzleti kapcsolatok előnyt jelentenek, segíti az értékesítést
+
+Hamarosan itt lesz elérhető jelentkezési űrlapunk. Addig is köszönjük a türelmet!
+
+Petrényi-Petrik József E.V
+
+3530 Miskolc, Király 12
+
+Minden jog fenntartva 2024
+
+=== extract_text ===
+  "footer": [["Impresszum", "Petrényi-Petrik József E.V.", "3530 Miskolc, Király 12.", "Minden jog fenntartva 2024"]]
+  "main": [["Ugrás a tartalomra", "Menü", "Bezárás", "Üdvözöljük a 005-ös ügynököknél!", "Keresése: Menü", "Üdvözöljük a 005-ös ügynököknél!", "Keresése: Kapcsolat", "Legyen Ön is 005-ös Ügynök!", "Csatlakozzon csapatunkhoz!", "A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer. Ön annyit dolgozik és keres, amennyit csak szeretne.", "Célunk, hogy minél több üzleti lehetőséget felkutassunk és egy sokrétű pénzkereseti kínálatot állítsunk össze. Eladunk, értékesítünk. Mit? Akár „bármit is”, ami eladható online, vagy telefonon! 🙂 Az értékesítési csatorna kiválasztása Önre lesz bízva.", "Lesz olyan munka, ahol oktatáson is részt kell venni, tanulni kell, hogy az alapvető tudással rendelkezzen.", "Ez nem egy MLM rendszer, nem hálózatépítés! Nem vagyunk munkáltató, nem lesz senki az alkalmazottunk. Üzleti partnerek leszünk!", "Ha érdekli a lehetőség, pár adat megadásával jelentkezhet csapatunkba. Minimum középfokú végzettségűeket keresünk. Nagy ismeretségi kör, meglévő üzleti kapcsolatok előnyt jelentenek, segíti az értékesítést.", "Számlaképesség feltétel!", "Hamarosan itt lesz elérhető jelentkezési űrlapunk.Addig is köszönjük a türelmet!"]]
+  "navigation": [["Kezdőlap", "Projectek", "Biztosításkötés", "Hirdető oldalak", "Kezdőlap", "Projectek", "Biztosításkötés", "Hirdető oldalak"]]
+
+=== tag_html_contents(title) ===
+<title>Legyen Ön is 005-ös Ügynök! |</title>
+
+=== html_contents ===
+<!DOCTYPE html><html lang="hu"><head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=10.0, user-scalable=yes" name="viewport">
+<link href="http://gmpg.org/xfn/11" rel="profile">
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots">
+<title>Legyen Ön is 005-ös Ügynök! |</title>
+<link href="https://005.hu/" rel="canonical">
+<meta content="hu_HU" property="og:locale">
+<meta content="website" property="og:type">
+<meta content="Legyen Ön is 005-ös Ügynök! |" property="og:title">
+<meta content="Legyen Ön is 005-ös Ügynök! Csatlakozzon csapatunkhoz! A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer.…" property="og:description">
+<meta content="https://005.hu/" property="og:url">
+<meta content="2023-05-02T18:23:05+00:00" property="article:modified_time">
+<meta content="http://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg" property="og:image">
+<meta content="summary_large_image" name="twitter:card">
+
+<link href="https://005.hu/feed/" rel="alternate" title="» hírcsatorna" type="application/rss+xml">
+<link href="https://005.hu/comments/feed/" rel="alternate" title="» hozzászólás hírcsatorna" type="application/rss+xml">
+
+
+
+<link href="https://005.hu/wp-content/cache/speedycache/005.hu/assets/70e6b0cdcfed6cf4-70e6b0cdcfed6cf4-combined.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;subset=latin-ext&amp;ver=6.7" id="google-fonts-1-css" media="all" rel="stylesheet" type="text/css">
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect">
+<link href="https://005.hu/wp-json/" rel="https://api.w.org/"><link href="https://005.hu/wp-json/wp/v2/pages/122" rel="alternate" title="JSON" type="application/json"><link href="https://005.hu/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml">
+<meta content="WordPress 6.7" name="generator">
+<link href="https://005.hu/" rel="shortlink">
+<link href="https://005.hu/wp-json/oembed/1.0/embed?url=https%3A%2F%2F005.hu%2F" rel="alternate" title="oEmbed (JSON)" type="application/json+oembed">
+<link href="https://005.hu/wp-json/oembed/1.0/embed?url=https%3A%2F%2F005.hu%2F&amp;format=xml" rel="alternate" title="oEmbed (XML)" type="text/xml+oembed">
+
+<meta content="Elementor 3.25.6; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading; settings: css_print_method-external, google_font-enabled, font_display-swap" name="generator">
+
+</head>
+<body class="home page-template-default page page-id-122 wp-custom-logo content main-layout-content site-full-width menu_sidebar_slide_left elementor-default elementor-kit-121 elementor-page elementor-page-122">
+<div class="site box-shadow" id="page">
+<a class="skip-link screen-reader-text" href="#site-content">Ugrás a tartalomra</a>
+<a class="close is-size-medium close-panel close-sidebar-panel" href="#">
+<span class="hamburger hamburger--squeeze is-active">
+<span class="hamburger-box">
+<span class="hamburger-inner"><span class="screen-reader-text">Menü</span></span>
+</span>
+</span>
+<span class="screen-reader-text">Bezárás</span>
+</a><header class="site-header header-v2" id="masthead"><div class="site-header-inner" id="masthead-inner">							<div class="header-top header--row layout-full-contained" data-row-id="top" data-show-on="desktop" id="cb-row--header-top">
+<div class="header--row-inner header-top-inner dark-mode">
+<div class="customify-container">
+<div class="customify-grid cb-row--desktop hide-on-mobile hide-on-tablet customify-grid-middle"><div class="row-v2 row-v2-top no-center"><div class="col-v2 col-v2-left"><div class="item--inner builder-item--html" data-item-id="html" data-section="header_html"><div class="builder-header-html-item item--html"><p>Üdvözöljük a 005-ös ügynököknél!</p></div></div></div><div class="col-v2 col-v2-right"><div class="item--inner builder-item--primary-menu has_menu" data-item-id="primary-menu" data-section="header_menu_primary"><nav class="site-navigation primary-menu primary-menu-top nav-menu-desktop primary-menu-desktop style-plain" id="site-navigation-top-desktop"><ul class="primary-menu-ul menu nav-menu" id="menu-menu-1"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-59" id="menu-item--top-desktop-59"><a aria-current="page" href="https://005.hu/"><span class="link-before">Kezdőlap</span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304" id="menu-item--top-desktop-304"><a href="https://005.hu/projectek/"><span class="link-before">Projectek</span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305" id="menu-item--top-desktop-305"><a href="https://005.hu/biztositaskotes-legolcsobb-biztositas/"><span class="link-before">Biztosításkötés</span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316" id="menu-item--top-desktop-316"><a href="https://005.hu/hirdeto-oldalak/"><span class="link-before">Hirdető oldalak</span></a></li></ul></nav></div></div></div></div></div></div></div><div class="header-main header--row layout-full-contained" data-row-id="main" data-show-on="desktop mobile" id="cb-row--header-main">
+<div class="header--row-inner header-main-inner light-mode">
+<div class="customify-container">
+<div class="customify-grid cb-row--desktop hide-on-mobile hide-on-tablet customify-grid-middle"><div class="row-v2 row-v2-main no-center no-right"><div class="col-v2 col-v2-left"><div class="item--inner builder-item--logo" data-item-id="logo" data-section="title_tagline">		<div class="site-branding logo-top">
+<a class="logo-link" href="https://005.hu/" itemprop="url" rel="home">
+<img alt="" class="site-img-logo" src="https://005.hu/wp-content/uploads/2023/05/cropped-005-ugynokseg-logo-1.png">
+</a>
+<div class="site-name-desc"></div></div></div></div></div></div><div class="cb-row--mobile hide-on-desktop customify-grid customify-grid-middle"><div class="row-v2 row-v2-main no-center"><div class="col-v2 col-v2-left"><div class="item--inner builder-item--logo" data-item-id="logo" data-section="title_tagline">		<div class="site-branding logo-top">
+<a class="logo-link" href="https://005.hu/" itemprop="url" rel="home">
+<img alt="" class="site-img-logo" src="https://005.hu/wp-content/uploads/2023/05/cropped-005-ugynokseg-logo-1.png">
+</a>
+<div class="site-name-desc"></div></div></div></div><div class="col-v2 col-v2-right"><div class="item--inner builder-item--search_icon" data-item-id="search_icon" data-section="search_icon"><div class="header-search_icon-item item--search_icon">		<a aria-label="open search tool" class="search-icon" href="#">
+<span class="ic-search">
+
+</span>
+<span class="ic-close">
+
+</span>
+<span class="arrow-down"></span>
+</a>
+<div class="header-search-modal-wrapper"> <form action="https://005.hu/" class="header-search-modal header-search-form" role="search"> <label> <span class="screen-reader-text">Keresése:</span> <input class="search-field" name="s" placeholder="Keresés ..." title="Keresése:" type="search" value=""></label> <button aria-label="submit search" class="search-submit" type="submit"> </button></form></div></div></div><div class="item--inner builder-item--nav-icon" data-item-id="nav-icon" data-section="header_menu_icon"> <button aria-label="nav icon" class="menu-mobile-toggle item-button is-size-desktop-medium is-size-tablet-medium is-size-mobile-medium" type="button"> <span class="hamburger hamburger--squeeze"> <span class="hamburger-box"> <span class="hamburger-inner"></span></span></span> <span class="nav-icon--label hide-on-tablet hide-on-mobile">Menü</span></button></div></div></div></div></div></div></div><div class="header-menu-sidebar menu-sidebar-panel dark-mode" id="header-menu-sidebar"><div class="header-menu-sidebar-bg" id="header-menu-sidebar-bg"><div class="header-menu-sidebar-inner" id="header-menu-sidebar-inner"><div class="builder-item-sidebar mobile-item--html"><div class="item--inner" data-item-id="html" data-section="header_html"><div class="builder-header-html-item item--html"><p>Üdvözöljük a 005-ös ügynököknél!</p></div></div></div><div class="builder-item-sidebar mobile-item--search_box"><div class="item--inner" data-item-id="search_box" data-section="search_box"><div class="header-search_box-item item--search_box">		<form action="https://005.hu/" class="header-search-form " role="search">
+<div class="search-form-fields"> <span class="screen-reader-text">Keresése:</span> <input class="search-field" name="s" placeholder="Keresés ..." title="Keresése:" type="search" value=""></div><button aria-label="Submit Search" class="search-submit" type="submit">
+
+</button>
+</form></div></div></div><div class="builder-item-sidebar mobile-item--primary-menu mobile-item--menu"><div class="item--inner" data-item-id="primary-menu" data-section="header_menu_primary"><nav class="site-navigation primary-menu primary-menu-sidebar nav-menu-mobile primary-menu-mobile style-plain" id="site-navigation-sidebar-mobile"><ul class="primary-menu-ul menu nav-menu" id="menu-menu-1"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-59" id="menu-item--sidebar-mobile-59"><a aria-current="page" href="https://005.hu/"><span class="link-before">Kezdőlap</span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304" id="menu-item--sidebar-mobile-304"><a href="https://005.hu/projectek/"><span class="link-before">Projectek</span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305" id="menu-item--sidebar-mobile-305"><a href="https://005.hu/biztositaskotes-legolcsobb-biztositas/"><span class="link-before">Biztosításkötés</span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316" id="menu-item--sidebar-mobile-316"><a href="https://005.hu/hirdeto-oldalak/"><span class="link-before">Hirdető oldalak</span></a></li></ul></nav></div></div><div class="builder-item-sidebar mobile-item--social-icons"><div class="item--inner" data-item-id="social-icons" data-section="header_social_icons"><ul class="header-social-icons customify-builder-social-icons color-default"><li><a aria-label="Facebook" class="social-icon-facebook shape-circle" href="#" rel="nofollow noopener" target="_blank"><i class="social-icon fa fa-facebook" title="Facebook"></i></a></li></ul></div></div><div class="builder-item-sidebar mobile-item--button"><div class="item--inner" data-item-id="button" data-section="header_button"><a class="item--button customify-btn customify-builder-btn is-icon-after" href="/kapcsolat/" target="_blank">Kapcsolat<i class="fa fa-chevron-right"></i></a></div></div></div></div></div></div></header>		<div class="page-header--item page-titlebar" id="page-titlebar">
+<div class="page-titlebar-inner customify-container"></div></div><div class="site-content" id="site-content">
+<div class="customify-container">
+<div class="customify-grid">
+<main class="content-area customify-col-12" id="main">
+<div class="content-inner">
+<article class="post-122 page type-page status-publish hentry" id="post-122">
+<div class="entry-content">
+<div class="elementor elementor-122" data-elementor-id="122" data-elementor-type="wp-page">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-5df2ff8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="5df2ff8">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4967dc7" data-element_type="column" data-id="4967dc7">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-f6252de elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f6252de" data-widget_type="heading.default">
+<div class="elementor-widget-container"> <h2 class="elementor-heading-title elementor-size-default">Legyen Ön is 005-ös Ügynök!</h2></div></div></div></div></div></section>
+<div class="elementor-element elementor-element-872e01b e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="872e01b">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-37ffada e-con-full e-flex e-con e-child" data-element_type="container" data-id="37ffada">
+<div class="elementor-element elementor-element-9b18dde elementor-invisible elementor-widget elementor-widget-heading" data-element_type="widget" data-id="9b18dde" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+<div class="elementor-widget-container"> <h2 class="elementor-heading-title elementor-size-default"><br><br>Csatlakozzon csapatunkhoz!</h2></div></div></div><div class="elementor-element elementor-element-475e628 e-con-full e-flex e-con e-child" data-element_type="container" data-id="475e628">
+<div class="elementor-element elementor-element-2362ab2 elementor-widget elementor-widget-image" data-element_type="widget" data-id="2362ab2" data-widget_type="image.default">
+<div class="elementor-widget-container"> <img alt="" class="attachment-full size-full wp-image-153" decoding="async" fetchpriority="high" height="214" src="https://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg" width="300"></div></div></div></div></div><section class="elementor-section elementor-top-section elementor-element elementor-element-83d6229 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="83d6229">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17aaa87" data-element_type="column" data-id="17aaa87">
+<div class="elementor-widget-wrap elementor-element-populated">
+<div class="elementor-element elementor-element-859c3c7 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="859c3c7" data-widget_type="text-editor.default">
+<div class="elementor-widget-container"> <p>A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer. Ön annyit dolgozik és keres, amennyit csak szeretne.</p><p>Célunk, hogy minél több üzleti lehetőséget felkutassunk és egy sokrétű pénzkereseti kínálatot állítsunk össze. Eladunk, értékesítünk. Mit? Akár „bármit is”, ami eladható online, vagy telefonon! 🙂 Az értékesítési csatorna kiválasztása Önre lesz bízva.</p><p>Lesz olyan munka, ahol oktatáson is részt kell venni, tanulni kell, hogy az alapvető tudással rendelkezzen.</p><p><b>Ez nem egy MLM rendszer, nem hálózatépítés! Nem vagyunk munkáltató, nem lesz senki az alkalmazottunk. Üzleti partnerek leszünk!</b></p></div></div></div></div></div></section>
+<div class="elementor-element elementor-element-bb0c8b7 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="bb0c8b7">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-d915ea6 elementor-widget elementor-widget-image" data-element_type="widget" data-id="d915ea6" data-widget_type="image.default">
+<div class="elementor-widget-container"> <img alt="" class="attachment-large size-large wp-image-175" decoding="async" height="561" sizes="(max-width: 843px) 100vw, 843px" src="https://005.hu/wp-content/uploads/2023/04/online-penzkereses-1024x682.jpg" srcset="https://005.hu/wp-content/uploads/2023/04/online-penzkereses-1024x682.jpg 1024w, https://005.hu/wp-content/uploads/2023/04/online-penzkereses-300x200.jpg 300w, https://005.hu/wp-content/uploads/2023/04/online-penzkereses-768x512.jpg 768w, https://005.hu/wp-content/uploads/2023/04/online-penzkereses.jpg 1280w" width="843"></div></div></div></div><div class="elementor-element elementor-element-e166993 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="e166993">
+<div class="e-con-inner">
+<div class="elementor-element elementor-element-a0f30d0 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="a0f30d0" data-widget_type="text-editor.default">
+<div class="elementor-widget-container"> <p>Ha érdekli a lehetőség, pár adat megadásával jelentkezhet csapatunkba. Minimum középfokú végzettségűeket keresünk. Nagy ismeretségi kör, meglévő üzleti kapcsolatok előnyt jelentenek, segíti az értékesítést.</p><p><b>Számlaképesség feltétel!</b></p><p>Hamarosan itt lesz elérhető jelentkezési űrlapunk.<b></b>Addig is köszönjük a türelmet!<b></b></p></div></div></div></div></div></div></article></div></main></div></div></div><footer class="site-footer" id="site-footer">							<div class="footer-main footer--row layout-full-contained" data-row-id="main" data-show-on="desktop" id="cb-row--footer-main">
+<div class="footer--row-inner footer-main-inner dark-mode">
+<div class="customify-container">
+<div class="customify-grid customify-grid-top"><div class="customify-col-12_md-12_sm-12_xs-12 builder-item builder-first--footer-1" data-push-left="_sm-0"><div class="item--inner builder-item--footer-1" data-item-id="footer-1" data-section="sidebar-widgets-footer-1"><div class="widget-area"><section class="widget widget_block widget_text" id="block-2">
+<p>Impresszum</p>
+</section><section class="widget widget_block" id="block-7">
+<div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"> <p>Petrényi-Petrik József E.V.</p> <p>3530 Miskolc, Király 12.</p></div><figure class="wp-block-media-text__media"></figure></div></section></div></div></div></div></div></div></div><div class="footer-bottom footer--row layout-full-contained" data-row-id="bottom" data-show-on="desktop" id="cb-row--footer-bottom">
+<div class="footer--row-inner footer-bottom-inner dark-mode">
+<div class="customify-container">
+<div class="customify-grid customify-grid-top"><div class="customify-col-12_md-12_sm-12_xs-12 builder-item builder-first--footer_copyright" data-push-left="_sm-0"><div class="item--inner builder-item--footer_copyright" data-item-id="footer_copyright" data-section="footer_copyright"><div class="builder-footer-copyright-item footer-copyright"><p>Minden jog fenntartva 2024</p></div></div></div></div></div></div></div></footer></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html><!-- Cache by SpeedyCache https://speedycache.com -->
+
