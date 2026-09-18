@@ -88,13 +88,13 @@ Forgejo is open source software for hosting code using the Git version control s
 <title> 0011.LT </title>
 
 === html_contents ===
-<!DOCTYPE html><html data-bs-theme="auto" lang="en-US"><head>
+<!DOCTYPE html><html lang="en-US" data-bs-theme="auto"><head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="https://mastodon.0011.lt/@admin" rel="me">
-    <link href="https://mastodon.0011.lt/@au0" rel="me">
-    <link href="https://mastodon.0011.lt/@arija" rel="me">
-    <link href="/static/base/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="me" href="https://mastodon.0011.lt/@admin">
+    <link rel="me" href="https://mastodon.0011.lt/@au0">
+    <link rel="me" href="https://mastodon.0011.lt/@arija">
+    <link rel="stylesheet" href="/static/base/css/bootstrap.min.css">
     
     
     <title> 0011.LT </title>
@@ -134,7 +134,7 @@ Forgejo is open source software for hosting code using the Git version control s
               </a>
             </li>
           </ul>
-          <form action="/i18n/setlang/" method="post"><input name="csrfmiddlewaretoken" type="hidden" value="zB4VAN082eV95bJDhM5nLScr4ny81PHux9CpLMLbcyCNcclL9cwLUom1854YLXbq">
+          <form action="/i18n/setlang/" method="post"><input type="hidden" name="csrfmiddlewaretoken" value="zB4VAN082eV95bJDhM5nLScr4ny81PHux9CpLMLbcyCNcclL9cwLUom1854YLXbq">
             <div class="input-group mb-3">
             <input name="next" type="hidden" value="">
             <select class="form-select" name="language">
@@ -142,7 +142,7 @@ Forgejo is open source software for hosting code using the Git version control s
               
               
               
-              <option selected="" value="en">
+              <option value="en" selected="">
                 English (EN)
               </option>
               
@@ -211,7 +211,7 @@ Forgejo is open source software for hosting code using the Git version control s
         </h5>
         <div class="card-body">
           <div class="text-center pb-2">
-            <img alt="Jitsi Meet logo" height="100" src="/media/uploads/Logo_Jitsi.svg">
+            <img src="/media/uploads/Logo_Jitsi.svg" height="100" alt="Jitsi Meet logo">
           </div>
           <p class="card-text text-center">
             
@@ -220,7 +220,7 @@ Forgejo is open source software for hosting code using the Git version control s
           </p>
           <div class="text-center">
             
-            <a class="btn btn-success" href="https://jitsi.0011.lt" target="_blank">
+            <a href="https://jitsi.0011.lt" target="_blank" class="btn btn-success">
               Try it!
             </a>
             
@@ -238,7 +238,7 @@ Forgejo is open source software for hosting code using the Git version control s
         </h5>
         <div class="card-body">
           <div class="text-center pb-2">
-            <img alt="Mastodon logo" height="100" src="/media/uploads/Mastodon_Logotype_Simple.svg">
+            <img src="/media/uploads/Mastodon_Logotype_Simple.svg" height="100" alt="Mastodon logo">
           </div>
           <p class="card-text text-center">
             
@@ -247,7 +247,7 @@ Forgejo is open source software for hosting code using the Git version control s
           </p>
           <div class="text-center">
             
-            <a class="btn btn-success" href="https://mastodon.0011.lt" target="_blank">
+            <a href="https://mastodon.0011.lt" target="_blank" class="btn btn-success">
               Try it!
             </a>
             
@@ -265,7 +265,7 @@ Forgejo is open source software for hosting code using the Git version control s
         </h5>
         <div class="card-body">
           <div class="text-center pb-2">
-            <img alt="PeerTube logo" height="100" src="/media/uploads/Logo_de_PeerTube.svg">
+            <img src="/media/uploads/Logo_de_PeerTube.svg" height="100" alt="PeerTube logo">
           </div>
           <p class="card-text text-center">
             
@@ -274,7 +274,7 @@ Forgejo is open source software for hosting code using the Git version control s
           </p>
           <div class="text-center">
             
-            <a class="btn btn-success" href="https://peertube.0011.lt" target="_blank">
+            <a href="https://peertube.0011.lt" target="_blank" class="btn btn-success">
               Try it!
             </a>
             
@@ -292,7 +292,7 @@ Forgejo is open source software for hosting code using the Git version control s
         </h5>
         <div class="card-body">
           <div class="text-center pb-2">
-            <img alt="SearXNG logo" height="100" src="/media/uploads/SearXNG-wordmark.svg">
+            <img src="/media/uploads/SearXNG-wordmark.svg" height="100" alt="SearXNG logo">
           </div>
           <p class="card-text text-center">
             
@@ -301,7 +301,7 @@ Forgejo is open source software for hosting code using the Git version control s
           </p>
           <div class="text-center">
             
-            <a class="btn btn-success" href="https://searxng.0011.lt" target="_blank">
+            <a href="https://searxng.0011.lt" target="_blank" class="btn btn-success">
               Try it!
             </a>
             
@@ -319,7 +319,7 @@ Forgejo is open source software for hosting code using the Git version control s
         </h5>
         <div class="card-body">
           <div class="text-center pb-2">
-            <img alt="CryptPad logo" height="100" src="/media/uploads/CryptPad_logo_icon.svg">
+            <img src="/media/uploads/CryptPad_logo_icon.svg" height="100" alt="CryptPad logo">
           </div>
           <p class="card-text text-center">
             
@@ -328,7 +328,7 @@ Forgejo is open source software for hosting code using the Git version control s
           </p>
           <div class="text-center">
             
-            <a class="btn btn-success" href="https://cryptpad.0011.lt" target="_blank">
+            <a href="https://cryptpad.0011.lt" target="_blank" class="btn btn-success">
               Try it!
             </a>
             
@@ -346,7 +346,7 @@ Forgejo is open source software for hosting code using the Git version control s
         </h5>
         <div class="card-body">
           <div class="text-center pb-2">
-            <img alt="Element logo" height="100" src="/media/uploads/element.svg">
+            <img src="/media/uploads/element.svg" height="100" alt="Element logo">
           </div>
           <p class="card-text text-center">
             
@@ -355,7 +355,7 @@ Forgejo is open source software for hosting code using the Git version control s
           </p>
           <div class="text-center">
             
-            <a class="btn btn-success" href="https://app.element.io/" target="_blank">
+            <a href="https://app.element.io/" target="_blank" class="btn btn-success">
               Try it!
             </a>
             
@@ -373,7 +373,7 @@ Forgejo is open source software for hosting code using the Git version control s
         </h5>
         <div class="card-body">
           <div class="text-center pb-2">
-            <img alt="Forgejo logo" height="100" src="/media/uploads/Forgejo_logo.svg">
+            <img src="/media/uploads/Forgejo_logo.svg" height="100" alt="Forgejo logo">
           </div>
           <p class="card-text text-center">
             
@@ -382,7 +382,7 @@ Forgejo is open source software for hosting code using the Git version control s
           </p>
           <div class="text-center">
             
-            <a class="btn btn-success" href="https://git.0011.lt" target="_blank">
+            <a href="https://git.0011.lt" target="_blank" class="btn btn-success">
               Try it!
             </a>
             

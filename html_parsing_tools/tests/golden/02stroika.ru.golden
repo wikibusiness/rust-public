@@ -64,7 +64,7 @@ en
 <!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <title>Истёк срок регистрации домена</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Caption" rel="stylesheet">
     <link href="https://beget.com/css/prices.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
@@ -78,7 +78,7 @@ en
 <div class="top">
     <header>
         <noindex>
-            <a class="logo" href="http://beget.com" rel="nofollow" target="_blank" title="Перейти на сайт хостинг-провайдера">
+            <a href="http://beget.com" target="_blank" title="Перейти на сайт хостинг-провайдера" class="logo" rel="nofollow">
                 <img src="https://cp.beget.com/i/logo.png">
             </a>
         </noindex>
@@ -94,17 +94,17 @@ en
                 <h1><span class="js__hostname"></span></h1>
                 <p>Если домен не будет продлён в ближайшее время, то он освободится и снова станет доступен для регистрации.</p>
                 <div class="btn-row mt-20">
-                    <noindex><a class="btn" href="https://cp.beget.com/domains" rel="nofollow" target="_blank">Продлить домен</a></noindex>
-                    <noindex><a class="ml-30" href="https://beget.com/domain-register" rel="nofollow" target="_blank">Зарегистрировать новый домен</a></noindex>
+                    <noindex><a href="https://cp.beget.com/domains" class="btn" target="_blank" rel="nofollow">Продлить домен</a></noindex>
+                    <noindex><a href="https://beget.com/domain-register" class="ml-30" target="_blank" rel="nofollow">Зарегистрировать новый домен</a></noindex>
                 </div>
                 <div class="service show-price-block">
-                    <p><noindex><a class="unlinked" href="https://beget.com/ru/domain-register" rel="nofollow" target="_blank">Домены <span class="price"><span class="from">от</span> <span class="domains-price-value"></span> ₽</span></a></noindex></p>
-                    <p><noindex><a class="unlinked" href="https://beget.com/ru/virtual-hosting" rel="nofollow" target="_blank">Хостинг<span class="price"><span class="from">от</span> <span class="hosting-price-value"></span> ₽</span></a></noindex></p>
-                    <p><noindex><a class="unlinked" href="https://beget.com/ru/vps" rel="nofollow" target="_blank">VPS<span class="price"><span class="from">от</span> <span class="vps-price-value"></span> ₽</span></a></noindex></p>
-                    <p><noindex><a class="unlinked" href="https://beget.com/ru/dedicated-servers" rel="nofollow" target="_blank">Аренда серверов <span class="price"><span class="from">от</span> <span class="servers-price-value"></span> ₽</span></a></noindex></p>
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/domain-register" target="_blank" rel="nofollow">Домены <span class="price"><span class="from">от</span> <span class="domains-price-value"></span> ₽</span></a></noindex></p>
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/virtual-hosting" target="_blank" rel="nofollow">Хостинг<span class="price"><span class="from">от</span> <span class="hosting-price-value"></span> ₽</span></a></noindex></p>
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/vps" target="_blank" rel="nofollow">VPS<span class="price"><span class="from">от</span> <span class="vps-price-value"></span> ₽</span></a></noindex></p>
+                    <p><noindex><a class="unlinked" href="https://beget.com/ru/dedicated-servers" target="_blank" rel="nofollow">Аренда серверов <span class="price"><span class="from">от</span> <span class="servers-price-value"></span> ₽</span></a></noindex></p>
                 </div>
 
-                <p class="contact-administrator">Для связи с владельцем домена воспользуйтесь <noindex><a href="https://whois.beget.com" rel="nofollow" target="_blank">формой обратной связи.</a></noindex></p>
+                <p class="contact-administrator">Для связи с владельцем домена воспользуйтесь <noindex><a target="_blank" href="https://whois.beget.com" rel="nofollow">формой обратной связи.</a></noindex></p>
                 
                 <hr>
                 <div class="bottom-mobile">

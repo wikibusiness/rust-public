@@ -59,8 +59,8 @@ Please wait a moment while we ensure the security of your connection
 
 === html_contents ===
 <!DOCTYPE html><html lang="en"><head>
-    <link href="/.within.website/x/xess/xess.min.css" rel="stylesheet">
-    <link href="/.within.website/x/cmd/anubis/static/css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="/.within.website/x/xess/xess.min.css">
+    <link rel="stylesheet" href="/.within.website/x/cmd/anubis/static/css/custom.css">
     
   </head>
   <body id="top">

@@ -65,37 +65,37 @@ zh-CN
     
     <!-- Basic SEO Meta Tags -->
     <title>国产视频在线观看免费高清不卡顿 - 2024年最新最全的免费影视库，涵盖电视剧、电影、动漫、纪录片</title>
-    <meta content="2024年最新最全的免费影视库，提供国产视频在线观看免费高清不卡顿服务，涵盖热门电视剧、最新电影、动漫、纪录片等海量内容。高清画质，极速播放，支持手机和电脑观看。" name="description">
-    <meta content="国产视频,免费在线观看,高清视频,不卡顿,免费影视库,电视剧,电影,动漫,纪录片,2024最新" name="keywords">
-    <meta content="天天追影视" name="author">
-    <meta content="index, follow" name="robots">
+    <meta name="description" content="2024年最新最全的免费影视库，提供国产视频在线观看免费高清不卡顿服务，涵盖热门电视剧、最新电影、动漫、纪录片等海量内容。高清画质，极速播放，支持手机和电脑观看。">
+    <meta name="keywords" content="国产视频,免费在线观看,高清视频,不卡顿,免费影视库,电视剧,电影,动漫,纪录片,2024最新">
+    <meta name="author" content="天天追影视">
+    <meta name="robots" content="index, follow">
     
     <!-- Baidu Specific Meta Tags -->
-    <meta content="codeva-verification-code" name="baidu-site-verification">
-    <meta content="pc,mobile" name="applicable-device">
-    <meta content="width" name="MobileOptimized">
-    <meta content="true" name="HandheldFriendly">
+    <meta name="baidu-site-verification" content="codeva-verification-code">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
     
     <!-- Open Graph Meta Tags -->
-    <meta content="国产视频在线观看免费高清不卡顿 - 2024年最新最全的免费影视库" property="og:title">
-    <meta content="2024年最新最全的免费影视库，提供国产视频在线观看免费高清不卡顿服务，涵盖电视剧、电影、动漫、纪录片等海量内容。" property="og:description">
-    <meta content="website" property="og:type">
-    <meta content="天天追影视" property="og:site_name">
-    <meta content="zh_CN" property="og:locale">
+    <meta property="og:title" content="国产视频在线观看免费高清不卡顿 - 2024年最新最全的免费影视库">
+    <meta property="og:description" content="2024年最新最全的免费影视库，提供国产视频在线观看免费高清不卡顿服务，涵盖电视剧、电影、动漫、纪录片等海量内容。">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="天天追影视">
+    <meta property="og:locale" content="zh_CN">
     
     <!-- Twitter Card Meta Tags -->
-    <meta content="summary_large_image" name="twitter:card">
-    <meta content="国产视频在线观看免费高清不卡顿 - 2024年最新最全的免费影视库" name="twitter:title">
-    <meta content="2024年最新最全的免费影视库，涵盖电视剧、电影、动漫、纪录片等海量内容。" name="twitter:description">
-    <meta content="https://tiantianzhuiys.com/og-image.jpg" name="twitter:image">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="国产视频在线观看免费高清不卡顿 - 2024年最新最全的免费影视库">
+    <meta name="twitter:description" content="2024年最新最全的免费影视库，涵盖电视剧、电影、动漫、纪录片等海量内容。">
+    <meta name="twitter:image" content="https://tiantianzhuiys.com/og-image.jpg">
     
     <!-- Additional SEO Meta Tags -->
-    <meta content="telephone=no" name="format-detection">
-    <meta content="#7c3aed" name="theme-color">
-    <link href="https://tiantianzhuiys.com" rel="canonical">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#7c3aed">
+    <link rel="canonical" href="https://tiantianzhuiys.com">
     
-    <link href="/vite.svg" rel="icon" type="image/svg+xml">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Structured Data for Website -->
     
@@ -103,7 +103,7 @@ zh-CN
     <!-- Organization Structured Data -->
     
     
-    <link crossorigin="" href="/assets/index-cy0o1uix.css" rel="stylesheet">
+    <link rel="stylesheet" crossorigin="" href="/assets/index-cy0o1uix.css">
   
 
 

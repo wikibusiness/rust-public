@@ -60,9 +60,9 @@ Loading your experience… This won’t take long
 <title>00608.cc</title>
 
 === html_contents ===
-<!DOCTYPE html><html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
-    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>00608.cc</title>
                 
     
@@ -78,8 +78,8 @@ Loading your experience… This won’t take long
     </div>
 
 <div id="content">
-    <div class="loading" id="loading">
-        <div aria-label="Loading" class="spinner" role="status"></div>
+    <div id="loading" class="loading">
+        <div class="spinner" role="status" aria-label="Loading"></div>
         <h1>We’re getting things ready</h1>
         <p>Loading your experience… This won’t take long.</p>
     </div>
@@ -89,7 +89,7 @@ Loading your experience… This won’t take long
 <div class="wrapper1" id="keywords-template" style="display:none;">
     <div class="wrapper2">
         <div class="wrapper3">
-            <div class="fallback-term-holder" id="fallbackTerms"></div>
+            <div id="fallbackTerms" class="fallback-term-holder"></div>
         </div>
     </div>
 </div>

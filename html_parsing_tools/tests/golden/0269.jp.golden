@@ -89,40 +89,40 @@ ja
 <title>地図で見つける温泉探し | 全国日帰り温泉マップ</title>
 
 === html_contents ===
-<!DOCTYPE html><html lang="ja" xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>地図で見つける温泉探し | 全国日帰り温泉マップ</title>
-<meta content="日帰り温泉,温泉,風呂,野湯,野天,露天,混浴,混浴露天風呂,温泉旅行,全国,旅行,ドライブ,観光,Googleマップ" name="keyword">
-<meta content="全国にある日帰り温泉施設をGoogleマップを利用して紹介するサイトです。日帰り入浴が利用できる旅館から混浴露天風呂まで。温泉探すなら全国日帰り温泉マップ" name="description">
-<meta content="日帰り入浴が利用できる旅館から混浴露天風呂までを網羅。旅先でも探せる『iOS、Androidアプリ』を配信中。ダウンロードバナーから、アクセスできます。全国日帰り温泉マップで、温泉ライフを満喫しよう！" property="og:description">
-<meta content="article" property="og:type">
-<meta content="100000918510753" property="fb:admins">
-<meta content="text/css" http-equiv="Content-Style-Type">
-<meta content="text/javascript" http-equiv="Content-Script-Type">
-<meta content="app-id=488097290" name="apple-itunes-app">
-<link href="/css/main.css?20130215" media="screen" rel="stylesheet" type="text/css">
+<meta name="keyword" content="日帰り温泉,温泉,風呂,野湯,野天,露天,混浴,混浴露天風呂,温泉旅行,全国,旅行,ドライブ,観光,Googleマップ">
+<meta name="description" content="全国にある日帰り温泉施設をGoogleマップを利用して紹介するサイトです。日帰り入浴が利用できる旅館から混浴露天風呂まで。温泉探すなら全国日帰り温泉マップ">
+<meta property="og:description" content="日帰り入浴が利用できる旅館から混浴露天風呂までを網羅。旅先でも探せる『iOS、Androidアプリ』を配信中。ダウンロードバナーから、アクセスできます。全国日帰り温泉マップで、温泉ライフを満喫しよう！">
+<meta property="og:type" content="article">
+<meta property="fb:admins" content="100000918510753">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="apple-itunes-app" content="app-id=488097290">
+<link rel="stylesheet" type="text/css" href="/css/main.css?20130215" media="screen">
 
 
 
 
 
-<meta content="https://onsen.mobi/img/fblink.png" property="og:image">
-<meta content="全国日帰り温泉マップ" property="og:site_name">
-<meta content="全国日帰り温泉マップ" property="og:title">
-<meta content="JAPAN" property="og:country-name">
-<meta content="https://onsen.mobi/" property="og:url">
+<meta property="og:image" content="https://onsen.mobi/img/fblink.png">
+<meta property="og:site_name" content="全国日帰り温泉マップ">
+<meta property="og:title" content="全国日帰り温泉マップ">
+<meta property="og:country-name" content="JAPAN">
+<meta property="og:url" content="https://onsen.mobi/">
 
-    <meta content="summary_large_image" name="twitter:card">
-    <meta content="全国日帰り温泉マップ" name="twitter:title">
-    <meta content="全国にある日帰り温泉施設をご紹介！！" name="twitter:description">
-    <meta content="https://onsen.mobi/img/fblink.png" name="twitter:image:src">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="全国日帰り温泉マップ">
+    <meta name="twitter:description" content="全国にある日帰り温泉施設をご紹介！！">
+    <meta name="twitter:image:src" content="https://onsen.mobi/img/fblink.png">
 
 
-<link href="https://onsen.mobi/" rel="index" title="全国日帰り温泉マップ">
-<link href="/img/favicon.ico" rel="shortcut icon">
-<link href="https://onsen.mobi/m/" media="handheld" rel="alternate">
-<link href="https://onsen.mobi/" rel="canonical">
-<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/themes/base/jquery.ui.all.css" rel="stylesheet">
+<link rel="index" href="https://onsen.mobi/" title="全国日帰り温泉マップ">
+<link rel="shortcut icon" href="/img/favicon.ico">
+<link rel="alternate" media="handheld" href="https://onsen.mobi/m/">
+<link rel="canonical" href="https://onsen.mobi/">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/themes/base/jquery.ui.all.css">
  
 
 
@@ -130,8 +130,8 @@ ja
 
 
 <!-- End Facebook Pixel Code -->
-<link href="https://en.onsen.mobi/" hreflang="en" rel="alternate">
-<link href="https://onsen.mobi/" hreflang="ja" rel="alternate">
+<link rel="alternate" href="https://en.onsen.mobi/" hreflang="en">
+<link rel="alternate" href="https://onsen.mobi/" hreflang="ja">
 
 <!-- Google tag (gtag.js) -->
 
@@ -143,34 +143,34 @@ ja
 		<div id="fb-root"></div>
 
 		<div id="header">
-			<h1><a href="/"><img alt="全国日帰り温泉マップ" height="80" src="/img/logo.jpg" title="全国日帰り温泉マップ" width="419"></a></h1>
+			<h1><a href="/"><img src="/img/logo.jpg" alt="全国日帰り温泉マップ" width="419" height="80" title="全国日帰り温泉マップ"></a></h1>
 			<h2>日帰り温泉を地図で探しておでかけ！</h2>
 <form action="/search/" id="cse-search-box">
   <div>
-    <input name="cx" type="hidden" value="partner-pub-3585374157893937:5972701312">
-    <input name="cof" type="hidden" value="FORID:10">
-    <input name="ie" type="hidden" value="UTF-8">
-    <input name="q" size="55" type="text">
-    <input name="sa" type="submit" value="検索">
+    <input type="hidden" name="cx" value="partner-pub-3585374157893937:5972701312">
+    <input type="hidden" name="cof" value="FORID:10">
+    <input type="hidden" name="ie" value="UTF-8">
+    <input type="text" name="q" size="55">
+    <input type="submit" name="sa" value="検索">
   </div>
 </form>
 
 
 
             <ul id="headmenu">
-            <li><a href="/about.php"><img alt="このサイトについて" height="28" src="/img/about.jpg" title="このサイトについて" width="154"></a></li>
+            <li><a href="/about.php"><img src="/img/about.jpg" alt="このサイトについて" width="154" height="28" title="このサイトについて"></a></li>
 
             </ul>
 						<ul id="sns">
-							<li><a class="twitter-share-button" data-count="horizontal" data-lang="ja" href="https://twitter.com/share">ツイート</a></li>
+							<li><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="ja">ツイート</a></li>
 
-							<li><iframe allowtransparency="true" frameborder="0" scrolling="no" src="https://www.facebook.com/v2.0/plugins/like.php?href=http%3A%2F%2Fonsen.mobi%2F%2F&amp;layout=button_count&amp;show_faces=true&amp;width=115&amp;action=like&amp;colorscheme=light" style="border:none; overflow:hidden;width:115px;height:21px"></iframe></li>
+							<li><iframe src="https://www.facebook.com/v2.0/plugins/like.php?href=http%3A%2F%2Fonsen.mobi%2F%2F&amp;layout=button_count&amp;show_faces=true&amp;width=115&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowtransparency="true" style="border:none; overflow:hidden;width:115px;height:21px"></iframe></li>
 							<li><!-- このタグを +1 ボタンを表示する場所に挿入してください -->
 
 <g:plusone size="medium"></g:plusone>
 
 </li>
-							<li><a class="hatena-bookmark-button" data-hatena-bookmark-title="%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89%E3%82%92%E5%9C%B0%E5%9B%B3%E3%81%A7%E6%8E%A2%E3%81%97%E3%81%A6%E3%81%8A%E3%81%A7%E3%81%8B%E3%81%91%EF%BC%81 data-hatena-bookmark-layout=" href="https://b.hatena.ne.jp/entry/http%3A%2F%2Fonsen.mobi%2F%2F" standard"="" title="このエントリーをはてなブックマークに追加"><img alt="このエントリーをはてなブックマークに追加" height="20" src="https://b.st-hatena.com/images/entry-button/button-only.gif" style="border: none;" width="20"></a>
+							<li><a href="https://b.hatena.ne.jp/entry/http%3A%2F%2Fonsen.mobi%2F%2F" class="hatena-bookmark-button" data-hatena-bookmark-title="%E6%97%A5%E5%B8%B0%E3%82%8A%E6%B8%A9%E6%B3%89%E3%82%92%E5%9C%B0%E5%9B%B3%E3%81%A7%E6%8E%A2%E3%81%97%E3%81%A6%E3%81%8A%E3%81%A7%E3%81%8B%E3%81%91%EF%BC%81 data-hatena-bookmark-layout=" standard"="" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;"></a>
 						</li>
 						</ul>
 		</div>
@@ -180,10 +180,10 @@ ja
 		<div id="main_bg">
 		<div id="main">
 			<div id="right">
-<a href="http://itunes.apple.com/jp/app/id488097290?mt=8" target="_blank"><img alt="iPhone、iPad版日帰り温泉マップあります！" src="/img/adb_iph.png" title="iPhone、iPad版日帰り温泉マップあります！"></a>
+<a href="http://itunes.apple.com/jp/app/id488097290?mt=8" target="_blank"><img src="/img/adb_iph.png" alt="iPhone、iPad版日帰り温泉マップあります！" title="iPhone、iPad版日帰り温泉マップあります！"></a>
 <br><br>
-<a href="http://apps.aando.jp/" target="_blank"><img alt="マップ系アプリならA&amp;O AppLAB" id="applab" src="img/applab_banner.png"></a><br>
-<div class="fb-like-box" data-header="true" data-href="https://www.facebook.com/JapanSpaMap" data-show-faces="true" data-stream="false" data-width="300"></div>
+<a href="http://apps.aando.jp/" target="_blank"><img src="img/applab_banner.png" alt="マップ系アプリならA&amp;O AppLAB" id="applab"></a><br>
+<div class="fb-like-box" data-href="https://www.facebook.com/JapanSpaMap" data-width="300" data-show-faces="true" data-stream="false" data-header="true"></div>
 <br>
 
 			</div>
@@ -196,7 +196,7 @@ ja
 
 
 						<div id="map_box">
-						<img alt="日本地図" height="314" src="/img/map.gif" width="299">
+						<img src="/img/map.gif" width="299" height="314" alt="日本地図">
 						<ul>
 						<li><span class="bold"><a href="/area/hokkaido/hokkaido/">北海道</a>・<a href="/area/tohoku/">東北</a></span><br>
 						<a href="/area/hokkaido/hokkaido/">北海道</a> | <a href="/area/tohoku/aomori/">青森</a> | <a href="/area/tohoku/akita/">秋田</a> | <a href="/area/tohoku/yamagata/">山形</a> | <a href="/area/tohoku/iwate/">岩手</a> | <a href="/area/tohoku/miyagi/">宮城</a> | <a href="/area/tohoku/fukushima/">福島</a></li>
@@ -226,7 +226,7 @@ ja
 			<div id="foot_box">
 			<div id="footer_pr">
 				<!--<a href="http://brain-ltd.jp/sento/" target="_blank" onClick="javascript: pageTracker._trackPageview('/brain-ltd.jp/sento/');"><img src="http://onsen.mobi/img/sento200x200.jpg" border="0" /></a>-->
-				<a href="http://itunes.apple.com/jp/app/id506294598?mt=8" target="_blank"><img alt="姉妹アプリiPhone、iPad版ゴルフ場マップ！" src="/img/ad_golf.png" style="width:200px;" title="姉妹アプリiPhone、iPad版ゴルフ場マップ！"></a>
+				<a href="http://itunes.apple.com/jp/app/id506294598?mt=8" target="_blank"><img src="/img/ad_golf.png" alt="姉妹アプリiPhone、iPad版ゴルフ場マップ！" title="姉妹アプリiPhone、iPad版ゴルフ場マップ！" style="width:200px;"></a>
 
 			</div>
 			<div class="footer_navi">
@@ -312,7 +312,7 @@ ja
 全国日帰り温泉マップは、全国の<strong>日帰り温泉</strong>を主に紹介するサイトです。<br>
 地図にあるピンをクリックすると、詳細を確認することができます。<strong>「絞り込み検索」</strong>を利用すると、条件にあった混浴露天風呂や貸切温泉などを検索することもできます。<a href="/s/">スマホ版</a>や<a href="http://itunes.apple.com/jp/app/id488097290?mt=8">iPhoneアプリ</a>、携帯版もあります。<br>
 <p>携帯サイトのQRコード<br>
-<img alt="携帯版QRコード" src="/img/mobile_qr.png" title="携帯版QRコード"></p>
+<img src="/img/mobile_qr.png" alt="携帯版QRコード" title="携帯版QRコード"></p>
 </div>
 
 		</div>

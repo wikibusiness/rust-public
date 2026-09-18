@@ -70,7 +70,7 @@ Visit techinsiderdaily.click for premium content and services. A trusted resourc
 === html_contents ===
 <!DOCTYPE html><html lang="en"><head>
         <meta charset="UTF-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Web Navigator</title>
         
     </head>
@@ -90,7 +90,7 @@ Visit techinsiderdaily.click for premium content and services. A trusted resourc
                     <li>Regular Updates</li>
                     <li>Premium Quality</li>
                 </ul>
-                <a class="cta-button" href="https://futuretechzone.asia" rel="dofollow" target="_blank">Visit futuretechzone.asia</a>
+                <a href="https://futuretechzone.asia" class="cta-button" rel="dofollow" target="_blank">Visit futuretechzone.asia</a>
             </article><article class="resource-card">
                 <span class="icon">📰</span>
                 <h3>techinsiderdaily.click</h3>
@@ -101,7 +101,7 @@ Visit techinsiderdaily.click for premium content and services. A trusted resourc
                     <li>Regular Updates</li>
                     <li>Premium Quality</li>
                 </ul>
-                <a class="cta-button" href="https://techinsiderdaily.click" rel="dofollow" target="_blank">Visit techinsiderdaily.click</a>
+                <a href="https://techinsiderdaily.click" class="cta-button" rel="dofollow" target="_blank">Visit techinsiderdaily.click</a>
             </article><table class="directory-table">
                 <thead><tr><th>Resource</th><th>Description</th><th>Action</th></tr></thead>
                 <tbody>

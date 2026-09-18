@@ -62,47 +62,47 @@ zh-CN
 === html_contents ===
 <!DOCTYPE html><html lang="zh-CN"><head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport">
-    <meta content="dark light" name="color-scheme">
-    <meta content="#0b0f17" name="theme-color">
-    <meta content="strict-origin-when-cross-origin" name="referrer">
-    <meta content="telephone=no, address=no, email=no" name="format-detection">
-    <meta content="yes" name="mobile-web-app-capable">
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
-    <meta content="国产免费剧库" name="apple-mobile-web-app-title">
-    <meta content="国产免费剧库" name="application-name">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#0b0f17">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="国产免费剧库">
+    <meta name="application-name" content="国产免费剧库">
 
     <title>正版片源智能聚合，免费播放国产大片电视剧，高清流畅零门槛追剧入口</title>
-    <meta content="本站主打高清正版与聚合索引体验：免费播放国产大片电视剧，涵盖都市情感、年代传奇、悬疑刑侦、古装武侠等多元类型；支持关键词检索与榜单浏览，更新节奏快、播放入口清晰。免费播放国产大片电视剧相关片单持续扩充，适合家庭追剧与碎片观影，欢迎收藏首页随时回访。" name="description">
-    <meta content="免费播放国产大片电视剧,国产电视剧免费看,国产大片在线观看,免费追剧大全,高清国产剧,热播电视剧免费,国产佳作推荐,网络热播剧集,家庭追剧,正版高清观影,国产综艺免费,国产动漫在线" name="keywords">
-    <meta content="国产免费剧库" name="author">
-    <meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" name="robots">
-    <link href="/" rel="canonical">
+    <meta name="description" content="本站主打高清正版与聚合索引体验：免费播放国产大片电视剧，涵盖都市情感、年代传奇、悬疑刑侦、古装武侠等多元类型；支持关键词检索与榜单浏览，更新节奏快、播放入口清晰。免费播放国产大片电视剧相关片单持续扩充，适合家庭追剧与碎片观影，欢迎收藏首页随时回访。">
+    <meta name="keywords" content="免费播放国产大片电视剧,国产电视剧免费看,国产大片在线观看,免费追剧大全,高清国产剧,热播电视剧免费,国产佳作推荐,网络热播剧集,家庭追剧,正版高清观影,国产综艺免费,国产动漫在线">
+    <meta name="author" content="国产免费剧库">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="/">
 
-    <meta content="website" property="og:type">
-    <meta content="zh_CN" property="og:locale">
-    <meta content="国产免费剧库" property="og:site_name">
-    <meta content="正版片源智能聚合，免费播放国产大片电视剧，高清流畅零门槛追剧入口" property="og:title">
-    <meta content="高清正版片源整编聚合，免费播放国产大片电视剧，热门口碑剧集与院线质感作品同步可追；检索便捷、更新及时，打造零门槛家庭追剧体验。" property="og:description">
-    <meta content="/vite.svg" property="og:image">
-    <meta content="image/svg+xml" property="og:image:type">
-    <meta content="国产免费剧库" property="og:image:alt">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="og:site_name" content="国产免费剧库">
+    <meta property="og:title" content="正版片源智能聚合，免费播放国产大片电视剧，高清流畅零门槛追剧入口">
+    <meta property="og:description" content="高清正版片源整编聚合，免费播放国产大片电视剧，热门口碑剧集与院线质感作品同步可追；检索便捷、更新及时，打造零门槛家庭追剧体验。">
+    <meta property="og:image" content="/vite.svg">
+    <meta property="og:image:type" content="image/svg+xml">
+    <meta property="og:image:alt" content="国产免费剧库">
 
-    <meta content="summary" name="twitter:card">
-    <meta content="正版片源智能聚合，免费播放国产大片电视剧，高清流畅零门槛追剧入口" name="twitter:title">
-    <meta content="高清正版片源整编聚合，免费播放国产大片电视剧，热播剧集与大片佳作一站浏览。" name="twitter:description">
-    <meta content="/vite.svg" name="twitter:image">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="正版片源智能聚合，免费播放国产大片电视剧，高清流畅零门槛追剧入口">
+    <meta name="twitter:description" content="高清正版片源整编聚合，免费播放国产大片电视剧，热播剧集与大片佳作一站浏览。">
+    <meta name="twitter:image" content="/vite.svg">
 
-    <link href="/vite.svg" rel="icon" type="image/svg+xml">
-    <link href="/vite.svg" rel="apple-touch-icon">
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <link rel="apple-touch-icon" href="/vite.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;0,9..40,600;0,9..40,700&amp;family=Noto+Sans+SC:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 
     
     
-    <link crossorigin="" href="/assets/index-DTciJNQh.css" rel="stylesheet">
+    <link rel="stylesheet" crossorigin="" href="/assets/index-DTciJNQh.css">
   </head>
   <body class="body-tpl-portal body-tpl-ygptw body-tpl-aurora">
     <div id="root"></div>

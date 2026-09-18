@@ -87,24 +87,24 @@
 <!DOCTYPE html><html><head>
 <meta charset="utf-8">
 <title>やまざき眼科クリニック - 足立区竹の塚</title>
-<meta content="Copyright (C) やまざき眼科クリニック All Rights Reserved." name="copyright">
-<meta content="東京都足立区竹の塚の眼科専門のクリニックやまざき眼科クリニックです。眼科一般・白内障手術・コンタクト取扱い。" name="description">
-<meta content="眼科,足立区,竹の塚,駅,白内障,手術,コンタクト,竹ノ塚" name="keywords">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="notranslate" name="google">
+<meta name="copyright" content="Copyright (C) やまざき眼科クリニック All Rights Reserved.">
+<meta name="description" content="東京都足立区竹の塚の眼科専門のクリニックやまざき眼科クリニックです。眼科一般・白内障手術・コンタクト取扱い。">
+<meta name="keywords" content="眼科,足立区,竹の塚,駅,白内障,手術,コンタクト,竹ノ塚">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
 <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 8]><script src="js/selectivizr.js"></script><![endif]-->
 
 
 
-<link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
 <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400&amp;display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700&amp;display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Courgette&amp;display=swap" rel="stylesheet"> 
-<link href="_assets/js/plugin/sliderPro/slider-pro.css" rel="stylesheet">
-<link href="_assets/css/style_pc.min.css" media="(min-width: 641px)" rel="stylesheet">
-<link href="_assets/css/style_sp.min.css" media="(max-width: 640px)" rel="stylesheet">
+<link rel="stylesheet" href="_assets/js/plugin/sliderPro/slider-pro.css">
+<link rel="stylesheet" href="_assets/css/style_pc.min.css" media="(min-width: 641px)">
+<link rel="stylesheet" href="_assets/css/style_sp.min.css" media="(max-width: 640px)">
 </head>
 
 
@@ -117,7 +117,7 @@
 					<div class="seo_h1_contents">
 						<h1 class="seo_ttl">足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術</h1>
 						<div class="header_box">
-							<a class="header_logo" href="index.html"><img alt="やまざき眼科クリニック" src="_assets/images/common/header_logo.png"></a>
+							<a href="index.html" class="header_logo"><img src="_assets/images/common/header_logo.png" alt="やまざき眼科クリニック"></a>
 						</div>	
 					</div>
 
@@ -125,7 +125,7 @@
 						<div class="global-nav">
 							<div class="nav_logo">
 								<a href="index.html">
-									<img alt="" src="_assets/images/common/footer_logo.png">
+									<img src="_assets/images/common/footer_logo.png" alt="">
 								</a>
 							</div>
 						<nav>
@@ -143,7 +143,7 @@
 						<div class="nav_info_inner">
 							<div class="nav_tel">
 								<a href="tel:03-5831-0140">
-									<img alt="" src="_assets/images/common/tel02.png">
+									<img src="_assets/images/common/tel02.png" alt="">
 								</a>
 							</div>
 							<div class="nav_schedule">
@@ -215,13 +215,13 @@
 								<h1>足立区 竹ノ塚 眼科 白内障 眼科検診 日帰り手術</h1>
 							</div>
 							<div class="header_logo">
-								<a href="index.html"><img alt="やまざき眼科クリニック" src="_assets/images/common/header_logo.png"></a>
+								<a href="index.html"><img src="_assets/images/common/header_logo.png" alt="やまざき眼科クリニック"></a>
 							</div>
 						</div>
 						<div class="contents_right">
 							<div class="contents_right_top">
 								<div class="header_tel">
-									<a href="tel:03-5831-0140"><img alt="03-5831-0140" src="_assets/images/common/header_tel.png"></a>
+									<a href="tel:03-5831-0140"><img src="_assets/images/common/header_tel.png" alt="03-5831-0140"></a>
 								</div>	
 							</div>
 							<div class="contents_right_bottom">
@@ -299,7 +299,7 @@
 				</div>
 				<div class="nav_right">
 					<div class="fixed_nav_tel">
-						<img alt="03-5831-0140" src="_assets/images/common/tel.png">
+						<img src="_assets/images/common/tel.png" alt="03-5831-0140">
 					</div>
 				</div>
 			</nav>
@@ -310,10 +310,10 @@
 	<article>
 
 		<!----------------- section_information ----------------->
-		<section class="section_name" id="section_information">
+		<section id="section_information" class="section_name">
 			<div class="innerContents w1080">
 				<div id="information_contents">
-				<h2><img alt="news" src="_assets/images/index/news_ttl_en.png"></h2>	
+				<h2><img src="_assets/images/index/news_ttl_en.png" alt="news"></h2>	
 
 				<div class="info_box">
 					<dl class="info_contents">
@@ -389,7 +389,7 @@
 
 
 		<!----------------- section_clinic ----------------->
-		<section class="section_name" id="section_clinic">
+		<section id="section_clinic" class="section_name">
 			<div class="innerContents w1080">
 				<div class="clinic_text_box">
 					<div class="clinic_text">
@@ -397,30 +397,30 @@
 						<p>患者さんの不安を取り除きあるいは軽減できるように、眼科専門医として、医学界の日進月歩の発展に乗り遅れることがないような更なる研鑽を重ね「常に最善の医療を患者さんに提供する」という気持ちで頑張ってまいります。</p>
 					</div>
 					<div class="clinic_img">
-						<img alt="" src="_assets/images/index/clinic_img.png">
+						<img src="_assets/images/index/clinic_img.png" alt="">
 					</div>
 				</div>
 
 				<div class="clinic_treatment">
 					<ul class="treatment_list">
 						<li>
-							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon01.png"></span>
+							<span class="treatment_list_icon"><img src="_assets/images/index/clinic_icon01.png" alt=""></span>
 							<h3>白内障手術</h3>
 						</li>
 						<li>
-							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon02.png"></span>
+							<span class="treatment_list_icon"><img src="_assets/images/index/clinic_icon02.png" alt=""></span>
 							<h3>緑内障検診</h3>
 						</li>
 						<li>
-							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon03.png"></span>
+							<span class="treatment_list_icon"><img src="_assets/images/index/clinic_icon03.png" alt=""></span>
 							<h3>一般外来</h3>
 						</li>
 						<li>
-							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon04.png"></span>
+							<span class="treatment_list_icon"><img src="_assets/images/index/clinic_icon04.png" alt=""></span>
 							<h3>網膜光凝固術</h3>
 						</li>
 						<li>
-							<span class="treatment_list_icon"><img alt="" src="_assets/images/index/clinic_icon05.png"></span>
+							<span class="treatment_list_icon"><img src="_assets/images/index/clinic_icon05.png" alt=""></span>
 							<h3>コンタクト処方</h3>
 						</li>
 					</ul>
@@ -431,7 +431,7 @@
 		
 
 		<!----------------- section_surgery ----------------->
-		<section class="section_name" id="section_surgery">
+		<section id="section_surgery" class="section_name">
 			<div class="innerContents w1080">
 				<ul class="surgery_list">
 					<li class="surgeryL">
@@ -439,7 +439,7 @@
 							<h2>検診・検査</h2>
 
 							<div class="surgery_img">
-								<img alt="" src="_assets/images/index/surgeryL_img.png">
+								<img src="_assets/images/index/surgeryL_img.png" alt="">
 							</div>
 						</div>
 						<p>緑内障検診や白内障検診、成人病（糖尿病、高血圧、高コレステロール血症）眼病検診など検診を行っております。</p>
@@ -451,7 +451,7 @@
 						<div class="surgery_top">
 							<h2>白内障の<br>日帰り手術</h2>
 							<div class="surgery_img">
-								<img alt="" src="_assets/images/index/surgeryR_img.png">
+								<img src="_assets/images/index/surgeryR_img.png" alt="">
 							</div>
 						</div>
 						<p>当クリニックでは白内障の手術を日帰りで行うことができます。体の負担、長期間の入院などなく、手術を受けることが可能です。</p>
@@ -466,7 +466,7 @@
 
 		
 		<!----------------- section_worries ----------------->
-		<section class="section_name" id="section_worries">
+		<section id="section_worries" class="section_name">
 			<div class="worries_bg"></div>
 
 			<div class="innerContents w1080">
@@ -512,14 +512,14 @@
 					<div class="footer_infoL">
 						<div class="footer_logo">
 							<a href="index.html">
-								<img alt="やまざき眼科クリニック" src="_assets/images/common/footer_logo.png">
+								<img src="_assets/images/common/footer_logo.png" alt="やまざき眼科クリニック">
 							</a>
 						</div>
 
 						<div class="footer_tel">
 							<a href="tel:03-5831-0140">
 								<p>お問い合わせ・ご相談はお気軽に</p>
-								<img alt="03-5831-0140" src="_assets/images/common/footer_tel.png">
+								<img src="_assets/images/common/footer_tel.png" alt="03-5831-0140">
 							</a>
 						</div>
 
@@ -572,7 +572,7 @@
 				</div>
 				<div class="footer_info_bottom">
 					<div class="footer_access_box">
-						<h2><img alt="" src="_assets/images/common/footer_access_ttl.png"></h2>
+						<h2><img src="_assets/images/common/footer_access_ttl.png" alt=""></h2>
 						<div class="footer_access_text">
 							<div class="textL">
 								<p class="text_access"><span class="f_yellow">「竹ノ塚」駅</span>東口 徒歩<span class="f_yellow"><span class="f_big">3</span>分</span></p>
@@ -591,7 +591,7 @@
 			</div>
 
 			<div class="footer_map">
-				<iframe allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.3121398225494!2d139.78963951572834!3d35.792269680168516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189195dc5cb053%3A0x35017998f3f3beb0!2z5pel5pys44CB44CSMTIxLTA4MTMg5p2x5Lqs6YO96Laz56uL5Yy656u544Gu5aGa77yR5LiB55uu77yT77yQ4oiS77yS77yQIOazsOWwmuODk-ODqyAyZg!5e0!3m2!1sja!2sus!4v1667278042600!5m2!1sja!2sus"></iframe>			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.3121398225494!2d139.78963951572834!3d35.792269680168516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189195dc5cb053%3A0x35017998f3f3beb0!2z5pel5pys44CB44CSMTIxLTA4MTMg5p2x5Lqs6YO96Laz56uL5Yy656u544Gu5aGa77yR5LiB55uu77yT77yQ4oiS77yS77yQIOazsOWwmuODk-ODqyAyZg!5e0!3m2!1sja!2sus!4v1667278042600!5m2!1sja!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			
 			</div>
 		</div>
 		<div class="copyright_box">Copyright © やまざき眼科クリニック.All Rights Reserved.</div>
@@ -604,8 +604,8 @@
 	<div class="mobile_footer sp">
 		<ul class="link_box">
 			<li class="link_tel">
-				<a class="link" href="tel:03-5831-0140">
-					<img alt="" src="_assets/images/sp/tel.png">
+				<a href="tel:03-5831-0140" class="link">
+					<img src="_assets/images/sp/tel.png" alt="">
 				</a>	
 			</li>
 		</ul>

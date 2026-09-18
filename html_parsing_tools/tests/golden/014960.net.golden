@@ -60,10 +60,10 @@ zh-CN
 === html_contents ===
 <!DOCTYPE html><html lang="zh-CN"><head>
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>王中王</title>
-    <meta content="关键词测试" name="keywords">
-    <meta content="描述测试" name="description">
+    <meta name="keywords" content="关键词测试">
+    <meta name="description" content="描述测试">
     
     
 
@@ -76,10 +76,10 @@ zh-CN
         <div class="header-bar">
             <div class="logo-area">
                 
-                    <img alt="王中王" src="/uploads/1780723452_wzw.png" style="height: 52px; max-width: 240px; object-fit: contain;">
+                    <img src="/uploads/1780723452_wzw.png" alt="王中王" style="height: 52px; max-width: 240px; object-fit: contain;">
                 
             </div>
-            <a href="#"><img alt="广告" class="header-ad" id="header-ad-img" src="/static/img/am_gw.png"></a>
+            <a href="#"><img id="header-ad-img" class="header-ad" src="/static/img/am_gw.png" alt="广告"></a>
         </div>
         
         <iframe id="lottery-header-macau" src="/static/html/history.html?type=macau" style="width: 100%; height: 56px; border: none; display: block; vertical-align: top;"></iframe>
@@ -87,15 +87,15 @@ zh-CN
         
         <div class="tab-container">
             <div class="tab-btn active" id="tab-macau" onclick="switchTab('macau', this)">
-                <img alt="am" class="tab-icon" src="/static/img/am_xx.webp"> 澳门彩资料
+                <img class="tab-icon" src="/static/img/am_xx.webp" alt="am"> 澳门彩资料
             </div>
             <div class="tab-btn" id="tab-hk" onclick="switchTab('hk', this)">
-                <img alt="hk" class="tab-icon" src="/static/img/hk_xx.webp"> 香港彩资料
+                <img class="tab-icon" src="/static/img/hk_xx.webp" alt="hk"> 香港彩资料
             </div>
         </div>
     </div>
     <div class="iframe-container">
-        <iframe id="content-iframe" scrolling="no" src="/feed/macau"></iframe>
+        <iframe id="content-iframe" src="/feed/macau" scrolling="no"></iframe>
     </div>
 </div>
 
