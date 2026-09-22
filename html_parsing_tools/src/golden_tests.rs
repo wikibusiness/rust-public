@@ -114,6 +114,43 @@ fn render_fixture_report(html: &str) -> String {
     let contents = html_contents(html.to_string()).unwrap();
     section!("html_contents", contents);
 
+    let page = load_page(html.to_string());
+    section!("ParsedPage.get_anchor_links", format!("{:?}", page.get_anchor_links()));
+    section!("ParsedPage.get_link_attributes", format!("{:?}", page.get_link_attributes()));
+    let mut link_elements: Vec<(String, String, Vec<(String, String)>)> = page
+        .get_link_elements()
+        .into_iter()
+        .map(|(tag, href, attrs)| {
+            let mut attrs: Vec<(String, String)> = attrs.into_iter().collect();
+            attrs.sort();
+            (tag, href, attrs)
+        })
+        .collect();
+    link_elements.sort();
+    section!("ParsedPage.get_link_elements (sorted)", format!("{link_elements:?}"));
+    section!("ParsedPage.get_script_contents", format!("{:?}", page.get_script_contents()));
+    section!("ParsedPage.get_meta_tags", format!("{:?}", page.get_meta_tags()));
+    section!("ParsedPage.get_json_ld", format!("{:?}", page.get_json_ld()));
+    section!(
+        "ParsedPage.get_anchor_text_fragments",
+        format!("{:?}", page.get_anchor_text_fragments())
+    );
+    section!("ParsedPage.get_script_texts", format!("{:?}", page.get_script_texts()));
+    // HashMap's Debug order isn't stable across process runs (hash-seed
+    // randomized) -- render attrs sorted by key so this golden file doesn't
+    // spuriously diff on every rerun.
+    let mut elements: Vec<(String, Vec<(String, String)>)> = page
+        .get_elements()
+        .into_iter()
+        .map(|(tag, attrs)| {
+            let mut attrs: Vec<(String, String)> = attrs.into_iter().collect();
+            attrs.sort();
+            (tag, attrs)
+        })
+        .collect();
+    elements.sort();
+    section!("ParsedPage.get_elements (sorted)", format!("{elements:?}"));
+
     out
 }
 

@@ -143,3 +143,30 @@ Création de tunnel IPv4
 
 </body></html>
 
+=== ParsedPage.get_anchor_links ===
+[("https://iperf.fr/iperf-servers.php", "Découvrir"), ("https://i.014.fr/", "Découvrir"), ("https://u.014.fr/", "Découvrir"), ("https://hastebin.014.fr/", "Découvrir"), ("https://dns.014.fr/", "Découvrir"), ("/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622", "Contactez-moi")]
+
+=== ParsedPage.get_link_attributes ===
+["https://iperf.fr/iperf-servers.php", "https://i.014.fr/", "https://u.014.fr/", "https://hastebin.014.fr/", "https://dns.014.fr/", "/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622", "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"]
+
+=== ParsedPage.get_link_elements (sorted) ===
+[("a", "/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622", [("href", "/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622")]), ("a", "https://dns.014.fr/", [("href", "https://dns.014.fr/"), ("target", "_blank")]), ("a", "https://hastebin.014.fr/", [("href", "https://hastebin.014.fr/"), ("target", "_blank")]), ("a", "https://i.014.fr/", [("href", "https://i.014.fr/"), ("target", "_blank")]), ("a", "https://iperf.fr/iperf-servers.php", [("href", "https://iperf.fr/iperf-servers.php"), ("target", "_blank")]), ("a", "https://u.014.fr/", [("href", "https://u.014.fr/"), ("target", "_blank")]), ("script", "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js", [("data-cfasync", "false"), ("src", "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js")])]
+
+=== ParsedPage.get_script_contents ===
+["<script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script>"]
+
+=== ParsedPage.get_meta_tags ===
+[("viewport", "width=device-width, initial-scale=1.0")]
+
+=== ParsedPage.get_json_ld ===
+[]
+
+=== ParsedPage.get_anchor_text_fragments ===
+[(Some("https://iperf.fr/iperf-servers.php"), ["Découvrir"]), (Some("https://i.014.fr/"), ["Découvrir"]), (Some("https://u.014.fr/"), ["Découvrir"]), (Some("https://hastebin.014.fr/"), ["Découvrir"]), (Some("https://dns.014.fr/"), ["Découvrir"]), (Some("/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622"), ["Contactez-moi"])]
+
+=== ParsedPage.get_script_texts ===
+[("", "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js")]
+
+=== ParsedPage.get_elements (sorted) ===
+[("a", [("href", "/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622")]), ("a", [("href", "https://dns.014.fr/"), ("target", "_blank")]), ("a", [("href", "https://hastebin.014.fr/"), ("target", "_blank")]), ("a", [("href", "https://i.014.fr/"), ("target", "_blank")]), ("a", [("href", "https://iperf.fr/iperf-servers.php"), ("target", "_blank")]), ("a", [("href", "https://u.014.fr/"), ("target", "_blank")]), ("body", []), ("div", [("class", "project")]), ("div", [("class", "project")]), ("div", [("class", "project")]), ("div", [("class", "project")]), ("div", [("class", "project")]), ("div", [("class", "project")]), ("div", [("class", "projects")]), ("footer", []), ("h1", []), ("h2", []), ("h3", []), ("h3", []), ("h3", []), ("h3", []), ("h3", []), ("h3", []), ("head", []), ("header", []), ("html", [("lang", "fr")]), ("main", []), ("meta", [("charset", "UTF-8")]), ("meta", [("content", "width=device-width, initial-scale=1.0"), ("name", "viewport")]), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("script", [("data-cfasync", "false"), ("src", "/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js")]), ("style", []), ("title", [])]
+

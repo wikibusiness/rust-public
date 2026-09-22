@@ -200,3 +200,30 @@ Connecting users with quality online resources since 2025
 
 </body></html>
 
+=== ParsedPage.get_anchor_links ===
+[("https://technologyspell.com", "Visit technologyspell.com"), ("https://wellhousekeeping.com", "Visit wellhousekeeping.com"), ("https://pharmasops.com", "Visit pharmasops.com")]
+
+=== ParsedPage.get_link_attributes ===
+["https://technologyspell.com", "https://wellhousekeeping.com", "https://pharmasops.com"]
+
+=== ParsedPage.get_link_elements (sorted) ===
+[("a", "https://pharmasops.com", [("class", "cta-button"), ("href", "https://pharmasops.com"), ("rel", "dofollow"), ("target", "_blank")]), ("a", "https://technologyspell.com", [("class", "cta-button"), ("href", "https://technologyspell.com"), ("rel", "dofollow"), ("target", "_blank")]), ("a", "https://wellhousekeeping.com", [("class", "cta-button"), ("href", "https://wellhousekeeping.com"), ("rel", "dofollow"), ("target", "_blank")])]
+
+=== ParsedPage.get_script_contents ===
+[]
+
+=== ParsedPage.get_meta_tags ===
+[("viewport", "width=device-width, initial-scale=1.0"), ("description", "Premium directory of quality websites and online resources across multiple niches and categories."), ("keywords", "online resources, quality websites, directory, premium platforms"), ("robots", "index, follow")]
+
+=== ParsedPage.get_json_ld ===
+[]
+
+=== ParsedPage.get_anchor_text_fragments ===
+[(Some("https://technologyspell.com"), ["Visit technologyspell.com"]), (Some("https://wellhousekeeping.com"), ["Visit wellhousekeeping.com"]), (Some("https://pharmasops.com"), ["Visit pharmasops.com"])]
+
+=== ParsedPage.get_script_texts ===
+[]
+
+=== ParsedPage.get_elements (sorted) ===
+[("a", [("class", "cta-button"), ("href", "https://pharmasops.com"), ("rel", "dofollow"), ("target", "_blank")]), ("a", [("class", "cta-button"), ("href", "https://technologyspell.com"), ("rel", "dofollow"), ("target", "_blank")]), ("a", [("class", "cta-button"), ("href", "https://wellhousekeeping.com"), ("rel", "dofollow"), ("target", "_blank")]), ("article", [("class", "resource-card")]), ("article", [("class", "resource-card")]), ("article", [("class", "resource-card")]), ("body", []), ("div", [("class", "container")]), ("div", [("class", "content-box")]), ("div", [("class", "content-box")]), ("div", [("class", "content-box")]), ("div", [("class", "content-box")]), ("div", [("class", "content-grid")]), ("footer", []), ("h1", []), ("h2", []), ("h2", []), ("h3", []), ("h3", []), ("h3", []), ("h3", []), ("h3", []), ("h3", []), ("h3", []), ("head", []), ("header", []), ("html", [("lang", "en")]), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("meta", [("charset", "UTF-8")]), ("meta", [("content", "Premium directory of quality websites and online resources across multiple niches and categories."), ("name", "description")]), ("meta", [("content", "index, follow"), ("name", "robots")]), ("meta", [("content", "online resources, quality websites, directory, premium platforms"), ("name", "keywords")]), ("meta", [("content", "width=device-width, initial-scale=1.0"), ("name", "viewport")]), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("p", []), ("section", [("class", "additional-content")]), ("section", [("class", "intro-section")]), ("section", [("class", "resources-grid")]), ("span", [("class", "icon")]), ("span", [("class", "icon")]), ("span", [("class", "icon")]), ("style", []), ("title", []), ("ul", [("class", "features")]), ("ul", [("class", "features")]), ("ul", [("class", "features")])]
+

@@ -119,3 +119,30 @@ Visit techinsiderdaily.click for premium content and services. A trusted resourc
     
     </body></html>
 
+=== ParsedPage.get_anchor_links ===
+[("https://futuretechzone.asia", "Visit futuretechzone.asia"), ("https://techinsiderdaily.click", "Visit techinsiderdaily.click")]
+
+=== ParsedPage.get_link_attributes ===
+["https://futuretechzone.asia", "https://techinsiderdaily.click"]
+
+=== ParsedPage.get_link_elements (sorted) ===
+[("a", "https://futuretechzone.asia", [("class", "cta-button"), ("href", "https://futuretechzone.asia"), ("rel", "dofollow"), ("target", "_blank")]), ("a", "https://techinsiderdaily.click", [("class", "cta-button"), ("href", "https://techinsiderdaily.click"), ("rel", "dofollow"), ("target", "_blank")])]
+
+=== ParsedPage.get_script_contents ===
+[]
+
+=== ParsedPage.get_meta_tags ===
+[("viewport", "width=device-width, initial-scale=1.0")]
+
+=== ParsedPage.get_json_ld ===
+[]
+
+=== ParsedPage.get_anchor_text_fragments ===
+[(Some("https://futuretechzone.asia"), ["Visit futuretechzone.asia"]), (Some("https://techinsiderdaily.click"), ["Visit techinsiderdaily.click"])]
+
+=== ParsedPage.get_script_texts ===
+[]
+
+=== ParsedPage.get_elements (sorted) ===
+[("a", [("class", "cta-button"), ("href", "https://futuretechzone.asia"), ("rel", "dofollow"), ("target", "_blank")]), ("a", [("class", "cta-button"), ("href", "https://techinsiderdaily.click"), ("rel", "dofollow"), ("target", "_blank")]), ("article", [("class", "resource-card")]), ("article", [("class", "resource-card")]), ("body", []), ("div", [("class", "wrapper")]), ("h1", []), ("h3", []), ("h3", []), ("head", []), ("header", []), ("html", [("lang", "en")]), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("li", []), ("meta", [("charset", "UTF-8")]), ("meta", [("content", "width=device-width, initial-scale=1.0"), ("name", "viewport")]), ("p", []), ("p", []), ("p", []), ("span", [("class", "icon")]), ("span", [("class", "icon")]), ("style", []), ("style", []), ("table", [("class", "directory-table")]), ("tbody", []), ("th", []), ("th", []), ("th", []), ("thead", []), ("title", []), ("tr", []), ("ul", [("class", "features")]), ("ul", [("class", "features")])]
+

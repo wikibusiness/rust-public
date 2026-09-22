@@ -116,3 +116,30 @@ Get the complete story at http://531131.xyz
 
 </body></html>
 
+=== ParsedPage.get_anchor_links ===
+[("https://518791.xyz", "518791"), ("https://528928.xyz", "528928"), ("https://518795.xyz", "http://518795.xyz"), ("https://518802.xyz", "518802"), ("https://531131.xyz", "http://531131.xyz")]
+
+=== ParsedPage.get_link_attributes ===
+["https://518791.xyz", "https://528928.xyz", "https://518795.xyz", "https://518802.xyz", "https://531131.xyz"]
+
+=== ParsedPage.get_link_elements (sorted) ===
+[("a", "https://518791.xyz", [("href", "https://518791.xyz")]), ("a", "https://518795.xyz", [("href", "https://518795.xyz")]), ("a", "https://518802.xyz", [("href", "https://518802.xyz")]), ("a", "https://528928.xyz", [("href", "https://528928.xyz")]), ("a", "https://531131.xyz", [("href", "https://531131.xyz")])]
+
+=== ParsedPage.get_script_contents ===
+["<script type=\"application/ld+json\">\n    \n      \"@context\": \"https://schema.org\",\n      \"@type\": \"LocalBusiness\",\n      \"name\": \"014510.xyz Services\",\n      \"image\": \"https://014510.xyz/logo.png\",\n      \"url\": \"https://014510.xyz/\",\n      \"telephone\": \"+44-20-7946-0958\",\n      \"priceRange\": \"$$\"\n    \n    </script>"]
+
+=== ParsedPage.get_meta_tags ===
+[("viewport", "width=device-width, initial-scale=1.0"), ("description", "Professional solutions by 014510.xyz. Check our partner network.")]
+
+=== ParsedPage.get_json_ld ===
+["\"@context\": \"https://schema.org\",\n      \"@type\": \"LocalBusiness\",\n      \"name\": \"014510.xyz Services\",\n      \"image\": \"https://014510.xyz/logo.png\",\n      \"url\": \"https://014510.xyz/\",\n      \"telephone\": \"+44-20-7946-0958\",\n      \"priceRange\": \"$$\""]
+
+=== ParsedPage.get_anchor_text_fragments ===
+[(Some("https://518791.xyz"), ["518791"]), (Some("https://528928.xyz"), ["528928"]), (Some("https://518795.xyz"), ["http://518795.xyz"]), (Some("https://518802.xyz"), ["518802"]), (Some("https://531131.xyz"), ["http://531131.xyz"])]
+
+=== ParsedPage.get_script_texts ===
+[("\n    \n      \"@context\": \"https://schema.org\",\n      \"@type\": \"LocalBusiness\",\n      \"name\": \"014510.xyz Services\",\n      \"image\": \"https://014510.xyz/logo.png\",\n      \"url\": \"https://014510.xyz/\",\n      \"telephone\": \"+44-20-7946-0958\",\n      \"priceRange\": \"$$\"\n    \n    ", "")]
+
+=== ParsedPage.get_elements (sorted) ===
+[("a", [("href", "https://518791.xyz")]), ("a", [("href", "https://518795.xyz")]), ("a", [("href", "https://518802.xyz")]), ("a", [("href", "https://528928.xyz")]), ("a", [("href", "https://531131.xyz")]), ("body", [("style", "font-family: 'Open Sans', Arial, sans-serif; margin: 0; padding: 0; color: #444;")]), ("div", [("style", "background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-top: 20px;")]), ("div", [("style", "font-size: 1.8em; font-weight: bold; color: #c0392b;")]), ("div", [("style", "line-height: 2; font-size: 1.1em; margin-top: 20px;")]), ("footer", [("style", "background: #333; color: #fff; padding: 30px 20px; text-align: center; margin-top: 50px;")]), ("h1", [("style", "font-size: 2.5em; margin: 0 0 15px; color: #222;")]), ("h2", [("style", "text-align: center; border-bottom: 2px solid #eee; padding-bottom: 10px;")]), ("head", []), ("header", [("style", "background: #fff; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eaeaea;")]), ("html", [("lang", "uk")]), ("main", [("style", "max-width: 900px; margin: 40px auto; padding: 0 20px;")]), ("meta", [("charset", "UTF-8")]), ("meta", [("content", "Professional solutions by 014510.xyz. Check our partner network."), ("name", "description")]), ("meta", [("content", "width=device-width, initial-scale=1.0"), ("name", "viewport")]), ("nav", []), ("p", []), ("p", [("style", "font-size: 1.2em; max-width: 600px; margin: 0 auto 25px; color: #555;")]), ("p", [("style", "margin-top: 15px; line-height: 1.6; color: #333;")]), ("p", [("style", "margin-top: 15px; line-height: 1.6; color: #333;")]), ("p", [("style", "margin-top: 15px; line-height: 1.6; color: #333;")]), ("p", [("style", "margin-top: 15px; line-height: 1.6; color: #333;")]), ("p", [("style", "margin-top: 15px; line-height: 1.6; color: #333;")]), ("p", [("style", "margin: 0;")]), ("script", [("type", "application/ld+json")]), ("section", [("style", "background: #fdfbf7; padding: 60px 20px; text-align: center;")]), ("span", [("style", "margin-left: 20px; font-weight:bold; color: #666; cursor: pointer;")]), ("span", [("style", "margin-left: 20px; font-weight:bold; color: #666; cursor: pointer;")]), ("span", [("style", "margin-left: 20px; padding: 8px 15px; background: #2980b9; color: #fff; border-radius: 4px; cursor: pointer;")]), ("span", [("style", "text-decoration: none; color: inherit;")]), ("title", [])]
+

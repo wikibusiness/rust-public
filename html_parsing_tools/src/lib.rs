@@ -8,7 +8,7 @@ mod utils;
 use kuchikiki::{iter::NodeIterator, traits::TendrilSink};
 use linkify::{LinkFinder, LinkKind};
 use pyo3::exceptions::PyValueError;
-use pyo3::prelude::{pyclass, pyfunction, pymodule, wrap_pyfunction, Bound, PyModule, PyModuleMethods, PyResult};
+use pyo3::prelude::{pyclass, pyfunction, pymethods, pymodule, wrap_pyfunction, Bound, PyModule, PyModuleMethods, PyResult};
 use rayon::prelude::*;
 use regex::{Regex, RegexBuilder};
 use std::collections::{HashMap, HashSet};
@@ -626,6 +626,121 @@ mod tests {
     }
 
     #[test]
+    fn test_parsed_page_get_anchor_links() {
+        let html = "<a href=\"/plain\">Investor Relations</a>\
+            <a href=\"/nested\"><b>Investor</b> Relations</a>\
+            <a>no href</a>"
+            .to_string();
+        let page = load_page(html);
+        assert_eq!(
+            page.get_anchor_links(),
+            [
+                ("/plain".to_string(), "Investor Relations".to_string()),
+                // lxml's `.text` on <a><b>Investor</b> Relations</a> is None:
+                // the first child is the <b> element, not a text node, so
+                // the text lives in the *tail* of <b>, which .text doesn't
+                // see. Reproduced here as an empty string, not fixed.
+                ("/nested".to_string(), "".to_string()),
+            ]
+        );
+    }
+
+    #[test]
+    fn test_parsed_page_get_link_attributes() {
+        let html = "<img src=\"/logo.png\"><a href=\"/a\">x</a>\
+            <div data-href=\"/custom\">y</div>"
+            .to_string();
+        let page = load_page(html);
+        let mut links = page.get_link_attributes();
+        links.sort();
+        assert_eq!(links, ["/a", "/custom", "/logo.png"]);
+    }
+
+    #[test]
+    fn test_parsed_page_get_link_elements() {
+        let html = "<img src=\"/logo.png\" width=\"32\" alt=\"Logo\">".to_string();
+        let page = load_page(html);
+        let elements = page.get_link_elements();
+        assert_eq!(elements.len(), 1);
+        let (tag, href, attrs) = &elements[0];
+        assert_eq!(tag, "img");
+        assert_eq!(href, "/logo.png");
+        assert_eq!(attrs.get("width").map(String::as_str), Some("32"));
+        assert_eq!(attrs.get("alt").map(String::as_str), Some("Logo"));
+    }
+
+    #[test]
+    fn test_parsed_page_get_script_contents() {
+        let html = "<script type=\"text/javascript\">var x = 1 < 2;</script>".to_string();
+        let page = load_page(html);
+        let scripts = page.get_script_contents();
+        assert_eq!(scripts.len(), 1);
+        assert!(scripts[0].contains("var x = 1"));
+        assert!(scripts[0].starts_with("<script"));
+    }
+
+    #[test]
+    fn test_parsed_page_get_meta_tags() {
+        let html = "<meta name=\"description\" content=\"d\">\
+            <meta property=\"og:title\" content=\"t\">\
+            <meta content=\"skipped, no name or property\">"
+            .to_string();
+        let page = load_page(html);
+        assert_eq!(
+            page.get_meta_tags(),
+            [
+                ("description".to_string(), "d".to_string()),
+                ("og:title".to_string(), "t".to_string()),
+            ]
+        );
+    }
+
+    #[test]
+    fn test_parsed_page_get_anchor_text_fragments() {
+        let html = "<a href=\"/a\">Hello <b>World</b></a><a>no href</a>".to_string();
+        let page = load_page(html);
+        assert_eq!(
+            page.get_anchor_text_fragments(),
+            [
+                (Some("/a".to_string()), vec!["Hello ".to_string(), "World".to_string()]),
+                (None, vec!["no href".to_string()]),
+            ]
+        );
+    }
+
+    #[test]
+    fn test_parsed_page_get_script_texts() {
+        let html = "<script src=\"/a.js\">var x = 1;</script><script>no src</script>".to_string();
+        let page = load_page(html);
+        assert_eq!(
+            page.get_script_texts(),
+            [
+                ("var x = 1;".to_string(), "/a.js".to_string()),
+                ("no src".to_string(), "".to_string()),
+            ]
+        );
+    }
+
+    #[test]
+    fn test_parsed_page_get_elements() {
+        let html = "<div class=\"cart-icon\">x</div><video></video>".to_string();
+        let page = load_page(html);
+        let elements = page.get_elements();
+        let div = elements.iter().find(|(tag, _)| tag == "div").unwrap();
+        assert_eq!(div.1.get("class").map(String::as_str), Some("cart-icon"));
+        assert!(elements.iter().any(|(tag, _)| tag == "video"));
+    }
+
+    #[test]
+    fn test_parsed_page_get_json_ld() {
+        let html = "<script type=\"application/ld+json\">{\"@type\":\"Organization\"}</script>\
+            <script>not json_ld</script>"
+            .to_string();
+        let page = load_page(html);
+        assert_eq!(page.get_json_ld(), ["{\"@type\":\"Organization\"}"]);
+    }
+
+    #[test]
     fn test_get_emails() {
         let html = "\
             <p>You can always reach out to Soren, Anders and Teffi who are responsible for the web-shop via \
@@ -699,6 +814,259 @@ fn remove_matching_links(html: String, texts: Vec<String>) -> String {
     extract_text::remove_matching_links(html, texts)
 }
 
+// The standard HTML link-bearing attributes lxml.html.defs.link_attrs
+// enumerates (verified against the real frozenset, not guessed).
+const LINK_ATTRS: [&str; 15] = [
+    "longdesc", "cite", "src", "classid", "usemap", "formaction", "href",
+    "action", "lowsrc", "profile", "codebase", "background", "data",
+    "archive", "dynsrc",
+];
+
+/// A page parsed once so callers can pull out different sub-parts (links,
+/// scripts, meta tags, ...) without reparsing -- the replacement for handing
+/// a caller an lxml tree, without lxml's per-node Python object memory
+/// overhead.
+///
+/// Every sub-part is computed eagerly in `load_page`, not lazily per method
+/// call: kuchikiki's tree is `Rc`-based (not `Send`/`Sync`), and this crate's
+/// only real caller (ai_center's html_content_processing pipeline) fans
+/// extractors out across `asyncio.to_thread` -- a genuinely different OS
+/// thread per extractor, not just concurrent-under-the-GIL. A pyclass
+/// holding a live `Rc` tree would need `unsendable`, which panics the moment
+/// a different thread touches it, i.e. on the very next extractor call.
+/// Computing everything up front into plain owned data sidesteps that: the
+/// class is trivially `Send`/`Sync` and safe to share across the fan-out.
+#[pyclass(module = "html_parsing_tools")]
+struct ParsedPage {
+    anchor_links: Vec<(String, String)>,
+    anchor_text_fragments: Vec<(Option<String>, Vec<String>)>,
+    link_attributes: Vec<String>,
+    link_elements: Vec<(String, String, HashMap<String, String>)>,
+    script_contents: Vec<String>,
+    script_texts: Vec<(String, String)>,
+    meta_tags: Vec<(String, String)>,
+    json_ld: Vec<String>,
+    elements: Vec<(String, HashMap<String, String>)>,
+}
+
+#[pymethods]
+impl ParsedPage {
+    /// (href, text) for every `<a href>`. `text` matches lxml's `element.text`
+    /// -- only the text node immediately after the opening tag, not text
+    /// inside a nested child element (`<a><b>x</b></a>` yields text="", same
+    /// as lxml's `.text` being None there) and not the tail. This is the
+    /// exact (slightly-misses-nested-markup) behavior company_data.py's
+    /// contains_investor_info already relied on via lxml -- reproduced as-is,
+    /// not fixed.
+    fn get_anchor_links(&self) -> Vec<(String, String)> {
+        self.anchor_links.clone()
+    }
+
+    /// Every attribute value lxml's `iterlinks()` would surface as a link:
+    /// the standard link-bearing attributes (href/src/action/data/...) on any
+    /// tag, plus literal `data-href` attributes (a site-specific convention
+    /// this codebase also scans for via `//@data-href`).
+    ///
+    /// ponytail: doesn't replicate iterlinks()'s <object>/<param>
+    /// codebase-relative joining, <meta http-equiv="refresh"> redirect
+    /// targets, or CSS `url()`/`@import` extraction from <style> tags/style
+    /// attributes -- all rare document shapes, and the only caller
+    /// (get_pages_absolute_links) filters down to absolute http(s) links
+    /// anyway, which most of those forms aren't. Upgrade path: port the
+    /// remaining branches of lxml.html.HtmlMixin.iterlinks here if a real
+    /// domain is found needing them.
+    fn get_link_attributes(&self) -> Vec<String> {
+        self.link_attributes.clone()
+    }
+
+    /// Same scan as get_link_attributes, but carrying the tag name and full
+    /// attribute map of the element each link came from -- for callers (like
+    /// logo.py's image-link scoring) that need to read other attributes
+    /// (width/height/alt/class/...) off that same element, which a flat href
+    /// list can't give them. `attribute`/lxml's per-link char position from
+    /// iterlinks() aren't carried: logo.py's own iterlinks() consumption
+    /// never used them either (verified at the call site).
+    fn get_link_elements(&self) -> Vec<(String, String, HashMap<String, String>)> {
+        self.link_elements.clone()
+    }
+
+    /// Outer HTML of every `<script>` element (tag, attributes, and raw
+    /// content), matching lxml's `tostring(script_element)`.
+    fn get_script_contents(&self) -> Vec<String> {
+        self.script_contents.clone()
+    }
+
+    /// (key, content) per `<meta>` tag -- key is the `name` attribute if
+    /// present, else `property`; tags with neither are skipped. Matches
+    /// _tech_detector.py's _extract_meta_tags.
+    fn get_meta_tags(&self) -> Vec<(String, String)> {
+        self.meta_tags.clone()
+    }
+
+    /// Raw text content of every `<script type="application/ld+json">` tag,
+    /// same extraction get_sentences already uses for its own json_ld field
+    /// (see get_json_ld in utils.rs) -- exposed here for callers (like
+    /// oceanai.utils.web's get_json_linked_data) that need it without also
+    /// running full sentence extraction.
+    fn get_json_ld(&self) -> Vec<String> {
+        self.json_ld.clone()
+    }
+
+    /// (href, text_fragments) for every `<a>` tag, href absent (None) if the
+    /// attribute itself is missing (distinct from present-but-empty, which
+    /// is `Some("")`). `text_fragments` is every descendant text node's raw,
+    /// untrimmed content in document order -- the equivalent of lxml's
+    /// `element.itertext()`, meant to be fed to this crate's own
+    /// `form_text_nodes` exactly like the original Python code did with
+    /// itertext() output (triggers.py/gtm.py's `_get_element_text`/
+    /// `_element_text`). Deliberately not reusing get_anchor_links' shallow
+    /// `.text`-only field here -- that's a different (and, for this caller,
+    /// wrong) text scope.
+    fn get_anchor_text_fragments(&self) -> Vec<(Option<String>, Vec<String>)> {
+        self.anchor_text_fragments.clone()
+    }
+
+    /// (text, src) per `<script>` tag: text is the tag's direct text content
+    /// (script/style are HTML5 "raw text" elements with a single text child,
+    /// so this is the whole content, matching lxml's `element.text`), src is
+    /// the `src` attribute or "" if absent. For callers that want the script
+    /// body itself, not the serialized tag (see get_script_contents for that).
+    fn get_script_texts(&self) -> Vec<(String, String)> {
+        self.script_texts.clone()
+    }
+
+    /// (tag_name, attributes) for every element in the document, document
+    /// order. A deliberately generic dump rather than another bespoke
+    /// query: several callers (triggers.py's config-driven xpath patterns,
+    /// gtm.py's embed-signal xpath patterns, logo.py's apple-touch-icon
+    /// lookup and its per-link width/height/alt/class reads) each need a
+    /// different, small slice of "tag + attributes", and the matching logic
+    /// itself lives in Python next to the config data it reads (TRIGGERS,
+    /// GTM_SIGNALS) -- there's no reason to also duplicate an xpath-pattern
+    /// interpreter in Rust for it. Cheap: pages are already capped at 1MB
+    /// before reaching here, so this is at most a few thousand small tuples.
+    fn get_elements(&self) -> Vec<(String, HashMap<String, String>)> {
+        self.elements.clone()
+    }
+}
+
+#[pyfunction]
+fn load_page(html: String) -> ParsedPage {
+    let document = kuchikiki::parse_html().one(html);
+
+    let anchor_links = document
+        .select("a")
+        .unwrap()
+        .filter_map(|node| {
+            let attributes = node.attributes.borrow();
+            let href = attributes.get("href")?.to_string();
+            drop(attributes);
+            let text = node
+                .as_node()
+                .first_child()
+                .and_then(|child| child.as_text().map(|t| t.borrow().clone()))
+                .unwrap_or_default();
+            Some((href, text))
+        })
+        .collect();
+
+    let mut link_attributes = Vec::new();
+    let mut link_elements = Vec::new();
+    let mut elements = Vec::new();
+    for node in document.select("*").unwrap() {
+        let tag = node.name.local.to_string();
+        let attributes = node.attributes.borrow();
+        let attrs_map: HashMap<String, String> = attributes
+            .map
+            .iter()
+            .map(|(name, attr)| (name.local.to_string(), attr.value.clone()))
+            .collect();
+
+        for attr in LINK_ATTRS {
+            if let Some(value) = attributes.get(attr) {
+                link_attributes.push(value.to_string());
+                link_elements.push((tag.clone(), value.to_string(), attrs_map.clone()));
+            }
+        }
+        if let Some(value) = attributes.get("data-href") {
+            link_attributes.push(value.to_string());
+            link_elements.push((tag.clone(), value.to_string(), attrs_map.clone()));
+        }
+
+        drop(attributes);
+        elements.push((tag, attrs_map));
+    }
+
+    let script_contents = document
+        .select("script")
+        .unwrap()
+        .map(|node| node.as_node().to_string())
+        .collect();
+
+    let meta_tags = document
+        .select("meta")
+        .unwrap()
+        .filter_map(|node| {
+            let attributes = node.attributes.borrow();
+            let key = attributes
+                .get("name")
+                .or_else(|| attributes.get("property"))?
+                .to_string();
+            let content = attributes.get("content").unwrap_or("").to_string();
+            Some((key, content))
+        })
+        .collect();
+
+    let json_ld = get_json_ld(&document);
+
+    let anchor_text_fragments = document
+        .select("a")
+        .unwrap()
+        .map(|node| {
+            let attributes = node.attributes.borrow();
+            let href = attributes.get("href").map(|v| v.to_string());
+            drop(attributes);
+            let fragments = node
+                .as_node()
+                .descendants()
+                .text_nodes()
+                .map(|text_node| text_node.borrow().to_string())
+                .collect();
+            (href, fragments)
+        })
+        .collect();
+
+    let script_texts = document
+        .select("script")
+        .unwrap()
+        .map(|node| {
+            let attributes = node.attributes.borrow();
+            let src = attributes.get("src").unwrap_or("").to_string();
+            drop(attributes);
+            let text = node
+                .as_node()
+                .children()
+                .text_nodes()
+                .map(|text_node| text_node.borrow().to_string())
+                .collect::<Vec<_>>()
+                .join("");
+            (text, src)
+        })
+        .collect();
+
+    ParsedPage {
+        anchor_links,
+        anchor_text_fragments,
+        link_attributes,
+        link_elements,
+        script_contents,
+        script_texts,
+        meta_tags,
+        json_ld,
+        elements,
+    }
+}
+
 /// A Python module implemented in Rust.
 #[pymodule]
 fn html_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
@@ -720,6 +1088,8 @@ fn html_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(form_text_nodes_py, m)?)?;
     m.add_function(wrap_pyfunction!(extract_text_py, m)?)?;
     m.add_function(wrap_pyfunction!(remove_matching_links, m)?)?;
+    m.add_function(wrap_pyfunction!(load_page, m)?)?;
     m.add_class::<GetSentencesResult>()?;
+    m.add_class::<ParsedPage>()?;
     Ok(())
 }
