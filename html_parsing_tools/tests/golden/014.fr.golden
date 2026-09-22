@@ -143,6 +143,148 @@ Création de tunnel IPv4
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+    
+    
+    014.fr
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0146a8;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            max-width: 120px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1rem;
+        }
+        main {
+            text-align: center;
+            padding: 2rem;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .project {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            text-align: center;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .project img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        .project:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #0146a8;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #ffdd57;
+            text-decoration: none;
+        }
+        footer .socials {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer .socials p {
+            margin-right: 10px; /* Espacement entre le texte et le lien */
+        }
+        footer .socials a {
+            color: white;
+            font-size: 1.2rem;
+            display: inline-block;
+            text-decoration: none;
+        }
+        footer .socials a:hover {
+            color: #ffdd57;
+        }
+    
+
+
+    
+        014.fr
+        Une plateforme pour mes projets créatifs et techniques
+    
+    
+        Bienvenue sur 014.fr
+        Découvrez mes projets ci-dessous :
+        
+            
+            
+                Serveur iPerf
+                Un outil pour tester la vitesse de son réseau.
+                Découvrir
+            
+            
+            
+                Hébergement d'images
+                Service d'hébergement d'images serverless.
+                Découvrir
+            
+            
+                Réducteur de lien
+                Réducteur de lien serverless.
+                Découvrir
+            
+            
+                Hébergement de texte
+                Hastebin serverless.
+                Découvrir
+            
+             
+                Sous domaine
+                Console d'enregistrements DNS
+                Découvrir
+            
+            
+                Tunnel IP
+                Création de tunnel IPv4.
+            
+        
+    
+    
+        © 2025 014.fr - Fait avec ❤️ | Contactez-moi
+
+    
+
+
+
+
 === ParsedPage.get_anchor_links ===
 [("https://iperf.fr/iperf-servers.php", "Découvrir"), ("https://i.014.fr/", "Découvrir"), ("https://u.014.fr/", "Découvrir"), ("https://hastebin.014.fr/", "Découvrir"), ("https://dns.014.fr/", "Découvrir"), ("/cdn-cgi/l/email-protection#50333f3e24313324106061647e3622", "Contactez-moi")]
 

@@ -114,6 +114,87 @@ zh-CN
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    正版片源智能聚合，免费播放国产大片电视剧，高清流畅零门槛追剧入口
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "国产免费剧库",
+        "description": "免费播放国产大片电视剧，高清正版片源聚合，热播国产剧与大片一站式浏览。",
+        "inLanguage": "zh-CN",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      }
+    
+    
+    
+  
+  
+    
+    
+      <p>&#x8bf7;&#x542f;&#x7528; JavaScript &#x4ee5;&#x6d4f;&#x89c8;&#x7247;&#x5355;&#x4e0e;&#x64ad;&#x653e;&#x9875;&#x3002;&#x672c;&#x7ad9;&#x4e3b;&#x6253;&#x300c;&#x514d;&#x8d39;&#x64ad;&#x653e;&#x56fd;&#x4ea7;&#x5927;&#x7247;&#x7535;&#x89c6;&#x5267;&#x300d;&#x805a;&#x5408;&#x68c0;&#x7d22;&#x4f53;&#x9a8c;&#x3002;</p>
+    
+    
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d59be3731b44b032463585ce84ab83d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+  
+
+
+
 === ParsedPage.get_anchor_links ===
 []
 

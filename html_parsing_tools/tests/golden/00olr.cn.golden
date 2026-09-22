@@ -72,6 +72,34 @@
 <body>
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+document.title='���ݺ�׸�����������޹�˾';
+欧美日韩精品视频在线,人妻熟妇久久精品,黄色美女下身叉叉叉AAA,日本高清视频在线播放,麻豆国产网站免费观看,精品一区二区丰满奶子,色综合久久天天综合网中文,一区二区三区日本专区,亚洲免费观看一区二区
+
+
+
+
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+
+
+
+
+
+
+
+
 === ParsedPage.get_anchor_links ===
 []
 

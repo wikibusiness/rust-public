@@ -114,6 +114,9 @@ fn render_fixture_report(html: &str) -> String {
     let contents = html_contents(html.to_string()).unwrap();
     section!("html_contents", contents);
 
+    let stripped = strip_buttons_and_get_text(html.to_string());
+    section!("strip_buttons_and_get_text", stripped);
+
     let page = load_page(html.to_string());
     section!("ParsedPage.get_anchor_links", format!("{:?}", page.get_anchor_links()));
     section!("ParsedPage.get_link_attributes", format!("{:?}", page.get_link_attributes()));

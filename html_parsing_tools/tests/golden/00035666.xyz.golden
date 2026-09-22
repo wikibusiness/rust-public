@@ -119,6 +119,75 @@ Visit techinsiderdaily.click for premium content and services. A trusted resourc
     
     </body></html>
 
+=== strip_buttons_and_get_text ===
+
+        
+        
+        The Web Navigator
+        
+            body { font-family: 'Lucida Sans', sans-serif; background: #fff; color: #333; margin: 0; padding: 40px; }
+            .wrapper { max-width: 1000px; margin: 0 auto; }
+            header { margin-bottom: 30px; border-left: 5px solid #ff9a9e; padding-left: 20px; }
+            h1 { margin: 0; color: #111; }
+            .directory-table { width: 100%; border-collapse: collapse; }
+            .directory-table th { background: #ff9a9e; color: white; text-align: left; padding: 15px; }
+            .directory-table td { border-bottom: 1px solid #ddd; padding: 15px; vertical-align: top; }
+            .directory-table tr:hover { background: #f9f9f9; }
+            .cta-button { color: #ff9a9e; font-weight: bold; text-decoration: none; }
+        
+    
+    
+        
+            
+                The Web Navigator
+                Curated excellence in digital resources.
+            
+            
+                📰
+                futuretechzone.asia
+                Visit futuretechzone.asia for premium content and services. A trusted resource in its category.
+                
+                    Verified Content
+                    Expert Insights
+                    Regular Updates
+                    Premium Quality
+                
+                Visit futuretechzone.asia
+            
+                📰
+                techinsiderdaily.click
+                Visit techinsiderdaily.click for premium content and services. A trusted resource in its category.
+                
+                    Verified Content
+                    Expert Insights
+                    Regular Updates
+                    Premium Quality
+                
+                Visit techinsiderdaily.click
+            
+                ResourceDescriptionAction
+                
+                    
+                    
+                        .resource-card { display: table-row; }
+                        .resource-card > * { display: table-cell; padding: 15px; border-bottom: 1px solid #eee; }
+                        .resource-card h3 { margin: 0; color: #ff9a9e; }
+                        .resource-card p { margin: 0; color: #666; font-size: 0.9rem; }
+                        .resource-card a { display: block; background: #fecfef; color: white; text-align: center; padding: 5px; text-decoration: none; border-radius: 3px; }
+                        .icon, .features { display: none; } /* Hide unnecessary elements for table view */
+                    
+                    
+            
+    
+            
+    
+                
+            
+        
+    
+    
+    
+
 === ParsedPage.get_anchor_links ===
 [("https://futuretechzone.asia", "Visit futuretechzone.asia"), ("https://techinsiderdaily.click", "Visit techinsiderdaily.click")]
 

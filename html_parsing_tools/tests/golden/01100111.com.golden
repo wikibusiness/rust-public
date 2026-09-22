@@ -137,6 +137,114 @@ m1 m2 m3 m4 m5 m6 m7 m8 m9 m10 m11 m12 m13 m14 m15 m16 m17 m18 m19 m20 m21 m22 m
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+
+Site en construction
+
+
+
+
+
+
+
+
+
+
+                    @font-face {
+                        font-family: 'lato';
+                        src: url('/__ovh/common/font/lato-light-webfont.eot');
+                        src: url('/__ovh/common/font/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+                             url('/__ovh/common/font/lato-light-webfont.woff') format('woff'),
+                             url('/__ovh/common/font/lato-light-webfont.ttf') format('truetype'),
+                             url('/__ovh/common/font/lato-light-webfont.svg#latolight') format('svg');
+                        font-weight: 200;
+                        font-style: normal;
+                    }
+
+                    body { background-image: url("/__ovh/common/img/transparentTriangle.svg"); margin: 0; color: #5E5E5E; font-family: "lato", 'Arial'; }
+                    a:hover { text-decoration: none; }
+                    div.wrapper { margin: 0 auto; max-width: 970px; }
+                    div.header { background-color: #000E9C; width: 100%; height: 10%; padding-top: 35px; position: relative; }
+                    div.footer { background-color: #000E9C; width: 100%; height: 12%; padding-top: 30px; text-align: center; }
+                    div.footer p,
+                    div.footer p a { color: #FFF; font-size: 14px; font-weight: bold; }
+
+                    div.content { width: 100%; height: 74%; text-align: center; }
+                    div.content h1 { font-size: 2.5em; font-weight: 200; }
+                    div.content p { font-size: 1.5em; }
+                    img { width: 100%; }
+
+                    div.item { width: 22%; float: left; margin-right: 3%; }
+                    div.item:last-child,
+                    div.item:nth-of-type(5n) { margin-right: 0; }
+                    div.item img { max-width: 100px; display: block; margin: 0 auto 10px auto; }
+                    div.item a { display: block; font-size: 1.2em; color: #000E9C; line-height: 1.4em; }
+
+                    @media screen and (max-width: 550px) {
+                        div.item { float: none; width: 100%; clear: both; margin: 0 0 2% 0; padding: 2%; }
+                    }
+                    #autofooter{ display:none; }
+
+                
+
+
+
+
+
+
+Site en construction
+Besoin d'assistance ou d'informations ?
+
+                                    Guides
+                                
+
+                                    Forum
+                                
+
+                                    Contact
+                                
+
+                                    Espace Client
+                                
+
+
+
+    © Copyright 1999new Date().getFullYear()>1999&&document.write("-"+new Date().getFullYear()); OVHcloud
+
+                            
+
+                
+
+	
+		
+		
+		11
+		
+		11
+		
+		
+		
+		
+		
+		11
+		
+		11
+		
+		11
+		
+	
+		c1c2c3c4c5c6c7c8c9c10c11c12c13c14c15c16c17c18c19c20c21c22c23c24c25c26c27c28c29c30c31c32c33c34c35c36c37c38c39c40c41c42c43c44c45c46c47c48c49c50c51
+		
+		o1o2o3o4o5o6o7o8o9o10o11o12o13o14o15o16o17o18o19o20o21o22o23o24o25o26o27o28o29o30o31o32o33o34o35o36o37o38o39o40o41o42o43o44o45o46o47o48o49o50o51o52o53o54o55o56o57o58o59o60o61o62o63
+		
+		m1m2m3m4m5m6m7m8m9m10m11m12m13m14m15m16m17m18m19m20m21m22m23m24m25m26m27m28m29m30m31m32m33m34m35m36m37m38m39m40m41m42m43m44m45m46m47m48m49m50m51m52m53m54m55m56m57m58m59m60m61
+	
+
+
+
+
+
 === ParsedPage.get_anchor_links ===
 [("https://www.ovhcloud.com/", ""), ("https://docs.ovh.com/fr/hosting/", ""), ("https://community.ovh.com/", ""), ("https://help.ovhcloud.com/fr/", ""), ("https://www.ovh.com/manager/", ""), ("https://www.ovhcloud.com/", "OVHcloud")]
 

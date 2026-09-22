@@ -265,6 +265,274 @@ Code Create Life
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+ 
+听松阁 - Free163.Com
+
+
+
+
+	
+	
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+	
+    
+    
+
+			/*样式初始化*/
+			* {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			/*去除横向滚动条*/
+			body {
+				overflow-x: hidden;
+				overflow-y: hidden;
+				background-color: 000;
+				font-size:13px;
+				color: #ffffff;
+			}
+			/*将div铺满整个窗口*/
+			.box {
+				height: 100vh;
+				min-height: 520px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+background-color: 000;
+			}
+			/*设置大ul的大小及定位*/
+			.content {
+				position: relative;
+				width: 100%;
+				height: 100%;
+background-color: 000;
+			}
+			/*设置大li样式*/
+			.content li {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			/*将第一张图片后的图片隐藏*/
+			#li1~li{display: none;}
+			/*设置大li背景图片*/
+			#li1 {background-image: url(./img/bg.jpg);background-size:100%;}
+			/*点击a标签,切换大图片*/
+			#li1:target,
+			#li2:target,
+			#li3:target,
+			#li4:target,
+			#li5:target,
+			#li6:target,
+			#li7:target,
+			#li8:target,
+			#li9:target,
+				display: block;
+			}
+			
+			
+		
+		
+	
+        // JavaScript函数，用于刷新页面
+        function refreshPage() {
+            location.reload();
+        }
+    
+
+
+
+
+
+	
+					
+
+	
+        
+        
+    
+        
+        
+            
+                
+                                
+                        
+                            
+                            
+                                
+                                     
+                                        
+                                            听松阁
+                                        
+                                    
+                                    
+                                        
+                                            2024 · 坚持
+                                        
+                                    
+                                
+                            
+                        
+                    
+                    
+                        Free163.com
+                    
+                    Code Create Life
+                    
+                    归来卧松云，微凉送晚风。 枕上听松语，槛外看潮生!
+                        
+                        -「 听 松 阁 」
+                    
+                    
+                        
+                            
+                                
+                                    
+                                        云空间
+                                    
+                                    
+                                        博客
+                                    
+                                    
+                                        诗词
+                                    
+									
+                                        音乐
+                                    
+									
+                                        相册
+                                    
+									
+                                        4K壁纸
+                                    
+									
+                                        抖音小姐姐
+                                    
+									
+									
+                                        随机MV
+                                    
+									
+                                        随机美图
+                                    
+									
+                                        毒鸡汤
+                                    
+									
+                                        Bing壁纸
+                                    
+									
+                                        短链接
+                                    
+                                    
+                                        网址
+                                    
+                                
+                            
+                        
+						
+						
+						
+                            
+								
+                                    
+                                        动态视频
+                                    
+                                    
+                                        随机壁纸
+                                    
+                                    
+                                        动画MV
+                                    
+									   
+									
+                                        变换一个新背景
+                                    
+                                
+                            
+                        
+						
+						
+						
+						    
+								
+                                   Copyright @ 2005-2024 听松阁  All Rights Reserved. Power By Github
+                                
+
+<!--
+google_ad_client = "pub-8742386847853865";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+//-->
+
+
+
+                            
+						
+
+			
+          
+         
+		
+    
+	
+
+
+
+    
+    
+    
+    
+		
+		
+		
+
+	
+		
+	
+
+
+
+  
+
+
+
 === ParsedPage.get_anchor_links ===
 [("#", "\n                            "), ("#", "Free163.com"), ("./cloud/", "云空间"), ("https://blog1.hhhnn.com/", "博客"), ("./book/", "诗词"), ("./music/", "音乐"), ("./photo/", "相册"), ("./bizhi/", "4K壁纸"), ("./xjj/", "抖音小姐姐"), ("./mv2/", "随机MV"), ("./pic/weimei/weimei.html", "随机美图"), ("https://api.rryyz.com/dog/", "毒鸡汤"), ("https://bing.rryyz.com", "Bing壁纸"), ("https://0.00.al", "短链接"), ("./index/", "网址"), ("index-1-1.html", "动态视频"), ("index-1-2.html", "随机壁纸"), ("index-1-3.html", "动画MV"), ("#", "变换一个新背景"), ("https://free163.com/", "听松阁")]
 

@@ -200,6 +200,557 @@ Connecting users with quality online resources since 2025
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+    
+    
+    
+    
+    
+    
+    Premium Web Directory - Quality Online Resources
+    
+    
+        /* ====================================
+           🎨 CUSTOMIZATION SECTION START
+           Neeche diye hue themes me se koi ek uncomment karo
+           ==================================== */
+        
+        /* THEME 1: Purple Gradient (Default - Currently Active) */
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --accent-color: #f093fb;
+            --text-dark: #333;
+            --text-light: #666;
+            --bg-light: #f8f9fa;
+            --card-shadow: rgba(102, 126, 234, 0.3);
+        }
+        
+        /* THEME 2: Blue Ocean - Isko use karne ke liye upar wala comment karo aur ye uncomment karo
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #3b82f6;
+            --accent-color: #60a5fa;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-light: #f1f5f9;
+            --card-shadow: rgba(59, 130, 246, 0.3);
+        }
+        */
+        
+        /* THEME 3: Green Nature
+        :root {
+            --primary-color: #059669;
+            --secondary-color: #10b981;
+            --accent-color: #34d399;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f0fdf4;
+            --card-shadow: rgba(16, 185, 129, 0.3);
+        }
+        */
+        
+        /* THEME 4: Orange Sunset
+        :root {
+            --primary-color: #ea580c;
+            --secondary-color: #f97316;
+            --accent-color: #fb923c;
+            --text-dark: #292524;
+            --text-light: #78716c;
+            --bg-light: #fff7ed;
+            --card-shadow: rgba(249, 115, 22, 0.3);
+        }
+        */
+        
+        /* THEME 5: Red Energy
+        :root {
+            --primary-color: #dc2626;
+            --secondary-color: #ef4444;
+            --accent-color: #f87171;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #fef2f2;
+            --card-shadow: rgba(239, 68, 68, 0.3);
+        }
+        */
+        
+        /* THEME 6: Dark Professional
+        :root {
+            --primary-color: #1f2937;
+            --secondary-color: #374151;
+            --accent-color: #6366f1;
+            --text-dark: #111827;
+            --text-light: #4b5563;
+            --bg-light: #f9fafb;
+            --card-shadow: rgba(99, 102, 241, 0.3);
+        }
+        */
+        
+        /* THEME 7: Pink Modern
+        :root {
+            --primary-color: #db2777;
+            --secondary-color: #ec4899;
+            --accent-color: #f472b6;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #fdf2f8;
+            --card-shadow: rgba(236, 72, 153, 0.3);
+        }
+        */
+        
+        /* THEME 8: Teal Fresh
+        :root {
+            --primary-color: #0d9488;
+            --secondary-color: #14b8a6;
+            --accent-color: #2dd4bf;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #f0fdfa;
+            --card-shadow: rgba(20, 184, 166, 0.3);
+        }
+        */
+        
+        /* ====================================
+           🎨 CUSTOMIZATION SECTION END
+           ==================================== */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        /* ====================================
+           📱 HEADER STYLES - Koi bhi ek use karo
+           ==================================== */
+        
+        /* Header Style 1: Gradient Header (Default - Currently Active) */
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        /* Header Style 2: Animated Gradient
+        header {
+            background: linear-gradient(270deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+            background-size: 600% 600%;
+            animation: gradientShift 8s ease infinite;
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        */
+        
+        /* Header Style 3: Minimal Clean
+        header {
+            background: white;
+            color: var(--primary-color);
+            padding: 60px 40px;
+            text-align: center;
+            border-bottom: 5px solid var(--primary-color);
+        }
+        */
+        
+        /* Header Style 4: Dark Bold
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            opacity: 0.2;
+        }
+        */
+        
+        /* Header Style 5: Geometric Pattern
+        header {
+            background: var(--primary-color);
+            background-image: 
+                linear-gradient(30deg, var(--secondary-color) 12%, transparent 12.5%, transparent 87%, var(--secondary-color) 87.5%, var(--secondary-color)),
+                linear-gradient(150deg, var(--secondary-color) 12%, transparent 12.5%, transparent 87%, var(--secondary-color) 87.5%, var(--secondary-color)),
+                linear-gradient(30deg, var(--secondary-color) 12%, transparent 12.5%, transparent 87%, var(--secondary-color) 87.5%, var(--secondary-color)),
+                linear-gradient(150deg, var(--secondary-color) 12%, transparent 12.5%, transparent 87%, var(--secondary-color) 87.5%, var(--secondary-color));
+            background-size: 80px 140px;
+            background-position: 0 0, 0 0, 40px 70px, 40px 70px;
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        */
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            position: relative;
+            z-index: 1;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .intro-section {
+            padding: 50px 40px;
+            background: var(--bg-light);
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .intro-section h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        
+        .intro-section p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+        
+        .resources-grid {
+            padding: 60px 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        /* ====================================
+           🎴 CARD STYLES - Different variations
+           ==================================== */
+        
+        /* Card Style 1: Modern Shadow (Default) */
+        .resource-card {
+            background: white;
+            border-radius: 15px;
+            padding: 35px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 2px solid #e9ecef;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .resource-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        }
+        
+        .resource-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px var(--card-shadow);
+            border-color: var(--primary-color);
+        }
+        
+        /* Card Style 2: Bordered Accent - Ye use karne ke liye upar wale card styles ko comment karo
+        .resource-card {
+            background: white;
+            border-radius: 15px;
+            padding: 35px;
+            transition: all 0.3s ease;
+            border-left: 5px solid var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            position: relative;
+        }
+        
+        .resource-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 10px 30px var(--card-shadow);
+            border-left-width: 8px;
+        }
+        */
+        
+        /* Card Style 3: Gradient Border
+        .resource-card {
+            background: white;
+            border-radius: 15px;
+            padding: 35px;
+            transition: all 0.3s ease;
+            position: relative;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        
+        .resource-card::before {
+            content: '';
+            position: absolute;
+            inset: -2px;
+            border-radius: 15px;
+            padding: 2px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+        
+        .resource-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 15px 40px var(--card-shadow);
+        }
+        */
+        
+        .resource-card .icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .resource-card h3 {
+            color: var(--text-dark);
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+        
+        .resource-card p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .resource-card .features {
+            list-style: none;
+            margin-bottom: 25px;
+        }
+        
+        .resource-card .features li {
+            padding: 8px 0;
+            color: var(--text-light);
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .resource-card .features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px var(--card-shadow);
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px var(--card-shadow);
+        }
+        
+        .additional-content {
+            padding: 50px 40px;
+            background: var(--bg-light);
+        }
+        
+        .additional-content h2 {
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-size: 2em;
+            text-align: center;
+        }
+        
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .content-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .content-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px var(--card-shadow);
+        }
+        
+        .content-box h3 {
+            color: var(--text-dark);
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .content-box p {
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        footer p {
+            margin: 10px 0;
+            opacity: 0.9;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .resources-grid {
+                grid-template-columns: 1fr;
+                padding: 30px 20px;
+            }
+            
+            .intro-section,
+            .additional-content {
+                padding: 30px 20px;
+            }
+        }
+    
+
+
+    
+        
+            Premium Web Directory
+            Your trusted source for quality websites and online resources
+        
+        
+        
+            Discover Quality Online Resources
+            Welcome to our curated directory of premium websites and online platforms. Each resource listed here has been carefully selected for its quality, reliability, and value to users across various niches and industries.
+            Whether you're looking for digital magazines, travel guides, financial tools, or specialized services, our directory connects you with trusted platforms that deliver exceptional experiences.
+        
+        
+        
+            
+            
+                📰
+                technologyspell.com
+                Visit technologyspell.com for premium content and services. A trusted resource in its category.
+                
+                    Verified Content
+                    Expert Insights
+                    Regular Updates
+                    Premium Quality
+                
+                Visit technologyspell.com
+            
+    
+            
+                📰
+                wellhousekeeping.com
+                Visit wellhousekeeping.com for premium content and services. A trusted resource in its category.
+                
+                    Verified Content
+                    Expert Insights
+                    Regular Updates
+                    Premium Quality
+                
+                Visit wellhousekeeping.com
+            
+    
+            
+                📰
+                pharmasops.com
+                Visit pharmasops.com for premium content and services. A trusted resource in its category.
+                
+                    Verified Content
+                    Expert Insights
+                    Regular Updates
+                    Premium Quality
+                
+                Visit pharmasops.com
+            
+    
+        
+        
+        
+            Why Trust Our Directory?
+            
+            
+                
+                    Curated Selection
+                    Every website in our directory is carefully vetted for quality, reliability, and user value. We prioritize platforms that maintain high standards and deliver exceptional experiences.
+                
+                
+                
+                    Diverse Categories
+                    From digital media and travel to finance and specialized services, our directory spans multiple niches to help you find exactly what you need in one trusted place.
+                
+                
+                
+                    Regular Updates
+                    We continuously monitor and update our listings to ensure you always have access to active, relevant, and current platforms that meet today's digital standards.
+                
+                
+                
+                    User-First Approach
+                    All recommended resources prioritize user experience with intuitive design, mobile responsiveness, and content that delivers real value to visitors.
+                
+            
+        
+        
+        
+            © 2025 Premium Web Directory. All rights reserved.
+            Connecting users with quality online resources since 2025.
+        
+    
+
+
+
 === ParsedPage.get_anchor_links ===
 [("https://technologyspell.com", "Visit technologyspell.com"), ("https://wellhousekeeping.com", "Visit wellhousekeeping.com"), ("https://pharmasops.com", "Visit pharmasops.com")]
 

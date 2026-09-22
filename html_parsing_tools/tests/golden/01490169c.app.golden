@@ -651,6 +651,710 @@
 	
 	</body></html>
 
+=== strip_buttons_and_get_text ===
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6e8bc3af2b56956b5cf8daa2051cdb56";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+
+
+
+
+
+
+
+王中王
+
+
+
+
+
+
+if ('serviceWorker' in navigator) {
+navigator.serviceWorker.register('/sw.js');
+}
+
+
+
+var _czc = _czc || [];
+(function () {
+	var um = document.createElement("script");
+	um.src = "https://s9.cnzz.com/z.js?id=1281486882&async=1";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(um, s);
+})();
+
+
+
+
+
+	
+		
+function CalConv() {
+	FIRSTYEAR = 1998;
+	LASTYEAR = 2032;
+	today = new Date();
+	SolarYear = today.getFullYear();
+	SolarMonth = today.getMonth() + 1;
+	SolarDate = today.getDate();
+	Weekday = today.getDay();
+	LunarCal = [new tagLunarCal(27, 5, 3, 43, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1), new tagLunarCal(46, 0, 4, 48, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1), new tagLunarCal(35, 0, 5, 53, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1), new tagLunarCal(23, 4, 0, 59, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1), new tagLunarCal(42, 0, 1, 4, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1), new tagLunarCal(31, 0, 2, 9, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0), new tagLunarCal(21, 2, 3, 14, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1), new tagLunarCal(39, 0, 5, 20, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1), new tagLunarCal(28, 7, 6, 25, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1), new tagLunarCal(48, 0, 0, 30, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1), new tagLunarCal(37, 0, 1, 35, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1), new tagLunarCal(25, 5, 3, 41, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1), new tagLunarCal(44, 0, 4, 46, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1), new tagLunarCal(33, 0, 5, 51, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1), new tagLunarCal(22, 4, 6, 56, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0), new tagLunarCal(40, 0, 1, 2, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0), new tagLunarCal(30, 9, 2, 7, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1), new tagLunarCal(49, 0, 3, 12, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1), new tagLunarCal(38, 0, 4, 17, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0), new tagLunarCal(27, 6, 6, 23, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1), new tagLunarCal(46, 0, 0, 28, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0), new tagLunarCal(35, 0, 1, 33, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0), new tagLunarCal(24, 4, 2, 38, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1), new tagLunarCal(42, 0, 4, 44, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1), new tagLunarCal(31, 0, 5, 49, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0), new tagLunarCal(21, 2, 6, 54, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1), new tagLunarCal(40, 0, 0, 59, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1), new tagLunarCal(28, 6, 2, 5, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0), new tagLunarCal(47, 0, 3, 10, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1), new tagLunarCal(36, 0, 4, 15, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1), new tagLunarCal(25, 5, 5, 20, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0), new tagLunarCal(43, 0, 0, 26, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1), new tagLunarCal(32, 0, 1, 31, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0), new tagLunarCal(22, 3, 2, 36, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0)];
+	SolarCal = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+	SolarDays = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334, 365, 396, 0, 31, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335, 366, 397];
+	AnimalIdx = ["马", "羊", "猴", "鸡", "狗", "猪", "鼠", "牛", "虎", "兔", "龙", "蛇"];
+	LocationIdx = ["南.", "東.", "北.", "西."];
+	if (SolarYear <= FIRSTYEAR || SolarYear > LASTYEAR) return 1;
+	sm = SolarMonth - 1;
+	if (sm < 0 || sm > 11) return 2;
+	leap = GetLeap(SolarYear);
+	if (sm == 1) d = leap + 28;
+	else d = SolarCal[sm];
+	if (SolarDate < 1 || SolarDate > d) return 3;
+	y = SolarYear - FIRSTYEAR;
+	acc = SolarDays[leap * 14 + sm] + SolarDate;
+	kc = acc + LunarCal[y].BaseKanChih;
+	Kan = kc % 10;
+	Chih = kc % 12;
+	Location = LocationIdx[kc % 4];
+	Age = kc % 60;
+	if (Age < 22) Age = 22 - Age;
+	else Age = 82 - Age;
+	Animal = AnimalIdx[Chih];
+	if (acc <= LunarCal[y].BaseDays) {
+		y--;
+		LunarYear = SolarYear - 1;
+		leap = GetLeap(LunarYear);
+		sm += 12;
+		acc = SolarDays[leap * 14 + sm] + SolarDate
+	} else LunarYear = SolarYear;
+	l1 = LunarCal[y].BaseDays;
+	for (i = 0; i < 13; i++) {
+		l2 = l1 + LunarCal[y].MonthDays[i] + 29;
+		if (acc <= l2) break;
+		l1 = l2
+	}
+	LunarMonth = i + 1;
+	LunarDate = acc - l1;
+	im = LunarCal[y].Intercalation;
+	if (im != 0 && LunarMonth > im) {
+		LunarMonth--;
+		if (LunarMonth == im) LunarMonth = -im
+	}
+	if (LunarMonth > 12) LunarMonth -= 12;
+	today = new Date();
+	function initArray() {
+		this.length = initArray.arguments.length
+		for (var i = 0; i < this.length; i++) this[i + 1] = initArray.arguments[i]
+	}
+	var d = new initArray("<span color=#FF0000><b>星期日.</b></span>", "<span color=#FF0000><b>星期一.</b></span>", "<span color=#FF0000><b>星期二.</b></span>", "<span color=#FF0000><b>星期三.</b></span>", "<span color=#FF0000><b>星期四.</b></span>", "<span color=#FF0000><b>星期五.</b></span>", "<span color=#FF0000F><b>星期六.</b></span>");
+	document.write("<span color=#3333CC><b>今:</b></span><span color=#FF0000><b>", today.getMonth() + 1, "</b></span><span color=#3333CC><b>月</b></span><span color=#FF0000><b>", today.getDate(), "</b></span><span color=#3333CC><b>日.</b></span>", d[today.getDay() + 1], "");
+	document.write("<span color=#3333CC><span class=d><b>农历:</b></span><span color=#FF0000><b>" + LunarMonth + "</b><span color=#3333CC><b>月</b></span><b>" + LunarDate + "</b><span color=#3333CC><b>日.</b></span></span>");
+	document.write("<span class=d><span color=#3333CC><b>煞</b></span><b><span color=#FF0000>" + Location + " </span></b><span color=#3333CC><b>正冲生肖:</b></span><b><span color=#FF0000>" + Animal + "</span></b></span><br>");
+	return 0
+}
+function GetLeap(year) {
+	if (year % 400 == 0) return 1;
+	else if (year % 100 == 0) return 0;
+	else if (year % 4 == 0) return 1;
+	else return 0
+}
+function tagLunarCal(d, i, w, k, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13) {
+	this.BaseDays = d;
+	this.Intercalation = i;
+	this.BaseWeekday = w;
+	this.BaseKanChih = k;
+	this.MonthDays = [m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13]
+}
+
+function www_helpor_net()
+{
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var seconds=Digital.getSeconds()
+if(minutes<=9)
+minutes="0"+minutes
+if(seconds<=9)
+seconds="0"+seconds
+myclock="<span><b>"+hours+":"+minutes+":"+seconds+"  </b></span>"
+if(document.layers){document.layers.liveclock.document.write(myclock)
+document.layers.liveclock.document.close()
+}else if(document.all)
+liveclock.innerHTML=myclock
+setTimeout("www_helpor_net()",1000)
+}
+www_helpor_net();
+CalConv();
+
+		
+
+	 
+开奖如果显示空白，请点击备用线路查看！
+
+
+
+
+	 
+		(易记)网址：01490169.com 
+			备用域名 截图保存 01490169a.com   01490169b.com   01490169c.com
+	
+	
+	
+ 
+  猛料在下面，继续往下翻，没有猛料哪敢通知您！
+
+	
+
+
+
+★★-通 知-★★
+收藏网址0149.vip→发送到桌面→期期看最快开奖
+打不开或有建议请发邮箱【01490149dh@gmail.com】或点击在线客服
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+  
+
+
+		
+
+	
+		收藏网址→发送到桌面→看澳門彩开奖
+		
+        
+	
+
+
+
+
+
+ 
+
+
+
+
+	
+
+  
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+
+
+	
+
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+  
+  
+  
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+  
+ 	
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+		
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+			
+				
+				
+				点击查看历史记录
+				
+			
+		
+  
+  
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+  
+  
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+			
+				
+				
+				点击查看历史记录
+				
+			
+		
+  
+  
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+  
+
+ 
+
+
+
+
+
+
+  
+
+
+
+
+ 
+
+
+
+
+
+
+
+			
+				
+				
+				点击查看历史记录
+				
+			
+		
+  
+  
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+			
+				
+				
+				点击查看历史记录
+				
+			
+		
+  
+  
+
+
+
+ 
+
+
+	
+
+	
+
+
+  
+
+
+		
+
+	
+
+
+  
+
+
+	
+		2026年属性知识
+		
+			
+				
+				
+				
+			
+		
+
+	
+	
+		最快开奖（旗下网站）
+		
+			
+				
+				诸葛亮
+				
+				金算盘
+				
+				管家婆
+				
+				聚彩堂
+			
+			
+				
+				黄大仙
+				
+				曾道人
+				
+				开奖网
+				
+				赌侠网
+			
+			
+				
+				二四六
+				
+				铁算盘
+				
+				白小姐
+				
+				刘伯温
+			
+			
+						
+				
+				中特網
+				
+				大联盟
+				
+                 廣东会
+				
+				慈善網
+			
+			
+				
+				大贏家
+				
+				彩霸王
+				
+				金光佛
+				
+				彩民網
+			
+		
+		
+			
+				
+				聚宝盆 
+				
+				状元红
+				
+				九点半
+				
+				钱多多
+			
+			
+		
+		
+			
+				
+				大三巴 
+				
+				妈祖阁
+				
+				凤凰网
+				
+				神算子
+			
+			
+				
+				廣西汇 
+				
+				摇钱树
+			
+				0149导航
+				
+				
+
+			
+			
+			
+		
+		
+		
+
+	
+
+	
+	
+		
+			说明：本论坛所提供的内容、资料、图片和资讯，只应用在合法的资料探讨，暂不适用于其它，外围和使用。特此声明！
+			论坛免责声明：以上所有广告内容均为赞助商提供，本站不对其经营行为负责。浏览或使用者须自行承担有关责任，本网站恕不负责。
+			【王中王】域名：www.01490169.com
+			長期收集各類最新、最準確的每期文字資料大全，最快開獎，公式規律盡在王中王彩壇
+			
+	返回顶部
+	
+	
+
+
+
+
+	
+	
+	
+
 === ParsedPage.get_anchor_links ===
 [("https://app-0827svip1.wwwdh01490149c.app:2053/#01490169", "0149.vip"), ("https://iwgehqu.g9s11e00.com/chatwindow.aspx?siteId=65003261&planId=41d53c20-dec2-40d6-8a62-645f27ab8963", "或点击在线客服"), ("https://app-0827svip1.wwwdh01490149.app:2053", ""), ("https://cctk.www-01490149tk.com/#01490169", ""), ("https://153.43.183.116:5012/?id=668148714", ""), ("https://tz666.9049tz.com:4949/#01490156", ""), ("https://js666.yunlingdui.com:7700/#01490156", ""), ("https://js666.xms77.com:4949/#01490156", ""), ("https://js666.tianditutangshan.net:8443/#01490156", ""), ("https://jjss.2468tz.com:2468/#01490156", ""), ("https://cctk.www-01490149tk.com/pic.html#col/33517", ""), ("https://tz666.9049tz.com:4949/#01490156", ""), ("https://js666.yunlingdui.com:7700/#01490156", ""), ("https://js666.xms77.com:4949/#01490156", ""), ("https://js666.tianditutangshan.net:8443/#01490156", ""), ("https://jjss.2468tz.com:2468/#01490156", ""), ("https://cctk.www-01490149tk.com/pic.html#col/33773", ""), ("https://153.43.183.116:5012/?id=668148714", ""), ("https://tz666.9049tz.com:4949/#01490156", ""), ("https://js666.yunlingdui.com:7700/#01490156", ""), ("https://js666.xms77.com:4949/#01490156", ""), ("https://js666.tianditutangshan.net:8443/#01490156", ""), ("https://jjss.2468tz.com:2468/#01490156", ""), ("https://cctk.www-01490149tk.com/pic.html#col/33554", ""), ("https://cctk.www-01490149tk.com/pic.html#col/33307", ""), ("https://app-0827svip1.wwwzgl01490141c.app:2053/#01490169", "诸葛亮"), ("https://app-0827svip1.wwwjsp01490171c.app:2053/#01490169", "金算盘"), ("https://app-0827svip1.wwwgjp01490162c.app:2053/#01490169", "管家婆"), ("https://app-0827svip1.wwwjct01490161c.app:2053/#01490169", "聚彩堂"), ("https://app-0827svip1.wwwhdx01490164c.app:2053/#01490169", "黄大仙"), ("https://app-0827svip1.wwwzdr01490166c.app:2053/#01490169", "曾道人"), ("https://app-0827svip1.wwwkjw01490170c.app:2053/#01490169", "开奖网"), ("https://app-0827svip1.wwwdxw01490168c.app:2053/#01490169", "赌侠网"), ("https://app-0827svip1.wwwesl01490167c.app:2053/#01490169", "二四六"), ("https://app-0827svip1.wwwgjp01490162c.app:2053/#01490169", "铁算盘"), ("https://app-0827svip1.wwwbxj01490165c.app:2053/#01490169", "白小姐"), ("https://app-0827svip1.wwwlbw01490163c.app:2053/#01490169", "刘伯温"), ("https://app-0827svip1.wwwztw01490159c.app:2053/#01490169", "中特網"), ("https://app-0827svip1.wwwdlm01490140c.app:2053/#01490169", "大联盟"), ("https://app-0827svip1.wwwgdh01490158c.app:2053/#01490169", "廣东会"), ("https://app-0827svip1.wwwcsw01490155c.app:2053/#01490169", "慈善網"), ("https://app-0827svip1.wwwdyj01490157c.app:2053/#01490169", "大贏家"), ("https://app-0827svip1.wwwcbw01490154c.app:2053/#01490169", "彩霸王"), ("https://app-0827svip1.wwwjgf01490152c.app:2053/#01490169", "金光佛"), ("https://app-0827svip1.wwwcmw01490353c.app:2053/#01490169", "彩民網"), ("https://app-0827svip1.wwwjbp01490151ac.app:2053/#01490169", "聚宝盆 "), ("https://app-0827svip1.wwwzyh01490150c.app:2053/#01490169", "状元红"), ("https://app-0827svip1.wwwjdb01490148c.app:2053/#01490169", "九点半"), ("https://app-0827svip1.wwwqdd01490147c.app:2053/#01490169", "钱多多"), ("https://app-0827svip1.wwwdsb01490145c.app:2053/#01490169", "大三巴 "), ("https://app-0827svip1.wwwmzg01490146c.app:2053/#01490169", "妈祖阁"), ("https://app-0827svip1.wwwfhw01490144c.app:2053/#01490169", "凤凰网"), ("https://app-0827svip1.wwwssz01490143c.app:2053/#01490169", "神算子"), ("https://app-0827svip1.wwwgxh01490142c.app:2053/#01490169", "廣西汇 "), ("https://app-0827svip1.wwwyqs01490156c.app:2053/#01490169", "摇钱树"), ("https://app-0827svip1.wwwdh01490149c.app:2053/#01490169", "0149导航"), ("", "\n"), ("#fhdb", "\n\t")]
 

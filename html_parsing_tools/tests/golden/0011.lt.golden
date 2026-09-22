@@ -401,6 +401,319 @@ Forgejo is open source software for hosting code using the Git version control s
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+    
+    
+    
+    
+    
+    
+    
+    
+     0011.LT 
+  
+  
+    
+      
+        
+          
+            0011.LT
+          
+          
+            
+              
+                Dashboard
+              
+            
+            
+              
+                Services
+              
+            
+            
+              
+                About
+              
+            
+            
+              
+                Contacts
+              
+            
+            
+              
+                Donations
+              
+            
+          
+          
+            
+            
+            
+              
+              
+              
+              
+              
+                English (EN)
+              
+              
+              
+                Lietuviškai (LT)
+              
+              
+            
+            
+            
+          
+        
+      
+    
+    
+      
+        
+
+  
+    
+      
+        
+          Free and open source software for everybody.
+        
+        
+        All instances are hosted and maintained by a non-profit 0011.LT.
+        To help maintain long term availability of these instances please consider
+        
+        donating.
+        
+        For a better decentralization and reduced energy waste for sending zeros and ones accross the internet
+        it is recommended to use these instances if you are located in Lithuania. Otherwise consider looking for
+        other instances that would be hosted closer to you.
+        
+      
+    
+  
+
+
+  
+    
+    
+      
+        
+          
+            
+              Forgejo registration is temporarily disabled.
+            
+          
+        
+      
+    
+    
+  
+
+
+  
+  
+    
+    
+      
+        
+          
+            Jitsi Meet
+          
+        
+        
+          
+            
+          
+          
+            
+              Jitsi Meet is used for video conferencing. In addition to audio and video, screen sharing is available. New members can be invited via a generated link.
+            
+          
+          
+            
+            
+              Try it!
+            
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            Mastodon
+          
+        
+        
+          
+            
+          
+          
+            
+              Mastodon is a software for running self-hosted social networking services. It has micro blogging features similar to „Twitter“  which are offered by a large number of independently run nodes, known as instances or servers, each with its own code of conduct, terms of service, privacy policy, privacy options, and content moderation policies.
+            
+          
+          
+            
+            
+              Try it!
+            
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            PeerTube
+          
+        
+        
+          
+            
+          
+          
+            
+              PeerTube is a decentralized, ActivityPub federated video platform powered by WebTorrent, that uses peer-to-peer technology to reduce load on individual servers when viewing videos.
+            
+          
+          
+            
+            
+              Try it!
+            
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            SearXNG
+          
+        
+        
+          
+            
+          
+          
+            
+              SearXNG is a free and open-source federated metasearch engine. It is hosted by several instances, public and private.
+            
+          
+          
+            
+            
+              Try it!
+            
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            CryptPad
+          
+        
+        
+          
+            
+          
+          
+            
+              CryptPad is a collaboration suite that is end-to-end encrypted and open-source. It is designed to facilitate collaboration by synchronizing changes to documents in real time.
+            
+          
+          
+            
+            
+              Try it!
+            
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            Element
+          
+        
+        
+          
+            
+          
+          
+            
+              Element is a free and open-source software instant messaging client implementing the Matrix protocol. Home server address is matrix.0011.lt.
+            
+          
+          
+            
+            
+              Try it!
+            
+            
+          
+        
+      
+    
+    
+    
+      
+        
+          
+            Forgejo
+          
+        
+        
+          
+            
+          
+          
+            
+              Forgejo is open source software for hosting code using the Git version control system to aid with software development.
+            
+          
+          
+            
+            
+              Try it!
+            
+            
+          
+        
+      
+    
+    
+  
+  
+
+
+      
+    
+  
+
+
+
 === ParsedPage.get_anchor_links ===
 [("/en/", "\n            0011.LT\n          "), ("/en/", "\n                Dashboard\n              "), ("/en/services/", "\n                Services\n              "), ("/en/about/", "\n                About\n              "), ("/en/contacts/", "\n                Contacts\n              "), ("/en/donations/", "\n                Donations\n              "), ("/en/donations/", "donating"), ("https://jitsi.0011.lt", "\n              Try it!\n            "), ("https://mastodon.0011.lt", "\n              Try it!\n            "), ("https://peertube.0011.lt", "\n              Try it!\n            "), ("https://searxng.0011.lt", "\n              Try it!\n            "), ("https://cryptpad.0011.lt", "\n              Try it!\n            "), ("https://app.element.io/", "\n              Try it!\n            "), ("https://git.0011.lt", "\n              Try it!\n            ")]
 

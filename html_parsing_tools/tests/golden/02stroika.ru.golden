@@ -122,6 +122,76 @@ en
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+    
+    Истёк срок регистрации домена
+    
+    
+    
+    
+
+    
+
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelector(".js__hostname").innerText = punycode.toUnicode(window.location.hostname.split('.').slice(window.location.hostname.split('.').length-2).join('.'));
+        });
+    
+
+
+
+
+    
+        
+            
+                
+            
+        
+    
+    
+        
+            
+                
+            
+            
+
+                Истёк срок регистрации домена
+                
+                Если домен не будет продлён в ближайшее время, то он освободится и снова станет доступен для регистрации.
+                
+                    Продлить домен
+                    Зарегистрировать новый домен
+                
+                
+                    Домены от  ₽
+                    Хостингот  ₽
+                    VPSот  ₽
+                    Аренда серверов от  ₽
+                
+
+                Для связи с владельцем домена воспользуйтесь формой обратной связи.
+                
+                    if (!['ru','xn--p1ai'].includes(window.location.hostname.split('.').reverse()[0])) {
+                        document.getElementsByClassName('contact-administrator')[0].style.display = "none";
+                    }
+                
+                
+                
+                    
+                        Тех. поддержка: support@beget.com
+                        Россия: +7 (800) 700-06-08
+                        Украина: +380 (800) 802-192
+                    
+                
+            
+        
+    
+
+
+
+
+
 === ParsedPage.get_anchor_links ===
 [("http://beget.com", "\n                "), ("https://cp.beget.com/domains", "Продлить домен"), ("https://beget.com/domain-register", "Зарегистрировать новый домен"), ("https://beget.com/ru/domain-register", "Домены "), ("https://beget.com/ru/virtual-hosting", "Хостинг"), ("https://beget.com/ru/vps", "VPS"), ("https://beget.com/ru/dedicated-servers", "Аренда серверов "), ("https://whois.beget.com", "формой обратной связи."), ("mailto:support@beget.com", "support@beget.com")]
 

@@ -124,6 +124,72 @@ fr
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+  
+  Mieux gérer vos réseaux de distribution d'eau | 01 Pompage | Ain
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  WebFont.load({  google: {    families: ["Jost:regular,500,600,700,900"]  }});
+  
+  !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+  
+  
+  
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+  
+  
+    
+      Site web en cours
+      Notre nouveau site internet est en cours de construction. En attendant, vous pouvez toujours nous contacter.
+    
+  
+  
+    
+      
+        Venir chez nous
+        Lieudit Hameau de Cormoz18 rue des Abeilles01500 Château Gaillard
+      
+      
+        Contactez-nous
+        
+          04 74 38 71 30
+          contact@01pompage.fr
+        
+      
+      
+        Suivre nos actualités
+        Abonnez-vous à notre page Linkedin pour tout savoir de notre actualité.
+        
+          
+            Nous suivre
+          
+          
+            
+          
+        
+      
+    
+  
+  
+  
+  
+
+
+
 === ParsedPage.get_anchor_links ===
 [("https://www.linkedin.com/in/julien-poucet-0714a0187/", "\n          ")]
 

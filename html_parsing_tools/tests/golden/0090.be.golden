@@ -217,6 +217,162 @@
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+    
+    
+    Artists - 0090 | Istanbul - Antwerp
+    
+    
+    
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+
+    
+    
+        
+            
+                
+            
+            
+                
+                    
+                        
+                            NL/EN
+
+                        
+                        
+                    
+                
+                
+                    
+                        
+                    
+                        
+                            Artists
+Calendar
+About 0090
+
+                        
+                    
+                
+            
+            
+        
+        
+            
+                
+
+    
+David Bergé
+Bart Lodewijks
+In Residence
+Charlotte Bouckaert
+Karl Van Welden
+ 
+Thomas Ryckewaert
+Huseyin Umaysiz
+Liesbet Hermans
+Layla Önlen
+Sîpan Sezgin Tekin
+Beyond the Black Box
+Evelien Cammaert
+Rebecca Lenaerts
+Enrica Camporesi
+Mesut Arslan
+Enkidu Khaled
+Leyla Aydoslu
+Meryem Bayram
+Sander Bos & Neoza Goffin
+Clément Layes
+YouYou Group
+Ferenc Balcaen
+Emre Hüner
+Pol Matthé
+Bahar Temiz
+Adrien Tirtiaux
+Gwendoline Robin
+Christian Bakalov
+Erki De Vries
+Begüm Erciyas
+Gizem Aksu
+Mala Kline
+Ergin Cavusoglu
+Sahika Tekand
+Marc Vanrunxt
+Dennis Deter
+HA ZA VU ZU
+Ilyas Odman
+Taldans
+Bára Sigfúsdóttir
+Istanbul Theater Festival
+biriken
+Eric Thielemans
+Abattoir Fermé
+Akrostis
+
+
+
+
+    
+    
+
+
+            
+            
+        
+    
+
+    
+
+    
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
 === ParsedPage.get_anchor_links ===
 [("https://0090.be/", ""), ("https://0090.be/nl/Artiesten", "NL"), ("https://0090.be/en/Artists", "EN"), ("https://0090.be/en/artists", "Artists"), ("https://0090.be/en/calendar", "Calendar"), ("https://0090.be/en/about_0090", "About 0090"), ("https://0090.be/en/artists/david_bergé", ""), ("https://0090.be/en/artists/bart_lodewijks", ""), ("https://0090.be/en/artists/in_residence", ""), ("https://0090.be/en/artists/charlotte_bouckaert", ""), ("https://0090.be/en/artists/karl_van_welden", ""), ("https://0090.be/en/artists/the_image_generator", ""), ("https://0090.be/en/artists/thomas_ryckewaert", ""), ("https://0090.be/en/artists/huseyin_umaysiz", ""), ("https://0090.be/en/artists/liesbet_hermans", ""), ("https://0090.be/en/artists/layla_önlen", ""), ("https://0090.be/en/artists/sîpan_sezgin_tekin", ""), ("https://0090.be/en/artists/beyond_the_black_box", ""), ("https://0090.be/en/artists/evelien_cammaert", ""), ("https://0090.be/en/artists/rebecca_lenaerts", ""), ("https://0090.be/en/artists/enrica_camporesi", ""), ("https://0090.be/en/artists/mesut_arslan", ""), ("https://0090.be/en/artists/enkidu_khaled", ""), ("https://0090.be/en/artists/leyla_aydoslu", ""), ("https://0090.be/en/artists/meryem_bayram", ""), ("https://0090.be/en/artists/sander_bos___neoza_goffin", ""), ("https://0090.be/en/artists/clément_layes", ""), ("https://0090.be/en/artists/youyou_group", ""), ("https://0090.be/en/artists/ferenc_balcaen", ""), ("https://0090.be/en/artists/emre_hüner", ""), ("https://0090.be/en/artists/pol_matthé", ""), ("https://0090.be/en/artists/bahar_temiz", ""), ("https://0090.be/en/artists/adrien_tirtiaux", ""), ("https://0090.be/en/artists/gwendoline_robin", ""), ("https://0090.be/en/artists/christian_bakalov", ""), ("https://0090.be/en/artists/erki_de_vries", ""), ("https://0090.be/en/artists/begüm_erciyas", ""), ("https://0090.be/en/artists/gizem_aksu", ""), ("https://0090.be/en/artists/mala_kline", ""), ("https://0090.be/en/artists/ergin_cavusoglu", ""), ("https://0090.be/en/artists/sahika_tekand", ""), ("https://0090.be/en/artists/marc_vanrunxt", ""), ("https://0090.be/en/artists/dennis_deter", ""), ("https://0090.be/en/artists/ha_za_vu_zu", ""), ("https://0090.be/en/artists/ilyas_odman", ""), ("https://0090.be/en/artists/taldans", ""), ("https://0090.be/en/artists/bára_sigfúsdóttir", ""), ("https://0090.be/en/artists/istanbul_theater_festival", ""), ("https://0090.be/en/artists/biriken", ""), ("https://0090.be/en/artists/eric_thielemans", ""), ("https://0090.be/en/artists/abattoir_fermé", ""), ("https://0090.be/en/artists/akrostis", "")]
 

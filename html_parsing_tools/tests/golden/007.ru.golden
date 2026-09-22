@@ -108,6 +108,64 @@
       </div></div>    
     </body></html>
 
+=== strip_buttons_and_get_text ===
+
+        
+        Домен продается. Купить в магазине доменов Руцентр
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+          body {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            background-color: #FAFAFA;
+            margin: 0;
+            font-family: 'TT Hoves Pro Variable', sans-serif;
+          }
+        
+      
+      
+        {"manifest":{"ParkingPage.css":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.css","ParkingPage.js":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.bundle.js","ParkingPage.css.map":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.css.map","ParkingPage.js.map":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.bundle.js.map"},"serverConfig":{"analyticsParams":"?utm_source=domainsellpage&utm_medium=referral","api":{"domainParkingInfo":"/","domainShop":"/parking-page"},"baseURL":"https://www.nic.ru","links":{"lot":{"en":"https://www.nic.ru/en/shop/lot/","ru":"https://www.nic.ru/shop/lot/"},"nic":{"en":"https://www.nic.ru/en/","ru":"https://www.nic.ru/"},"shop":{"en":"https://www.nic.ru/en/shop/","ru":"https://www.nic.ru/shop/"}},"localePath":{"en":"/en","ru":"/"}},"serverState":{"router":{"location":{"pathname":"/","search":"","hash":"","key":"btyik3","query":{}},"action":"POP"},"domainInfo":{"isLoaded":false,"name":"","haggle":false,"prices":[],"priceDetails":{}},"sourceInfo":{"domain":"","locale":"ru","links":{"nic":{"ru":"https://www.nic.ru/","en":"https://www.nic.ru/en/"},"shop":{"ru":"https://www.nic.ru/shop/","en":"https://www.nic.ru/en/shop/"},"lot":{"ru":"https://www.nic.ru/shop/lot/","en":"https://www.nic.ru/en/shop/lot/"}}},"blocks":{"ru":[],"en":[]}},"path":"/"}{"ParkingPage.css":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.css","ParkingPage.js":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.bundle.js","ParkingPage.css.map":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.css.map","ParkingPage.js.map":"/static/frontend-parking/ParkingPage.e36249edb6dcd9329fb0.bundle.js.map"}Домен продаетсяДругие домены в магазине доменов
+        
+          
+    
+
 === ParsedPage.get_anchor_links ===
 [("https://www.nic.ru/shop/lot/", ""), ("https://www.nic.ru/", ""), ("https://www.nic.ru/shop/", "")]
 

@@ -741,6 +741,37 @@ mod tests {
     }
 
     #[test]
+    fn test_strip_buttons_and_get_text() {
+        // Both captured from real lxml output (fromstring -> remove(button)
+        // via getparent() -> tostring(method="text")), not hand-derived --
+        // the tail-text-goes-with-the-button behavior is easy to get wrong.
+        assert_eq!(
+            strip_buttons_and_get_text(
+                "<p class=\"x\">Keep <button>Click me</button> this text</p>".to_string()
+            ),
+            "Keep "
+        );
+        assert_eq!(
+            strip_buttons_and_get_text(
+                "<p><button>A</button>text1<button>B</button>text2</p>".to_string()
+            ),
+            ""
+        );
+        assert_eq!(
+            strip_buttons_and_get_text(
+                "<div>a<button>b</button><span>c</span>d</div>".to_string()
+            ),
+            "acd"
+        );
+    }
+
+    #[test]
+    fn test_strip_buttons_and_get_text_no_buttons() {
+        let html = "<p>Just text</p>".to_string();
+        assert_eq!(strip_buttons_and_get_text(html), "Just text");
+    }
+
+    #[test]
     fn test_get_emails() {
         let html = "\
             <p>You can always reach out to Soren, Anders and Teffi who are responsible for the web-shop via \
@@ -812,6 +843,37 @@ fn extract_text_py(html: String, min_split: Option<i32>) -> HashMap<String, Vec<
 #[pyfunction]
 fn remove_matching_links(html: String, texts: Vec<String>) -> String {
     extract_text::remove_matching_links(html, texts)
+}
+
+/// Drop every `<button>` element and return the concatenation of all
+/// remaining text nodes, no separator inserted -- matches
+/// `parent.remove(button); tostring(node, method="text")` on lxml's tree,
+/// including the part that's easy to miss: ElementTree's `.remove()` drops
+/// the removed element's *tail* text too (the text node immediately after
+/// it, up to the next sibling), not just the element itself. Verified
+/// against real lxml output, not assumed -- `<p>Keep <button>x</button> this
+/// text</p>` loses " this text" along with the button on both sides.
+/// Replaces the fromstring -> find buttons -> remove -> tostring(text)
+/// pipeline common/utils/job_description.py used lxml for; unlike lxml,
+/// this never raises on malformed input, so there's no parse-failure path
+/// to fall back from.
+#[pyfunction]
+fn strip_buttons_and_get_text(html: String) -> String {
+    let document = kuchikiki::parse_html().one(html);
+    let buttons: Vec<kuchikiki::NodeRef> = document
+        .select("button")
+        .unwrap()
+        .map(|css| css.as_node().clone())
+        .collect();
+    for button in buttons {
+        if let Some(next) = button.next_sibling() {
+            if next.as_text().is_some() {
+                next.detach();
+            }
+        }
+        button.detach();
+    }
+    document.text_contents()
 }
 
 // The standard HTML link-bearing attributes lxml.html.defs.link_attrs
@@ -1088,6 +1150,7 @@ fn html_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(form_text_nodes_py, m)?)?;
     m.add_function(wrap_pyfunction!(extract_text_py, m)?)?;
     m.add_function(wrap_pyfunction!(remove_matching_links, m)?)?;
+    m.add_function(wrap_pyfunction!(strip_buttons_and_get_text, m)?)?;
     m.add_function(wrap_pyfunction!(load_page, m)?)?;
     m.add_class::<GetSentencesResult>()?;
     m.add_class::<ParsedPage>()?;

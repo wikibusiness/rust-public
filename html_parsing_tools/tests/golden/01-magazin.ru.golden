@@ -952,6 +952,1000 @@
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+
+
+   
+
+		
+   
+	
+
+
+
+
+
+
+
+if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};
+(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});
+(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','USER_ID':'','SERVER_TIME':'1733637146','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'bf07b6a15a384ba014307292cf37ab90'});
+
+
+
+BX.setJSList(['/bitrix/js/main/core/core.js?148250605569107','/bitrix/js/main/core/core_ajax.js?148250605520575','/bitrix/js/main/core/core_window.js?148250605574831','/bitrix/js/main/core/core_popup.js?148250605528778','/bitrix/js/main/json/json2.min.js?14825060553467','/bitrix/js/main/core/core_ls.js?14825060557365','/bitrix/js/main/session.js?14825060552511','/bitrix/js/main/core/core_date.js?148250605534102','/bitrix/js/main/utils.js?148250605519858']); 
+BX.setCSSList(['/bitrix/js/main/core/css/core.css?14825060552854','/bitrix/js/main/core/css/core_popup.css?148250605534473','/bitrix/js/main/core/css/core_date.css?14825060559689','/bitrix/templates/.default/components/bitrix/news.list/slider/style.css?1482506055108','/bitrix/templates/.default/components/bitrix/news.list/act/style.css?1482506055108','/bitrix/templates/.default/components/bitrix/menu/main_menu/style.css?14825060551014','/bitrix/templates/.default/components/bitrix/breadcrumb/links/style.css?1482506055947']); 
+
+
+
+
+
+	Противопожарные двери: купить по выгодной цене от производителя в Москве. Недорогие противопожарные двери в нашем каталоге | МАГАЗИН 01
+
+    
+    
+    
+
+	
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Модальное окно "Заказ товара"
+
+
+	
+
+		
+
+		
+			Заказ товара
+			
+				
+					
+						
+							
+							
+								Дверь деревянная шпонированная EI-30 Шпон дуб беленый
+								10 500a
+							
+						
+					
+					
+						Количество:
+						
+							
+							
+							
+						
+					
+				
+			
+		
+
+		
+
+		
+			
+				Обратная связь
+				Пожалуйста, заполните форму ниже. Наш сотрудник  свяжется с вами в ближайшее время
+				
+					Имя
+					
+						
+					
+				
+				
+					Телефонили e-mail
+					
+						
+					
+				
+				
+					Комментарий
+					
+						
+					
+				
+				
+					
+				
+			
+			
+		
+		
+	
+	
+
+
+
+	var addOrder = function()
+	{
+							$.ajax({
+										url: "/order.php",
+										dataType: "html",
+										async: false,
+										cache: false,
+										type: "POST",
+										data: {s1: ("http://01-magazin.ru"+($('#od2').attr('href'))), s2: $('#od4').val(), s3: $("#ii1").val(), s4:  $("#ii2").val(), s5: $("#ii3").val() },
+										success: function(res)
+										{ 
+											alert("Заказ принят, наш менеджер свяжется с вами в ближайшее время.");
+											$("#order .modal-close.js-modal_close").click();					
+										},
+										complete: function(res){}
+									});
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+			
+				Заказать обратный звонок
+				
+					
+				
+				
+				
+					
+				
+				
+				
+					
+				
+			
+				
+									var phonecall = function()
+										{
+											
+													$.ajax({
+															url: "/phonesend.php",
+															dataType: "html",
+															async: false,
+															cache: false,
+															type: "POST",
+															data: {NAME: $('#validate_call_back input').eq(0).val(), PHONE: $('#validate_call_back input').eq(1).val()},
+															success: function(res)
+															{ 
+																alert("Ваше сообщение принято.");
+																$('#validate_call_back input').eq(0).val('');
+																$('#validate_call_back input').eq(1).val('');
+																$('.modal-close.js-modal_close').click();
+															},
+															complete: function(res){}
+														});
+										}
+						
+		
+		
+	
+	
+
+
+
+
+
+	
+	
+		
+
+			
+				
+					
+					Противопожарные двериот производителя в Москве
+				
+				
+					+7(926)821 20 07
+					9791020@mail.ru
+					Обратный звонок
+				
+			
+
+			
+
+				
+				
+						
+
+	
+
+						
+Каталог
+	
+
+						
+О компании
+	
+
+						
+Установка
+	
+
+						
+Галерея
+	
+
+						
+Партнёры
+	
+
+						
+Контакты
+	
+
+				
+			
+
+		
+	
+
+		
+	
+
+			
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+			
+
+	 
+
+
+
+			
+				
+
+
+
+																														
+														
+															
+																
+															
+															
+																	ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-01 60
+																	Каталог
+															
+															
+														
+													
+																														
+														
+															
+																
+															
+															
+																	ПРОТИВОПОЖАРНАЯ ДВЕРЬ ДПМ-02 90
+																	Каталог
+															
+															
+														
+													
+																														
+														
+															
+																
+															
+															
+																	Противопожарные двериБезопасность превыше всего
+																	Каталог
+															
+															
+														
+													
+								
+				
+				
+				
+					 
+				
+	
+	
+	
+		
+		
+				
+		
+		Противопожарные двери
+		
+		
+		
+		
+				
+		
+		Двери EI 30
+		
+		
+		
+				
+		
+		Двери EI 60
+		
+		
+		
+				
+		
+		Двери EI 90
+		
+		
+		
+				
+		
+		Двери EI 120
+		
+		
+		
+				
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+				
+		
+		
+		
+	
+	
+	
+		
+		
+				
+		
+		Противопожарные ворота
+		
+		
+		
+		
+				
+		
+		Ворота EI 30
+		
+		
+		
+				
+		
+		Ворота EI 60
+		
+		
+		
+				
+		
+		Ворота EI 90
+		
+		
+		
+				
+		
+		Ворота EI 120
+		
+	
+	
+	
+		
+		
+				
+		
+		Противопожарные люки
+		
+		
+		
+		
+				
+		
+		EI 60
+		
+	
+	
+	
+		
+		
+				
+		
+		Уличные Термо двери
+		
+		
+		
+		
+				
+		
+		ТЕРМО
+		
+	
+	
+	
+		
+		
+				
+		
+		Фурнитура дляпротивопожарных дверей
+		
+		
+		
+		
+				
+		
+		Балки
+		
+		
+		
+				
+		
+		Замки
+		
+		
+		
+				
+		
+		Ручки
+		
+	
+	
+				
+			
+
+
+	$('.doors-item_menu').each(function()
+							   {
+									var toClone = $(this).clone();
+									$(this).closest('.doors-item').append(toClone);
+									$(this).remove();
+							   });
+
+	
+		
+			
+				ПОПУЛЯРНЫЕ ТОВАРЫ
+				   
+
+
+
+
+
+
+
+		
+	
+	
+			
+																		
+																											
+									Деревянная противопожарная дверь EI-30 Шпон дуб
+									27 500a
+																		
+	
+	
+	
+		
+	
+	
+			
+																		
+																											
+									Противопожарный люк ЛП-60
+									8 500a
+																		
+	
+	
+	
+		
+	
+	
+			
+																		
+																											
+									Противопожарная дверь ДПГ ПОД ОКРАСКУ EI30 EI60
+									18900a
+																		
+	
+	
+	
+		
+	
+	
+			
+																		
+																											
+									Противопожарная дверь ДПМС-01 60 размеры: 900х2100
+									22000a
+																		
+	
+	
+	
+		
+	
+	
+			
+																		
+																											
+									Противопожарная дверь ДПМ-01 90
+									31000a
+																		
+	
+	
+	
+	
+
+
+	
+				$('.btn.btn-md.btn-order').click(function(e)
+				{
+					$('#odait').click();
+					$('#od1').html($(this).parent().find('.mod1').html());
+					$('#od2').html($(this).parent().find('h3').html());
+					$('#od2').attr('href', $(this).parent().attr('href'));
+					$('#od3').attr('src', $(this).parent().find('img').attr('src'));
+					$('#od4').val(1);
+					e.preventDefault();
+				});
+				
+				$('.btn.btn-grey.btn-spinner').click(function()
+				{
+					var adme = $(this).html()=="+"?(1):(-1);
+					var rrs = parseInt($('#od4').val())+parseInt(adme);
+					$('#od4').val(rrs);
+					if ($('#od4').val()<1) $('#od4').val(1);
+				});
+						
+			 
+			
+				
+					АКЦИИ
+					  
+				
+				  
+
+
+
+
+
+
+
+		
+	
+	
+			
+																											
+																		
+									Деревянная противопожарная дверь EI-30 Шпон дуб беленый
+									27 500a
+																		17500a
+																		
+	
+	
+	
+		
+	
+	
+			
+																											
+																		
+									Противопожарная дверь ДПМ-01 60
+									15000a
+																		21000a
+																		
+	
+	
+	
+		
+	
+	
+			
+																											
+																		
+									Противопожарная дверь ДПМ-01 60
+									16500a
+																		21000a
+																		
+	
+	
+	
+		
+	
+	
+			
+																											
+																		
+									Противопожарная дверь ДПМ - EI60 размер 700х2100
+									19500a
+																		21000a
+																		
+	
+	
+	
+		
+	
+	
+			
+																											
+																		
+									Противопожарная дверь ДПМ - EI60 размер 1000х2100
+									19500a
+																		21000a
+																		
+	
+	
+	
+		
+	
+	
+			
+																											
+																		
+									Противопожарная дверь ДПМ - EI60 размер 900х2100
+									19500a
+																		21000a
+																		
+	
+	
+	
+		
+	
+	
+			
+																											
+																		
+									Противопожарная двупольная дверь ДПМС-02 90
+									48700a
+																		49 900a
+																		
+	
+	
+	
+		
+	
+	
+			
+																											
+																		
+									Противопожарная одностворчатая дверь ДПМ-01 120
+									51000a
+																		53700a
+																		
+	
+	
+	
+	
+
+
+	
+				$('.btn.btn-md.btn-order').click(function(e)
+				{
+					$('#odait').click();
+					$('#od1').html($(this).parent().find('.mod1').html());
+					$('#od2').html($(this).parent().find('h3').html());
+					$('#od2').attr('href', $(this).parent().attr('href'));
+					$('#od3').attr('src', $(this).parent().find('img').attr('src'));
+					$('#od4').val(1);
+					e.preventDefault();
+				});
+				
+				$('.btn.btn-grey.btn-spinner').click(function()
+				{
+					var adme = $(this).html()=="+"?(1):(-1);
+					var rrs = parseInt($('#od4').val())+parseInt(adme);
+					$('#od4').val(rrs);
+					if ($('#od4').val()<1) $('#od4').val(1);
+				});
+						
+			 
+		
+		 
+	
+	 
+
+ 
+
+	Противопожарные двери в Москве
+	
+		 Самая распространенная конструкция, которая убережет здание от распространения огня - это противопожарные двери. Их устанавливают на подстанциях, в помещениях электрощитовых и складов, на предприятиях, в бизнес центрах, в холлах, которые ведут к лифтам. Любое из перечисленных зданий так или иначе имеет высокую вероятность возгорания в помещении, что может повлечь за собой большие убытки.
+	
+	 Противопожарные конструкции сдержат распространение огня и дыма в другие помещения здания, позволят безопасно эвакуировать сотрудников, документацию или оборудование, и в случае ЧП возможные убытки будут минимальными. 
+	
+	
+	
+	Реклама
+	
+<!--
+var _acic={dataProvider:10};(function(){var e=document.createElement("script");e.async=true;e.src="https://www.acint.net/aci.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+//-->
+	
+	Изготовим для вас противопожарные двери
+	
+Изготовим двери на заказ. Все противопожарные двери производим по ГОСТу и в соответствии с требованиями СНИП. На любую нашу продукцию вы получите гарантию. Цену на наши противопожарные двери в Москве вы можете узнать на нашем сайте или по телефону. Стоимость зависит от габаритов дверей, от толщины дверного полотна, наличия остекления, порога и других дополнительных деталей.
+	
+	
+		 Также наши двери предотвращают несанкционированное проникновение на территорию объекта. Имеют высокий порог звуко- и теплоизоляции. Предел огнестойкости - от 30 до 120 минут.
+	
+	
+		 На нашем сайте вы сможете выбрать и купить не только противопожарные двери, но и другие виды противопожарной продукции:
+	
+	
+		Противопожарные люки - для чердаков, подвальных помещений и межэтажных перекрытий.
+		Противопожарные ворота - для КПП, пропускных пунктов, въездов в склады и прочее. 
+		Стеклянные перегородки - для офисных и торговых центров. 
+		Противопожарная фурнитура - даст дополнительную защиту от огня и дыма.
+	
+
+ 
+
+
+
+
+ 
+
+			
+		
+	
+	
+	
+	
+	
+	
+ if ($('.letscount').size()==0)
+ {
+	$('#tojump').remove();
+ }
+ else
+ {
+	$('#jumpthere').css('display', "block");
+	$('#jumpthere').append($('#tojump'));
+ }
+
+	
+
+	
+		
+
+			
+				
+
+					
+						
+							ОБРАТНАЯ СВЯЗЬ
+							
+								
+							
+							
+							
+								
+							
+							
+							
+								
+							
+							
+							
+						
+						
+									var sendmail = function()
+										{
+											
+													$.ajax({
+															url: "/mailsend.php",
+															dataType: "html",
+															async: false,
+															cache: false,
+															type: "POST",
+															data: {NAME: $('#validate input').eq(0).val(), MAIL: $('#validate input').eq(1).val(), TEXT: $('#validate textarea').val()},
+															success: function(res)
+															{ 
+																alert("Ваше сообщение принято.");
+																$('#validate input').eq(0).val('');
+																$('#validate input').eq(1).val('');
+																$('#validate textarea').val('');
+																
+																
+															},
+															complete: function(res){}
+														});
+										}
+						
+					
+					
+				
+				
+
+					
+						Контактная информация
+						
+							+7(926)821 20 07
+							9791020@mail.ru
+							г. Москва Ленинский Р-он.метро: Анино21-Й км. МКАД  ТК "Каширский Двор 3" Павильон П3-С5
+						
+					
+					
+				
+				
+
+
+					
+					
+
+
+
+
+
+						МЕНЮ
+						
+
+
+	     
+				
+			
+				Главная			
+		
+	     
+				
+			
+				Каталог			
+		
+	     
+				
+			
+				О компании			
+		
+	     
+				
+			
+				Установка			
+		
+	     
+				
+			
+				Галерея			
+		
+	     
+				
+			
+				Партнёры			
+		
+	     
+				
+			
+				Контакты			
+		
+							
+										
+					
+				
+			
+
+		
+
+		© МАГАЗИН01 1994—2016
+
+	
+
+
+
+
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter26161110 = new Ya.Metrika({id:26161110,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+
+<div><img src="//mc.yandex.ru/watch/26161110" style="position:absolute; left:-9999px;" alt></div>
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42278820-7', 'auto');
+  ga('send', 'pageview');
+
+
+
+
+(function(){ var widget_id = 'uetV6s3KHo';
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();
+
+ var cmv_trackerid= '59ede545-a1da-47f6-9647-73b78cf87e0f' ;  
+
+
+
+
+
+
+
+
+
+
+
 === ParsedPage.get_anchor_links ===
 [("#order", "Модальное окно \"Заказ товара\""), ("#", "Дверь деревянная шпонированная EI-30 Шпон дуб беленый"), ("/", ""), ("#call_back", "Обратный звонок"), ("/", "\n"), ("/catalog/", "\nКаталог"), ("/o-kompanii/", "\nО компании"), ("/ustanovka/", "\nУстановка"), ("/galereya/", "\nГалерея"), ("/partnyery/", "\nПартнёры"), ("/contacts/", "\nКонтакты"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-02-90/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/catalog/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("#", ""), ("#", ""), ("/protivopozharnye-dveri/", ""), ("/protivopozharnye-dveri/", "Противопожарные двери"), ("/protivopozharnye-dveri/ei-30/", "Двери EI 30"), ("/protivopozharnye-dveri/ei-60/", "Двери EI 60"), ("/protivopozharnye-dveri/ei-90/", "Двери EI 90"), ("/protivopozharnye-dveri/ei-120/", "Двери EI 120"), ("/protivopozharnye-vorota/", ""), ("/protivopozharnye-vorota/", "Противопожарные ворота"), ("/protivopozharnye-vorota/ei30/", "Ворота EI 30"), ("/protivopozharnye-vorota/ei60/", "Ворота EI 60"), ("/protivopozharnye-vorota/ei90/", "Ворота EI 90"), ("/protivopozharnye-vorota/ei120/", "Ворота EI 120"), ("/protivopozharnye-lyuki/", ""), ("/protivopozharnye-lyuki/", "Противопожарные люки"), ("/protivopozharnye-lyuki/ei-60-/", "EI 60"), ("/ulichnye-dveri-s-termorazryvom/", ""), ("/ulichnye-dveri-s-termorazryvom/", "Уличные Термо двери"), ("/ulichnye-dveri-s-termorazryvom/seriya-ei-60/", "ТЕРМО"), ("/furnitura-dlya-protivopozharnykh-dverey/", ""), ("/furnitura-dlya-protivopozharnykh-dverey/", "Фурнитура для"), ("/furnitura-dlya-protivopozharnykh-dverey/balki-antipanika/", "Балки"), ("/furnitura-dlya-protivopozharnykh-dverey/zamki/", "Замки"), ("/furnitura-dlya-protivopozharnykh-dverey/ruchki/", "Ручки"), ("/protivopozharnye-dveri/ei-30/derevyannaya-protivopozharnaya-dver-ei-30-shpon-dub/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-lyuki/ei-60-/protivopozharnyy-lyuk-lp-60/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-30/dpg-pod-okrasku-ei30-ei60/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpms-01-60/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-90/protivopozharnaya-dver-dpm-01-90/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-30/derevyannye-protivopozharnye-ei-30-shpon-dub-belenyy/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-60/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-01-601/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-60/protivopozharn-/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-1000kh2100/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-60/protivopozharnaya-dver-dpm-ei60-razmer-900kh2100/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-90/protivopozharnaya-dvupolnaya-dver-dpms-02-90/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("/protivopozharnye-dveri/ei-120/protivopozharnaya-odnostvorchataya-dver-dpm-01-120/", "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"), ("mailto:9791020@mail.ru", "9791020@mail.ru"), ("/", "\n\t\t\t\tГлавная\t\t\t"), ("/catalog/", "\n\t\t\t\tКаталог\t\t\t"), ("/o-kompanii/", "\n\t\t\t\tО компании\t\t\t"), ("/ustanovka/", "\n\t\t\t\tУстановка\t\t\t"), ("/galereya/", "\n\t\t\t\tГалерея\t\t\t"), ("/partnyery/", "\n\t\t\t\tПартнёры\t\t\t"), ("/contacts/", "\n\t\t\t\tКонтакты\t\t\t")]
 

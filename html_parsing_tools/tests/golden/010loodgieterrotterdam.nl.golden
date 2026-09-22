@@ -582,6 +582,565 @@ Uw loodgieter in Rotterdam en omgeving!
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+    Loodgieter Rotterdam nodig? Vooraf Gratis prijsopgave!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+        
+    
+    
+    {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "Loodgieter Rotterdam",
+        "image": "https://www.010loodgieterrotterdam.nl/assets/images/logo.png",
+        "url": "https://www.010loodgieterrotterdam.nl",
+        "telephone": "010-8080553",
+        "priceRange": "€€",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Giessenweg 20",
+            "postalCode": "3044 AL ",
+            "addressLocality": "Rotterdam",
+            "addressCountry": "NL"
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "08:30",
+                "closes": "17:00"
+            }
+        ],
+        "areaServed": {
+            "@type": "City",
+            "name": "Rotterdam"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Loodgietersdiensten",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "CV Ketel installatie en onderhoud"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Verstoppingen verhelpen"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Lekkage reparatie"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Algemeen loodgieterswerk"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Dakwerk"
+                    }
+                }
+            ]
+        }
+    }
+    
+
+    
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-W9QW39F');
+    
+
+    
+            
+            
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+
+    
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9QW39F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    
+        
+    
+        
+            
+                
+                    
+                        
+                            
+                                 Loodgieter Rotterdam
+                            
+                            
+                                
+                                     Bel nu 010-8080553
+                                    Altijd gratis prijsopgave!
+                                
+                            
+                        
+                        
+                            
+                                    
+                                
+                            
+                                
+                                    HOME HOME
+                                    OVER ONS OVER ONS
+                                    WERKZAAMHEDEN WERKZAAMHEDEN
+                                    TARIEVEN TARIEVEN
+                                    KLUS AANMELDEN KLUS AANMELDEN
+                                
+                            
+                             
+                            
+                                
+                                    
+                                    
+                                    
+                                    
+                                
+                            
+                            
+                        
+                            
+                                    
+                            
+                    
+                
+            
+        
+    
+    
+
+    
+    
+        
+            
+                
+                    
+                        010loodgieterrotterdam.nl
+                        De beste loodgieter van Rotterdam
+                        Direct afspraak aanvragen
+                    
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                                
+                                CV Ketel
+                            
+
+                            
+                                CV Ketel
+                                
+                                
+
+
+                            
+
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                Verstoppingen
+                            
+
+                            
+                                Verstoppingen
+                                
+                                
+                            
+
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                Lekkages
+                            
+
+                            
+                                Lekkages
+                                
+                                
+                            
+
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                Loodgieterswerk
+                            
+
+                            
+                                Loodgieterswerk
+                                
+                                
+                            
+
+                        
+                    
+
+                    
+                        
+                            
+                                
+                                Dak
+                            
+
+                            
+                                Dak
+                                
+                                
+                            
+
+                        
+                    
+
+
+
+
+                
+            
+        
+    
+    
+
+    
+      
+
+    
+        
+            
+                
+                    Loodgieter Rotterdam
+                
+                
+                    
+                        Betaalbare tarieven
+                        Snelle service
+                        Hulp bij al uw problemen
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            010loodgieterrotterdam.nl uw loodgieter voor Rotterdam
+                            Heeft u een loodgieter in Rotterdam nodig die betaalbaar, betrouwbaar en goed is? Dan bent u bij 010loodgieterrotterdam.nl aan het juiste adres. De loodgieters, dakdekkers en rioolbedrijven van loodgieter Rotterdam hebben vele jaren ervaring en werken met vaste tarieven. Zo weet u altijd vooraf waar u aan toe bent en komt u nooit achteraf voor nare verrassingen te staan. Daarnaast hebben wij geen wachttijden en kunnen binnen 24 uur nog een loodgieter bij u krijgen en in de meeste gevallen nog dezelfde dag. Loodgieter Rotterdam is dus snel, vakkundig en betaalbaar.
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            De beste loodgieter van Rotterdam
+                            Met een gemiddelde beoordeling van 9.4 uit vele duizenden reviews op Google en Trustpilot, durven wij met recht te zeggen dat wij u de beste loodgieters uit Rotterdam en omstreken kunnen sturen. Via loodgieter Rotterdam bent u altijd verzekerd van de beste, erkende en gecertificeerde loodgieters in Rotterdam en omstreken. En als onze vakmensen in Rotterdam niet beschikbaar zijn, dan wel een van onze loodgieters uit Bergschenhoek, Capelle aan den IJssel, Schiedam, Rotterdam-Albrandswaard, Pernis Rotterdam. Voor de beste loodgieter van Rotterdam belt u met 010-8080553 met loodgieter Rotterdam.
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            Lokale loodgieter Rotterdam?
+                            Via loodgieter Rotterdam krijgt u altijd een loodgieter uit Rotterdam! Maar het kan wel eens gebeuren dat deze loodgieters geen tijd hebben en hun agenda vol is. Dan zorgt loodgieter Rotterdam er alsnog voor dat u een loodgieter krijgt. Deze komt dan uit bijvoorbeeld Bergschenhoek, Capelle aan den IJssel, Schiedam, Rotterdam-Albrandswaard, Pernis Rotterdam. Dat maakt voor de prijs niets uit, die blijft hetzelfde en u krijgt ook gewoon garantie. Sowieso krijgt u uiteraard garantie op alle werkzaamheden die de loodgieter/ dakdekker of het rioolbedrijf voor u uitvoeren. Afhankelijk van de werkzaamheden verschilt het van de te verkrijgen garantie. Via loodgieter Rotterdam heeft u sowieso altijd recht op garantie! De loodgieters van loodgieter Rotterdam komen in Rotterdam Stadscentrum, Delfshaven, Overschie, Noord, Hillegersberg-Schiebroek, Kralingen-Krooswijk, Feijenoord, Ijsselmonde, Pernis, Prins Alexander, Charlois, Hoogvliet, Hoek van Holland, Spaanse Polder, Nieuw Mathenesse, Waalhaven, Vondelingenplaat, Botlek, Bedrijvenpark Noord-West, Rivium, Bedrijventerrein Schieveen. Voor de lokale vakman in Rotterdam belt u met 010-8080553
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            Uw installatiebedrijf voor Rotterdam?
+                            Niet alleen repraren wij leidingen, afvoeren, daken, kranen, sanitair etc. in Rotterdam. loodgieter Rotterdam is ook uw installatiebedrijf voor het opnieuw aanleggen van afvoeren, waterleidingen en gasleidingen, maar ook het installeren van sanitair. Altijd al dat nieuwe verhoogde toilet gewild? Loodgieter Rotterdam regelt het voor u! Neem contact met ons op via 010-8080553 voor het installatiebedrijf in Rotterdam.
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            Uw afvoeren en riool in goede handen
+                            Of het nu gaat om een kleine verstopping in de keukenafvoer of een compleet riool dat verstopt zit, loodgieter Rotterdam lost het op! Zeker in Rotterdam zijn een hoop bekende problemen met de riolering. Denk naast gewone verstoppingen aan wortelgroei, gevelbreuken en vetputten. Onze ontstoppingsbedrijven hebben alle apparatuur om uw probleem vakkundig op te lossen. Stankoverlast? Vaak is dat het riool. Erg vervelend, maar wel snel op te sporen middels een rooktest. Rioolvliegjes? Ook eenvoudig op te lossen. Doorspuiten van uw riool of een camera inspectie? Geen probleem voor loodgieter Rotterdam. Geen verstopping in Rotterdam is veilig voor loodgieter Rotterdam. Bel 010-8080553 voor een snelle oplossing van uw verstopping in Rotterdam.
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            Loodgieter met vaste tarieven!
+                            010loodgieterrotterdam.nl claimt niet de allergoedkoopste te zijn. Zeker wat betreft loodgieters gaan er een aantal gezegdes op: “Goedkoop is duurkoop” en “If you pay peanuts, you get monkey’s” en “als het te mooi lijkt om waar te zijn, dan is dat het vaak ook”. Zo zijn er bedrijven die zeggen voor € 35,00 langs te komen in Rotterdam en dan een diagnose te stellen. Gaat u maar na, dat is met de huidige benzineprijzen al bijna niet op te brengen. Vaak krijgt u dan na het uitvoeren van de werkzaamheden de echte rekening gepresenteerd. Extreme rekeningen en oplichtingspraktijken zijn ook in Rotterdam aan de orde van de dag. Niet via loodgieter Rotterdam}! Via loodgieter Rotterdam krijgt u altijd een vast tarief en een prijsinschatting van de werkzaamheden, vooraf en dus niet ter plaatse. Wel zo prettig! Loodgieter Rotterdam} werkt met normale tarieven. Waar de landelijk adviesprijs voor een loodgieter op € 72,50 excl. btw zit, rekenen wij €129,50. En ja, misschien is er wel een goedkopere loodgieter, dakdekker of rioleringsbedrijf te vinden, maar dan is het altijd nog maar de vraag of deze goed is en wanneer beschikbaar. Vergeet niet, de gemiddelde wachttijd voor een loodgieter Rotterdam is vaak enkele weken! Er zijn ook genoeg voorbeelden van loodgieters die de komende maanden vol zitten voor loodgieterswerk in Rotterdam, dat is zeker niet uitzonderlijk. Via loodgieter Rotterdam heeft u altijd een loodgieter binnen 24 uur bij u thuis en vaak nog dezelfde dag. Zullen we overleggen wat uw vaste prijs is? Bel 010-8080553!
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                        
+                    
+                    
+                        
+                            Met spoed een loodgieter in Rotterdam
+                            Eigenlijk kunnen wij in 99,9% van de gevallen dezelfde dag nog een loodgieter, dakdekker of rioolbedrijf bij u krijgen in Rotterdam. Dit kan overdag, maar ook in de avonden of weekenden. Dan gelden er wel andere tarieven, maar deze kunt u terugvinden op onze tarieven pagina. Maar bedenk goed wat spoed is. Een verstopping in de keukenafvoer kan ongetwijfeld prima tot de volgende dag wachten, dat scheelt u toch het avondtarief. Met het dichtdraaien van een hoofdkraan van water of gas, komt u al een heel eind. Toch water of gas nodig? Even snel de hoofdkraan weer aan en snel weer dicht! Zeker in Rotterdam kan dit echt heel veel schelen op uw eindrekening. Loodgieter Rotterdam wil u niet onnodig extra laten betalen en denkt graag mee met u mee over een tijdelijke oplossing tot de loodgieter van loodgieter Rotterdam er is. Bel 010-8080553 en wij helpen u graag en zo snel mogelijk!
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            Lekdetectie in Rotterdam
+                            Heeft u last van een lekkage en kunt u of de loodgieter de lekkage niet vinden? Dan heeft u een lekdetectie nodig. Loodgieter Rotterdam werkt samen met lekdetectie-specialisten voor wie het vinden van de lekkage geen enkel probleem is. In Rotterdam is er bij andere bedrijven vaak een wachttijd voor een lekdetectie. Zo niet via loodgieter Rotterdam. Wij regelen dat er binnen 24 uur een lekdetectie bij u wordt uitgevoerd. Loodgieter Rotterdam werkt louter met ervaren vakmensen die de expertise hebben, omdat deze experts al zoveel lekkages hebben opgelost in Rotterdam. Onze specialisten beschikken over de modernste apparatuur, zoals warmtebeeldcamera’s, kleurstoftesten, rookgastesten etc. Geen lek dat loodgieter Rotterdam niet kan vinden! Bel 010-8080553 voor een snelle afspraak!
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+    
+
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                            
+                            
+                                010loodgieterrotterdam.nlUw loodgieter in Rotterdam en omgeving!
+                            
+                        
+                        
+                            Werkzaamheden
+                            
+                                CV Ketel
+                                Lekkages
+                                Verstoppingen
+                                Dak
+                                Loodgieterwerk
+                            
+                        
+                        
+                            Contact
+                            
+                                Telefoon nr: 010-8080553
+                                Adres: Giessenweg 20
+                                Postcode: 3044 AL 
+                                E-Mail: [email protected]
+                                KVK: 73123684
+                                BTW: NL859364537B01
+
+                            
+                        
+                        
+                            Menu
+                            
+                                Home
+                                Werkzaamheden
+                                Over ons
+                                Tarieven
+                                Aanmelden klus
+                            
+                        
+                    
+                
+                    
+                    
+                    010loodgieterrotterdam.nl is onderdeel van Loodgieter.nl. De best beoordeelde landelijke loodgieter van Nederland! U krijgt altijd een lokale loodgieter!
+                
+            
+        
+    
+    
+    
+        
+            
+                Bel ons 
+            
+            
+                Gratis prijsopgave 
+            
+        
+    
+
+    
+    
+    
+    
+    
+    
+            
+            
+            
+            
+            
+            
+            
+        
+
+
+
+
 === ParsedPage.get_anchor_links ===
 [("/", ""), ("tel:010-8080553", ""), ("/aanvraag-formulier", "Altijd gratis prijsopgave!"), ("/", "HOME "), ("/over-ons", "OVER ONS "), ("/werkzaamheden", "WERKZAAMHEDEN "), ("/tarieven", "TARIEVEN "), ("/aanvraag-formulier", "KLUS AANMELDEN "), ("/aanvraag-formulier", "Direct afspraak aanvragen"), ("/cv-ketel", "\n                            "), ("/verstopping", "\n                            "), ("/lekkage", "\n                            "), ("/loodgieterswerk", "\n                            "), ("/dakwerk", "\n                            "), ("#", "Betaalbare tarieven"), ("#", "Snelle service"), ("#", "Hulp bij al uw problemen"), ("https://www.loodgieterbergschenhoek.nl", "Bergschenhoek"), ("https://www.loodgietercapelleaandenijssel.nl", "Capelle aan den IJssel"), ("https://www.loodgieter-schiedam.nl", "Schiedam"), ("tel:010-8080553", "010-8080553"), ("https://www.loodgieterbergschenhoek.nl", "Bergschenhoek"), ("https://www.loodgietercapelleaandenijssel.nl", "Capelle aan den IJssel"), ("https://www.loodgieter-schiedam.nl", "Schiedam"), ("tel:010-8080553", "010-8080553"), ("tel:010-8080553", "010-8080553"), ("tel:010-8080553", "010-8080553"), ("tel:010-8080553", "010-8080553"), ("/tarieven", "tarieven pagina"), ("tel:010-8080553", "010-8080553"), ("tel:010-8080553", "010-8080553"), ("/", ""), ("/cv-ketel", "CV Ketel"), ("/lekkage", "Lekkages"), ("/verstopping", "Verstoppingen"), ("/dakwerk", "Dak"), ("/loodgieterswerk", "Loodgieterwerk"), ("tel:010-8080553", "Telefoon nr: 010-8080553"), ("#", "Adres: Giessenweg 20"), ("#", "Postcode: 3044 AL "), ("/cdn-cgi/l/email-protection#41282f272e017170712d2e2e25262824352433332e3535243325202c6f2f2d", "E-Mail: "), ("#", "KVK: 73123684"), ("#", "BTW: NL859364537B01"), ("/", "Home"), ("/werkzaamheden", "Werkzaamheden"), ("/over-ons", "Over ons"), ("/tarieven", "Tarieven"), ("/aanvraag-formulier", "Aanmelden klus"), ("https://www.loodgieter.nl", "Loodgieter.nl"), ("tel:010-8080553", "Bel ons"), ("/aanvraag-formulier", "Gratis prijsopgave")]
 

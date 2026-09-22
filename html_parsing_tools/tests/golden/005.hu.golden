@@ -214,6 +214,169 @@ Minden jog fenntartva 2024
 
 </body></html><!-- Cache by SpeedyCache https://speedycache.com -->
 
+=== strip_buttons_and_get_text ===
+
+
+
+
+
+Legyen Ön is 005-ös Ügynök! |
+
+
+
+
+
+
+
+
+
+{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://005.hu/","url":"https://005.hu/","name":"Legyen Ön is 005-ös Ügynök! |","isPartOf":{"@id":"https://005.hu/#website"},"about":{"@id":"https://005.hu/#organization"},"primaryImageOfPage":{"@id":"https://005.hu/#primaryimage"},"image":{"@id":"https://005.hu/#primaryimage"},"thumbnailUrl":"https://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg","datePublished":"2023-04-25T08:41:52+00:00","dateModified":"2023-05-02T18:23:05+00:00","breadcrumb":{"@id":"https://005.hu/#breadcrumb"},"inLanguage":"hu","potentialAction":[{"@type":"ReadAction","target":["https://005.hu/"]}]},{"@type":"ImageObject","inLanguage":"hu","@id":"https://005.hu/#primaryimage","url":"https://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg","contentUrl":"https://005.hu/wp-content/uploads/2023/04/szamitogepes-uzlet-e1682423133646.jpg"},{"@type":"BreadcrumbList","@id":"https://005.hu/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://005.hu/#website","url":"https://005.hu/","name":"005 - Internetes Ügynökség","description":"","publisher":{"@id":"https://005.hu/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://005.hu/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"hu"},{"@type":"Organization","@id":"https://005.hu/#organization","name":"Petrényi-Petrik József E.V.","url":"https://005.hu/","logo":{"@type":"ImageObject","inLanguage":"hu","@id":"https://005.hu/#/schema/logo/image/","url":"https://005.hu/wp-content/uploads/2023/05/cropped-005-ugynokseg-logo-1.png","contentUrl":"https://005.hu/wp-content/uploads/2023/05/cropped-005-ugynokseg-logo-1.png","width":250,"height":100,"caption":"Petrényi-Petrik József E.V."},"image":{"@id":"https://005.hu/#/schema/logo/image/"}}]}
+
+
+img.wp-smiley, img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0 0.07em !important;vertical-align:-0.1em !important;background:none !important;padding:0 !important;}
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+:root{--wp--preset--aspect-ratio--square:1;--wp--preset--aspect-ratio--4-3:4/3;--wp--preset--aspect-ratio--3-4:3/4;--wp--preset--aspect-ratio--3-2:3/2;--wp--preset--aspect-ratio--2-3:2/3;--wp--preset--aspect-ratio--16-9:16/9;--wp--preset--aspect-ratio--9-16:9/16;--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap:0.5em;}:where(.is-layout-grid){gap:0.5em;}body .is-layout-flex{display:flex;}.is-layout-flex{flex-wrap:wrap;align-items:center;}.is-layout-flex > :is(*, div){margin:0;}body .is-layout-grid{display:grid;}.is-layout-grid > :is(*, div){margin:0;}:where(.wp-block-columns.is-layout-flex){gap:2em;}:where(.wp-block-columns.is-layout-grid){gap:2em;}:where(.wp-block-post-template.is-layout-flex){gap:1.25em;}:where(.wp-block-post-template.is-layout-grid){gap:1.25em;}.has-black-color{color:var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color:var(--wp--preset--color--white) !important;}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color:var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color:var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color:var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color:var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size:var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size:var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large) !important;}:where(.wp-block-post-template.is-layout-flex){gap:1.25em;}:where(.wp-block-post-template.is-layout-grid){gap:1.25em;}:where(.wp-block-columns.is-layout-flex){gap:2em;}:where(.wp-block-columns.is-layout-grid){gap:2em;}:root :where(.wp-block-pullquote){font-size:1.5em;line-height:1.6;}
+
+.header-top .header--row-inner,body:not(.fl-builder-edit) .button,body:not(.fl-builder-edit) button:not(.menu-mobile-toggle, .components-button, .customize-partial-edit-shortcut-button),body:not(.fl-builder-edit) input[type="button"]:not(.ed_button),button.button,input[type="button"]:not(.ed_button, .components-button, .customize-partial-edit-shortcut-button),input[type="reset"]:not(.components-button, .customize-partial-edit-shortcut-button),input[type="submit"]:not(.components-button, .customize-partial-edit-shortcut-button),.pagination .nav-links > *:hover,.pagination .nav-links span,.nav-menu-desktop.style-full-height .primary-menu-ul > li.current-menu-item > a,.nav-menu-desktop.style-full-height .primary-menu-ul > li.current-menu-ancestor > a,.nav-menu-desktop.style-full-height .primary-menu-ul > li > a:hover,.posts-layout .readmore-button:hover{background-color:#6ec1e4;}.posts-layout .readmore-button{color:#6ec1e4;}.pagination .nav-links > *:hover,.pagination .nav-links span,.entry-single .tags-links a:hover,.entry-single .cat-links a:hover,.posts-layout .readmore-button,.posts-layout .readmore-button:hover{border-color:#6ec1e4;}.customify-builder-btn{background-color:#dd3333;}body{color:#686868;}abbr, acronym{border-bottom-color:#686868;}a            {color:#dd3333;}a:hover,a:focus,.link-meta:hover, .link-meta a:hover{color:#111111;}h2 + h3,.comments-area h2 + .comments-title,.h2 + h3,.comments-area .h2 + .comments-title,.page-breadcrumb{border-top-color:#eaecee;}blockquote,.site-content .widget-area .menu li.current-menu-item > a:before{border-left-color:#eaecee;}@media screen and (min-width:64em){    .comment-list .children li.comment{border-left-color:#eaecee;}  .comment-list .children li.comment:after {        background-color: #eaecee;    }}.page-titlebar, .page-breadcrumb,.posts-layout .entry-inner{border-bottom-color:#eaecee;}.header-search-form .search-field,.entry-content .page-links a,.header-search-modal,.pagination .nav-links > *,.entry-footer .tags-links a, .entry-footer .cat-links a,.search .content-area article,.site-content .widget-area .menu li.current-menu-item > a,.posts-layout .entry-inner,.post-navigation .nav-links,article.comment .comment-meta,.widget-area .widget_pages li a, .widget-area .widget_categories li a, .widget-area .widget_archive li a, .widget-area .widget_meta li a, .widget-area .widget_nav_menu li a, .widget-area .widget_product_categories li a, .widget-area .widget_recent_entries li a, .widget-area .widget_rss li a,.widget-area .widget_recent_comments li{border-color:#eaecee;}.header-search-modal::before{border-top-color:#eaecee;border-left-color:#eaecee;}@media screen and (min-width:48em){    .content-sidebar.sidebar_vertical_border .content-area{border-right-color:#eaecee;}  .sidebar-content.sidebar_vertical_border .content-area{border-left-color:#eaecee;}  .sidebar-sidebar-content.sidebar_vertical_border .sidebar-primary{border-right-color:#eaecee;}  .sidebar-sidebar-content.sidebar_vertical_border .sidebar-secondary{border-right-color:#eaecee;}  .content-sidebar-sidebar.sidebar_vertical_border .sidebar-primary{border-left-color:#eaecee;}  .content-sidebar-sidebar.sidebar_vertical_border .sidebar-secondary{border-left-color:#eaecee;}  .sidebar-content-sidebar.sidebar_vertical_border .content-area{border-left-color:#eaecee;border-right-color:#eaecee;}  .sidebar-content-sidebar.sidebar_vertical_border .content-area {        border-left-color: #eaecee;        border-right-color: #eaecee;    }}article.comment .comment-post-author{background:#6d6d6d;}.pagination .nav-links > *,.link-meta,.link-meta a,.color-meta,.entry-single .tags-links:before,.entry-single .cats-links:before{color:#6d6d6d;}h1, h2, h3, h4, h5, h6{color:#2b2b2b;}.site-content .widget-title{color:#444444;}#page-cover{background-image:url("https://005.hu/wp-content/themes/customify/assets/images/default-cover.jpg");}.header--row:not(.header--transparent).header-top .header--row-inner{background-color:#dd3333;} .sub-menu .li-duplicator{display:none !important;}.header-search_icon-item .header-search-modal{border-style:solid;} .header-search_icon-item .search-field{border-style:solid;} .dark-mode .header-search_box-item .search-form-fields, .header-search_box-item .search-form-fields{border-style:solid;} a.item--button{color:#ffffff;text-decoration-color:#ffffff;background-color:#dd3333;border-style:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1px;border-color:#ffffff;border-top-left-radius:6px;border-top-right-radius:6px;border-bottom-right-radius:6px;border-bottom-left-radius:6px;box-shadow:0px 0px 0px 0px #441600;;} body{background-color:#FFFFFF;} .site-content .content-area{background-color:#FFFFFF;} 
+#page-cover .page-cover-inner{min-height:300px;}.header--row.header-top .customify-grid, .header--row.header-top .style-full-height .primary-menu-ul > li > a{min-height:33px;}.header--row.header-main .customify-grid, .header--row.header-main .style-full-height .primary-menu-ul > li > a{min-height:90px;}.header--row.header-bottom .customify-grid, .header--row.header-bottom .style-full-height .primary-menu-ul > li > a{min-height:55px;}.header-menu-sidebar-inner{text-align:center;}.site-header .site-branding img{max-width:171px;} .site-header .cb-row--mobile .site-branding img{width:171px;}.header--row .builder-first--nav-icon{text-align:right;}.header-search_icon-item .search-submit{margin-left:-40px;}.header-search_box-item .search-submit{margin-left:-40px;} .header-search_box-item .woo_bootster_search .search-submit{margin-left:-40px;} .header-search_box-item .header-search-form button.search-submit{margin-left:-40px;}.header--row .builder-first--primary-menu{text-align:right;}
+@media screen and (max-width:1024px){ #page-cover .page-cover-inner{min-height:250px;}.header--row .builder-first--nav-icon{text-align:right;}.header-search_icon-item .search-submit{margin-left:-40px;}.header-search_box-item .search-submit{margin-left:-40px;} .header-search_box-item .woo_bootster_search .search-submit{margin-left:-40px;} .header-search_box-item .header-search-form button.search-submit{margin-left:-40px;} }
+@media screen and (max-width:568px){ #page-cover .page-cover-inner{min-height:200px;}.header--row.header-top .customify-grid, .header--row.header-top .style-full-height .primary-menu-ul > li > a{min-height:33px;}.header--row .builder-first--nav-icon{text-align:right;}.header-search_icon-item .search-submit{margin-left:-40px;}.header-search_box-item .search-submit{margin-left:-40px;} .header-search_box-item .woo_bootster_search .search-submit{margin-left:-40px;} .header-search_box-item .header-search-form button.search-submit{margin-left:-40px;} }
+
+
+
+
+
+
+
+
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-J0YKGKJMZP');
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) *{background-image:none !important;} @media screen and (max-height: 1024px) {
+.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) *{background-image:none !important;} }
+@media screen and (max-height: 640px) {
+.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) *{background-image:none !important;} }
+
+
+
+Ugrás a tartalomra
+
+
+
+Menü
+
+
+Bezárás
+							
+
+
+Üdvözöljük a 005-ös ügynököknél!Kezdőlap Projectek Biztosításkötés Hirdető oldalak
+
+
+		
+
+
+
+		
+
+
+
+		
+
+
+
+
+
+
+
+
+   Keresése:   Üdvözöljük a 005-ös ügynököknél!		
+ Keresése: Kezdőlap Projectek Biztosításkötés Hirdető oldalakKapcsolat		
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Legyen Ön is 005-ös Ügynök!
+
+
+
+
+ Csatlakozzon csapatunkhoz!
+
+ 
+
+
+
+
+ A 005-ös Ügynökként Ön függetlenként, saját időbeosztása szerint dolgozhat és kereshet sok pénzt. Nincs semmilyen teljesítmény elvárás, kényszer. Ön annyit dolgozik és keres, amennyit csak szeretne.Célunk, hogy minél több üzleti lehetőséget felkutassunk és egy sokrétű pénzkereseti kínálatot állítsunk össze. Eladunk, értékesítünk. Mit? Akár „bármit is”, ami eladható online, vagy telefonon! 🙂 Az értékesítési csatorna kiválasztása Önre lesz bízva.Lesz olyan munka, ahol oktatáson is részt kell venni, tanulni kell, hogy az alapvető tudással rendelkezzen.Ez nem egy MLM rendszer, nem hálózatépítés! Nem vagyunk munkáltató, nem lesz senki az alkalmazottunk. Üzleti partnerek leszünk!
+
+
+
+ 
+
+
+ Ha érdekli a lehetőség, pár adat megadásával jelentkezhet csapatunkba. Minimum középfokú végzettségűeket keresünk. Nagy ismeretségi kör, meglévő üzleti kapcsolatok előnyt jelentenek, segíti az értékesítést.Számlaképesség feltétel!Hamarosan itt lesz elérhető jelentkezési űrlapunk.Addig is köszönjük a türelmet!							
+
+
+
+Impresszum
+
+ Petrényi-Petrik József E.V. 3530 Miskolc, Király 12.
+
+
+Minden jog fenntartva 2024
+var Customify_JS={"is_rtl":"","css_media_queries":{"all":"%s","desktop":"%s","tablet":"@media screen and (max-width: 1024px){ %s }","mobile":"@media screen and (max-width: 568px){ %s }"},"sidebar_menu_no_duplicator":"1"};
+var elementorFrontendConfig={"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Oszd meg Facebookon","shareOnTwitter":"Oszd meg Twitteren","pinIt":"T\u0171zd ki","download":"Let\u00f6lt\u00e9s","downloadImage":"K\u00e9p let\u00f6lt\u00e9se","fullscreen":"Teljes k\u00e9perny\u0151","zoom":"Nagy\u00edt\u00e1s","share":"Megoszt\u00e1s","playVideo":"Vide\u00f3 lej\u00e1tsz\u00e1sa","previous":"El\u0151z\u0151","next":"K\u00f6vetkez\u0151","close":"Bez\u00e1r","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Sz\u00e9lesv\u00e1szn\u00fa","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.25.6","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"e_nested_atomic_repeaters":true,"e_optimized_control_loading":true,"e_onboarding":true,"e_css_smooth_scroll":true,"home_screen":true,"landing-pages":true,"nested-elements":true,"editor_v2":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"https:\/\/005.hu\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/005.hu\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/005.hu\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"337e5b2c96"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":122,"title":"Legyen%20%C3%96n%20is%20005-%C3%B6s%20%C3%9Cgyn%C3%B6k%21%20%7C","excerpt":"","featuredImage":false}};
+
+const lazyloadRunObserver=()=> {
+const lazyloadBackgrounds=document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+const lazyloadBackgroundObserver=new IntersectionObserver(( entries)=> {
+entries.forEach(( entry)=> {
+if(entry.isIntersecting){
+let lazyloadBackground=entry.target;
+if(lazyloadBackground){
+lazyloadBackground.classList.add('e-lazyloaded');
+}
+lazyloadBackgroundObserver.unobserve(entry.target);
+}});
+}, { rootMargin: '200px 0px 200px 0px' });
+lazyloadBackgrounds.forEach(( lazyloadBackground)=> {
+lazyloadBackgroundObserver.observe(lazyloadBackground);
+});
+};
+const events=[
+'DOMContentLoaded',
+'elementor/lazyload/observe',
+];
+events.forEach(( event)=> {
+document.addEventListener(event, lazyloadRunObserver);
+});
+
+
+
+
+
+
+
+window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/005.hu\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7"}};
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+
+
+
+
 === ParsedPage.get_anchor_links ===
 [("#site-content", "Ugrás a tartalomra"), ("#", "\n"), ("https://005.hu/", ""), ("https://005.hu/projectek/", ""), ("https://005.hu/biztositaskotes-legolcsobb-biztositas/", ""), ("https://005.hu/hirdeto-oldalak/", ""), ("https://005.hu/", "\n"), ("https://005.hu/", "\n"), ("#", "\n"), ("https://005.hu/", ""), ("https://005.hu/projectek/", ""), ("https://005.hu/biztositaskotes-legolcsobb-biztositas/", ""), ("https://005.hu/hirdeto-oldalak/", ""), ("#", ""), ("/kapcsolat/", "Kapcsolat")]
 

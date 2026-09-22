@@ -287,6 +287,253 @@
 
 </body></html>
 
+=== strip_buttons_and_get_text ===
+
+		
+		
+		
+		
+		
+	
+	
+		
+			
+				49SIX.COM
+				温馨提示：尊敬的用户，如发现备用线路无法正常访问时，请更换其他浏览器（推荐浏览器：搜狗、谷歌、火狐）进行访问！
+			
+			请使用下方推荐的搜狗浏览器访问
+			
+				
+					
+						线路入口一
+						
+					
+					
+						线路入口二
+						
+					
+					
+						线路入口三
+						
+					
+					
+						线路入口四
+						
+					
+					
+						线路入口五
+						
+					
+				
+			
+			
+				荐浏览器
+				常用网址
+				常用购物
+				常用资讯
+			
+			
+				
+					
+						荐浏览器
+						
+						    
+								
+								寰宇浏览器
+							
+							
+								
+								谷歌浏览器
+							
+							
+								
+								op浏览器
+							
+							
+								
+								猎豹浏览器
+							
+							
+								
+								火狐浏览器
+							
+							
+								
+								夸克浏览器
+							
+
+						
+					
+					
+						常用网址
+						
+							
+								
+								百度
+							
+							
+								
+								腾讯
+							
+							
+								
+								凤凰网
+							
+							
+								
+								搜狐
+							
+							
+								
+								网易
+							
+							
+								
+								优酷
+							
+							
+								
+								京东商场
+							
+							
+								
+								12306
+							
+							
+								
+								58同城
+							
+							
+								
+								携程网
+							
+						
+					
+					
+						常用购物
+						
+							
+								
+								淘宝
+							
+							
+								
+								京东商城
+							
+							
+								
+								天猫精选
+							
+							
+								
+								苏宁易购
+							
+							
+								
+								国美在线
+							
+							
+								
+								当当
+							
+							
+								
+								聚划算
+							
+							
+								
+								美丽说
+							
+							
+								
+								蘑菇街
+							
+							
+								
+								唯品会
+							
+						
+					
+				
+				
+					
+						常用资讯
+						
+							
+								
+								新浪新闻
+							
+							
+								
+								凤凰资讯
+							
+							
+								
+								联合早报
+							
+							
+								
+								人民网
+							
+							
+								
+								腾讯新闻
+							
+							
+								
+								搜狐新闻
+							
+							
+								
+								环球时报
+							
+							
+								
+								网易新闻
+							
+							
+								
+								新华网
+							
+							
+								
+								百度新闻
+							
+						
+					
+				
+			
+		
+		
+		
+
+    
+      var _hmt = _hmt || [];
+      var hmBaiduKey = 'KT4P7A9N';
+      (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.mmm-baidu.com/hm.js";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+      })();
+    
+
+
+		
+		
+		
+			$('.used_title_item').click(function() {
+				var index = $(this).index()
+				$('.used_title_item').removeClass('select')
+				$(this).addClass('select')
+				$('.used_item').removeClass('m_showUsed').addClass('m_none').eq(index).removeClass('m_none').addClass(
+					'm_showUsed')
+			})
+		
+	
+
+
+
 === ParsedPage.get_anchor_links ===
 [("https://www.49six.com/", "49SIX.COM"), ("https://aa.49six.vip:1888/#/", "\n\t\t\t\t\t\t"), ("https://bb.49six.vip:1888/#/", "\n\t\t\t\t\t\t"), ("https://cc.49six.vip:1888/#/", "\n\t\t\t\t\t\t"), ("https://dd.49six.vip:1888/#/", "\n\t\t\t\t\t\t"), ("https://kk.49six.vip:1888/#/", "\n\t\t\t\t\t\t"), ("https://www.ub66.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.google.cn/intl/zh-CN/chrome/", "\n\t\t\t\t\t\t\t\t"), ("https://www.opera.com/zh-cn", "\n\t\t\t\t\t\t\t\t"), ("http://m.liebao.cn/", "\n\t\t\t\t\t\t\t\t"), ("https://www.firefox.com.cn/download/", "\n\t\t\t\t\t\t\t\t"), ("https://www.myquark.cn/", "\n\t\t\t\t\t\t\t\t"), ("https://www.baidu.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.qq.com/", "\n\t\t\t\t\t\t\t\t"), ("http://www.ifeng.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.sohu.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.163.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.youku.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.jd.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.12306.cn/", "\n\t\t\t\t\t\t\t\t"), ("https://gz.58.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.ctrip.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.taobao.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.jd.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.tmall.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.suning.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.gome.com.cn/", "\n\t\t\t\t\t\t\t\t"), ("http://book.dangdang.com/", "\n\t\t\t\t\t\t\t\t"), ("https://ju.taobao.com/", "\n\t\t\t\t\t\t\t\t"), ("http://www.meilishuo.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.mogu.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.vip.com/", "\n\t\t\t\t\t\t\t\t"), ("https://news.sina.com.cn/", "\n\t\t\t\t\t\t\t\t"), ("https://news.ifeng.com/", "\n\t\t\t\t\t\t\t\t"), ("http://www.uzaobao.com/", "\n\t\t\t\t\t\t\t\t"), ("http://www.people.com.cn/", "\n\t\t\t\t\t\t\t\t"), ("https://news.qq.com/", "\n\t\t\t\t\t\t\t\t"), ("http://news.sohu.com/", "\n\t\t\t\t\t\t\t\t"), ("https://www.huanqiu.com/", "\n\t\t\t\t\t\t\t\t"), ("https://news.163.com/", "\n\t\t\t\t\t\t\t\t"), ("http://www.xinhuanet.com/", "\n\t\t\t\t\t\t\t\t"), ("https://news.baidu.com/", "\n\t\t\t\t\t\t\t\t")]
 
