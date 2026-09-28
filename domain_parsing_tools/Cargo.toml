@@ -1,0 +1,16 @@
+[package]
+name = "domain_parsing_tools"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "domain_parsing_tools"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.27"
+regex = "1.11.1"
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
