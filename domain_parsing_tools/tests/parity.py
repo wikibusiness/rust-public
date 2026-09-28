@@ -139,6 +139,9 @@ def main() -> None:
         assert _decode_punycode("xn--" + label.encode("punycode").decode()) == label, label
     assert not any(l.startswith("xn--") for s in SUFFIXES for l in s.split("."))
 
+    for value in [None, 0, 1.5, b"acme.com", ["acme.com"]]:
+        assert dpt.is_domain(value) == bool(validators.domain(value)) == is_valid_main_domain(value) == dpt.is_valid_main_domain(value) == False, value
+
     iterations = int(sys.argv[1]) if len(sys.argv) > 1 else 200_000
     rng = random.Random(0)
     for _ in range(iterations):

@@ -30,7 +30,7 @@ dependencies = [
 
 [[package]]
 name = "domain_parsing_tools"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "idna",
  "pyo3",

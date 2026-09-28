@@ -401,15 +401,21 @@ fn private_suffixes() -> HashSet<&'static str> {
     suffixes.private.iter().copied().filter(|suffix| !public.contains(suffix)).collect()
 }
 
-/// `bool(validators.domain(value))`.
+/// `bool(validators.domain(value))`: `False` for any non-str, like validators.
 #[pyfunction]
-fn is_domain(py: Python<'_>, value: &Bound<'_, PyString>) -> bool {
+fn is_domain(py: Python<'_>, value: &Bound<'_, PyAny>) -> bool {
+    let Ok(value) = value.cast::<PyString>() else {
+        return false;
+    };
     check_domain(&lossy(value), &py_idna2003(py))
 }
 
-/// `is_valid_main_domain` from utils/domain.py.
+/// `is_valid_main_domain` from utils/domain.py: `False` for any non-str.
 #[pyfunction]
-fn is_valid_main_domain(py: Python<'_>, domain: &Bound<'_, PyString>) -> bool {
+fn is_valid_main_domain(py: Python<'_>, domain: &Bound<'_, PyAny>) -> bool {
+    let Ok(domain) = domain.cast::<PyString>() else {
+        return false;
+    };
     let domain = lossy(domain);
     check_domain(&domain, &py_idna2003(py))
         && domain == custom_extract_url(&domain, &py_looks_like_ipv6(py)).registered_domain()
