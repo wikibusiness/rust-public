@@ -5,8 +5,8 @@
 //! quirks: `tests/parity.py` fuzzes each one against the original.
 //!
 //! The Public Suffix List is embedded (`public_suffix_list.dat`) instead of fetched at
-//! runtime like tldextract did. To update it, download
-//! https://publicsuffix.org/list/public_suffix_list.dat over it and bump the version.
+//! runtime like tldextract did. The refresh-domain_parsing_tools-psl workflow updates
+//! it monthly and publishes a patch version when it changed.
 
 use pyo3::create_exception;
 use pyo3::exceptions::PyValueError;

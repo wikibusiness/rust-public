@@ -1,0 +1,49 @@
+name: refresh-domain_parsing_tools-psl
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 1 * *"
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the Public Suffix List
+        working-directory: domain_parsing_tools
+        run: |
+          curl --fail --silent --show-error https://publicsuffix.org/list/public_suffix_list.dat -o public_suffix_list.dat
+          grep -q "===BEGIN PRIVATE DOMAINS===" public_suffix_list.dat
+
+      - name: Bump the patch version if it changed
+        id: bump
+        working-directory: domain_parsing_tools
+        run: |
+          if git diff --quiet public_suffix_list.dat; then
+            echo "Public Suffix List unchanged."
+            exit 0
+          fi
+          VERSION=$(grep -Po '(?<=^version = ")[^"]+' Cargo.toml)
+          NEXT=$(echo "$VERSION" | awk -F. '{print $1"."$2"."$3+1}')
+          sed -i "0,/^version = \"$VERSION\"/s//version = \"$NEXT\"/" Cargo.toml
+          cargo update --workspace
+          cargo test --no-default-features
+          echo "version=$NEXT" >> "$GITHUB_OUTPUT"
+
+      # A push made with GITHUB_TOKEN doesn't trigger the publish workflow's push event, a dispatch does.
+      - name: Commit and publish
+        if: steps.bump.outputs.version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore(domain_parsing_tools): refresh Public Suffix List (v${{ steps.bump.outputs.version }})"
+          git push
+          gh workflow run build-domain_parsing_tools.yaml --ref main
