@@ -359,6 +359,31 @@ fn decode_idna_ascii(domain: &str) -> Option<Option<String>> {
     Some(Some(domain.to_ascii_lowercase()))
 }
 
+/// `idna.encode(domain)` (idna 3.x defaults: strict IDNA 2008, no UTS 46 mapping) on
+/// a plain-ASCII domain, `Some(None)` where it raises. `None` (unsupported) for
+/// non-ASCII domains, or once an A-label is reached: those need the Python codec.
+fn idna_encode_ascii(domain: &str) -> Option<Option<String>> {
+    if !domain.is_ascii() {
+        return None;
+    }
+    let body = domain.strip_suffix('.');
+    let max_len = if body.is_some() { 254 } else { 253 };
+    if domain.len() > max_len {
+        return Some(None);
+    }
+    // Labels are checked in order: idna raises at the first invalid one, so an
+    // invalid label before any A-label is a rejection whatever the A-label holds.
+    for label in body.unwrap_or(domain).split('.') {
+        if is_alabel(label) {
+            return None;
+        }
+        if label.len() > 63 || !is_valid_ascii_ulabel(label) {
+            return Some(None);
+        }
+    }
+    Some(Some(domain.to_string()))
+}
+
 fn py_looks_like_ipv6(py: Python<'_>) -> impl Fn(&str) -> bool + '_ {
     move |value| {
         py.import("ipaddress")
@@ -430,6 +455,15 @@ fn decode_idna(domain: &Bound<'_, PyString>) -> PyResult<Option<String>> {
     decode_idna_ascii(domain).ok_or_else(|| UnsupportedDomain::new_err("outside the ASCII fast path"))
 }
 
+/// `idna.encode(domain).decode()`, `None` when it raises `IDNAError`. Raises
+/// `UnsupportedDomain` for non-ASCII domains or ones reaching an A-label: the caller
+/// falls back to Python's idna.
+#[pyfunction]
+fn idna_encode(domain: &Bound<'_, PyString>) -> PyResult<Option<String>> {
+    let domain = domain.to_str().map_err(|_| UnsupportedDomain::new_err("not valid UTF-8"))?;
+    idna_encode_ascii(domain).ok_or_else(|| UnsupportedDomain::new_err("outside the ASCII fast path"))
+}
+
 #[pymodule]
 fn domain_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(extract, m)?)?;
@@ -438,6 +472,7 @@ fn domain_parsing_tools(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(is_domain, m)?)?;
     m.add_function(wrap_pyfunction!(is_valid_main_domain, m)?)?;
     m.add_function(wrap_pyfunction!(decode_idna, m)?)?;
+    m.add_function(wrap_pyfunction!(idna_encode, m)?)?;
     m.add_class::<ExtractResult>()?;
     m.add("UnsupportedDomain", m.py().get_type::<UnsupportedDomain>())?;
     Ok(())
@@ -494,5 +529,32 @@ mod tests {
         }
         assert_eq!(decode_idna_ascii("xn--bcher-kva.de"), None);
         assert_eq!(decode_idna_ascii("bücher.de"), None);
+    }
+
+    #[test]
+    fn idna_encode_ascii_matches_idna() {
+        let label63 = "a".repeat(63);
+        let label64 = "a".repeat(64);
+        let long = [label63.as_str(); 4].join(".");
+        let (d253, d254) = (&long[..253], &long[..254]);
+        let valid = [
+            "acme.com", "ACME.Com", "123.com", "a-b.com", "a--b.com", "a.b.c.d", "acme.com.",
+            label63.as_str(), d253, &format!("{d253}."),
+        ];
+        for domain in valid {
+            assert_eq!(idna_encode_ascii(domain), Some(Some(domain.to_string())), "{domain}");
+        }
+        let invalid = [
+            "", ".", "..", ".acme.com", "a..com", "acme.com..", "-a.com", "a-.com", "ab--c.com",
+            "my_site.com", "a b.com", "a@b.com", "a*.com", label64.as_str(), d254, &format!("{d254}."),
+            // An invalid label before an A-label is rejected without decoding it.
+            "-a.xn--bcher-kva.de",
+        ];
+        for domain in invalid {
+            assert_eq!(idna_encode_ascii(domain), Some(None), "{domain}");
+        }
+        for unsupported in ["xn--bcher-kva.de", "XN--bcher-kva.de", "a.xn--zz.de", "xn--.de", "bücher.de", "é.com", "a\u{200d}b.com"] {
+            assert_eq!(idna_encode_ascii(unsupported), None, "{unsupported}");
+        }
     }
 }

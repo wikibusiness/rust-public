@@ -3,7 +3,9 @@
     PYO3_PYTHON=python3.14 uv run --with maturin maturin build --release
     uv run --no-project --python 3.14 --with target/wheels/domain_parsing_tools-*-cp314-*.whl \
         --with tldextract==5.3.2 --with validators==0.35.0 --with idna==3.20 --with regex \
-        python tests/parity.py [iterations]
+        python tests/parity.py [iterations] [domains.txt]
+
+domains.txt (optional): one real domain per line, each checked as well.
 """
 
 import random
@@ -72,6 +74,24 @@ def rust_decode_idna(domain: str) -> str | None:
         return decode_idna(domain)
 
 
+def idna_encode(domain: str) -> str | None:
+    try:
+        return idna.encode(domain).decode()
+    except idna.IDNAError:
+        return None
+
+
+FALLBACKS = {"idna_encode": 0}
+
+
+def rust_idna_encode(domain: str) -> str | None:
+    try:
+        return dpt.idna_encode(domain)
+    except dpt.UnsupportedDomain:
+        FALLBACKS["idna_encode"] += 1
+        return idna_encode(domain)
+
+
 def fields(result) -> tuple:
     return (
         result.subdomain,
@@ -122,6 +142,34 @@ def random_url(rng: random.Random) -> str:
     return host
 
 
+# What utils/domain.py's extract_domain hands idna.encode: lowercased, mostly LDH.
+NON_ASCII = ["\u00e9", "\u00df", "\U0001f600", "\u0628\u064a", "\u05d0\u05d1", "\u0661", "\u200d", "\u200c", "\u00b7", "\u0430", "\u4e2d", "\u0301", "\uff0e", "\u3002"]
+DOMAIN_CHARS = "abcz0189" * 8 + "-" * 12 + "." * 6 + "_A" + "".join(map(chr, range(32, 127)))
+
+
+def random_domain(rng: random.Random) -> str:
+    roll = rng.random()
+    if roll < 0.3:
+        labels = ["".join(rng.choices(DOMAIN_CHARS.replace(".", ""), k=rng.choice([0, 1, 2, 3, 4, 5, 8, 62, 63, 64]))) for _ in range(rng.randint(1, 4))]
+        domain = ".".join(labels)
+    elif roll < 0.5:
+        domain = "".join(rng.choices(DOMAIN_CHARS, k=rng.randint(0, 20)))
+    elif roll < 0.65:
+        # Total length around idna's 253 (254 with a trailing dot) limit.
+        size = rng.choice([63, 62, 61, 10])
+        domain = ".".join("a" * size for _ in range(260 // (size + 1) + 1))[: rng.randint(250, 256)].strip(".")
+    elif roll < 0.8:
+        label = rng.choice(UNICODE_LABELS + ["b\u00fccher", "stra\u00dfe", "\u05e2\u05d1\u05e8\u05d9\u05ea", "\u0627\u0644\u0639\u0631\u0628\u064a\u0629", "a\u200db", "\u0915\u094d\u200d"])
+        puny = label.encode("punycode").decode()
+        domain = rng.choice(["xn--" + puny, "XN--" + puny, "xn--" + puny + "x", "xn--", "xn--a-", "xn---", "ab--c", "xn--zz"]) + "." + rng.choice(["com", "de", "-x", "a_b"])
+    else:
+        chars = list(rng.choice(["acme", "a-b", "123", "ab"]))
+        for _ in range(rng.randint(1, 3)):
+            chars.insert(rng.randint(0, len(chars)), rng.choice(NON_ASCII))
+        domain = "".join(chars) + "." + rng.choice(["com", "de", "xn--p1ai"])
+    return domain + rng.choice([""] * 8 + [".", ".."])
+
+
 def check(url: str) -> None:
     for private in (False, True):
         assert fields(dpt.extract(url, private)) == fields(EXTRACTORS[private](url)), (url, private)
@@ -129,6 +177,7 @@ def check(url: str) -> None:
     assert dpt.is_domain(url) == bool(validators.domain(url)), url
     assert dpt.is_valid_main_domain(url) == is_valid_main_domain(url), url
     assert rust_decode_idna(url) == decode_idna(url), url
+    assert rust_idna_encode(url) == idna_encode(url), url
 
 
 def main() -> None:
@@ -146,7 +195,16 @@ def main() -> None:
     rng = random.Random(0)
     for _ in range(iterations):
         check(random_url(rng))
-    print(f"{iterations} random inputs, 0 mismatches")
+        domain = random_domain(rng)
+        assert rust_idna_encode(domain) == idna_encode(domain), domain
+    print(f"{iterations} random URLs and domains, 0 mismatches, fallbacks: {FALLBACKS}")
+
+    if len(sys.argv) > 2:
+        domains = Path(sys.argv[2]).read_text().splitlines()
+        for domain in domains:
+            check(domain)
+            check(domain.upper())
+        print(f"{len(domains)} real domains, 0 mismatches, fallbacks: {FALLBACKS}")
 
 
 if __name__ == "__main__":
