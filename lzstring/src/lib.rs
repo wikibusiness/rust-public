@@ -1,5 +1,5 @@
 use pyo3::exceptions;
-use pyo3::prelude::{pyfunction, pymodule, PyModule, PyResult, Python};
+use pyo3::prelude::{pyfunction, pymodule, Bound, PyModule, PyModuleMethods, PyResult};
 use pyo3::wrap_pyfunction;
 
 #[pyfunction]
@@ -24,7 +24,7 @@ fn decompress_from_base64(input: String) -> PyResult<String> {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn lzstring_optimized(_: Python, m: &PyModule) -> PyResult<()> {
+fn lzstring_optimized(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(compress_to_base64, m)?)?;
     m.add_function(wrap_pyfunction!(decompress_from_base64, m)?)?;
     Ok(())

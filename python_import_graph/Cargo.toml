@@ -1,6 +1,6 @@
 [package]
 name = "python_import_graph"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [lib]
@@ -8,7 +8,7 @@ name = "python_import_graph"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.27"
+pyo3 = "0.29.3"
 rayon = "1"
 # Not on crates.io; pinned to a ruff release tag. Parses current Python syntax
 # (3.14) that older crates.io parsers reject.

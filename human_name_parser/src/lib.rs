@@ -41,7 +41,7 @@ fn parse_name(name: String) -> PyResult<HashMap<String, String>> {
 
 /// A Python module implemented in Rust.
 #[pymodule]
-fn human_name_parser(_py: Python, m: &PyModule) -> PyResult<()> {
+fn human_name_parser(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(parse_name, m)?)?;
     Ok(())
 }
