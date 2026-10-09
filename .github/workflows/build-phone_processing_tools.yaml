@@ -1,0 +1,84 @@
+name: publish-pypi-phone_processing_tools
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - phone_processing_tools/**
+      - .github/workflows/build-phone_processing_tools.yaml
+  push:
+    branches: [main]
+    paths:
+      - phone_processing_tools/**
+      - .github/workflows/build-phone_processing_tools.yaml
+
+permissions:
+  contents: read
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      published: ${{ steps.check.outputs.published }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        shell: bash
+        run: |
+          VERSION=$(awk -F '"' '/^version = / { print $2; exit }' phone_processing_tools/Cargo.toml)
+          STATUS=$(curl --silent --output /dev/null --write-out '%{http_code}' "https://pypi.org/pypi/phone-processing-tools/$VERSION/json")
+          case "$STATUS" in
+            200) echo 'published=true' >> "$GITHUB_OUTPUT" ;;
+            404) echo 'published=false' >> "$GITHUB_OUTPUT" ;;
+            *) echo "PyPI version lookup failed: HTTP $STATUS"; exit 1 ;;
+          esac
+
+  wheels:
+    needs: check-version
+    if: needs.check-version.outputs.published == 'false'
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-22.04, ubuntu-22.04-arm, macos-latest]
+        python: ['3.12', '3.13', '3.14']
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: dtolnay/rust-toolchain@stable
+      - run: pip install maturin
+      - name: Test, build and check bindings
+        working-directory: phone_processing_tools
+        env:
+          PYO3_PYTHON: python
+        shell: bash
+        run: |
+          cargo test --locked --no-default-features
+          if [[ "$RUNNER_OS" == Linux ]]; then
+            maturin build --locked --release --sdist --manylinux manylinux_2_34
+          else
+            maturin build --locked --release --sdist
+          fi
+          pip install target/wheels/*.whl
+          python tests/check.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: phone-wheels-${{ matrix.os }}-${{ matrix.python }}
+          path: phone_processing_tools/target/wheels/
+
+  publish:
+    needs: [check-version, wheels]
+    if: needs.check-version.outputs.published == 'false' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: phone-wheels-*
+          merge-multiple: true
+          path: wheels
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          packages_dir: wheels/

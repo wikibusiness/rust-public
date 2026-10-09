@@ -1,0 +1,19 @@
+phone_processing_tools is distributed under GPL-3.0-or-later.
+
+Its generated normalization data includes transliterations from Unidecode 1.4.0
+(GPL-2.0-or-later) and symbol mappings from python-stdnum 2.2
+(LGPL-2.1-or-later). Their copyright notices and license texts are retained
+under licenses/. Unidecode is based on Text::Unidecode by Sean M. Burke.
+Unidecode's Python adaptation is maintained by Tomaz Solc.
+python-stdnum util.py: Copyright (C) 2012-2025 Arthur de Jong.
+
+The phone numbering metadata exported from phonenumbers 9.0.40, its Google
+phonemetadata.proto schema, and rlibphonenumber are Apache-2.0 licensed.
+Google libphonenumber: Copyright (C) 2009 The Libphonenumber Authors.
+rlibphonenumber: Copyright (C) 2025 Kashin Vladislav.
+The Apache-2.0 license text is retained in licenses/libphonenumber.txt.
+
+The exact upstream versions are recorded in data/normalization.json.
+Generation is reproducible with tools/generate_data.py. The generated data,
+generator, schema, lockfile and build configuration are included in source
+distributions; they are part of the corresponding source for the wheels.
