@@ -190,7 +190,7 @@ fn lenient_netloc(url: &str) -> &str {
     hostname.trim_end_matches(['.', '\u{3002}', '\u{ff0e}', '\u{ff61}'])
 }
 
-#[pyclass(frozen, get_all, module = "domain_parsing_tools")]
+#[pyclass(frozen, get_all, from_py_object, module = "domain_parsing_tools")]
 #[derive(Clone, Debug, PartialEq)]
 struct ExtractResult {
     subdomain: String,
