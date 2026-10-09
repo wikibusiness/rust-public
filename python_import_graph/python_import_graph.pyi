@@ -13,3 +13,13 @@ def resolve_imports(
     or `importlib.import_module`. A file that fails to parse maps to
     `([], False)`.
     """
+
+class ImportResolver:
+    """Resolves imports like `resolve_imports`, keeping directory listings between
+    calls: several calls over overlapping search roots then list each directory
+    once. Create a new one once files may have been added or removed."""
+
+    def __init__(self) -> None: ...
+    def resolve(
+        self, paths: Sequence[str], search_roots: Sequence[str]
+    ) -> dict[str, tuple[list[str], bool]]: ...

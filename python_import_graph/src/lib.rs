@@ -2,6 +2,7 @@ use std::collections::{BTreeSet, HashMap, HashSet};
 use std::ffi::OsString;
 use std::fs;
 use std::path::{Path, PathBuf};
+use std::sync::{Arc, RwLock};
 
 use pyo3::exceptions::{PyOSError, PyValueError};
 use pyo3::prelude::*;
@@ -116,25 +117,35 @@ fn analyze(source: &str) -> (Vec<Import>, bool) {
 
 /// Exact-case file existence. `Path::is_file` is case-insensitive on macOS's
 /// default filesystem, so a lookup is checked against the parent directory's
-/// real listing, read once per directory.
+/// real listing, read once per directory and shared across threads.
 #[derive(Default)]
 struct DirCache {
-    files: HashMap<PathBuf, HashSet<OsString>>,
+    files: RwLock<HashMap<PathBuf, Arc<HashSet<OsString>>>>,
 }
 
 impl DirCache {
-    fn is_file(&mut self, path: &Path) -> bool {
+    fn listing(&self, dir: &Path) -> Arc<HashSet<OsString>> {
+        if let Some(found) = self.files.read().unwrap().get(dir) {
+            return found.clone();
+        }
+        let listed = Arc::new(list_files(dir));
+        self.files
+            .write()
+            .unwrap()
+            .entry(dir.to_path_buf())
+            .or_insert(listed)
+            .clone()
+    }
+
+    fn is_file(&self, path: &Path) -> bool {
         let (Some(parent), Some(name)) = (path.parent(), path.file_name()) else {
             return false;
         };
-        self.files
-            .entry(parent.to_path_buf())
-            .or_insert_with(|| list_files(parent))
-            .contains(name)
+        self.listing(parent).contains(name)
     }
 
     /// `base/a/b.py`, else `base/a/b/__init__.py`.
-    fn module_file(&mut self, base: &Path, parts: &[String]) -> Option<PathBuf> {
+    fn module_file(&self, base: &Path, parts: &[String]) -> Option<PathBuf> {
         let (last, dirs) = parts.split_last()?;
         let dir: PathBuf = dirs.iter().fold(base.to_path_buf(), |p, part| p.join(part));
         let module = dir.join(format!("{last}.py"));
@@ -165,7 +176,7 @@ fn resolve(
     file: &Path,
     imports: &[Import],
     search_roots: &[PathBuf],
-    cache: &mut DirCache,
+    cache: &DirCache,
 ) -> BTreeSet<PathBuf> {
     let mut targets = BTreeSet::new();
     for import in imports {
@@ -206,30 +217,50 @@ type FileImports = (Vec<String>, bool);
 fn resolve_all(
     paths: &[String],
     search_roots: &[String],
-) -> Result<HashMap<String, FileImports>, PyErr> {
-    let analyzed: Vec<(Vec<Import>, bool)> = paths
+    cache: &DirCache,
+) -> PyResult<HashMap<String, FileImports>> {
+    let roots: Vec<PathBuf> = search_roots.iter().map(PathBuf::from).collect();
+    paths
         .par_iter()
         .map(|path| {
             let bytes = fs::read(path).map_err(|e| PyOSError::new_err(format!("{path}: {e}")))?;
             let source = String::from_utf8(bytes)
                 .map_err(|e| PyValueError::new_err(format!("{path}: not UTF-8: {e}")))?;
-            Ok(analyze(&source))
-        })
-        .collect::<PyResult<_>>()?;
-
-    let roots: Vec<PathBuf> = search_roots.iter().map(PathBuf::from).collect();
-    let mut cache = DirCache::default();
-    Ok(paths
-        .iter()
-        .zip(analyzed)
-        .map(|(path, (imports, dynamic))| {
-            let targets = resolve(Path::new(path), &imports, &roots, &mut cache)
+            let (imports, dynamic) = analyze(&source);
+            let targets = resolve(Path::new(path), &imports, &roots, cache)
                 .into_iter()
                 .map(|p| p.to_string_lossy().into_owned())
                 .collect();
-            (path.clone(), (targets, dynamic))
+            Ok((path.clone(), (targets, dynamic)))
         })
-        .collect())
+        .collect()
+}
+
+/// Resolves imports like [`resolve_imports`], keeping directory listings
+/// between calls: several calls over overlapping search roots then list each
+/// directory once. Create a new one once files may have been added or
+/// removed.
+#[pyclass(frozen)]
+#[derive(Default)]
+struct ImportResolver {
+    cache: DirCache,
+}
+
+#[pymethods]
+impl ImportResolver {
+    #[new]
+    fn new() -> Self {
+        Self::default()
+    }
+
+    fn resolve(
+        &self,
+        py: Python<'_>,
+        paths: Vec<String>,
+        search_roots: Vec<String>,
+    ) -> PyResult<HashMap<String, FileImports>> {
+        py.detach(|| resolve_all(&paths, &search_roots, &self.cache))
+    }
 }
 
 /// Resolve the import statements of each file in `paths` to the files they
@@ -247,12 +278,13 @@ fn resolve_imports(
     paths: Vec<String>,
     search_roots: Vec<String>,
 ) -> PyResult<HashMap<String, FileImports>> {
-    py.detach(|| resolve_all(&paths, &search_roots))
+    ImportResolver::new().resolve(py, paths, search_roots)
 }
 
 #[pymodule]
 fn python_import_graph(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(resolve_imports, m)?)?;
+    m.add_class::<ImportResolver>()?;
     Ok(())
 }
 
@@ -357,7 +389,7 @@ mod tests {
         );
         let root = &tree.0;
         let roots = vec![root.clone()];
-        let mut cache = DirCache::default();
+        let cache = DirCache::default();
         let file = root.join("pkg/sub/__init__.py");
         let found = resolve(
             &file,
@@ -377,7 +409,7 @@ mod tests {
                 },
             ],
             &roots,
-            &mut cache,
+            &cache,
         );
         let expected: BTreeSet<PathBuf> = ["pkg/mod.py", "pkg/__init__.py", "pkg/sub/leaf.py"]
             .iter()
@@ -394,7 +426,7 @@ mod tests {
             &tree.0.join("x.py"),
             &[abs(&["m"])],
             &roots,
-            &mut DirCache::default(),
+            &DirCache::default(),
         );
         assert_eq!(
             found.into_iter().collect::<Vec<_>>(),
@@ -410,7 +442,7 @@ mod tests {
             &tree.0.join("x.py"),
             &[abs(&["pkg", "Messaging"])],
             &roots,
-            &mut DirCache::default(),
+            &DirCache::default(),
         );
         assert!(found.is_empty());
     }

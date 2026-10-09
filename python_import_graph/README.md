@@ -27,6 +27,18 @@ edges = resolve_imports(["src/app.py", "src/util/io.py"], search_roots=["src", "
 - Each result also says whether the file calls `__import__` or
   `importlib.import_module`, whose targets static resolution cannot see.
 
+Several calls over overlapping search roots (one per application sharing a
+library, say) should share an `ImportResolver`, which lists each directory
+once instead of once per call:
+
+```python
+from python_import_graph import ImportResolver
+
+resolver = ImportResolver()
+for app in apps:
+    edges = resolver.resolve(app.files, [app.src, "lib"])
+```
+
 ## Development
 
 ```bash
