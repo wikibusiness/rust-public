@@ -7,7 +7,7 @@ use std::collections::BTreeMap;
 use pyo3::exceptions::{PyAttributeError, PyKeyError, PyTypeError};
 use pyo3::prelude::*;
 
-#[pyclass(get_all, frozen)]
+#[pyclass(get_all, frozen, from_py_object)]
 #[derive(Clone, Debug)]
 pub struct PhoneRecord {
     pub number: String,
@@ -43,7 +43,7 @@ impl PhoneRecord {
     }
 }
 
-#[pyclass(get_all, frozen)]
+#[pyclass(get_all, frozen, from_py_object)]
 #[derive(Clone, Debug)]
 pub struct ParsedLink {
     pub original: String,

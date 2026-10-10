@@ -5,11 +5,13 @@ on:
   pull_request:
     paths:
       - phone_processing_tools/**
+      - tests/smoke_wheel.py
       - .github/workflows/build-phone_processing_tools.yaml
   push:
     branches: [main]
     paths:
       - phone_processing_tools/**
+      - tests/smoke_wheel.py
       - .github/workflows/build-phone_processing_tools.yaml
 
 permissions:
@@ -40,15 +42,16 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-22.04, ubuntu-22.04-arm, macos-latest]
-        python: ['3.12', '3.13', '3.14']
+        python: ['3.14', '3.15.0-rc.3']
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
+          allow-prereleases: ${{ matrix.python == '3.15.0-rc.3' }}
       - uses: dtolnay/rust-toolchain@stable
-      - run: pip install maturin
+      - run: python -m pip install 'maturin>=1.15.0,<2'
       - name: Test, build and check bindings
         working-directory: phone_processing_tools
         env:
@@ -61,7 +64,8 @@ jobs:
           else
             maturin build --locked --release --sdist
           fi
-          pip install target/wheels/*.whl
+          python -m pip install --no-deps --no-index --only-binary=:all: target/wheels/*.whl
+          python ../tests/smoke_wheel.py phone_processing_tools
           python tests/check.py
       - uses: actions/upload-artifact@v4
         with:

@@ -1,5 +1,9 @@
 # Phone processing tools
 
+Supports CPython 3.14 and 3.15 with PyO3 0.29.3. Release checks build 3.15
+wheels using the repository's available 3.15.0-rc.3 interpreter, as for the other
+native packages. Wheels and corresponding source are published together.
+
 Batched Python bindings for crawl phone extraction, contact-URI classification,
 validation, formatting and source/frequency merging. Phone policy runs in Rust;
 callers may use their existing HTML, JSON-LD and URL decoders to supply text,
