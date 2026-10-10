@@ -62,6 +62,13 @@ elif name == "tech_detector":
         "Example",
         "Dependency",
     }
+elif name == "phone_processing_tools":
+    assert module.preprocess_texts(["Fax: +４５ ３３６６ ３３６６"]) == [
+        "fax: +45 3366 3366"
+    ]
+    assert module.format_numbers(["+4533663366", "invalid"], True) == [
+        "+45 33 66 33 66", None
+    ]
 elif name == "python_import_graph":
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)

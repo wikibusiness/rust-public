@@ -1,0 +1,14 @@
+[build-system]
+requires = ["maturin>=1.15.0,<2"]
+build-backend = "maturin"
+
+[project]
+name = "phone-processing-tools"
+dynamic = ["version"]
+requires-python = ">=3.14"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "NOTICE", "licenses/*"]
+classifiers = ["Programming Language :: Rust"]
+
+[tool.maturin]
+include = ["data/*", "tools/*", "tests/*", "README.md", "licenses/*", "NOTICE", "LICENSE", "phone_processing_tools.pyi"]

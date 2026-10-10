@@ -1,0 +1,21 @@
+[package]
+name = "phone_processing_tools"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[lib]
+name = "phone_processing_tools"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = "0.29.3"
+regex = "1.13"
+rlibphonenumber = "=2.2.13"
+prost = "0.14"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
