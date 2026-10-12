@@ -5,9 +5,7 @@ import tempfile
 from pathlib import Path
 
 assert sys.version_info >= (3, 14)
-assert sys.version_info.releaselevel == "final" or sys.version_info == (
-    3, 15, 0, "candidate", 3
-)
+assert sys.version_info.releaselevel == "final"
 
 name = sys.argv[1]
 module = importlib.import_module(name)
