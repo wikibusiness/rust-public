@@ -80,8 +80,10 @@ impl TextMatcher {
 
 // ── Dict matching (headers, cookies, meta) ────────────────────────────────────
 
+// Compiled on first use: a Regex is tens of KB and almost no header/cookie/meta key is ever seen.
 struct DictEntry {
-    value_regex: Option<Regex>,
+    pattern: Option<String>,
+    value_regex: std::sync::OnceLock<Option<Regex>>,
     name: String,
 }
 
@@ -96,9 +98,13 @@ impl DictMatcher {
             let key = raw_key.to_lowercase();
             if let Some(entries) = self.entries.get(&key) {
                 for entry in entries {
-                    let matched = match &entry.value_regex {
+                    let matched = match &entry.pattern {
                         None => true,
-                        Some(re) => re.is_match(value),
+                        Some(pat) => entry
+                            .value_regex
+                            .get_or_init(|| Regex::new(&format!("(?i){pat}")).ok())
+                            .as_ref()
+                            .is_some_and(|re| re.is_match(value)),
                     };
                     if matched {
                         names.push(entry.name.clone());
@@ -154,13 +160,19 @@ fn build_text_matcher(
     chunk_size: usize,
     skipped: &mut Vec<String>,
 ) -> TextMatcher {
-    let syntax = SyntaxConfig::new().case_insensitive(case_insensitive);
+    // Unicode classes (\w, ., case folding) multiply NFA size; tech signatures are ASCII.
+    let syntax = SyntaxConfig::new()
+        .case_insensitive(case_insensitive)
+        .unicode(false)
+        .utf8(false);
+    let thompson_cfg = regex_automata::nfa::thompson::Config::new().utf8(false);
 
     let mut valid: Vec<(String, String)> = Vec::new();
     for (pattern, name) in patterns_and_names {
         let ok = DFA::builder()
             .configure(DFA::config().match_kind(MatchKind::All))
             .syntax(syntax)
+            .thompson(thompson_cfg.clone())
             .build_many(&[pattern.as_str()])
             .is_ok();
         if ok {
@@ -181,6 +193,7 @@ fn build_text_matcher(
         match DFA::builder()
             .configure(DFA::config().match_kind(MatchKind::All))
             .syntax(syntax)
+            .thompson(thompson_cfg.clone())
             .build_many(&pats)
         {
             Ok(dfa) => chunks.push(TextChunk { dfa, names }),
@@ -195,26 +208,14 @@ fn build_text_matcher(
     TextMatcher { chunks, total_patterns }
 }
 
-fn build_dict_matcher(
-    entries_map: HashMap<String, Vec<(Option<String>, String)>>,
-    skipped: &mut Vec<String>,
-) -> DictMatcher {
+fn build_dict_matcher(entries_map: HashMap<String, Vec<(Option<String>, String)>>) -> DictMatcher {
     let mut compiled: HashMap<String, Vec<DictEntry>> = HashMap::new();
 
     for (key, entries) in entries_map {
         let mut dict_entries = Vec::new();
         for (pattern_opt, name) in entries {
-            let value_regex = match pattern_opt {
-                None => None,
-                Some(pat) => match Regex::new(&format!("(?i){pat}")) {
-                    Ok(re) => Some(re),
-                    Err(_) => {
-                        skipped.push(format!("{name}: {pat}"));
-                        continue;
-                    }
-                },
-            };
-            dict_entries.push(DictEntry { value_regex, name });
+            let value_regex = std::sync::OnceLock::new();
+            dict_entries.push(DictEntry { pattern: pattern_opt, value_regex, name });
         }
         if !dict_entries.is_empty() {
             compiled.insert(key, dict_entries);
@@ -378,9 +379,9 @@ impl TechDetector {
         let script = build_text_matcher(script_pats, true, chunk_size, &mut skipped);
         let dom = build_text_matcher(dom_pats, true, chunk_size, &mut skipped);
         let js = build_text_matcher(js_pats, false, chunk_size, &mut skipped);
-        let headers = build_dict_matcher(headers_map, &mut skipped);
-        let cookies = build_dict_matcher(cookies_map, &mut skipped);
-        let meta = build_dict_matcher(meta_map, &mut skipped);
+        let headers = build_dict_matcher(headers_map);
+        let cookies = build_dict_matcher(cookies_map);
+        let meta = build_dict_matcher(meta_map);
         let deps = DependencyResolver { implies: implies_map };
 
         Ok(TechDetector { html, script, dom, js, headers, cookies, meta, deps, skipped })
