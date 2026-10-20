@@ -38,8 +38,14 @@ pub fn replace_js_regexp(s: &str) -> String {
     // Note: Python also does .replace('/', "\\/") here, but Rust's `regex` crate
     // does not accept `\/` as a valid escape — `/` is not a special character and
     // needs no escaping, so we omit that substitution.
-    s.replace("[^]", "(?:.|\n)")
+    let s = s.replace("[^]", "(?:.|\n)");
+    BIG_REPEAT.replace_all(&s, "{$1,}").into_owned()
 }
+
+// A bounded repeat like `[^>]{1,512}` expands to hundreds of NFA states and halves
+// lazy-DFA throughput for every scan; an open-ended repeat matches the same tags.
+static BIG_REPEAT: once_cell::sync::Lazy<regex::Regex> =
+    once_cell::sync::Lazy::new(|| regex::Regex::new(r"\{(\d+),(\d{3,})\}").unwrap());
 
 /// Whether a pattern uses syntax the `regex` crate cannot handle
 /// (lookaheads, lookbehinds, backreferences).
