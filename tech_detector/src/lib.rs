@@ -642,4 +642,13 @@ mod tests {
     fn test_preprocess_strips_caret() {
         assert_eq!(patterns::preprocess_list_pattern("^foobar").unwrap(), "foobar");
     }
+
+    #[test]
+    fn test_preprocess_opens_large_bounded_repeat() {
+        assert_eq!(
+            patterns::preprocess_list_pattern(r"<[^>]{1,512}\bwire:").unwrap(),
+            r"<[^>]{1,}\bwire:"
+        );
+        assert_eq!(patterns::preprocess_list_pattern("a{0,64}").unwrap(), "a{0,64}");
+    }
 }
