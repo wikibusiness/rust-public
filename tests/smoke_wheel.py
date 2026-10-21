@@ -78,6 +78,19 @@ elif name == "python_import_graph":
         expected = {str(source): ([str(dependency)], False)}
         assert module.resolve_imports(paths, roots) == expected
         assert module.ImportResolver().resolve(paths, roots) == expected
+elif name == "logo_tools":
+    solid = bytes([10, 20, 30, 255]) * (8 * 8)
+    features = module.image_features(solid, 8, 8)
+    assert len(features) == 9
+    assert (features[1], features[2]) == (0.0, -3.0)
+    assert module.needs_gray_background(bytes([255, 255, 255, 255, 0, 0, 0, 0]), 2, 1, 0.3)
+    assert not module.needs_gray_background(bytes([255, 255, 255, 255]) * 4, 2, 2, 0.3)
+    try:
+        module.image_features(solid, 9, 8)
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("Mismatched buffer length was accepted")
 else:
     raise AssertionError(f"No smoke check for {name}")
 

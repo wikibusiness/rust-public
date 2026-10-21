@@ -1,0 +1,154 @@
+name: publish-pypi-logo_tools
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      published: ${{ steps.check.outputs.published }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract version from Cargo.toml
+        id: get-version
+        run: |
+          VERSION=$(grep -Po '(?<=^version = ")[^"]+' logo_tools/Cargo.toml)
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Check if version is published on PyPI
+        id: check
+        run: |
+          VERSION=${{ steps.get-version.outputs.version }}
+          PACKAGE_NAME=logo-tools  # use the name as it appears on PyPI
+
+          echo "Checking if $PACKAGE_NAME==$VERSION is already on PyPI..."
+          if curl --silent --fail "https://pypi.org/pypi/$PACKAGE_NAME/$VERSION/json"; then
+            echo "published=true" >> $GITHUB_OUTPUT
+            echo "$PACKAGE_NAME $VERSION is already published."
+          else
+            echo "published=false" >> $GITHUB_OUTPUT
+            echo "$PACKAGE_NAME $VERSION is NOT published."
+          fi
+
+  linux-wheels:
+    needs: check-version
+    if: needs.check-version.outputs.published == 'false'
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        target:
+          - x86_64-unknown-linux-gnu
+          # - i686-unknown-linux-gnu
+        python-version: ['3.14', '3.15']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          allow-prereleases: false
+
+      - name: Install Rust target
+        run: rustup target add ${{ matrix.target }}
+
+      - name: Rust tests
+        run: cd logo_tools && cargo test --locked
+
+      - name: Build wheels
+        run: |
+          python -m pip install 'maturin>=1.15.0,<2'
+          cd logo_tools && maturin build --release -i python --target ${{ matrix.target }} --manylinux manylinux_2_35
+          python -m pip install --no-deps --no-index --only-binary=:all: target/wheels/*.whl
+          python ../tests/smoke_wheel.py logo_tools
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-wheels-${{ matrix.target }}-${{ matrix.python-version }}
+          path: logo_tools/target/wheels/
+
+  linux-arm64-wheel:
+    needs: check-version
+    if: needs.check-version.outputs.published == 'false'
+    runs-on: ubuntu-22.04-arm
+    strategy:
+      matrix:
+        target: [aarch64-unknown-linux-gnu]
+        python-version: ['3.14', '3.15']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          allow-prereleases: false
+
+      - name: Install Rust target
+        run: rustup target add ${{ matrix.target }}
+
+      - name: Build arm64 wheels
+        run: |
+          python -m pip install 'maturin>=1.15.0,<2'
+          cd logo_tools && maturin build --release -i python --target aarch64-unknown-linux-gnu --manylinux manylinux_2_34
+          python -m pip install --no-deps --no-index --only-binary=:all: target/wheels/*.whl
+          python ../tests/smoke_wheel.py logo_tools
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-wheels-aarch64-${{ matrix.python-version }}
+          path: logo_tools/target/wheels/
+
+  osx-wheels:
+    needs: check-version
+    if: needs.check-version.outputs.published == 'false'
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        python-version: ['3.14', '3.15']
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dtolnay/rust-toolchain@nightly
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+          allow-prereleases: false
+
+      - name: Build wheels
+        run: |
+          python -m pip install 'maturin>=1.15.0,<2'
+          cd logo_tools && maturin build --release
+          python -m pip install --no-deps --no-index --only-binary=:all: target/wheels/*.whl
+          python ../tests/smoke_wheel.py logo_tools
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: osx-${{ matrix.python-version }}-wheel
+          path: logo_tools/target/wheels/
+
+  push:
+    if: needs.check-version.outputs.published == 'false'
+    needs: [check-version, linux-wheels, linux-arm64-wheel, osx-wheels]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+
+      - name: Collect wheels
+        run: |
+          mkdir wheels
+          find . -type f -name "*.whl" -exec cp {} wheels/ \;
+
+      - name: Show collected wheels
+        run: ls -lh wheels
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          packages_dir: wheels/
+          verify_metadata: false
