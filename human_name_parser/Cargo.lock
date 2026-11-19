@@ -67,7 +67,7 @@ dependencies = [
 
 [[package]]
 name = "human_name_parser"
-version = "0.7.1"
+version = "0.7.2"
 dependencies = [
  "human_name",
  "pyo3",

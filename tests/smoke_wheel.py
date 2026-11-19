@@ -9,6 +9,9 @@ assert sys.version_info.releaselevel == "final"
 
 name = sys.argv[1]
 module = importlib.import_module(name)
+package = Path(module.__file__).parent
+assert (package / "py.typed").is_file(), f"{name}: missing py.typed"
+assert any(package.glob("*.pyi")), f"{name}: missing type stub"
 
 if name == "html_parsing_tools":
     assert module.get_href_attributes('<a href="https://example.com">Example</a>') == [
