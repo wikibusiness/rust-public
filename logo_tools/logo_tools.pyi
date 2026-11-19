@@ -1,0 +1,6 @@
+def image_features(
+    rgba: bytes, width: int, height: int
+) -> tuple[float, float, float, float, float, float, float, float, float]: ...
+def needs_gray_background(
+    rgba: bytes, width: int, height: int, light_image_threshold: float
+) -> bool: ...
